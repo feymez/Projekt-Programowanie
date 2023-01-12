@@ -1,0 +1,20 @@
+{
+    "type": "Pistolet",
+    "slot": "Drugorzędna",
+    "weight": 0.662,
+    "grid_size": "2x1",
+    "recoil": {
+        "vertical": 320,
+        "horizontal": 233
+    },
+    "effective_distance": 50,
+    "ergonomics": 88,
+    "firing_mode": "Pojedyńczy",
+    "rpm": 30,
+    "moa": 8.25,
+    "caliber": "5.7x28mm FN",
+    "default_ammo": "5.7x28mm SS197SR",
+    "muzzle_velocity": 706,
+    "default_mag": "FN Five-seveN 5.7x28 20-round magazine",
+    "accepted_ammunition": ["5.7x28mm L191", "5.7x29mm R37.F", "5.7x28mm R37.X", "5.7x28mm SB193", "5.7x28mm SS190", "5.7x28mm SS197SR", "5.7x28mm SS 198LF"]
+}

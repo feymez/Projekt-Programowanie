@@ -1,0 +1,20 @@
+{
+    "type": "Pistolet maszynowy",
+    "slot": "Podstawowa",
+    "weight": 1.29,
+    "grid_size": "3x1",
+    "recoil": {
+        "vertical": 52,
+        "horizontal": 232
+    },
+    "effective_distance": 200,
+    "ergonomics": 85,
+    "firing_mode": "Pojedyńczy, Ciągły",
+    "rpm": 900,
+    "moa": 7.22,
+    "caliber": "9x19mm Parabellum",
+    "default_ammo": "9x19mm Pst gzh",
+    "muzzle_velocity": 516,
+    "default_mag": "MP9 9x19 15-round magazine",
+    "accepted_ammunition": ["9x19mm AP 6.3", "9x19mm Green Tracer", "9x19mm Luger CCI", "9x19mm PBP gzh", "9x19mm PSO gzh", "9x19mm Pst gzh", "9x19mm QuakeMaker", "9x19mm RIP"]
+}

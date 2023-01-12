@@ -1,0 +1,20 @@
+{
+    "type": "Pistolet",
+    "slot": "Drugorzędna",
+    "weight": 0.874,
+    "grid_size": "2x1",
+    "recoil": {
+        "vertical": 630,
+        "horizontal": 315
+    },
+    "effective_distance": 50,
+    "ergonomics": 70,
+    "firing_mode": "Pojedyńczy",
+    "rpm": 30,
+    "moa": 12.03,
+    "caliber": "7.62x25mm Tokarev",
+    "default_ammo": "7.62x25mm TT P gl",
+    "muzzle_velocity": 420,
+    "default_mag": "TT 7.62x25 tt-105 8-round magazine",
+    "accepted_ammunition": ["7.62x25mm TT AKBS", "7.62x25mm TT FMJ43", "7.62x25mm TT LRN", "7.62x25mm TT LRNPC", "7.62x25mm TT P gl", "7.62x25mm TT Pst gzh", "7.62x25mm TT PT gzh"]
+}

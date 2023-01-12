@@ -1,0 +1,20 @@
+{
+    "type": "Karabin szturmowy",
+    "slot": "Podstawowa",
+    "weight": 3.485,
+    "grid_size": "5x2",
+    "recoil": {
+        "vertical": 194,
+        "horizontal": 325
+    },
+    "effective_distance": 300,
+    "ergonomics": 45,
+    "firing_mode": "Pojedyńczy",
+    "rpm": 600,
+    "moa": 2.23,
+    "caliber": ".366 TKM",
+    "default_ammo": ".366 TKM FMJ",
+    "muzzle_velocity": 590,
+    "default_mag": "AK 7.62x39 30-round magazine (issued '55 or later)",
+    "accepted_ammunition": [".366 TKM AP-M", ".366 TKLM EKO", ".366 TKM FMJ", ".366 TKM Geksa"]
+}

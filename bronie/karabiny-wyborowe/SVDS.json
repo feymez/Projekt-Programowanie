@@ -1,0 +1,20 @@
+{
+    "type": "Karabin wyborowy",
+    "slot": "Podstawowa",
+    "weight": 4.386,
+    "grid_size": "6x2",
+    "recoil": {
+        "vertical": 180,
+        "horizontal": 398
+    },
+    "effective_distance": 900,
+    "ergonomics": 29,
+    "firing_mode": "Pojedyńczy",
+    "rpm": 700,
+    "moa": 1.03,
+    "caliber": "7.62x54mmR",
+    "default_ammo": "7.62x54mm R PS gzh",
+    "muzzle_velocity": 825,
+    "default_mag": "SVD 7.62x54R 10-round magazine",
+    "accepted_ammunition": ["7.62x54mm R BS gs", "7.62x54mm R BT gzh", "7.62x54mm R LPS gzh", "7.62x54mm R PS gzh", "7.62x54mm R SNB gzh", "7.62x54mm R T-46M gzh"]
+}

@@ -1,0 +1,20 @@
+{
+    "type": "Karabin szturomowy",
+    "slot": "Podstawowa",
+    "weight": 3.605,
+    "grid_size": "5x2",
+    "recoil": {
+        "vertical": 72,
+        "horizontal": 216
+    },
+    "effective_distance": 650,
+    "ergonomics": 51,
+    "firing_mode": "Pojedyńczy, Ciągły",
+    "rpm": 650,
+    "moa": 1.56,
+    "caliber": "5.56x45mm NATO",
+    "default_ammo": "5.56x45mm FMJ",
+    "muzzle_velocity": 979,
+    "default_mag": "AK-101 5.56x45 6L29 30-round magazine",
+    "accepted_ammunition": ["5.56x45mm FMJ", "5.56x45mm HP", "5.56x45mm M855", "5.56x45mm M855A1", "5.56x45mm M856", "5.56x45mm M856A1", "5.56x45mm M995", "5.56x45mm MK 255 Mod 0 (RRLP)", "5.56x45mm MK 318 Mod 0 (SOST)", "5.56x45mm SSA AP", "5.56x45mm Warmageddon"]
+}

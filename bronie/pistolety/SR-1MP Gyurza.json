@@ -1,0 +1,20 @@
+{
+    "type": "Pistolet",
+    "slot": "Drugorzędna",
+    "weight": 0.895,
+    "grid_size": "2x1",
+    "recoil": {
+        "vertical": 520,
+        "horizontal": 325
+    },
+    "effective_distance": 50,
+    "ergonomics": 81,
+    "firing_mode": "Pojedyńczy",
+    "rpm": 30,
+    "moa": 7.56,
+    "caliber": "9x21mm Gyurza",
+    "default_ammo": "9x21mm P gzh",
+    "muzzle_velocity": 410,
+    "default_mag": "SR-1MP 9x21 18-round magazine",
+    "accepted_ammunition": ["9x21mm BT gzh", "9x21mm P gzh", "9x21mm PE gzh", "9x21mm PS gzh"]
+}

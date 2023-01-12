@@ -1,0 +1,20 @@
+{
+    "type": "Pistolet maszynowy",
+    "slot": "Podstawowa",
+    "weight": 2.23,
+    "grid_size": "3x1",
+    "recoil": {
+        "vertical": 45,
+        "horizontal": 154
+    },
+    "effective_distance": 200,
+    "ergonomics": 69,
+    "firing_mode": "Pojedyńczy, Ciągły",
+    "rpm": 950,
+    "moa": 8.34,
+    "caliber": "4.6x30mm HK",
+    "default_ammo": "4.6x30mm FMJ SX",
+    "muzzle_velocity": 704,
+    "default_mag": "HK MP7 4.6x30 20-round magazine",
+    "accepted_ammunition": ["4.6x30mm Action SX", "4.6x30mm AP SX", "4.6x30mm FMJ SX", "4.6x30mm Subsonic SX"]
+}

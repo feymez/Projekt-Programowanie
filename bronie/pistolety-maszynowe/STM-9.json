@@ -1,0 +1,20 @@
+{
+    "type": "Pistolet maszynowy",
+    "slot": "Podstawowa",
+    "weight": 2.036,
+    "grid_size": "4x2",
+    "recoil": {
+        "vertical": 31,
+        "horizontal": 149
+    },
+    "effective_distance": 500,
+    "ergonomics": 69.5,
+    "firing_mode": "Pojedyńczy",
+    "rpm": 800,
+    "moa": 3.78,
+    "caliber": "9x19mm Parabellum",
+    "default_ammo": "9x19mm Pst gzh",
+    "muzzle_velocity": 459,
+    "default_mag": "Glock 9x19 'Big Stick' 33-round magazine",
+    "accepted_ammunition": ["9x19mm AP 6.3", "9x19mm Green Tracer", "9x19mm Luger CCI", "9x19mm PBP gzh", "9x19mm PSO gzh", "9x19mm Pst gzh", "9x19mm QuakeMaker", "9x19mm RIP"]
+}

@@ -1,0 +1,20 @@
+{
+    "type": "Pistolet maszynowy",
+    "slot": "Podstawowa",
+    "weight": 1.773,
+    "grid_size": "3x2",
+    "recoil": {
+        "vertical": 50,
+        "horizontal": 199
+    },
+    "effective_distance": 200,
+    "ergonomics": 85,
+    "firing_mode": "Pojedyńczy, Ciągły",
+    "rpm": 950,
+    "moa": 7.91,
+    "caliber": "9x21mm Gyurza",
+    "default_ammo": "9x21mm P gzh",
+    "muzzle_velocity": 467,
+    "default_mag": "SR-2M 9x21 30-round magazine",
+    "accepted_ammunition": ["9x21mm BT gzh", "9x21mm P gzh", "9x21mm PE gzh", "9x21mm PS gzh"]
+}

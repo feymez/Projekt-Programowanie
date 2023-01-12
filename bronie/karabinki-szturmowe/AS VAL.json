@@ -1,0 +1,20 @@
+{
+    "type": "Karabinek szturmowy",
+    "slot": "Podstawowa",
+    "weight": 2.587,
+    "grid_size": "5x2",
+    "recoil": {
+        "vertical": 58,
+        "horizontal": 150
+    },
+    "effective_distance": 400,
+    "ergonomics": 54,
+    "firing_mode": "Pojedyńczy, Ciągły",
+    "rpm": 900,
+    "moa": 3.44,
+    "caliber": "9x39mm",
+    "default_ammo": "9x39mm SP-5 gs",
+    "muzzle_velocity": 296,
+    "default_mag": "VSS 9x39 6L25 20-round magazine",
+    "accepted_ammunition": ["9x39mm BP gs", "9x39mm PAB-9 gs", "9x39mm SP-5 gs", "9x39mm SP-6 gs", "9x39mm SPP gs"]
+}

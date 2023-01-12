@@ -1,0 +1,20 @@
+{
+    "type": "Karabinek szturmowy",
+    "slot": "Podstawowa",
+    "weight": 3.807,
+    "grid_size": "5x1",
+    "recoil": {
+        "vertical": 366,
+        "horizontal": 396
+    },
+    "effective_distance": 400,
+    "ergonomics": 50,
+    "firing_mode": "Pojedyńczy",
+    "rpm": 600,
+    "moa": 2.23,
+    "caliber": "7.62x51mm NATO",
+    "default_ammo": "7.62x51mm BCP FMJ",
+    "muzzle_velocity": 855,
+    "default_mag": "VPO-101 'Vepr-Hunter' 7.62x51 5-round magazine",
+    "accepted_ammunition": ["7.62x51mm BCP FMJ", "7.62x51mm M61", "7.62x51mm M62 Tracer", "7.62x51mm M80", "7.62x51mm M993", "7.62x51mm TCW SP", "7.62x51mm Ultra Nosler"]
+}

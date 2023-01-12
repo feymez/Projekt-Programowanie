@@ -1,0 +1,20 @@
+{
+    "type": "Rewolwer",
+    "slot": "Drugorzędna",
+    "weight": 0.902,
+    "grid_size": "2x1",
+    "recoil": {
+        "vertical": 450,
+        "horizontal": 280
+    },
+    "effective_distance": 70,
+    "ergonomics": 81,
+    "firing_mode": "Pojedyńczy",
+    "rpm": 30,
+    "moa": 5.16,
+    "caliber": ".357 Magnum",
+    "default_ammo": ".357 Magnum FMJ",
+    "muzzle_velocity": 462,
+    "default_mag": "Chiappa Rhino .357 6-round cylinder",
+    "accepted_ammunition": [".357 Magnum FMJ", ".357 Magnum HP", ".357 Magnum JHP", ".357 Magnum SP"]
+}

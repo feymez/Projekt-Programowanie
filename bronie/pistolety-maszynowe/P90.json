@@ -1,0 +1,20 @@
+{
+    "type": "Pistolet maszynowy",
+    "slot": "Podstawowa",
+    "weight": 2.974,
+    "grid_size": "3x2",
+    "recoil": {
+        "vertical": 41,
+        "horizontal": 205
+    },
+    "effective_distance": 200,
+    "ergonomics": 73,
+    "firing_mode": "Pojedyńczy, Ciągły",
+    "rpm": 900,
+    "moa": 4.13,
+    "caliber": "5.7x28mm FN",
+    "default_ammo": "5.7x28mm SS197SR",
+    "muzzle_velocity": 738,
+    "default_mag": "FN P90 5.7x28 50-round magazine",
+    "accepted_ammunition": ["5.7x28mm L191", "5.7x29mm R37.F", "5.7x28mm R37.X", "5.7x28mm SB193", "5.7x28mm SS190", "5.7x28mm SS197SR", "5.7x28mm SS 198LF"]
+}

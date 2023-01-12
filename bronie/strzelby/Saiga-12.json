@@ -1,0 +1,20 @@
+{
+    "type": "Strzelba",
+    "slot": "Podstawowa",
+    "weight": 3.6,
+    "grid_size": "5x2",
+    "recoil": {
+        "vertical": 257,
+        "horizontal": 429
+    },
+    "effective_distance": 70,
+    "ergonomics": 57,
+    "firing_mode": "Pojedyńczy",
+    "rpm": 40,
+    "moa": 20.63,
+    "caliber": "12x70mm",
+    "default_ammo": "12x70 7mm buckshot",
+    "muzzle_velocity": 426,
+    "default_mag": "SOK-12 12x76 sb.5 5-round magazine",
+    "accepted_ammunition": ["12x70 'Poleva-3' slug", "12x70 'Poleva-6u' slug", "12x70 5.25mm buckshot", "12x70 6.5mm Express buckshot", "12x70 7mm buckshot", "12x70 8.5mm Magnum buckshot", "12x70 AP-20 Armor-Piercing slug", "12x70 Copper Sabot Premier HP slug", "12x70 Dual Sabot slug", "12x70 flechette", "12x70 FTX Custom Lite slug", "12x70 Grizzly 40 slug", "12x70 lead slug", "12x70 makeshift .50 BMG slug", "12x70 RIP", "12x70 SuperFormance HP slug"]
+}
