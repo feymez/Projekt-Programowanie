@@ -17,7 +17,7 @@ def check_connect():
 
 items = list(range(0, 57))
 l = len(items)
-*
+
 #Sprawdzanie spójności plików oraz pobieranie brakujących
 while True:
     launchExist = 'launch-options.json'
