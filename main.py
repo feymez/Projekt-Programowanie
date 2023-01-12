@@ -29,7 +29,7 @@ while True:
             if internet_connection == False:
                 print("Komputer nie ma połączenia z internetem.")
                 quit()
-            url = 'https://raw.githubusercontent.com/feymez/Projekt-Python/main/launch-options.json'
+            url = 'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/launch-options.json'
             response = requests.get(url)
             print('Pobieram brakujący plik')
             open('launch-options.json', 'wb').write(response.content)
@@ -49,7 +49,7 @@ while True:
                 if internet_connection == False:
                     print("Komputer nie ma połączenia z internetem.")
                     quit()
-                url = 'https://raw.githubusercontent.com/feymez/Projekt-Python/main/options.py'
+                url = 'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/options.py'
                 response = requests.get(url)
                 print('Pobieram brakujący plik')
                 open('options.py', 'wb').write(response.content)
@@ -64,7 +64,7 @@ while True:
                     if internet_connection == False:
                         print("Komputer nie ma połączenia z internetem.")
                         quit()
-                    url = 'https://raw.githubusercontent.com/feymez/Projekt-Python/main/functions.py'
+                    url = 'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/functions.py'
                     response = requests.get(url)
                     print('Pobieram brakujący plik')
                     open('functions.py', 'wb').write(response.content)
@@ -98,7 +98,7 @@ while True:
                     if internet_connection == False:
                         print("Komputer nie ma połączenia z internetem.")
                         quit()
-                    url = 'https://raw.githubusercontent.com/feymez/Projekt-Python/main/ammunition.json'
+                    url = 'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/ammunition.json'
                     response = requests.get(url)
                     print('Pobieram brakujący plik')
                     open('ammunition.json', 'wb').write(response.content)
@@ -112,7 +112,7 @@ while True:
                     if internet_connection == False:
                         print("Komputer nie ma połączenia z internetem.")
                         quit()
-                    url = 'https://raw.githubusercontent.com/feymez/Projekt-Python/main/armors.json'
+                    url = 'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/armors.json'
                     response = requests.get(url)
                     print('Pobieram brakujący plik')
                     open('armors.json', 'wb').write(response.content)
@@ -126,7 +126,7 @@ while True:
                     if internet_connection == False:
                         print("Komputer nie ma połączenia z internetem.")
                         quit()
-                    url = 'https://raw.githubusercontent.com/feymez/Projekt-Python/main/headgear.json'
+                    url = 'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/headgear.json'
                     response = requests.get(url)
                     print('Pobieram brakujący plik')
                     open('headgear.json', 'wb').write(response.content)
