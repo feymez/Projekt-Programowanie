@@ -20,6 +20,7 @@ l = len(items)
 
 #Sprawdzanie spójności plików oraz pobieranie brakujących
 while True:
+    os.system("python download.py")
     launchExist = 'launch-options.json'
     launchExist = os.path.isfile(launchExist)
     if launchExist == False:
@@ -134,8 +135,6 @@ while True:
                     print('Operacja nie mogła zostać wykonana. Sprawdź połączenie. Gotowe rozwiązania -')
                     quit()
             break
-
-
 
 functions.printProgressBar(0, l, prefix = 'Wczytywanie potrzebnych składników:', suffix = 'Ukończono', length = 50)
 for i, item in enumerate(items):
