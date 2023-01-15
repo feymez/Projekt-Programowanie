@@ -730,10 +730,10 @@ while True:
                                     if x == "Tak":
                                         functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
                                         functions.write_helmet_info(helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class)
-                                    functions.get_comparison(kamizelka2, vest_durability, vest_effective_durability, vest_material, vest_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
+                                    functions.get_comparison(helm2, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
                                     chart = functions.chart()
                                     if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, kamizelka)
+                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, helm)
                                         continue
                                     else:
                                         continue
@@ -753,10 +753,10 @@ while True:
                                     if x == "Tak":
                                         functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
                                         functions.write_helmet_info(helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class)
-                                    functions.get_comparison(kamizelka2, vest_durability, vest_effective_durability, vest_material, vest_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
+                                    functions.get_comparison(helm2, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
                                     chart = functions.chart()
                                     if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, kamizelka)
+                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, helm)
                                         continue
                                     else:
                                         continue
@@ -776,10 +776,10 @@ while True:
                                     if x == "Tak":
                                         functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
                                         functions.write_helmet_info(helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class)
-                                    functions.get_comparison(kamizelka2, vest_durability, vest_effective_durability, vest_material, vest_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
+                                    functions.get_comparison(helm2, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
                                     chart = functions.chart()
                                     if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, kamizelka)
+                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, helm)
                                         continue
                                     else:
                                         continue
@@ -799,10 +799,10 @@ while True:
                                     if x == "Tak":
                                         functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
                                         functions.write_helmet_info(helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class)
-                                    functions.get_comparison(kamizelka2, vest_durability, vest_effective_durability, vest_material, vest_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
+                                    functions.get_comparison(helm2, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
                                     chart = functions.chart()
                                     if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, kamizelka)
+                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, helm)
                                         continue
                                     else:
                                         continue
@@ -822,10 +822,10 @@ while True:
                                     if x == "Tak":
                                         functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
                                         functions.write_helmet_info(helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class)
-                                    functions.get_comparison(kamizelka2, vest_durability, vest_effective_durability, vest_material, vest_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
+                                    functions.get_comparison(helm2, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
                                     chart = functions.chart()
                                     if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, kamizelka)
+                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, helm)
                                         continue
                                     else:
                                         continue
@@ -845,10 +845,10 @@ while True:
                                     if x == "Tak":
                                         functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
                                         functions.write_helmet_info(helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class)
-                                    functions.get_comparison(kamizelka2, vest_durability, vest_effective_durability, vest_material, vest_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
+                                    functions.get_comparison(helm2, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
                                     chart = functions.chart()
                                     if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, kamizelka)
+                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, helm)
                                         continue
                                     else:
                                         continue
@@ -868,10 +868,10 @@ while True:
                                     if x == "Tak":
                                         functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
                                         functions.write_helmet_info(helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class)
-                                    functions.get_comparison(kamizelka2, vest_durability, vest_effective_durability, vest_material, vest_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
+                                    functions.get_comparison(helm2, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
                                     chart = functions.chart()
                                     if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, kamizelka)
+                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, helm)
                                         continue
                                     else:
                                         continue
@@ -891,10 +891,10 @@ while True:
                                     if x == "Tak":
                                         functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
                                         functions.write_helmet_info(helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class)
-                                    functions.get_comparison(kamizelka2, vest_durability, vest_effective_durability, vest_material, vest_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
+                                    functions.get_comparison(helm2, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
                                     chart = functions.chart()
                                     if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, kamizelka)
+                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, helm)
                                         continue
                                     else:
                                         continue
@@ -914,10 +914,10 @@ while True:
                                     if x == "Tak":
                                         functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
                                         functions.write_helmet_info(helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class)
-                                    functions.get_comparison(kamizelka2, vest_durability, vest_effective_durability, vest_material, vest_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
+                                    functions.get_comparison(helm2, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
                                     chart = functions.chart()
                                     if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, kamizelka)
+                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, helm)
                                         continue
                                     else:
                                         continue
@@ -937,10 +937,10 @@ while True:
                                     if x == "Tak":
                                         functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
                                         functions.write_helmet_info(helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class)
-                                    functions.get_comparison(kamizelka2, vest_durability, vest_effective_durability, vest_material, vest_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
+                                    functions.get_comparison(helm2, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
                                     chart = functions.chart()
                                     if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, kamizelka)
+                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, helm)
                                         continue
                                     else:
                                         continue
@@ -960,10 +960,10 @@ while True:
                                     if x == "Tak":
                                         functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
                                         functions.write_helmet_info(helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class)
-                                    functions.get_comparison(kamizelka2, vest_durability, vest_effective_durability, vest_material, vest_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
+                                    functions.get_comparison(helm2, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
                                     chart = functions.chart()
                                     if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, kamizelka)
+                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, helm)
                                         continue
                                     else:
                                         continue
@@ -983,10 +983,10 @@ while True:
                                     if x == "Tak":
                                         functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
                                         functions.write_helmet_info(helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class)
-                                    functions.get_comparison(kamizelka2, vest_durability, vest_effective_durability, vest_material, vest_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
+                                    functions.get_comparison(helm2, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
                                     chart = functions.chart()
                                     if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, kamizelka)
+                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, helm)
                                         continue
                                     else:
                                         continue
@@ -1006,10 +1006,10 @@ while True:
                                     if x == "Tak":
                                         functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
                                         functions.write_helmet_info(helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class)
-                                    functions.get_comparison(kamizelka2, vest_durability, vest_effective_durability, vest_material, vest_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
+                                    functions.get_comparison(helm2, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
                                     chart = functions.chart()
                                     if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, kamizelka)
+                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, helm)
                                         continue
                                     else:
                                         continue
@@ -1029,10 +1029,10 @@ while True:
                                     if x == "Tak":
                                         functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
                                         functions.write_helmet_info(helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class)
-                                    functions.get_comparison(kamizelka2, vest_durability, vest_effective_durability, vest_material, vest_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
+                                    functions.get_comparison(helm2, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
                                     chart = functions.chart()
                                     if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, kamizelka)
+                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, helm)
                                         continue
                                     else:
                                         continue
@@ -1052,10 +1052,10 @@ while True:
                                     if x == "Tak":
                                         functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
                                         functions.write_helmet_info(helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class)
-                                    functions.get_comparison(kamizelka2, vest_durability, vest_effective_durability, vest_material, vest_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
+                                    functions.get_comparison(helm2, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
                                     chart = functions.chart()
                                     if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, kamizelka)
+                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, helm)
                                         continue
                                     else:
                                         continue
@@ -1075,10 +1075,10 @@ while True:
                                     if x == "Tak":
                                         functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
                                         functions.write_helmet_info(helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class)
-                                    functions.get_comparison(kamizelka2, vest_durability, vest_effective_durability, vest_material, vest_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
+                                    functions.get_comparison(helm2, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
                                     chart = functions.chart()
                                     if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, kamizelka)
+                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, helm)
                                         continue
                                     else:
                                         continue
@@ -1098,10 +1098,10 @@ while True:
                                     if x == "Tak":
                                         functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
                                         functions.write_helmet_info(helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class)
-                                    functions.get_comparison(kamizelka2, vest_durability, vest_effective_durability, vest_material, vest_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
+                                    functions.get_comparison(helm2, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
                                     chart = functions.chart()
                                     if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, kamizelka)
+                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, helm)
                                         continue
                                     else:
                                         continue
@@ -1121,10 +1121,10 @@ while True:
                                     if x == "Tak":
                                         functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
                                         functions.write_helmet_info(helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class)
-                                    functions.get_comparison(kamizelka2, vest_durability, vest_effective_durability, vest_material, vest_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
+                                    functions.get_comparison(helm2, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
                                     chart = functions.chart()
                                     if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, kamizelka)
+                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, helm)
                                         continue
                                     else:
                                         continue
@@ -1144,10 +1144,10 @@ while True:
                                     if x == "Tak":
                                         functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
                                         functions.write_helmet_info(helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class)
-                                    functions.get_comparison(kamizelka2, vest_durability, vest_effective_durability, vest_material, vest_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
+                                    functions.get_comparison(helm2, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
                                     chart = functions.chart()
                                     if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, kamizelka)
+                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, helm)
                                         continue
                                     else:
                                         continue
@@ -1167,10 +1167,10 @@ while True:
                                     if x == "Tak":
                                         functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
                                         functions.write_helmet_info(helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class)
-                                    functions.get_comparison(kamizelka2, vest_durability, vest_effective_durability, vest_material, vest_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
+                                    functions.get_comparison(helm2, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
                                     chart = functions.chart()
                                     if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, kamizelka)
+                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, helm)
                                         continue
                                     else:
                                         continue
@@ -1190,10 +1190,10 @@ while True:
                                     if x == "Tak":
                                         functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
                                         functions.write_helmet_info(helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class)
-                                    functions.get_comparison(kamizelka2, vest_durability, vest_effective_durability, vest_material, vest_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
+                                    functions.get_comparison(helm2, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
                                     chart = functions.chart()
                                     if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, kamizelka)
+                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, helm)
                                         continue
                                     else:
                                         continue
@@ -1213,10 +1213,10 @@ while True:
                                     if x == "Tak":
                                         functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
                                         functions.write_helmet_info(helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class)
-                                    functions.get_comparison(kamizelka2, vest_durability, vest_effective_durability, vest_material, vest_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
+                                    functions.get_comparison(helm2, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
                                     chart = functions.chart()
                                     if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, kamizelka)
+                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, helm)
                                         continue
                                     else:
                                         continue
@@ -1236,10 +1236,10 @@ while True:
                                     if x == "Tak":
                                         functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
                                         functions.write_helmet_info(helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class)
-                                    functions.get_comparison(kamizelka2, vest_durability, vest_effective_durability, vest_material, vest_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
+                                    functions.get_comparison(helm2, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
                                     chart = functions.chart()
                                     if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, kamizelka)
+                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, helm)
                                         continue
                                     else:
                                         continue

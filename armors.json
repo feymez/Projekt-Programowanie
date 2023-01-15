@@ -1,6 +1,6 @@
 {
     "bnti_module-3m_body_armor": {
-        "name": "BNTI Module-3M Body Armor",
+        "name": "BNTI Module-3M body armor",
         "material": "Aramid",
         "class": 2,
         "areas": ["tułów", "brzuch"],
@@ -36,7 +36,7 @@
         "weight": 5
     },
     "6b2_body_armor_flora": {
-        "name": "6B2 Body Armor (Flora)",
+        "name": "6B2 body armor (Flora)",
         "material": "Titan",
         "class": 2,
         "areas": ["tułów", "brzuch"],
@@ -48,7 +48,7 @@
         "weight": 5.4
     },
     "mf-untar_body_armor": {
-        "name": "MF-UNTAR Body Armor",
+        "name": "MF-UNTAR body armor",
         "material": "Aluminium",
         "class": 3,
         "areas": ["tułów", "brzuch"],
@@ -60,7 +60,7 @@
         "weight": 8.5
     },
     "bnti_zhuk-3_body_armor_press": {
-        "name": "BNTI Zhuk-3 Body Armor (Press)",
+        "name": "BNTI Zhuk-3 body armor (Press)",
         "material": "UHMWPE",
         "class": 3,
         "areas": ["tułów", "brzuch"],
@@ -72,7 +72,7 @@
         "weight": 5.2
     },
     "6b23-1_body_armor_digital_flora": {
-        "name": "6B23-1 Body Armor (Digital Flora)",
+        "name": "6B23-1 body armor (Digital Flora)",
         "material": "Armor Steel",
         "class": 3,
         "areas": ["tułów", "brzuch"],
@@ -84,7 +84,7 @@
         "weight": 7.9
     },
     "drd_body_armor": {
-        "name": "DRD Body Armor",
+        "name": "DRD body armor",
         "material": "Aramid",
         "class": 3,
         "areas": ["tułów", "brzuch"],
@@ -96,7 +96,7 @@
         "weight": 4
     },
     "bnti_kirasa-n_body_armor": {
-        "name": "BNTI Kirasa-N Body Armor",
+        "name": "BNTI Kirasa-N body armor",
         "material": "Combined Materials",
         "class": 3,
         "areas": ["tułów", "brzuch"],
@@ -108,7 +108,7 @@
         "weight": 7.1
     },
     "highcom_trooper_tfo_body_armor_multicam": {
-        "name": "HighCom Trooper TFO Body Armor (Multicam)",
+        "name": "HighCom Trooper TFO body armor (Multicam)",
         "material": "UHMWPE",
         "class": 4,
         "areas": ["tułów"],
@@ -120,7 +120,7 @@
         "weight": 6.8
     },
     "nfm_thor_concealable_reinforced_vest_body_armor": {
-        "name": "NFM Thor Concealable Reinforced Vest Body Armor",
+        "name": "NFM THOR Concealable Reinforced Vest body armor",
         "material": "Combined Materials",
         "class": 4,
         "areas": ["tułów", "brzuch"],
@@ -132,7 +132,7 @@
         "weight": 9
     },
     "6b13_assault_armor": {
-        "name": "6B13 Assault Armor",
+        "name": "6B13 assault armor",
         "material": "Ceramic",
         "class": 4,
         "areas": ["tułów", "brzuch"],
@@ -144,7 +144,7 @@
         "weight": 10.5
     },
     "6b23-2_body_armor_mountain_flora": {
-        "name": "6B23-2 Body Armor (Mountain Flora)",
+        "name": "6B23-2 body armor (Mountain Flora)",
         "material": "Ceramic",
         "class": 4,
         "areas": ["tułów", "brzuch"],
@@ -155,8 +155,20 @@
         "ergonomics": "-9%",
         "weight": 7.2
     },
+    "hexatac_hpc_plate_carrier_multicam_black": {
+        "name": "Hexatac HPC Plate Carrier (Multicam Black)",
+        "material": "UHMWPE",
+        "class": 5,
+        "areas": ["tułów"],
+        "durability": 50,
+        "effective_durability": 111,
+        "movement_speed": "-11%",
+        "turning_speed": "-2%",
+        "ergonomics": "-4%",
+        "weight": 8.5
+    },
     "npp_kiass_korund-vm_body_armor": {
-        "name": "NPP KIASS Korund-VM Body Armor",
+        "name": "NPP KlASS Korund-VM body armor",
         "material": "Armor Steel",
         "class": 5,
         "areas": ["tułów", "brzuch"],
@@ -168,7 +180,7 @@
         "weight": 9.8
     },
     "fort_redut-m_body_armor": {
-        "name": "FORT Redut-M Body Armor",
+        "name": "FORT Redut-M body armor",
         "material": "Combined Materials",
         "class": 5,
         "areas": ["tułów", "brzuch"],
@@ -180,7 +192,7 @@
         "weight": 13.5
     },
     "6b13_m_modified_assault_armor_tan": {
-        "name": "6B13 M Modified Assault Armor (Tan)",
+        "name": "6B13 M modified assault armor (Tan)",
         "material": "UHMWPE",
         "class": 5,
         "areas": ["tułów", "brzuch"],
@@ -192,7 +204,7 @@
         "weight": 7.5
     },
     "iotv_gen4_body_armor_high_mobility_kit": {
-        "name": "IOTV Gen4 Body Armor (High Mobility Kit)",
+        "name": "IOTV Gen4 body armor (high mobility kit)",
         "material": "Titan",
         "class": 5,
         "areas": ["tułów", "brzuch"],
@@ -216,7 +228,7 @@
         "weight": 8.9
     },
     "fort_defender-2_body_armor": {
-        "name": "FORT Defender-2 Body Armor",
+        "name": "FORT Defender-2 body armor",
         "material": "Armor Steel",
         "class": 5,
         "areas": ["tułów", "brzuch"],
@@ -228,7 +240,7 @@
         "weight": 11.5
     },
     "iotv_gen4_body_armor_assault_kit": {
-        "name": "IOTV Gen4 Body Armor (Assault Kit)",
+        "name": "IOTV Gen4 body armor (assault kit)",
         "material": "Titan",
         "class": 5,
         "areas": ["ramiona", "tułów", "brzuch"],
@@ -240,7 +252,7 @@
         "weight": 15
     },
     "iotv_gen4_body_armor_full_protection": {
-        "name": "IOTV Gen4 Body Armor Full Protection",
+        "name": "IOTV Gen4 body armor (full protection)",
         "material": "Titan",
         "class": 5,
         "areas": ["ramiona", "tułów", "brzuch"],
@@ -252,7 +264,7 @@
         "weight": 17
     },
     "fort_redut-t5_body_armor": {
-        "name": "FORT Redut-T5 Body Armor",
+        "name": "FORT Redut-T5 body armor",
         "material": "Combined Materials",
         "class": 5,
         "areas": ["ramiona", "tułów", "brzuch"],
@@ -264,7 +276,7 @@
         "weight": 16.5
     },
     "5.11_tactical_hexgrid_plate_carrier": {
-        "name": "5.11 Tactical Hexgrid Plate Carrier",
+        "name": "5.11 Tactical Hexgrid plate carrier",
         "material": "UHMWPE",
         "class": 6,
         "areas": ["tułów"],
@@ -288,7 +300,7 @@
         "weight": 9.7
     },
     "bnti_zhuk-6a_body_armor": {
-        "name": "BNTI Zhuk-6a Body Armor",
+        "name": "BNTI Zhuk-6a body armor",
         "material": "Ceramic",
         "class": 6,
         "areas": ["tułów", "brzuch"],
@@ -300,7 +312,7 @@
         "weight": 9
     },
     "nfm_thor_integrated_carrier_body_armor": {
-        "name": "NFM Thor Integrated Carrier Body Armor",
+        "name": "NFM THOR Integrated Carrier body armor",
         "material": "Combined Materials",
         "class": 6,
         "areas": ["ramiona","tułów","brzuch"],
@@ -312,7 +324,7 @@
         "weight": 18
     },
     "6b43_6a_zabralo-sh_body_armor": {
-        "name": "6B43 6A Zabralo-Sh Body Armor",
+        "name": "6B43 6A Zabralo-Sh body armor",
         "material": "Combined Materials",
         "class": 6,
         "areas": ["ramiona","tułów","brzuch"],
