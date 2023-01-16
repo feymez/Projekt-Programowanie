@@ -40,4 +40,4 @@ Jeśli chcemy sprawdzić skuteczność wybieramy opcję **`Tak`** <br>
 Jeżeli dane z porównania mają zostać zapisane do pliku wybieramy opcję **`Tak`** <br>
 Na samym końcu możemy zobaczyć wykres porównania. Zostanie on zapisany w plikach programu. Wybierz opcję **`Tak`** aby wyświetlić i stworzyć wykres. <br>
 <br>
-### Sprawdzanie statystyk:
+### Sprawdzenie statystyk:
