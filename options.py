@@ -70,7 +70,7 @@ chart_title = "Czy chesz zobaczyć wykres?"
 chart_options = ["Tak", "Nie"]
 
 doing_title = "Jaki tryb programu chcesz włączyć?"
-doing_options = ["Porównanie", "Sprawdzenie statystyk", "Kompatybilność"]
+doing_options = ["Porównanie", "Sprawdzenie statystyk", "Kompatybilność", "Zadania (Nie wydane)", "Wyposażenie (Nie wydane)", "Kryjówka (Nie wydane)", "Umiejętności (Nie wydane)", "Pojemniki (Nie wydane)", "Medykamenty (Nie wydane)", "Frakcje (Nie wydane)"]
 
 stats_title = "Jaką kategorię wybierasz?"
 stats_options = ["Wstecz", "Kamizelki", "Hełmy", "Ammunicja"]
