@@ -29,7 +29,7 @@ def check_connect():
 
 def loop(list_name, category):
     for x in list_name:
-        file = os.path.exists(f'bronie/{category}/{x}.json')
+        file = os.path.isfile(f'bronie/{category}/{x}.json')
         if file == False:
             internet_connection = check_connect()
             if internet_connection == False:
