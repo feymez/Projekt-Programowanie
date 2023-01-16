@@ -27,23 +27,18 @@ def check_connect():
     except:
         return False
 
-def restart():
-    while True:
-        os.system('python main.py')
-        quit()
-
-
 def loop(list_name, category):
     for x in list_name:
-        file = os.path.exists(f'bronie/{category}/{x}.json')
+        file = os.path.isfile(f'bronie/{category}/{x}.json')
         if file == False:
             internet_connection = check_connect()
             if internet_connection == False:
                 print("Komputer nie ma połączenia z internetem.")
                 quit()
-            url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/bronie/{category}/{x}.json'
-            response = requests.get(url)
-            open(f'bronie/{category}/{x}.json', 'wb').write(response.content)
+            else:
+                url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/bronie/{category}/{x}.json'
+                response = requests.get(url)
+                open(f'bronie/{category}/{x}.json', 'wb').write(response.content)
 
 def directory():
     bronie = os.path.exists("bronie")
@@ -51,25 +46,26 @@ def directory():
     if internet_connection == False:
         print("Komputer nie ma połączenia z internetem.")
         quit()
-    if bronie == False:
-        os.mkdir("bronie")
-        time.sleep(2)
-    for x in sciezki:
-        directory = os.path.exists(f'bronie/{x}')
-        if directory == False:
-            os.mkdir(f"bronie/{x}")
-            time.sleep(1)
-
-directory()
-loop(karabinki_szturmowe, "karabinki-szturmowe")
-loop(karabiny_snajperskie, "karabiny-snajperskie")
-loop(karabiny_szturmowe, "karabiny-szturmowe")
-loop(karabiny_wyborowe, "karabiny-wyborowe")
-loop(lekkie_karabiny_maszynowe, "lekkie-karabiny-maszynowe")
-loop(pistolety, "pistolety")
-loop(pistolety_maszynowe, "pistolety-maszynowe")
-loop(rewolwery, "rewolwery")
-loop(specjalne, "specjalne")
-loop(stacjonarne, "stacjonarne")
-loop(strzelby, "strzelby")
-loop(wyrzutnie_granatow, "wyrzutnie-granatów")
+    else:
+        if bronie == False:
+            os.mkdir("bronie")
+            time.sleep(2)
+        for x in sciezki:
+            directory = os.path.exists(f'bronie/{x}')
+            if directory == False:
+                os.mkdir(f"bronie/{x}")
+                time.sleep(1)
+def check():
+    directory()
+    loop(karabinki_szturmowe, "karabinki-szturmowe")
+    loop(karabiny_snajperskie, "karabiny-snajperskie")
+    loop(karabiny_szturmowe, "karabiny-szturmowe")
+    loop(karabiny_wyborowe, "karabiny-wyborowe")
+    loop(lekkie_karabiny_maszynowe, "lekkie-karabiny-maszynowe")
+    loop(pistolety, "pistolety")
+    loop(pistolety_maszynowe, "pistolety-maszynowe")
+    loop(rewolwery, "rewolwery")
+    loop(specjalne, "specjalne")
+    loop(stacjonarne, "stacjonarne")
+    loop(strzelby, "strzelby")
+    loop(wyrzutnie_granatow, "wyrzutnie-granatów")
