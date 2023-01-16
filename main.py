@@ -17,64 +17,61 @@ def check_connect():
 
 items = list(range(0, 57))
 l = len(items)
-
 #Sprawdzanie spójności plików oraz pobieranie brakujących
 while True:
-    os.system('python download.py')
     launchExist = os.path.isfile('launch-options.json')
     if launchExist == False:
         print('Wykryto brakujący plik "launch-options.json"')
-        try:
-            internet_connection = check_connect()
-            if internet_connection == False:
-                print("Komputer nie ma połączenia z internetem.")
-                quit()
+        internet_connection = check_connect()
+        if internet_connection == False:
+            print("Komputer nie ma połączenia z internetem.")
+            quit()
+        else:
             url = 'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/launch-options.json'
             response = requests.get(url)
             print('Pobieram brakujący plik')
             open('launch-options.json', 'wb').write(response.content)
-            restart()
-        except:
-            print('Operacja nie mogła zostać wykonana. Sprawdź połączenie. Gotowe rozwiązania -')
-            quit()
     elif launchExist == True:
-        functionsExist = 'functions.py'
-        functionsExist = os.path.isfile(functionsExist)
-        optionsExist = 'options.py'
-        optionsExist = os.path.isfile(optionsExist)
+        functionsExist = os.path.isfile('functions.py')
+        optionsExist = os.path.isfile('functions.py')
+        downloadExist = os.path.isfile('download.py')
         if optionsExist == False:
             print('Wykryto brakujący plik "options.py"')
-            try:
-                internet_connection = check_connect()
-                if internet_connection == False:
-                    print("Komputer nie ma połączenia z internetem.")
-                    quit()
+            internet_connection = check_connect()
+            if internet_connection == False:
+                print("Komputer nie ma połączenia z internetem.")
+                quit()
+            else:
                 url = 'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/options.py'
                 response = requests.get(url)
                 print('Pobieram brakujący plik')
                 open('options.py', 'wb').write(response.content)
-                restart()
-            except:
-                print('Operacja nie mogła zostać wykonana. Sprawdź połączenie. Gotowe rozwiązania -')
+        if functionsExist == False:
+            print('Wykryto brakujący plik "functions.py"')
+            internet_connection = check_connect()
+            if internet_connection == False:
+                print("Komputer nie ma połączenia z internetem.")
                 quit()
-        elif functionsExist == False:
-                print('Wykryto brakujący plik "functions.py"')
-                try:
-                    internet_connection = check_connect()
-                    if internet_connection == False:
-                        print("Komputer nie ma połączenia z internetem.")
-                        quit()
-                    url = 'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/functions.py'
-                    response = requests.get(url)
-                    print('Pobieram brakujący plik')
-                    open('functions.py', 'wb').write(response.content)
-                except:
-                    print('Operacja nie mogła zostać wykonana. Sprawdź połączenie. Gotowe rozwiązania -')
-                    quit()
+            else:
+                url = 'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/functions.py'
+                response = requests.get(url)
+                print('Pobieram brakujący plik')
+                open('functions.py', 'wb').write(response.content)
+        if downloadExist == False:
+            print("Wykryto brakujący plik 'download.py'")
+            internet_connection = check_connect()
+            if internet_connection == False:
+                print("Komputer nie ma połączenia z internetem.")
+                quit()
+            else:
+                url = 'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/download.py'
+                response = requests.get(url)
+                print("Pobieram brakując plik")
+                open('download.py', 'wb').write(response.content)
         else:
-            import functions, options
+            import functions, options, download
             print('Weryfikuję pliki...')
-            time.sleep(3)
+            download.check()
             functions.printProgressBar(0, l, prefix = 'Przebiega weryfikacja plików:', suffix = 'Ukończono', length = 50)
             for i, item in enumerate(items):
                 time.sleep(0.1)
