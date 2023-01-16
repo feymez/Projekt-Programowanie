@@ -6,7 +6,7 @@
 
 #### Program posiada kilka trybów:
 > - **Porównanie** - W tym trybie porównasz kamizelkę kuloodporną lub hełm z ammunicją. Dowiesz się jak klasyfikowana jest ammunicja do pancerza. <br>
-> - **Sprawdzenie statystyk** - Tryb sprawdzania statystyk pokazuje nam dokładne statystyki danej kamizelki kuloodpornej, hełmu lub pocisku. <br.
+> - **Sprawdzenie statystyk** - Tryb sprawdzania statystyk pokazuje nam dokładne statystyki danej kamizelki kuloodpornej, hełmu lub pocisku. <br>
 > - **Kompatybilność** - Dzięki temu trybowi sprawdzimy kompatybilność broni z ammunicją. Wybierz broń i sprawdź jaka ammunicja jest przez nią obsługiwana! <br>
 > - **Zadania** - Tryb dzięki któremu dowiemy się jakich przedmiotów będziemy potrzebować do ukończenia zadań. - **`(Nie wydane)`** <br>
 > - **Wyposażenie** - Tryb ten pozwala nam na sprawdzenie informacji na temat poszczególnych plecaków lub kamizelek taktycznych. - **`(Nie wydane)`** <br>
