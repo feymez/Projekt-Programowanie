@@ -20,9 +20,8 @@ l = len(items)
 
 #Sprawdzanie spójności plików oraz pobieranie brakujących
 while True:
-    os.system("python download.py")
-    launchExist = 'launch-options.json'
-    launchExist = os.path.isfile(launchExist)
+    #os.system("python download.py")
+    launchExist = os.path.isfile('launch-options.json')
     if launchExist == False:
         print('Wykryto brakujący plik "launch-options.json"')
         try:
@@ -85,7 +84,7 @@ while True:
             kamizelkiExist = os.path.exists('kamizelki')
             helmyExist = os.path.exists('helmy')
             ammunitionExist = os.path.isfile('ammunition.json')
-            armorsExist = os.path.isfile('armor.json')
+            armorsExist = os.path.isfile('armors.json')
             headgearExist = os.path.isfile('headgear.json')
             if wykresyExist == False:
                 os.mkdir('wykresy')
