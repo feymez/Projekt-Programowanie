@@ -80,18 +80,21 @@ while True:
             for i, item in enumerate(items):
                 time.sleep(0.1)
                 functions.printProgressBar(i + 1, l, prefix = 'Przebiega weryfikacja plików:', suffix = 'Ukończono', length = 50)
-            wykresyExist = 'wykresy'
-            wykresyExist = os.path.exists(wykresyExist)
-            ammunitionExist = 'ammunition.json'
-            ammunitionExist = os.path.isfile(ammunitionExist)
-            armorsExist = 'armors.json'
-            armorsExist = os.path.isfile(armorsExist)
-            headgearExist = 'headgear.json'
-            headgearExist = os.path.isfile(headgearExist)
+            wykresyExist = os.path.exists('wykresy')
+            ammunicjaExist = os.path.exists('ammunicja')
+            kamizelkiExist = os.path.exists('kamizelki')
+            helmyExist = os.path.exists('helmy')
+            ammunitionExist = os.path.isfile('ammunition.json')
+            armorsExist = os.path.isfile('armor.json')
+            headgearExist = os.path.isfile('headgear.json')
             if wykresyExist == False:
-                print('Tworzę brakujące pliki...')
-                x = os.mkdir('wykresy')
-                time.sleep(3)
+                os.mkdir('wykresy')
+            if ammunicjaExist == False:
+                os.mkdir('ammunicja')
+            if kamizelkiExist == False:
+                os.mkdir('kamizelki')
+            if helmyExist == False:
+                os.mkdir('helmy')
             if ammunitionExist == False:
                 print('Wykryto brakujący plik "ammunition.json"')
                 try:
