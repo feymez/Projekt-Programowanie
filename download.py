@@ -27,12 +27,6 @@ def check_connect():
     except:
         return False
 
-def restart():
-    while True:
-        os.system('python main.py')
-        quit()
-
-
 def loop(list_name, category):
     for x in list_name:
         file = os.path.exists(f'bronie/{category}/{x}.json')
