@@ -35,9 +35,10 @@ def loop(list_name, category):
             if internet_connection == False:
                 print("Komputer nie ma połączenia z internetem.")
                 quit()
-            url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/bronie/{category}/{x}.json'
-            response = requests.get(url)
-            open(f'bronie/{category}/{x}.json', 'wb').write(response.content)
+            else:
+                url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/bronie/{category}/{x}.json'
+                response = requests.get(url)
+                open(f'bronie/{category}/{x}.json', 'wb').write(response.content)
 
 def directory():
     bronie = os.path.exists("bronie")
@@ -45,14 +46,15 @@ def directory():
     if internet_connection == False:
         print("Komputer nie ma połączenia z internetem.")
         quit()
-    if bronie == False:
-        os.mkdir("bronie")
-        time.sleep(2)
-    for x in sciezki:
-        directory = os.path.exists(f'bronie/{x}')
-        if directory == False:
-            os.mkdir(f"bronie/{x}")
-            time.sleep(1)
+    else:
+        if bronie == False:
+            os.mkdir("bronie")
+            time.sleep(2)
+        for x in sciezki:
+            directory = os.path.exists(f'bronie/{x}')
+            if directory == False:
+                os.mkdir(f"bronie/{x}")
+                time.sleep(1)
 
 directory()
 loop(karabinki_szturmowe, "karabinki-szturmowe")
