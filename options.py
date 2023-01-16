@@ -70,7 +70,7 @@ chart_title = "Czy chesz zobaczyć wykres?"
 chart_options = ["Tak", "Nie"]
 
 doing_title = "Jaki tryb programu chcesz włączyć?"
-doing_options = ["Porównanie", "Sprawdzenie statystyk", "Kompatybilność", "Zadania (Nie wydane)", "Wyposażenie (Nie wydane)", "Kryjówka (Nie wydane)", "Umiejętności (Nie wydane)", "Pojemniki (Nie wydane)", "Medykamenty (Nie wydane)", "Frakcje (Nie wydane)"]
+doing_options = ["Porównanie", "Sprawdzenie statystyk", "Kompatybilność", "Zadania", "Wyposażenie (Nie wydane)", "Kryjówka (Nie wydane)", "Umiejętności (Nie wydane)", "Pojemniki (Nie wydane)", "Medykamenty (Nie wydane)", "Frakcje (Nie wydane)"]
 
 stats_title = "Jaką kategorię wybierasz?"
 stats_options = ["Wstecz", "Kamizelki", "Hełmy", "Ammunicja"]
@@ -122,3 +122,6 @@ secspecial_options = ["Wstecz", "SP-81"]
 
 stationary_title = "Stacjonarne:"
 stationary_options = ["Wstecz", "NSV 'Utyos'", "AGS-30"]
+
+quests_title = "Wybierz tradera:"
+quests_options = ["Prapor", "Therapist", "Skier", "Peacekeeper", "Mechanic", "Ragman", "Jaeger", "Fence", "Lightkeeper"]
