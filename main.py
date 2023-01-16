@@ -20,7 +20,7 @@ l = len(items)
 
 #Sprawdzanie spójności plików oraz pobieranie brakujących
 while True:
-    os.system("python download.py")
+    os.system('python download.py')
     launchExist = os.path.isfile('launch-options.json')
     if launchExist == False:
         print('Wykryto brakujący plik "launch-options.json"')
