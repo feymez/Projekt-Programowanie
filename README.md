@@ -52,7 +52,7 @@ Po wybraniu danej opcji zobaczymy kolejne menu: <br>
 ![image](https://user-images.githubusercontent.com/85249187/212920064-c39a1c4b-5843-41b0-a089-a8f459f2fde0.png) <br>
 **`Hełm`** <br>
 ![image](https://user-images.githubusercontent.com/85249187/212920158-14c2f4b9-6175-4539-bfcc-fe73c01becdd.png) <br>
-**`Ammunicja`**
+**`Ammunicja`** <br>
 ![image](https://user-images.githubusercontent.com/85249187/212921374-2146d87d-0b50-4a6a-a24f-35d0ad56ac75.png) <br>
 Wybieramy interesujący nas przedmiot. Program wyświeli wszystkie informacje na temat danego przedmiotu. <br>
 **Aby wrócić do list wyboru należy nacisnąć przycisk `ENTER`** <br>
