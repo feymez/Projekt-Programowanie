@@ -72,8 +72,3 @@ Następnie wybieramy broń którą chcemy sprawdzić. <br>
 Program wyświeli informacje na temat interesującej nas broni. <br>
 **Aby wrócić do list wyboru należy nacisnąć przycisk `ENTER`** <br>
 ![image](https://user-images.githubusercontent.com/85249187/212923225-8e9be156-e75e-4f7e-a743-1bd262ab7e46.png) <br>
-
-
-
-
-
