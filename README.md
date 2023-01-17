@@ -57,3 +57,23 @@ Po wybraniu danej opcji zobaczymy kolejne menu: <br>
 Wybieramy interesujący nas przedmiot. Program wyświeli wszystkie informacje na temat danego przedmiotu. <br>
 **Aby wrócić do list wyboru należy nacisnąć przycisk `ENTER`** <br>
 ![image](https://user-images.githubusercontent.com/85249187/212921628-415b7aa1-3b5e-47e4-bceb-93940a6c6242.png) <br>
+
+### Kompatybilność:
+Po uruchomieniu programu wyświetli się nam menu wyboru. <br>
+![image](https://user-images.githubusercontent.com/85249187/212922295-401b21e3-54c2-41d4-b6c3-89e1ca3463b9.png) <br>
+Po wybraniu opcji **`Kompatybilność`** zostaniemy przeniesieni do następengo menu. <br>
+![image](https://user-images.githubusercontent.com/85249187/212922399-db44643e-4745-478e-bf6e-7121fd067fc9.png) <br>
+Następnie wybieramy rodzaj broni. <br>
+![image](https://user-images.githubusercontent.com/85249187/212922479-f70664fb-0e52-46fe-84ca-d346be06202b.png) <br>
+Następnie wybieramy określony typ. <br>
+![image](https://user-images.githubusercontent.com/85249187/212922638-9a8b18ec-5bb9-425f-bf99-296655f4d90f.png) <br>
+Następnie wybieramy broń którą chcemy sprawdzić. <br>
+![image](https://user-images.githubusercontent.com/85249187/212922746-47adbcf0-ed63-457e-9f8e-2b096315bbdb.png) <br>
+Program wyświeli informacje na temat interesującej nas broni. <br>
+**Aby wrócić do list wyboru należy nacisnąć przycisk `ENTER`** <br>
+![image](https://user-images.githubusercontent.com/85249187/212923225-8e9be156-e75e-4f7e-a743-1bd262ab7e46.png) <br>
+
+
+
+
+
