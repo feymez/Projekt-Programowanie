@@ -41,3 +41,9 @@ Jeżeli dane z porównania mają zostać zapisane do pliku wybieramy opcję **`T
 Na samym końcu możemy zobaczyć wykres porównania. Zostanie on zapisany w plikach programu. Wybierz opcję **`Tak`** aby wyświetlić i stworzyć wykres. <br>
 <br>
 ### Sprawdzenie statystyk:
+
+Po uruchomieniu programu wyświetli się nam menu wyboru. <br>
+![image](https://user-images.githubusercontent.com/85249187/212920854-751fc5d9-a628-4f3a-8332-22b672d71754.png) <br>
+Po wybraniu opcji **`Sprawdzenie statystyk`** zostaniemy przeniesieni do następengo menu. <br>
+![image](https://user-images.githubusercontent.com/85249187/212921022-66f741b9-0aa9-44bd-9a3e-1e3ad698cb12.png) <br>
+
