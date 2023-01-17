@@ -23,18 +23,18 @@
 ### Porównanie:
 
 Po uruchomieniu programu wyświetli się nam menu wyboru. <br>
-![image](https://user-images.githubusercontent.com/85249187/212630744-a5844114-b0a4-4e36-a36d-67411f6c09c0.png) <br>
+![image](https://user-images.githubusercontent.com/85249187/212918956-63d2a332-b212-4a85-935c-b1288e3a0d53.png) <br>
 Po wybraniu opcji **`Porównanie`** zostaniemy przeniesieni do następengo menu. <br>
-![image](https://user-images.githubusercontent.com/85249187/212630962-25cb857d-9b7e-4849-8e1b-0c589e4d791a.png) <br>
+![image](https://user-images.githubusercontent.com/85249187/212919040-4a59bc2e-9983-4224-ab4e-9c1d5d81a07a.png) <br>
 Teraz możemy wybrać **`Kamizelka`** lub **`Hełm`**. <br>
 Po wybraniu danej opcji zobaczymy kolejne menu: <br>
 **`Kamizelka`** <br>
-![image](https://user-images.githubusercontent.com/85249187/212631366-3237906a-8a9b-4169-b06a-4e5eb379d2ba.png) <br>
+![image](https://user-images.githubusercontent.com/85249187/212920064-c39a1c4b-5843-41b0-a089-a8f459f2fde0.png) <br>
 **`Hełm`** <br>
-![image](https://user-images.githubusercontent.com/85249187/212631481-6b58b5c2-37c1-42f5-b41f-5d1878139fbb.png) <br>
+![image](https://user-images.githubusercontent.com/85249187/212920158-14c2f4b9-6175-4539-bfcc-fe73c01becdd.png) <br>
 <br>
 Następnie otworzy się nam menu wyboru. Tutaj wybieramy kaliber ammunicji którą chcemy porównać. <br>
-![image](https://user-images.githubusercontent.com/85249187/212631790-77eb4d82-31d8-43f1-b939-ff1c5cac5886.png) <br>
+![image](https://user-images.githubusercontent.com/85249187/212920227-0a24a5b4-d472-49b7-a291-59155d63e951.png) <br>
 Wybieramy daną ammunicję z wybranego kalibru. <br>
 Jeśli chcemy sprawdzić skuteczność wybieramy opcję **`Tak`** <br>
 Jeżeli dane z porównania mają zostać zapisane do pliku wybieramy opcję **`Tak`** <br>
