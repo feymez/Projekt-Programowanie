@@ -46,4 +46,14 @@ Po uruchomieniu programu wyświetli się nam menu wyboru. <br>
 ![image](https://user-images.githubusercontent.com/85249187/212920854-751fc5d9-a628-4f3a-8332-22b672d71754.png) <br>
 Po wybraniu opcji **`Sprawdzenie statystyk`** zostaniemy przeniesieni do następengo menu. <br>
 ![image](https://user-images.githubusercontent.com/85249187/212921022-66f741b9-0aa9-44bd-9a3e-1e3ad698cb12.png) <br>
-
+Teraz możemy wybrać **`Kamizelka`**, **`Hełm`** lub **`Ammunicja`**. <br>
+Po wybraniu danej opcji zobaczymy kolejne menu: <br>
+**`Kamizelka`** <br>
+![image](https://user-images.githubusercontent.com/85249187/212920064-c39a1c4b-5843-41b0-a089-a8f459f2fde0.png) <br>
+**`Hełm`** <br>
+![image](https://user-images.githubusercontent.com/85249187/212920158-14c2f4b9-6175-4539-bfcc-fe73c01becdd.png) <br>
+**`Ammunicja`**
+![image](https://user-images.githubusercontent.com/85249187/212921374-2146d87d-0b50-4a6a-a24f-35d0ad56ac75.png) <br>
+Wybieramy interesujący nas przedmiot. Program wyświeli wszystkie informacje na temat danego przedmiotu. <br>
+**Aby wrócić do list wyboru należy nacisnąć przycisk `ENTER`** <br>
+![image](https://user-images.githubusercontent.com/85249187/212921628-415b7aa1-3b5e-47e4-bceb-93940a6c6242.png) <br>
