@@ -23,21 +23,52 @@
 ### Porównanie:
 
 Po uruchomieniu programu wyświetli się nam menu wyboru. <br>
-![image](https://user-images.githubusercontent.com/85249187/212630744-a5844114-b0a4-4e36-a36d-67411f6c09c0.png) <br>
+![image](https://user-images.githubusercontent.com/85249187/212918956-63d2a332-b212-4a85-935c-b1288e3a0d53.png) <br>
 Po wybraniu opcji **`Porównanie`** zostaniemy przeniesieni do następengo menu. <br>
-![image](https://user-images.githubusercontent.com/85249187/212630962-25cb857d-9b7e-4849-8e1b-0c589e4d791a.png) <br>
+![image](https://user-images.githubusercontent.com/85249187/212919040-4a59bc2e-9983-4224-ab4e-9c1d5d81a07a.png) <br>
 Teraz możemy wybrać **`Kamizelka`** lub **`Hełm`**. <br>
 Po wybraniu danej opcji zobaczymy kolejne menu: <br>
 **`Kamizelka`** <br>
-![image](https://user-images.githubusercontent.com/85249187/212631366-3237906a-8a9b-4169-b06a-4e5eb379d2ba.png) <br>
+![image](https://user-images.githubusercontent.com/85249187/212920064-c39a1c4b-5843-41b0-a089-a8f459f2fde0.png) <br>
 **`Hełm`** <br>
-![image](https://user-images.githubusercontent.com/85249187/212631481-6b58b5c2-37c1-42f5-b41f-5d1878139fbb.png) <br>
+![image](https://user-images.githubusercontent.com/85249187/212920158-14c2f4b9-6175-4539-bfcc-fe73c01becdd.png) <br>
 <br>
 Następnie otworzy się nam menu wyboru. Tutaj wybieramy kaliber ammunicji którą chcemy porównać. <br>
-![image](https://user-images.githubusercontent.com/85249187/212631790-77eb4d82-31d8-43f1-b939-ff1c5cac5886.png) <br>
+![image](https://user-images.githubusercontent.com/85249187/212920227-0a24a5b4-d472-49b7-a291-59155d63e951.png) <br>
 Wybieramy daną ammunicję z wybranego kalibru. <br>
 Jeśli chcemy sprawdzić skuteczność wybieramy opcję **`Tak`** <br>
 Jeżeli dane z porównania mają zostać zapisane do pliku wybieramy opcję **`Tak`** <br>
 Na samym końcu możemy zobaczyć wykres porównania. Zostanie on zapisany w plikach programu. Wybierz opcję **`Tak`** aby wyświetlić i stworzyć wykres. <br>
 <br>
 ### Sprawdzenie statystyk:
+
+Po uruchomieniu programu wyświetli się nam menu wyboru. <br>
+![image](https://user-images.githubusercontent.com/85249187/212920854-751fc5d9-a628-4f3a-8332-22b672d71754.png) <br>
+Po wybraniu opcji **`Sprawdzenie statystyk`** zostaniemy przeniesieni do następengo menu. <br>
+![image](https://user-images.githubusercontent.com/85249187/212921022-66f741b9-0aa9-44bd-9a3e-1e3ad698cb12.png) <br>
+Teraz możemy wybrać **`Kamizelka`**, **`Hełm`** lub **`Ammunicja`**. <br>
+Po wybraniu danej opcji zobaczymy kolejne menu: <br>
+**`Kamizelka`** <br>
+![image](https://user-images.githubusercontent.com/85249187/212920064-c39a1c4b-5843-41b0-a089-a8f459f2fde0.png) <br>
+**`Hełm`** <br>
+![image](https://user-images.githubusercontent.com/85249187/212920158-14c2f4b9-6175-4539-bfcc-fe73c01becdd.png) <br>
+**`Ammunicja`** <br>
+![image](https://user-images.githubusercontent.com/85249187/212921374-2146d87d-0b50-4a6a-a24f-35d0ad56ac75.png) <br>
+Wybieramy interesujący nas przedmiot. Program wyświeli wszystkie informacje na temat danego przedmiotu. <br>
+**Aby wrócić do list wyboru należy nacisnąć przycisk `ENTER`** <br>
+![image](https://user-images.githubusercontent.com/85249187/212921628-415b7aa1-3b5e-47e4-bceb-93940a6c6242.png) <br>
+
+### Kompatybilność:
+Po uruchomieniu programu wyświetli się nam menu wyboru. <br>
+![image](https://user-images.githubusercontent.com/85249187/212922295-401b21e3-54c2-41d4-b6c3-89e1ca3463b9.png) <br>
+Po wybraniu opcji **`Kompatybilność`** zostaniemy przeniesieni do następengo menu. <br>
+![image](https://user-images.githubusercontent.com/85249187/212922399-db44643e-4745-478e-bf6e-7121fd067fc9.png) <br>
+Następnie wybieramy rodzaj broni. <br>
+![image](https://user-images.githubusercontent.com/85249187/212922479-f70664fb-0e52-46fe-84ca-d346be06202b.png) <br>
+Następnie wybieramy określony typ. <br>
+![image](https://user-images.githubusercontent.com/85249187/212922638-9a8b18ec-5bb9-425f-bf99-296655f4d90f.png) <br>
+Następnie wybieramy broń którą chcemy sprawdzić. <br>
+![image](https://user-images.githubusercontent.com/85249187/212922746-47adbcf0-ed63-457e-9f8e-2b096315bbdb.png) <br>
+Program wyświeli informacje na temat interesującej nas broni. <br>
+**Aby wrócić do list wyboru należy nacisnąć przycisk `ENTER`** <br>
+![image](https://user-images.githubusercontent.com/85249187/212923225-8e9be156-e75e-4f7e-a743-1bd262ab7e46.png) <br>
