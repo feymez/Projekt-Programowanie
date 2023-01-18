@@ -533,6 +533,58 @@
         "class": 5,
         "areas": ["tułów"],
         "durability": 85,
-        "effective_durability": 189
+        "effective_durability": 189,
+        "movement_speed": "-6%",
+        "turning_speed": "-5%",
+        "ergonomics": "-8%",
+        "weight": 6.4
+    },
+    "cqc_osprey_mk4a_plate_carrier_protection,_mtp": {
+        "name": "CQC Osprey MK4A plate carrier (Protection, MTP)",
+        "material": "Combined Materials",
+        "class": 5,
+        "areas": ["ramiona", "tułów"],
+        "durability": 55,
+        "effective_durability": 110,
+        "movement_speed": "-16%",
+        "turning_speed": "-11%",
+        "ergonomics": "-11%",
+        "weight": 12.5
+    },
+    "npp_klass_bagariy_armored_rig": {
+        "name": "NPP KlASS Bagariy armored rig",
+        "material": "Armor Steel",
+        "class": 5,
+        "areas": ["tułów", "brzuch"],
+        "durability": 55,
+        "effective_durability": 79,
+        "movement_speed": "-21%",
+        "turning_speed": "-14%",
+        "ergonomics": "-9%",
+        "weight": 13
+    },
+    "tasmanian_tiger_sk_plate_carrier_multicam_black": {
+        "name": "Tasmanian Tiger SK plate carrier (Multicam Black)",
+        "material": "Ceramic",
+        "class": 6,
+        "areas": ["tułów"],
+        "durability": 40,
+        "effective_durability": 50,
+        "movement_speed": "-5%",
+        "turning_speed": "-4%",
+        "ergonomics": "-6%",
+        "weight": 7.5
+    },
+    "crye_precision_avs_mbav_tagilla_edition": {
+        "name": "Crye Precision AVS MBAV (Tagilla Edition)",
+        "material": "Titan",
+        "class": 6,
+        "areas": ["tułów"],
+        "durability": 60,
+        "effective_durability": 109,
+        "movement_speed": "-6%",
+        "turning_speed": "-5%",
+        "ergonomics": "-8%",
+        "weight": 7.8
     }
 }
