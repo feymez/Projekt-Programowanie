@@ -83,6 +83,16 @@ while True:
             ammunitionExist = os.path.isfile('ammunition.json')
             armorsExist = os.path.isfile('armors.json')
             headgearExist = os.path.isfile('headgear.json')
+            zadaniaExist = os.path.exists('zadania')
+            praporExist = os.path.exists('zadania/praport')
+            therapistExist = os.path.exists('zadania/therapist')
+            skierExist = os.path.exists('zadania/skier')
+            peacekeeperExist = os.path.exists('zadania/peacekeeper')
+            mechanicExist = os.path.exists('zadania/mechanic')
+            ragmanExist = os.path.exists('zadania/ragman')
+            jaegerExist = os.path.exists('zadania/jaeger')
+            fenceExist = os.path.exists('zadania/fence')
+            lightkeeperExist = os.path.exists('zadania/lightkeeper')
             if wykresyExist == False:
                 os.mkdir('wykresy')
             if ammunicjaExist == False:
@@ -133,6 +143,26 @@ while True:
                 except:
                     print('Operacja nie mogła zostać wykonana. Sprawdź połączenie. Gotowe rozwiązania -')
                     quit()
+            if zadaniaExist == False:
+                os.mkdir('zadania')
+            if praporExist == False:
+                os.mkdir('zadania/prapor')
+            if therapistExist == False:
+                os.mkdir('zadania/therapist')
+            if skierExist == False:
+                os.mkdir('zadania/skier')
+            if peacekeeperExist == False:
+                os.mkdir('zadania/peacekeeper')
+            if mechanicExist == False:
+                os.mkdir('zadania/mechanic')
+            if ragmanExist == False:
+                os.mkdir('zadania/ragman')
+            if jaegerExist == False:
+                os.mkdir('zadania/jaeger')
+            if fenceExist == False:
+                os.mkdir('zadania/fence')
+            if lightkeeperExist == False:
+                os.mkdir('zadania/lightkeeper')
             break
 
 functions.printProgressBar(0, l, prefix = 'Wczytywanie potrzebnych składników:', suffix = 'Ukończono', length = 50)
