@@ -215,6 +215,7 @@ def check():
 def check2():
     directories.directory2()
     loop2(armors, "kamizelki")
+    loop2(helmets, "helmy")
 
 #Funkcja sprawdzająca spójność plików PNG ammunicji.
 def check3():
