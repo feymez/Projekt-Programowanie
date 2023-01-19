@@ -165,7 +165,7 @@ def loop3(list_name, caliber):
                 elif caliber == "9x39":
                     url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/9x39/{x}.png'
                     response = requests.get(url)
-                    open(f'obrazy/ammunicja/9x21 Gyurza/{x}.png', 'wb').write(response.content)
+                    open(f'obrazy/ammunicja/9x39/{x}.png', 'wb').write(response.content)
                 elif caliber == "12.7x55 STs-130":
                     url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/12.7x55%20STs-130/{x}.png'
                     response = requests.get(url)
