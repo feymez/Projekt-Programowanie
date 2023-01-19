@@ -1063,7 +1063,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": "7.62x25 Tokarev/7.6225_TT_LRNPC" 
         },
         "7.62x25mm_tt_lrn": {
             "name": "7.62x25mm TT LRN",
@@ -1085,7 +1086,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": "7.62x25 Tokarev/7.6225_TT_LRN"  
         },
         "7.62x25mm_tt_fmj43": {
             "name": "7.62x25mm TT FMJ43",
@@ -1107,7 +1109,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": "7.62x25 Tokarev/7.6225_T_FMJ43" 
         },
         "7.62x25mm_tt_akbs": {
             "name": "7.62x25mm TT AKBS",
@@ -1129,7 +1132,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": "7.62x25 Tokarev/7.6225_TT_LRNPC" 
         },
         "7.62x25mm_tt_p_gl": {
             "name": "7.62x25mm TT P gl",
