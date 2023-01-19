@@ -4,7 +4,7 @@ indicator = "->"
 
 mm_12_70 = ["Wstecz", "12x70mm 5.25mm Buckshot", "12x70mm 8.5mm Magnum Buckshot", "12x70mm 6.5mm Express Buckshot", "12x70mm 7mm Buckshot", "12x70mm Flechette", "12x70mm RIP", "12x70mm SuperFormance HP Slug", "12x70mm Grizzly 40 Slug", "12x70mm Copper Sabot Premier HP Slug", "12x70mm Lead Slug", "12x70mm 'Poleva-3' Slug", "12x70mm Dual Sabot Slug", "12x70mm FTX Custom Lite Slug", "12x70mm 'Poleva-6u' Slug", "12x70mm Makeshift .50 BMG Slug"]
 
-mm_20_70 = ["Wstecz", "20x70mm 5.6mm Buckshot", "20x70mm 6.2mm Buckshot", "20x70mm 7.5mm Buckshot", "20x70mm 7.3mm Buckshot", "20x70mm Devastator Slug", "20x70mm 'Poleva-3' Slug", "20x70mm Star Slug", "20x70mm 'Poleva-6u' Slug"]
+mm_20_70 = ["Wstecz", "20x70mm 5.6mm Buckshot", "20x70mm 6.2mm Buckshot", "20x70mm 7.5mm Buckshot", "20x70mm 7.3mm Buckshot", "20x70mm Devastator Slug", "20x70mm 'Poleva-3' Slug", "20x70mm Star Slug", "20x70mm 'Poleva-6u' Slug", "20x70mm 'Flechetta Plus'", "20x70mm Elephant Killer slug"]
 
 mm_23_75 = ["Wstecz", "23x75mm 'Zvezda' Flashbang Round", "23x75mm 'Sharpnel-25' Buckshot", "23x75mm 'Sharpnel-10' Buckshot", "23x75mm 'Barrikada' Slug"]
 

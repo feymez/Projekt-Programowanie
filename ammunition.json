@@ -20,7 +20,8 @@
             },
             "isTracer": false,
             "isSubsonic": true,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": "12x70/1270_525mm_Buckshot"
         },
         "12x70mm_8.5mm_magnum_buckshot": {
             "name": "12x70mm 8.5mm Magnum Buckshot",
@@ -42,7 +43,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": "12x70/1270_85mm_Buckshot"
         },
         "12x70mm_6.5mm_express_buckshot": {
             "name": "12x70mm 6.5mm Express Buckshot",
@@ -64,7 +66,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": "12x70/1270_65mm_Express_buckshot"
         },
         "12x70mm_7mm_buckshot": {
             "name": "12x70mm 7mm Buckshot",
@@ -86,7 +89,8 @@
             },
             "isTracer": false,
             "isSubsonic": true,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": "12x70/1270_7mm_Buckshot"
         },
         "12x70mm_flechette": {
             "name": "12x70 Flechette",
@@ -108,7 +112,8 @@
             },
             "isTracer": false,
             "isSubsonic": true,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": "12x70/1270_Flechette"
         },
         "12x70mm_rip": {
             "name": "12x70mm RIP",
@@ -130,7 +135,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": "12x70/1270_Rip"
         },
         "12x70mm_superformance_hp_slug": {
             "name": "12x70mm SuperFormance HP Slug",
@@ -152,7 +158,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": false 
+            "listedOnFleaMarket": false,
+            "image": "12x70/1270_SFHP" 
         },
         "12x70mm_grizzly_40_slug": {
             "name": "12x70mm Grizzly 40 Slug",
@@ -174,7 +181,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": "12x70/1270_Grizzly_40" 
         },
         "12x70mm_copper_sabot_premier_hp_slug": {
             "name": "12x70mm Copper Sabot Premier HP Slug",
@@ -196,7 +204,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": false 
+            "listedOnFleaMarket": false,
+            "image": "12x70/1270_CSP_HP"
         },
         "12x70mm_lead_slug": {
             "name": "12x70mm Lead Slug",
@@ -218,7 +227,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": "12x70/1270_Lead_slug"
         },
         "12x70mm_'poleva-3'_slug": {
             "name": "12x70mm 'Poleva-3' Slug",
@@ -240,7 +250,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": "12x70/1270_Poleva-3"
         },
         "12x70mm_dual_sabot_slug": {
             "name": "12x70mm Dual Sabot Slug",
@@ -262,7 +273,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": "12x70/1270_Dual_Sabot"
         },
         "12x70mm_ftx_custom_lite_slug": {
             "name": "12x70mm FTX Custom Lite Slug",
@@ -284,7 +296,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": "12x70/1270_FTX" 
         },
         "12x70mm_'poleva-6u'_slug": {
             "name": "120x70mm 'Poleva-6u' Slug",
@@ -306,7 +319,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": "12x70/1270_Poleva-6u" 
         },
         "12x70mm_makeshift_.50_bmg_slug": {
             "name": "12x70mm Makeshift .50 BMG Slug",
@@ -328,7 +342,8 @@
             },
             "isTracer": true,
             "isSubsonic": false,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": "12x70/1270_.50_BMG" 
         },
         "12x70mm_ap-20_armor-piercing_slug": {
             "name": "12x70mm AP-20 Armor-Piercing Slug",
@@ -350,7 +365,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": false
+            "listedOnFleaMarket": false,
+            "image": "12x70/1270_AP-20"
         }
     },
     "20x70mm": {
@@ -374,7 +390,8 @@
             },
             "isTracer": false,
             "isSubsonic": true,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": "20x70/2070_56mm_Buckshot"
         },
         "20x70mm_6.2mm_buckshot": {
             "name": "20x70mm 6.2mm Buckshot",
@@ -396,7 +413,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": "20x70/2070_62mm_Buckshot"
         },
         "20x70mm_7.5mm_buckshot": {
             "name": "20x70mm 7.5mm Buckshot",
@@ -418,7 +436,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": "20x70/2070_75mm_Buckshot"
         },
         "20x70mm_7.3mm_buckshot": {
             "name": "20x70mm 7.3mm Buckshot",
@@ -440,7 +459,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": "20x70/2070_73mm_Buckshot"
         },
         "20x70mm_devastator_slug": {
             "name": "20x70mm Devastator Slug",
@@ -462,7 +482,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": "20x70/2070_Devastator"
         },
         "20x70mm_'poleva-3'_slug": {
             "name": "20x70mm 'Poleva-3' Slug",
@@ -484,7 +505,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": "20x70/2070_Poleva-3"
         },
         "20x70mm_star_slug": {
             "name": "20x70mm Star Slug",
@@ -506,7 +528,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": "20x70/2070_Star"
         },
         "20x70mm_'poleva-6u'_slug": {
             "name": "20x70mm 'Poleva-6u' Slug",
@@ -528,7 +551,77 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": "20x70/2070_Poleva-6u"
+        },
+        "20x70mm_flechetta_plus": {
+            "name": "20x70mm 'Flechetta Plus'",
+            "damage": "4x71",
+            "penetration_power": 45,
+            "armor_damage": "47%",
+            "accuracy": null,
+            "recoil": "+25%",
+            "frag_chance": null,
+            "light_bleeding": "35%",
+            "heavy_bleeding": "30%",
+            "bullet_effectiveness_against_armor_class": {
+                "class1": 6,
+                "class2": 6,
+                "class3": 6,
+                "class4": 6,
+                "class5": 5,
+                "class6": 5
+            },
+            "isTracer": false,
+            "isSubsonic": false,
+            "listedOnFleaMarket": true,
+            "image": "20x70/2070_Flechetta_plus"
+        },
+        "20x70mm_elephant_killer_slug": {
+            "name": "20x70mm Elephant Killer slug",
+            "damage": 108,
+            "penetration_power": 47,
+            "armor_damage": "70%",
+            "accuracy": "-5%",
+            "recoil": "+30%",
+            "frag_chance": "10%",
+            "light_bleeding": "22%",
+            "heavy_bleeding": "35%",
+            "bullet_effectiveness_against_armor_class": {
+                "class1": 6,
+                "class2": 6,
+                "class3": 6,
+                "class4": 6,
+                "class5": 5,
+                "class6": 4
+            },
+            "isTracer": false,
+            "isSubsonic": false,
+            "listedOnFleaMarket": true,
+            "image": "20x70/2070_Elephany_killer"
+        },
+        "20x70mm_'explosive'_slug": {
+            "name": "20x70mm 'Explosive' slug",
+            "damage": 51,
+            "penetration_power": 1,
+            "armor_damage": "72%",
+            "accuracy": "-7%",
+            "recoil": "+25%",
+            "frag_chance": null,
+            "light_bleeding": null,
+            "heavy_bleeding": null,
+            "bullet_effectiveness_against_armor_class": {
+                "class1": 0,
+                "class2": 0,
+                "class3": 0,
+                "class4": 0,
+                "class5": 0,
+                "class6": 0
+            },
+            "isTracer": false,
+            "isSubsonic": false,
+            "listedOnFleaMarket": true,
+            "image": "20x70/2070_Explosive"
         }
     },
     "23x75mm": {
@@ -552,7 +645,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": false
+            "listedOnFleaMarket": false,
+            "image": "23x75/2375_Zvezda"
         },
         "23x75mm_'sharpnel-25'_buckshot": {
             "name": "23x75mm 'Sharpnel-25' Buckshot",
@@ -574,7 +668,8 @@
             },
             "isTracer": false,
             "isSubsonic": true,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": "23x75/2375_Sharpnel-25" 
         },
         "23x75mm_'sharpnel-10'_buckshot": {
             "name": "23x75mm 'Sharpnel-10' Buckshot",
@@ -596,7 +691,8 @@
             },
             "isTracer": false,
             "isSubsonic": true,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": "23x75/2375_Sharpnel-10" 
         },
         "23x75mm_'barrikada'_slug": {
             "name": "23x75mm 'Barrikada' Slug",
@@ -618,7 +714,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": "23x75/2375_Barrikada" 
         }
     },
     "9x18mm_makarov": {
@@ -642,7 +739,8 @@
             },
             "isTracer": false,
             "isSubsonic": true,
-            "listedOnFleaMarket": false 
+            "listedOnFleaMarket": false,
+            "image": "9x18 Makarov/918_PM-SP8_gzh"
         },
         "9x18mm_pm_sp7_gzh": {
             "name": "9x18mm PM SP7 gzh",
@@ -664,7 +762,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": "9x18 Makarov/918_PM-SP7_gzh" 
         },
         "9x18mm_pm_psv": {
             "name": "9x18mm PM PSV",
@@ -686,7 +785,8 @@
             },
             "isTracer": false,
             "isSubsonic": true,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": "9x18 Makarov/918_PM_PSV" 
         },
         "9x18mm_pm_p_gzh": {
             "name": "9x18mm PM P gzh",
@@ -708,7 +808,8 @@
             },
             "isTracer": false,
             "isSubsonic": true,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": "9x18 Makarov/918_PM_P_gzh" 
         },
         "9x18mm_pm_pso_gzh": {
             "name": "9x18mm PM PSO gzh",
@@ -730,7 +831,8 @@
             },
             "isTracer": false,
             "isSubsonic": true,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": "9x18 Makarov/918_PM_PSO_gzh"
         },
         "9x18mm_pm_ps_gs_ppo": {
             "name": "9x18mm PM PS gs PPO",
@@ -752,7 +854,8 @@
             },
             "isTracer": false,
             "isSubsonic": true,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": "9x18 Makarov/918_PM_PS_gs"
         },
         "9x18mm_pm_prs_gs": {
             "name": "9x18mm PM PRS gs",
@@ -774,7 +877,8 @@
             },
             "isTracer": false,
             "isSubsonic": true,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": "9x18 Makarov/918_PM_PRS_gs"
         },
         "9x18mm_pm_ppe_gzh": {
             "name": "9x18mm PM PPe gzh",
@@ -796,7 +900,8 @@
             },
             "isTracer": false,
             "isSubsonic": true,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": "9x18 Makarov/918_PM_PPe_gzh"
         },
         "9x18mm_pm_ppt_gzh": {
             "name": "9x18mm PM PPT gzh",
@@ -818,7 +923,8 @@
             },
             "isTracer": true,
             "isSubsonic": true,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": "9x18 Makarov/918_PM_PPT_gzh"
         },
         "9x18mm_pm_pst_gzh": {
             "name": "9x18mm PM Pst gzh",
@@ -840,7 +946,8 @@
             },
             "isTracer": false,
             "isSubsonic": true,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": "9x18 Makarov/918_PM_Pst_gzh"
         },
         "9x18mm_pm_rg028_gzh": {
             "name": "9x18mm PM RG028 gzh",
@@ -862,7 +969,8 @@
             },
             "isTracer": false,
             "isSubsonic": true,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": "9x18 Makarov/918_PM_RG028_gzh" 
         },
         "9x18mm_pm_bzht_gzh": {
             "name": "9x18mm PM BZhT gzh",
@@ -884,7 +992,8 @@
             },
             "isTracer": false,
             "isSubsonic": true,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": "9x18 Makarov/918_PM_BZhT_gzh"
         },
         "9x18mm_pmm_pstm_gzh": {
             "name": "9x18mm PMM PstM gzh",
@@ -906,7 +1015,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": "9x18 Makarov/918_PM_PstM_gzh"
         },
         "9x18mm_pm_pbm_gzh": {
             "name": "9x18mm PM PBM gzh",
@@ -928,7 +1038,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": "9x18 Makarov/918_PM_PBM_gzh"
         }
     },
     "7.62x25mm_tokarev":{
