@@ -27,6 +27,9 @@ helmets = ["6B47_Ratnik-BSh_helmet", "Altyn_bulletproof_helmet", "BNTI_LShZ-2DTM
 "Jack-o-lantern_tactical_pumpkin_helmet", "Kolpak-1S_riot_helmet", "LShZ_light_helmet", "Maska-1SCh_bulletproof_helmet", "MSA_ACH_TC-2001_MICH_Series_helmet", "MSA_ACH_TC-2002_MICH_Series_helmet", 
 "MSA_Gallet_TC_800_High_Cut_combat_helmet", "NFM_'HJELM'_helmet", "Ops-Core_FAST_MT_Super_High_Cut_helmet", "PSh-97_DJETA_riot_helmet", "Rys-T_bulletproof_helmet", "ShPM_Firefighter_helmet", "SSh-68_steel_helmet",
 "SSSh-94_SFERA-S_helmet", "Tac-Kek_FAST_MT_helmet_replica", "Team_Wendy_EXFIL_Ballistic_Helmet", "TSh-4M-L_soft_tank_crew_helmet", "UNTAR_helmet", "Vulkan-5_LShZ-5_bulletproof_helmet", "ZSh-1-2M_helmet"]
+containers = ["Ammo_case", "Docs_case", "dogtag_case", "gingy", "Grenade_case", "Injector_case", "Items_case", "Junkbox", "key_tool", "keycard_holder", "Magazine_box", "Medicine_case",
+"Money_case", "Mr._Holodilnick_thermobag", "Pistol_case", "SICC_pouch", "THICCItems_case", "THICCWeapon_case", "Wallet", "Weapon_case", "wz_wallet"]
+
 acp_45 = ["45_ACP_AP", "45_ACP_Hydra-Shok", "45_ACP_Lasermatch_FMJ", "45_ACP_Match_FMJ", "45_ACP_RIP"]
 blackout_300 = ["300_AP", "300_BCP_FMJ", "300_M62_Tracer", "300_V-Max", "300_Whisper"]
 lapua_magnum_338 = ["338_Lapua_Magnum_AP", "338_Lapua_Magnum_FMJ", "338_Lapua_Magnum_TAC-X", "338_Lapua_Magnum_UCW"]
@@ -216,6 +219,7 @@ def check2():
     directories.directory2()
     loop2(armors, "kamizelki")
     loop2(helmets, "helmy")
+    loop2(containers, "pojemniki")
 
 #Funkcja sprawdzająca spójność plików PNG ammunicji.
 def check3():
