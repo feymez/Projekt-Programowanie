@@ -84,7 +84,7 @@ def loop2(list_name, category):
                 print("Komputer nie ma połączenia z internetem.")
                 quit()
             else:
-                url = f'https://github.com/feymez/Projekt-Programowanie/blob/main/obrazy/{category}/{x}.png'
+                url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/{category}/{x}.png'
                 response = requests.get(url)
                 open(f'obrazy/{category}/{x}.png', 'wb').write(response.content)
 
