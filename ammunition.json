@@ -2741,7 +2741,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": ".300 Blackout/300_Whisper"
         },
         ".300_blackout_v-max": {
             "name": ".300 Blackout V-Max",
@@ -2763,7 +2764,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": ".300 Blackout/300_V-Max"
         },
         ".300_blackout_bcp_fmj": {
             "name": ".300 Blackout BCP FMJ",
@@ -2785,7 +2787,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": ".300 Blackout/300_BCP_FMJ"
         },
         ".300_blackout_m62_tracer": {
             "name": ".300 Blackout M62 Tracer",
@@ -2807,7 +2810,8 @@
             },
             "isTracer": true,
             "isSubsonic": false,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": ".300 Blackout/300_M62_Tracer"
         },
         ".300_blackout_ap": {
             "name": ".300 Blackout AP",
@@ -2829,7 +2833,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": false
+            "listedOnFleaMarket": false,
+            "image": ".300 Blackout/300_AP"
         }
     },
     "7.62x39mm":{
@@ -2853,7 +2858,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": "7.62x39/7.6239_HP"
         },
         "7.62x39mm_us_gzh": {
             "name": "7.62x39mm US gzh",
@@ -2875,7 +2881,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": "7.62x39/7.6239_US_gzh"
         },
         "7.62x39mm_t-45m1_gzh": {
             "name": "7.62x39mm T-45M1 gzh",
@@ -2897,7 +2904,8 @@
             },
             "isTracer": true,
             "isSubsonic": false,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": "7.62x39/7.6239_T-45M1_gzh"
         },
         "7.62x39mm_ps_gzh": {
             "name": "7.62x39mm PS gzh",
@@ -2919,7 +2927,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": "7.62x39/7.6239_PS_gzh"
         },
         "7.62x39mm_bp_gzh": {
             "name": "7.62x39mm BP gzh",
@@ -2941,7 +2950,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": false
+            "listedOnFleaMarket": false,
+            "image": "7.62x39/7.6239_BP_gzh"
         },
         "7.62x39mm_mai_ap": {
             "name": "7.62x39mm MAI AP",
@@ -2963,7 +2973,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": false
+            "listedOnFleaMarket": false,
+            "image": "7.62x39/7.6239_MAI_AP"
         }
     },
     "7.62x51mm_nato": {
@@ -2987,7 +2998,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": "7.62x51 NATO/7.6251_Ultra_Nosler"
         },
         "7.62x51mm_bcp_fmj": {
             "name": "7.62x51mm BCP FMJ",
@@ -3009,7 +3021,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": "7.62x51 NATO/7.6251_BCP_FMJ"
         },
         "7.62x51mm_tcw_sp": {
             "name": "7.62x51mm TCW SP",
@@ -3031,7 +3044,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": "7.62x51 NATO/7.6251_TCW_SP"
         },
         "7.62x51mm_m80": {
             "name": "7.62x51mm M80",
@@ -3053,7 +3067,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": "7.62x51 NATO/7.6251_M80"
         },
         "7.62x51mm_m62_tracer": {
             "name": "7.62x51mm M61 Tracer",
@@ -3075,7 +3090,8 @@
             },
             "isTracer": true,
             "isSubsonic": false,
-            "listedOnFleaMarket": false
+            "listedOnFleaMarket": false,
+            "image": "7.62x51 NATO/7.6251_M62_Tracer"
         },
         "7.62x51mm_m61": {
             "name": "7.62x51mm M61",
@@ -3097,7 +3113,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": false
+            "listedOnFleaMarket": false,
+            "image": "7.62x51 NATO/7.6251_M61"
         },
         "7.62x51mm_m993": {
             "name": "7.62x51mm M993",
@@ -3119,7 +3136,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": false
+            "listedOnFleaMarket": false,
+            "image": "7.62x51 NATO/7.6251_M993"
         }
     },
     "7.62x54mmr": {
@@ -3143,7 +3161,8 @@
             },
             "isTracer": true,
             "isSubsonic": false,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": "7.62x54/7.6254_R_T-46M_gzh"
         },
         "7.62x54mm_r_lps_gzh": {
             "name": "7.62x54mm R LPS gzh",
@@ -3165,7 +3184,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": "7.62x54/7.6254_R_LPS_gzh"
         },
         "7.62x54mm_r_ps_gzh": {
             "name": "7.62x54mm R PS gzh",
@@ -3187,7 +3207,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": "7.62x54/7.6254_R_PS_gzh"
         },
         "7.62x54mm_r_bt_gzh": {
             "name": "7.62x54mm R BT gzh",
@@ -3209,7 +3230,8 @@
             },
             "isTracer": true,
             "isSubsonic": false,
-            "listedOnFleaMarket": false
+            "listedOnFleaMarket": false,
+            "image": "7.62x54/7.6254_R_BT_gzh"
         },
         "7.62x54mm_r_snb_gzh": {
             "name": "7.62x54mm R SNB gzh",
@@ -3231,7 +3253,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": false
+            "listedOnFleaMarket": false,
+            "image": "7.62x54/7.6254_R_SNB_gzh"
         },
         "7.62x54mm_r_bs_gs": {
             "name": "7.62x54mm R BS gs",
@@ -3253,7 +3276,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": false
+            "listedOnFleaMarket": false,
+            "image": "7.62x54/7.6254_R_BS_gs"
         }
     },
     ".338_lapua_magnum": {
@@ -3277,7 +3301,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": false
+            "listedOnFleaMarket": false,
+            "image": ".338 Lapua Magnum/338_Lapua_Magnum_TAC-X"
         },
         ".338_lapua_magnum_ucw": {
             "name": ".338 Lapua MAgnum UCW",
@@ -3299,7 +3324,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": ".338 Lapua Magnum/338_Lapua_Magnum_UCW"
         },
         ".338_lapua_magnum_fmj": {
             "name": ".338 Lapua Magnum FMJ",
@@ -3321,7 +3347,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": false
+            "listedOnFleaMarket": false,
+            "image": ".338 Lapua Magnum/338_Lapua_Magnum_FMJ"
         },
         ".338_lapua_magnum_ap": {
             "name": ".338 Lapua Magnum AP",
@@ -3343,7 +3370,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": false
+            "listedOnFleaMarket": false,
+            "image": ".338 Lapua Magnum/338_Lapua_Magnum_AP"
         }
     },
     "12.7x55mm_sts-130": {
@@ -3367,7 +3395,8 @@
             },
             "isTracer": false,
             "isSubsonic": true,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": "12.7x55 STs-130/12.755_PS12A"
         },
         "12.7x55mm_ps12": {
             "name": "12.7x55mm PS12",
@@ -3389,7 +3418,8 @@
             },
             "isTracer": false,
             "isSubsonic": true,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": "12.7x55 STs-130/12.755_PS12"
         },
         "12.7x55mm_ps12b": {
             "name": "12.7x55mm PS12B",
@@ -3411,7 +3441,8 @@
             },
             "isTracer": false,
             "isSubsonic": true,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": "12.7x55 STs-130/12.755_PS12B"
         }
     },
     "40x46mm":{
@@ -3435,7 +3466,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": "40x46/4046_M576"
         }
     },
     "stationary": {
@@ -3459,7 +3491,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": "Stationary Weapons/3029_VOG-30"
         },
         "12.7x108mm_b-32": {
             "name": "12.7x108mm B-32",
@@ -3481,7 +3514,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": "Stationary Weapons/12.7108_B-32"
         },
         "12.7x108mm_bzt-44m": {
             "name": "12.7x108mm BZT-44M",
@@ -3503,7 +3537,8 @@
             },
             "isTracer": true,
             "isSubsonic": false,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": "Stationary Weapons/12.7108_BZT-44M"
         }
     }
 }
