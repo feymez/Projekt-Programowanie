@@ -31,8 +31,8 @@ def directory2():
         if directory == False:
             os.mkdir(f"obrazy/{x}")
             time.sleep(1)
-            for y in sciezki_ammunicja:
-                ammunicja = os.path.exists(f'obrazy/ammunicja/{y}')
-                if ammunicja == False:
-                    os.mkdir(f'obrazy/ammunicja/{y}')
-                    time.sleep(1)
+    for y in sciezki_ammunicja:
+        ammunicja = os.path.exists(f'obrazy/ammunicja/{y}')
+        if ammunicja == False:
+            os.mkdir(f'obrazy/ammunicja/{y}')
+            time.sleep(1)
