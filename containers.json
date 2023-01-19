@@ -1,11 +1,12 @@
 {
     "lucky_scav_junk_box": {
-    "name": "Lucky Scav Junk box",
-    "inner_grid": "14x14",
-    "outer_grid": "4x4",
-    "efficiency": 12.25,
-    "total_slots": 196,
-    "holds": "Wszystkie przedmioty wymiany."
+        "name": "Lucky Scav Junk box",
+        "inner_grid": "14x14",
+        "outer_grid": "4x4",
+        "efficiency": 12.25,
+        "total_slots": 196,
+        "holds": "Wszystkie przedmioty wymiany.",
+        "image": "Junkbox.png"
     },
     "t_h_i_c_c_item_case": {
         "name": "T H I C C item case",
@@ -13,7 +14,8 @@
         "outer_grid": "5x3",
         "efficiency": 13.07,
         "total_slots": 196,
-        "holds": "Wszystko poza: Item Case, Weapon Case, Lucky Scav Junk Box, T H I C C item case, T H I C C Weapon case, Pistol case, Paper ammo boxes"
+        "holds": "Wszystko poza: Item Case, Weapon Case, Lucky Scav Junk Box, T H I C C item case, T H I C C Weapon case, Pistol case, Paper ammo boxes",
+        "image": "THICCItems_case.png"
     },
     "item_case": {
         "name": "Item case",
@@ -21,7 +23,8 @@
         "outer_grid": "4x4",
         "efficiency": 4,
         "total_slots": 64,
-        "holds": "Wszystko poza: Item Case, Weapon Case, Lucky Scav Junk Box, T H I C C item case, T H I C C Weapon case, Pistol case, Paper ammo boxes"
+        "holds": "Wszystko poza: Item Case, Weapon Case, Lucky Scav Junk Box, T H I C C item case, T H I C C Weapon case, Pistol case, Paper ammo boxes",
+        "image": "Items_case.png"
     },
     "t_h_i_c_c_weapon_case": {
         "name": "T H I C C Weapon case",
@@ -29,7 +32,8 @@
         "outer_grid": "5x2",
         "efficiency": 9,
         "total_slots": 90,
-        "holds": "Wszystko poza: Broń, Ammunicja, Modyfikacje broni."
+        "holds": "Wszystko poza: Broń, Ammunicja, Modyfikacje broni.",
+        "image": "THICCWeapon_case.png"
     },
     "weapon_case": {
         "name": "Weapon case",
@@ -37,7 +41,8 @@
         "outer_grid": "5x2",
         "efficiency": 5,
         "total_slots": 50,
-        "holds": "Bronie, Ammunicję, Modyfikację broni."
+        "holds": "Bronie, Ammunicję, Modyfikację broni.",
+        "image": "Weapon_case.png"
     },
     "medicine_case": {
         "name": "Medicine case",
@@ -45,7 +50,8 @@
         "outer_grid": "3x3",
         "efficiency": 5.44,
         "total_slots": 49,
-        "holds": "Medykamenty, Produkty medyczne."
+        "holds": "Medykamenty, Produkty medyczne.",
+        "image": "Medicine_case.png"
     },
     "grenade_case": {
         "name": "Grenade case",
@@ -53,7 +59,8 @@
         "outer_grid": "3x3",
         "efficiency": 7.11,
         "total_slots": 64,
-        "holds": "Granaty, Granaty UZRGM, Ładunki wyrzutni granatów."
+        "holds": "Granaty, Granaty UZRGM, Ładunki wyrzutni granatów.",
+        "image": "Grenade_case.png"
     },
     "mr._holodilnick_thermal_bag": {
         "name": "Mr. Holodilnick thermal bag",
@@ -61,7 +68,8 @@
         "outer_grid": "3x3",
         "efficiency": 7.11,
         "total_slots": 64,
-        "holds": "Prowiant, Can of Majaica coffee beans, Can of Dr. Lupo's coffee beans, 42 Signature Blend English Tea, Pack of Arseniy buckwheat."
+        "holds": "Prowiant, Can of Majaica coffee beans, Can of Dr. Lupo's coffee beans, 42 Signature Blend English Tea, Pack of Arseniy buckwheat.",
+        "image": "Mr._Holodilnick_thermobag.png"
     },
     "magazine_case": {
         "name": "Magazine case",
@@ -69,7 +77,8 @@
         "outer_grid": "3x2",
         "efficiency": 8.17,
         "total_slots": 49,
-        "holds": "Magazynki."
+        "holds": "Magazynki.",
+        "image": "Magazine_box.png"
     },
     "ammunition_case": {
         "name": "Ammunition case",
@@ -77,7 +86,8 @@
         "outer_grid": "2x2",
         "efficiency": 12.25,
         "total_slots": 49,
-        "holds": "Ammunicja."
+        "holds": "Ammunicja.",
+        "image": "Ammo_case.png"
     },
     "money_case": {
         "name": "Money case",
@@ -85,7 +95,8 @@
         "outer_grid": "3x2",
         "efficiency": 8.17,
         "total_slots": 49,
-        "holds": "Gotówka, GP coin, Bitcoin."
+        "holds": "Gotówka, GP coin, Bitcoin.",
+        "image": "Money_case.png"
     },
     "pistol_case": {
         "name": "Pistol case",
@@ -93,7 +104,8 @@
         "outer_grid": "2x2",
         "efficiency": 3,
         "total_slots": 12,
-        "holds": "Pistolety, Rewolwery, Pistolety sygnałowe, Magazynki, Ammunicja."
+        "holds": "Pistolety, Rewolwery, Pistolety sygnałowe, Magazynki, Ammunicja.",
+        "image": "Pistol_case.png"
     },
     "documents_case": {
         "name": "Documents case",
@@ -101,7 +113,8 @@
         "outer_grid": "2x1",
         "efficiency": 8,
         "total_slots": 16,
-        "holds": "Gotówka, Klucze, Karty, GP coin, Bitcoin, Kostka do gitary, Przedmioty informacyjne, Keycard holder case, Mapy."
+        "holds": "Gotówka, Klucze, Karty, GP coin, Bitcoin, Kostka do gitary, Przedmioty informacyjne, Keycard holder case, Mapy.",
+        "image": "Docs_case.png"
     },
     "s_i_c_c_organizational_pouch": {
         "name": "S I C C organizational pouch",
@@ -109,7 +122,8 @@
         "outer_grid": "2x1",
         "efficiency": 12.5,
         "total_slots": 25,
-        "holds": "Gotówka, Klucze, Karty, GP coin, Bitcoin, Kostka do gitary, Pendrive, Prokill, Skull ring, Dogtagi."
+        "holds": "Gotówka, Klucze, Karty, GP coin, Bitcoin, Kostka do gitary, Pendrive, Prokill, Skull ring, Dogtagi.",
+        "image": "SICC_pouch.png"
     },
     "key_tool": {
         "name": "Key tool",
@@ -117,7 +131,8 @@
         "outer_grid": "1x1",
         "efficiency": 16,
         "total_slots": 16,
-        "holds": "Klucze."
+        "holds": "Klucze.",
+        "image": "key_tool.png"
     },
     "injector_case": {
         "name": "Injector case",
@@ -125,7 +140,8 @@
         "outer_grid": "1x1",
         "efficiency": 9,
         "total_slots": 9,
-        "holds": "Stymulanty i Wstrzykiwacze."
+        "holds": "Stymulanty i Wstrzykiwacze.",
+        "image": "Injector_case.png"
     },
     "keycard_holder_case": {
         "name": "Keycard holder case",
@@ -133,7 +149,8 @@
         "outer_grid": "1x1",
         "efficiency": 9,
         "total_slots": 9,
-        "holds": "Karty."
+        "holds": "Karty.",
+        "image": "keycard_holder.png"
     },
     "gingy_keychain": {
         "name": "Gingy keychain",
@@ -141,7 +158,8 @@
         "outer_grid": "1x1",
         "efficiency": 4,
         "total_slots": 4,
-        "holds": "Klucze."
+        "holds": "Klucze.",
+        "image": "gingy.png"
     },
     "simple_wallet": {
         "name": "Simple wallet",
@@ -149,7 +167,8 @@
         "outer_grid": "1x1",
         "efficiency": 4,
         "total_slots": 4,
-        "holds": "Gotówka, Karty."
+        "holds": "Gotówka, Karty.",
+        "image": "Wallet.png"
     },
     "wz_wallet": {
         "name": "WZ Wallet",
@@ -157,7 +176,8 @@
         "outer_grid": "1x1",
         "efficiency": 4,
         "total_slots": 4,
-        "holds": "Gotówka, Karty."
+        "holds": "Gotówka, Karty.",
+        "image": "wz_wallet.png"
     },
     "dogtag_case": {
         "name": "Dogtag case",
@@ -165,6 +185,7 @@
         "outer_grid": "1x1",
         "efficiency": 100,
         "total_slots": 100,
-        "holds": "Dogtags."
+        "holds": "Dogtags.",
+        "image": "dogtag_case.png"
     }
 }

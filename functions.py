@@ -3,6 +3,7 @@ from pick import pick
 import matplotlib.pyplot as plt
 import matplotlib as mpl
 from os.path import exists
+from PIL import Image
 
 space = ">---------------------------------------------------------<"
 
@@ -21,6 +22,7 @@ def get_vest_info(name, name2):
             armor_turning_speed = armor["turning_speed"]
             armor_ergonomics = armor["ergonomics"]
             armor_weight = armor["weight"]
+            armor_image = armor['image']
             print(space)
             print(f"Oto wszystkie informacje na temat kamizelki {name2}")
             print(space)
@@ -34,6 +36,8 @@ def get_vest_info(name, name2):
             print(f"Prędkość obrotu: {armor_turning_speed}")
             print(f"Ergonomia: {armor_ergonomics}")
             print(f"Waga: {armor_weight}kg")
+            image = Image.open(f"obrazy/kamizelki/{armor_image}")
+            image.show()
             return armor_name, armor_durability, armor_effective_durability, armor_material, armor_class
 
 def get_helmet_info(name, name2):

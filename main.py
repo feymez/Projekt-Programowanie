@@ -35,6 +35,7 @@ while True:
         functionsExist = os.path.isfile('functions.py')
         optionsExist = os.path.isfile('functions.py')
         downloadExist = os.path.isfile('download.py')
+        directoriesExist = os.path.isfile("directories.py")
         if optionsExist == False:
             print('Wykryto brakujący plik "options.py"')
             internet_connection = check_connect()
@@ -68,10 +69,22 @@ while True:
                 response = requests.get(url)
                 print("Pobieram brakując plik")
                 open('download.py', 'wb').write(response.content)
+        if directoriesExist == False:
+            print("Wykryto brakujący plik 'directories.py'")
+            internet_connection = check_connect()
+            if internet_connection == False:
+                print("Komputer nie ma połączenia z internetem.")
+                quit()
+            else:
+                url = 'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/directories.py'
+                response = requests.get(url)
+                open("directories.py", 'wb').write(response.content)
         else:
             import functions, options, download
             print('Weryfikuję pliki...')
             download.check()
+            download.check2()
+            download.check3()
             functions.printProgressBar(0, l, prefix = 'Przebiega weryfikacja plików:', suffix = 'Ukończono', length = 50)
             for i, item in enumerate(items):
                 time.sleep(0.1)
@@ -84,7 +97,7 @@ while True:
             armorsExist = os.path.isfile('armors.json')
             headgearExist = os.path.isfile('headgear.json')
             zadaniaExist = os.path.exists('zadania')
-            praporExist = os.path.exists('zadania/praport')
+            praporExist = os.path.exists('zadania/prapor')
             therapistExist = os.path.exists('zadania/therapist')
             skierExist = os.path.exists('zadania/skier')
             peacekeeperExist = os.path.exists('zadania/peacekeeper')
@@ -93,6 +106,9 @@ while True:
             jaegerExist = os.path.exists('zadania/jaeger')
             fenceExist = os.path.exists('zadania/fence')
             lightkeeperExist = os.path.exists('zadania/lightkeeper')
+            obrazyExist = os.path.exists('obrazy')
+            pojemnikiExist = os.path.exists('obrazy/pojemniki')
+            kamzyExist = os.path.exists('obrazy/kamizelki')
             if wykresyExist == False:
                 os.mkdir('wykresy')
             if ammunicjaExist == False:
@@ -163,6 +179,12 @@ while True:
                 os.mkdir('zadania/fence')
             if lightkeeperExist == False:
                 os.mkdir('zadania/lightkeeper')
+            if obrazyExist == False:
+                os.mkdir('obrazy')
+            if pojemnikiExist == False:
+                os.mkdir('obrazy/pojemniki')
+            if kamzyExist == False:
+                os.mkdir('obrazy/kamizelki')
             break
 
 functions.printProgressBar(0, l, prefix = 'Wczytywanie potrzebnych składników:', suffix = 'Ukończono', length = 50)
