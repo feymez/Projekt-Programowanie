@@ -4,6 +4,8 @@
 
 ### Program został poświęcony grze Escape From Tarkov. Dzięki niemu dowiesz się najważniejszych informacji, które są kluczowe podczas rozgrywki.
 
+W programie zostało wprowadzone zabezpieczenie spójności plików. Przy każdym uruchomieniu programu sprawdzi on czy lista plików w jego folderze zgadza się. Jeśli nie spróbuje on je pobrać (wymagane połączenie z internetem) z tego repozytorium Github. **Aktualnie funkcja nie jest zoptymalizowana**.
+
 #### Program posiada kilka trybów:
 > - **Porównanie** - W tym trybie porównasz kamizelkę kuloodporną lub hełm z ammunicją. Dowiesz się jak klasyfikowana jest ammunicja do pancerza. <br>
 > - **Sprawdzenie statystyk** - Tryb sprawdzania statystyk pokazuje nam dokładne statystyki danej kamizelki kuloodpornej, hełmu lub pocisku. <br>
