@@ -2091,7 +2091,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": ".366 TKM/366_TKM_Geksa"
         },
         ".366_tkm_fmj": {
             "name": ".366 TKM FMJ",
@@ -2113,7 +2114,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": ".366 TKM/366_TKM_FMJ"
         },
         ".366_tkm_eko": {
             "name": ".366 TKM EKO",
@@ -2135,7 +2137,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": ".366 TKM/366_TKM_EKO"
         },
         ".366_tkm_ap-m": {
             "name": ".366 TKM AP-M",
@@ -2157,7 +2160,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": ".366 TKM/366_TKM_AP-M"
         }
     },
     "5.45x39mm": {
@@ -2181,7 +2185,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": "5.45x39/5.4539_SP"
         },
         "5.45x39mm_hp": {
             "name": "5.45x39mm HP",
@@ -2203,7 +2208,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": "5.45x39/5.4539_HP"
         },
         "5.45x39mm_prs_gs": {
             "name": "5.45x39mm PRS gs",
@@ -2225,7 +2231,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": "5.45x39/5.4539_PRS_gs"
         },
         "5.45x39mm_us_gs": {
             "name": "5.45x39mm US gs",
@@ -2247,7 +2254,8 @@
             },
             "isTracer": false,
             "isSubsonic": true,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": "5.45x39/5.4539_US_gs"
         },
         "5.45x39mm_fmj": {
             "name": "5.45x39mm FMJ",
@@ -2269,7 +2277,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": "5.45x39/5.4539_FMJ"
         },
         "5.45x39mm_t_gs": {
             "name": "5.45x39mm T gs",
@@ -2291,7 +2300,8 @@
             },
             "isTracer": true,
             "isSubsonic": false,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": "5.45x39/5.4539_T_gs"
         },
         "5.45x39mm_ps_gs": {
             "name": "5.45x39mm PS gs",
@@ -2313,7 +2323,8 @@
             },
             "isTracer":  false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": "5.45x39/5.4539_PS_gs"
         },
         "5.45x39mm_pp_gs": {
             "name": "5.45x39mm PP gs",
@@ -2335,7 +2346,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": "5.45x39/5.4539_PP_gs"
         },
         "5.45x39mm_bp_gs": {
             "name": "5.45x39mm BP gs",
@@ -2357,7 +2369,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": "5.45x39/5.4539_BP_gs"
         },
         "5.45x39mm_bt_gs": {
             "name": "5.45x39mm BT gs",
@@ -2379,7 +2392,8 @@
             },
             "isTracer": true,
             "isSubsonic": false,
-            "listedOnFleaMarket": false
+            "listedOnFleaMarket": false,
+            "image": "5.45x39/5.4539_BT_gs"
         },
         "5.45x39mm_7n40": {
             "name": "5.45x39mm 7N40",
@@ -2401,7 +2415,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": false
+            "listedOnFleaMarket": false,
+            "image": "5.45x39/5.4539_7N40"
         },
         "5.45x39mm_bs_gs": {
             "name": "5.45x39mm BS gs",
@@ -2423,7 +2438,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": false
+            "listedOnFleaMarket": false,
+            "image": "5.45x39/5.4539_BS_gs"
         },
         "5.45x39mm_ppbs_gs_'igolnik'": {
             "name": "5.45x39mm PPBS gs 'Igolnik'",
@@ -2445,7 +2461,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": false
+            "listedOnFleaMarket": false,
+            "image": "5.45x39/5.4539_PPBS_gs'Igolnik'"
         }
     },
     "5.56x45mm_nato": {
@@ -2469,7 +2486,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": "5.56x45 NATO/5.5645_Warmageddon"
         },
         "5.56x45mm_hp": {
             "name": "5.56x45mm HP",
@@ -2491,7 +2509,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": "5.56x45 NATO/5.5645_HP"
         },
         "5.56x45mm_mk_255_mod_0_rrlp": {
             "name": "5.56x45mm MK 255 Mod 0 (RRLP)",
@@ -2513,7 +2532,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": "5.56x45 NATO/5.5645_MK_255_MOD0_RRLP"
         },
         "5.56x45mm_mk_318_mod_0_sost": {
             "name": "5.56x45mm MK 318 Mod 0 (SOST)",
@@ -2535,7 +2555,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": "5.56x45 NATO/5.5645_MK_318_MOD0_SOST"
         },
         "5.56x45mm_m856": {
             "name": "5.56x45mm M856",
@@ -2557,7 +2578,8 @@
             },
             "isTracer": true,
             "isSubsonic": false,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": "5.56x45 NATO/5.5645_M856"
         },
         "5.56x45mm_fmj": {
             "name": "5.56x45mm FMJ",
@@ -2579,7 +2601,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": "5.56x45 NATO/5.5645_FMJ"
         },
         "5.56x45mm_m855": {
             "name": "5.56x45mm M855",
@@ -2601,7 +2624,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": "5.56x45 NATO/5.5645_M855"
         },
         "5.56x45mm_m856a1": {
             "name": "5.56x45mm M856A1",
@@ -2623,7 +2647,8 @@
             },
             "isTracer": true,
             "isSubsonic": false,
-            "listedOnFleaMarket": false
+            "listedOnFleaMarket": false,
+            "image": "5.56x45 NATO/5.5645_M856A1"
         },
         "5.56x45mm_m855a1": {
             "name": "5.56x45mm M855A1",
@@ -2645,7 +2670,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": false
+            "listedOnFleaMarket": false,
+            "image": "5.56x45 NATO/5.5645_M855A1"
         },
         "5.56x45mm_m995": {
             "name": "5.56x45mm M995",
@@ -2667,7 +2693,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": false
+            "listedOnFleaMarket": false,
+            "image": "5.56x45 NATO/5.5645_M995"
         },
         "5.56x45mm_ssa_ap": {
             "name": "5.56x45mm SSA AP",
@@ -2689,7 +2716,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": false
+            "listedOnFleaMarket": false,
+            "image": "5.56x45 NATO/5.5645_SSA_AP"
         }
     },
     ".300_blackout":{
