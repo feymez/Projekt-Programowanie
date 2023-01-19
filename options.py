@@ -20,7 +20,7 @@ acp_45 = ["Wstecz", ".45 ACP RIP", ".45 ACP Hydra-Shok", ".45 ACP Lasermatch FMJ
 
 mm_9x21_gyurza = ["Wstecz", "9x21mm PE gzh", "9x21mm P gzh", "9x21mm PS gzh", "9x21mm BT gzh"]
 
-mm_28x57_fn = ["Wstecz", "5.7x28mm R37.F", "5.7x28mm SS198LF", "5.7x28mm R37.X", "5.7x28mm L191", "5.7x28mm SB193", "5.7x28mm SS190"]
+mm_28x57_fn = ["Wstecz", "5.7x28mm R37.F", "5.7x28mm SS198LF", "5.7x28mm R37.X", "5.7x28mm SS197SR", "5.7x28mm L191", "5.7x28mm SB193", "5.7x28mm SS190"]
 
 mm_46x30_hk = ["Wstecz", "4.6x30mm Action SX", "4.6x30mm Subsonic SX", "4.6x30mm FMJ SX", "4.6x30mm AP SX"]
 

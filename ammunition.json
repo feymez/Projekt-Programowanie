@@ -1110,7 +1110,7 @@
             "isTracer": false,
             "isSubsonic": false,
             "listedOnFleaMarket": true,
-            "image": "7.62x25 Tokarev/7.6225_T_FMJ43" 
+            "image": "7.62x25 Tokarev/7.6225_TT_FMJ43" 
         },
         "7.62x25mm_tt_akbs": {
             "name": "7.62x25mm TT AKBS",
@@ -1133,7 +1133,7 @@
             "isTracer": false,
             "isSubsonic": false,
             "listedOnFleaMarket": true,
-            "image": "7.62x25 Tokarev/7.6225_TT_LRNPC" 
+            "image": "7.62x25 Tokarev/7.6225_TT_AKBS" 
         },
         "7.62x25mm_tt_p_gl": {
             "name": "7.62x25mm TT P gl",
@@ -1155,7 +1155,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": "7.62x25 Tokarev/7.6225_TT_P_gl" 
         },
         "7.62x25mm_tt_pt_gzh": {
             "name": "7.62x25mm TT PT gzh",
@@ -1177,7 +1178,8 @@
             },
             "isTracer": true,
             "isSubsonic": false,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": "7.62x25 Tokarev/7.6225_TT_PT_gzh" 
         },
         "7.62x25mm_tt_pst_gzh": {
             "name": "7.62x25mm TT Pst gzh",
@@ -1199,7 +1201,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": "7.62x25 Tokarev/7.6225_TT_Pst_gzh" 
         }
     },
     "9x19mm_parabellum": {
@@ -1223,7 +1226,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": "9x19 Parabellum/919_RIP" 
         },
         "9x19mm_quakemaker": {
             "name": "9x19mm QuakeMaker",
@@ -1245,7 +1249,8 @@
             },
             "isTracer": false,
             "isSubsonic": true,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": "9x19 Parabellum/919_QuakeMaker"
         },
         "9x19mm_pso_gzh": {
             "name": "9x19mm PSO gzh",
@@ -1267,7 +1272,8 @@
             },
             "isTracer": false,
             "isSubsonic": true,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": "9x19 Parabellum/919_PSO_gzh" 
         },
         "9x19mm_luger_cci": {
             "name": "9x19mm Luger CCI",
@@ -1289,7 +1295,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": "9x19 Parabellum/919_Luger_CCI" 
         },
         "9x19mm_green_tracer": {
             "name": "9x19mm Green Tracer",
@@ -1311,7 +1318,8 @@
             },
             "isTracer": true,
             "isSubsonic": false,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": "9x19 Parabellum/919_Green_Tracer" 
         },
         "9x19mm_pst_gzh": {
             "name": "9x19mm Pst gzh",
@@ -1333,7 +1341,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": "9x19 Parabellum/919_Pst_gzh" 
         },
         "9x19mm_ap_6.3": {
             "name": "9x19mm AP 6.3",
@@ -1355,7 +1364,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": false 
+            "listedOnFleaMarket": false,
+            "image": "9x19 Parabellum/919_AP_6.3" 
         },
         "9x19mm_pbp_gzh": {
             "name": "9x19mm PBP gzh",
@@ -1377,7 +1387,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": false 
+            "listedOnFleaMarket": false,
+            "image": "9x19 Parabellum/919_PBP_gzh" 
         }
     },
     ".357_magnum": {
@@ -1401,7 +1412,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": ".357 Magnum/357_SP" 
         },
         ".357_magnum_hollow_point": {
             "name": ".357 Magnum Hollow Point",
@@ -1423,7 +1435,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": ".357 Magnum/357_HP" 
         },
         ".357_magnum_jhp": {
             "name": ".357 Magnum JHP",
@@ -1445,7 +1458,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": ".357 Magnum/357_JHP" 
         },
         ".357_magnum_fmj": {
             "name": ".357 Magnum FMJ",
@@ -1467,7 +1481,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": ".357 Magnum/357_FMJ" 
         }
     },
     ".45_acp": {
@@ -1491,7 +1506,8 @@
             },
             "isTracer": false,
             "isSubsonic": true,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": ".45 ACP/45_ACP_RIP" 
         },
         ".45_acp_hydra-shok": {
             "name": ".45 ACP Hydra-Shok",
@@ -1513,7 +1529,8 @@
             },
             "isTracer": false,
             "isSubsonic": true,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": ".45 ACP/45_ACP_Hydra-Shok" 
         },
         ".45_acp_lasermatch_fmj": {
             "name": ".45 ACP Lasermatch FMJ",
@@ -1535,7 +1552,8 @@
             },
             "isTracer": true,
             "isSubsonic": true,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": ".45 ACP/45_ACP_Lasermatch_FMJ" 
         },
         ".45_acp_match_fmj": {
             "name": ".45 ACP Match FMJ",
@@ -1557,7 +1575,8 @@
             },
             "isTracer": false,
             "isSubsonic": true,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": ".45 ACP/45_ACP_Match_FMJ"
         },
         ".45_acp_ap": {
             "name": ".45 ACP AP",
@@ -1604,7 +1623,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": "9x21 Gyurza/921_PE_gzh"
         },
         "9x21mm_p_gzh": {
             "name": "9x21mm P gzh",
@@ -1626,7 +1646,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": "9x21 Gyurza/921_P_gzh"
         },
         "9x21mm_ps_gzh": {
             "name": "9x21mm PS gzh",
@@ -1648,7 +1669,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": "9x21 Gyurza/921_PS_gzh"
         },
         "9x21mm_bt_gzh": {
             "name": "9x21mm BT gzh",
@@ -1670,7 +1692,8 @@
             },
             "isTracer": true,
             "isSubsonic": false,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": "9x21 Gyurza/921_BT_gzh"
         }
     },
     "5.7x28mm_fn":{
@@ -1694,7 +1717,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": "5.7x28 FN/5.728_R37.F" 
         },
         "5.7x28mm_ss198lf": {
             "name": "5.7x28mm SS198LF",
@@ -1716,7 +1740,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": "5.7x28 FN/5.728_SS198LF" 
         },
         "5.7x28mm_r37.x": {
             "name": "5.7x28mm R37.X",
@@ -1738,7 +1763,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": "5.7x28 FN/5.728_R37.X" 
         },
         "5.7x28mm_l191": {
             "name": "5.7x28mm L191",
@@ -1760,7 +1786,8 @@
             },
             "isTracer": true,
             "isSubsonic": false,
-            "listedOnFleaMarket": true 
+            "listedOnFleaMarket": true,
+            "image": "5.7x28 FN/5.728_L191" 
         },
         "5.7x28mm_sb193": {
             "name": "5.7x28mm SB193",
@@ -1782,7 +1809,8 @@
             },
             "isTracer": false,
             "isSubsonic": true,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": "5.7x28 FN/5.728_SB193"
         },
         "5.7x28mm_ss190": {
             "name": "5.7x28mm SS190",
@@ -1804,7 +1832,31 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": false
+            "listedOnFleaMarket": false,
+            "image": "5.7x28 FN/5.728_SS190"
+        },
+        "5.7x28mm_ss197sr": {
+            "name": "5.7x28mm SS197SR",
+            "damage": "62",
+            "penetration_power": 20,
+            "armor_damage": "22%",
+            "accuracy": null,
+            "recoil": null,
+            "frag_chance": "50%",
+            "light_bleeding": null,
+            "heavy_bleeding": null,
+            "bullet_effectiveness_against_armor_class": {
+                "class1": 6,
+                "class2": 6,
+                "class3": 2,
+                "class4": 0,
+                "class5": 0,
+                "class6": 0
+            },
+            "isTracer": false,
+            "isSubsonic": false,
+            "listedOnFleaMarket": false,
+            "image": "5.7x28 FN/5.728_SS197SR"
         }
     },
     "4.6x30mm_hk":{
@@ -1828,7 +1880,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": "4.6x30 HK/4.630_Action_SX"
         },
         "4.6x30mm_subsonic_sx": {
             "name": "4.6x30mm Subsonic SX",
@@ -1850,7 +1903,8 @@
             },
             "isTracer": false,
             "isSubsonic": true,
-            "listedOnFleaMarket": false
+            "listedOnFleaMarket": false,
+            "image": "4.6x30 HK/4.630_Subsonic_SX"
         },
         "4.6x30mm_fmj_sx": {
             "name": "4.6x30mm FMJ SX",
@@ -1872,7 +1926,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": "4.6x30 HK/4.630_FMJ_SX"
         },
         "4.6x30mm_ap_sx": {
             "name": "4.6x30mm AP SX",
@@ -1894,7 +1949,8 @@
             },
             "isTracer": false,
             "isSubsonic": false,
-            "listedOnFleaMarket": false
+            "listedOnFleaMarket": false,
+            "image": "4.6x30 HK/4.630_AP_SX"
         }
     },
     "9x39mm":{
@@ -1918,7 +1974,8 @@
             },
             "isTracer": false,
             "isSubsonic": true,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": "9x39/939_SP-5_gs"
         },
         "9x39mm_spp_gs": {
             "name": "9x39mm SPP gs",
@@ -1940,7 +1997,8 @@
             },
             "isTracer": false,
             "isSubsonic": true,
-            "listedOnFleaMarket": false
+            "listedOnFleaMarket": false,
+            "image": "9x39/939_SPP_gs"
         },
         "9x39mm_sp-6_gs": {
             "name": "9x39mm SP-6 gs",
@@ -1962,7 +2020,8 @@
             },
             "isTracer": false,
             "isSubsonic": true,
-            "listedOnFleaMarket": false
+            "listedOnFleaMarket": false,
+            "image": "9x39/939_SP-6_gs"
         },
         "9x39mm_pab-9_gs": {
             "name": "9x39mm PAB-9 gs",
@@ -1984,7 +2043,8 @@
             },
             "isTracer": false,
             "isSubsonic": true,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": "9x39/939_PAB-9_gs"
         },
         "9x39mm_bp_gs": {
             "name": "9x39mm BP gs",
@@ -2006,7 +2066,8 @@
             },
             "isTracer": false,
             "isSubsonic": true,
-            "listedOnFleaMarket": true
+            "listedOnFleaMarket": true,
+            "image": "9x39/939_BP_gs"
         }
     },
     ".366_tkm": {
