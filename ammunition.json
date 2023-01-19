@@ -1464,7 +1464,8 @@
             },
             "isTracer": false,
             "isSubsonic": true,
-            "listedOnFleaMarket": false 
+            "listedOnFleaMarket": false,
+            "image": ".45 ACP/45_ACP_AP"
         }
     },
     "9x21mm_gyurza": {

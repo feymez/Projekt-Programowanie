@@ -108,6 +108,7 @@ def get_ammo_info(caliber, name):
         ammo_tracer = ammos["isTracer"]
         ammo_subsonic = ammos["isSubsonic"]
         ammo_listedOnFleaMarket = ammos["listedOnFleaMarket"]
+        ammo_image = ammos["image"]
         if ammo_tracer == True:
             ammo_tracer = "Tak"
         else:
@@ -152,6 +153,8 @@ def get_ammo_info(caliber, name):
         print(f"Typu tracer: {ammo_tracer}")
         print(f"Poddźwiękowa: {ammo_subsonic}")
         print(f"Listowana na Flea Market: {ammo_listedOnFleaMarket}")
+        image = Image.open(f"obrazy/ammunicja/{ammo_image}.png")
+        image.show()
         return ammo_name, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage
 
 def fast_replace(name):
