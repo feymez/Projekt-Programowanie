@@ -22,7 +22,11 @@ armors = ["5.11_Hexgrid", "5.11_TacTec", "6B2", "6B3TM-01M", "6B5-15", "6B5-16",
 "BNTI_Module-3M", "BNTI_Zhuk-6a", "CP_AVS", "CP_CPC", "CP_Precision_AVS_MBAV", "CQC_MK4A_Protection", "CQC_MK4A", "DRD", "EI_MMAC", "FORT_Defender-2", "FORT_Redut-M", "FORT_Redut-T5", 
 "Gen4HMK", "Gzhel-K", "Hexatac_HPC", "Highcom_Trooper_TFO", "IOTV_Gen4_FP", "IOTV_Gen4", "Korund-VM", "LBT-6094A", "MF-UNTAR", "npp_klass_bagariy", "PACA_Rivals_Edition", "PACA", "RBAV-AF",
 "S&S_Precision", "Shellback_Tactical_Banshee", "Strandhogg", "tasmanian_tiger_sk", "THOR_Concealable", "THOR_IC", "Wartech_TV-110", "Zhuk-3_Press"]
-
+helmets = ["6B47_Ratnik-BSh_helmet", "Altyn_bulletproof_helmet", "BNTI_LShZ-2DTM_helmet", "Bomber_Beanie", "Crye_Precision_AirFrame_helmet", "DevTac_Ronin_ballistic_helmet", 
+"Diamond_Age_Bastion_helmet", "FORT_Kiver-M_bulletproof_helmet", "Galvion_Caiman_Hybrid_helmet", "HighCom_Striker_ACHHC_IIIA_helmet", "HighCom_Striker_ULACH_IIIA_helmet", 
+"Jack-o-lantern_tactical_pumpkin_helmet", "Kolpak-1S_riot_helmet", "LShZ_light_helmet", "Maska-1SCh_bulletproof_helmet", "MSA_ACH_TC-2001_MICH_Series_helmet", "MSA_ACH_TC-2002_MICH_Series_helmet", 
+"MSA_Gallet_TC_800_High_Cut_combat_helmet", "NFM_'HJELM'_helmet", "Ops-Core_FAST_MT_Super_High_Cut_helmet", "PSh-97_DJETA_riot_helmet", "Rys-T_bulletproof_helmet", "ShPM_Firefighter_helmet", "SSh-68_steel_helmet",
+"SSSh-94_SFERA-S_helmet", "Tac-Kek_FAST_MT_helmet_replica", "Team_Wendy_EXFIL_Ballistic_Helmet", "TSh-4M-L_soft_tank_crew_helmet", "UNTAR_helmet", "Vulkan-5_LShZ-5_bulletproof_helmet", "ZSh-1-2M_helmet"]
 acp_45 = ["45_ACP_AP", "45_ACP_Hydra-Shok", "45_ACP_Lasermatch_FMJ", "45_ACP_Match_FMJ", "45_ACP_RIP"]
 blackout_300 = ["300_AP", "300_BCP_FMJ", "300_M62_Tracer", "300_V-Max", "300_Whisper"]
 lapua_magnum_338 = ["338_Lapua_Magnum_AP", "338_Lapua_Magnum_FMJ", "338_Lapua_Magnum_TAC-X", "338_Lapua_Magnum_UCW"]
