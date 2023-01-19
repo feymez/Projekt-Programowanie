@@ -32,7 +32,7 @@ hk_4630 = ["4.630_Action_SX", "4.630_AP_SX", "4.630_FMJ_SX", "4.630_Subsonic_SX"
 fn_5728 = ["5.728_L191", "5.728_R37.F", "5.728_R37.X", "5.728_SB193", "5.728_SS190", "5.728_SS197SR", "5.728_SS198LF"]
 mm_54539 = ["5.4539_7N40", "5.4539_BP_gs", "5.4539_BS_gs", "5.4539_BT_gs", "5.4539_FMJ", "5.4539_HP", "5.4539_PP_gs", "5.4539_PPBS_gs_'Igolnik'", "5.4539_PRS_gs", "5.4539_PS_gs",
 "5.4539_SP", "5.4539_T_gs", "5.4539_US_gs"]
-nato_55645 = ["5.5645_FMJ", "5.5645_HP", "5.5645_M855", "5.5645_M855A", "5.5645_M856", "5.5645_856A", "5.5645_M995", "5.5645_MK_255_MOD0_RRLP", "5.5645_MK_318_MOD0_SOST",
+nato_55645 = ["5.5645_FMJ", "5.5645_HP", "5.5645_M855", "5.5645_M855A1", "5.5645_M856", "5.5645_M856A1", "5.5645_M995", "5.5645_MK_255_MOD0_RRLP", "5.5645_MK_318_MOD0_SOST",
 "5.5645_SSA_AP", "5.5645_Warmageddon"]
 tokarev_76225 = ["7.6225_TT_FMJ43", "7.6225_TT_LRN", "7.6225_TT_AKBS", "7.6225_TT_LRNPC", "7.6225_TT_P_gl", "7.6225_TT_Pst_gzh", "7.6225_TT_PT_gzh"]
 mm_76239 = ["7.6239_BP_gzh", "7.6239_HP", "7.6239_MAI_AP", "7.6239_PS_gzh", "7.6239_T-45M1_gzh", "7.6239_US_gzh"]
@@ -42,9 +42,9 @@ makarov_918 = ["918_PM_BZhT_gzh", "918_PM_P_gzh", "918_PM_PBM_gzh", "918_PM_PPe_
 "918_PM_PSV", "918_PM_RG028_gzh", "918_PM-SP7_gzh", "918_PM-SP8_gzh", "918_PMM_PstM_gzh"]
 parabellum_919 = ["919_AP_6.3", "919_Green_Tracer", "919_Luger_CCI", "919_PBP_gzh", "919_PSO_gzh", "919_Pst_gzh", "919_QuakeMaker", "919_RIP"]
 gyurza_921 = ["921_BT_gzh", "921_P_gzh", "921_PE_gzh", "921_PS_gzh"]
-mm_939 = ["939_BP_gs", "939_PAB-9_gs", "939_SO-5_gs", "939_SP-6_gs", "939_SPP_gs"]
-STs = ["12.55_PS12", "12.55_PS12A", "12.55_PS12B"]
-mm_1270 = ["1270_.50_BMG", "1270_7mm_Buckshot", "1270_65mm_Express_buckshot", "1270_85mm_Magnum_buckshot", "1270_AP-20", "1270_CSP_HP", "1270_Dual_Sabot", "1270_Flechette",
+mm_939 = ["939_BP_gs", "939_PAB-9_gs", "939_SP-5_gs", "939_SP-6_gs", "939_SPP_gs"]
+STs = ["12.755_PS12", "12.755_PS12A", "12.755_PS12B"]
+mm_1270 = ["1270_.50_BMG", "1270_7mm_Buckshot", "1270_65mm_Express_buckshot", "1270_85mm_Magnum_buckshot", "1270_525mm_Buckshot", "1270_AP-20", "1270_CSP_HP", "1270_Dual_Sabot", "1270_Flechette",
 "1270_FTX", "1270_Grizzly_40", "1270_Lead_slug", "1270_Poleva-3", "1270_Poleva-6u", "1270_Rip", "1270_SFHP"]
 mm_2070 = ["2070_56mm_Buckshot", "2070_62mm_Buckshot", "2070_73mm_Buckshot", "2070_75mm_Buckshot", "2070_Devastator", "2070_Elephant_killer", "2070_Explosive",
 "2070_Flechetta_plus", "2070_Poleva-3", "2070_Poleva-6u", "2070_Star"]
@@ -89,19 +89,107 @@ def loop2(list_name, category):
                 open(f'obrazy/{category}/{x}.png', 'wb').write(response.content)
 
 #Pętla pobierająca pliki PNG ammunicji
-def loop3(list_name, category, caliber):
+def loop3(list_name, caliber):
     for x in list_name:
-        file = os.path.isfile(f"obrazy/{category}/{caliber}/{x}.png")
+        file = os.path.isfile(f"obrazy/ammunicja/{caliber}/{x}.png")
         if file == False:
             internet_connection = check_connect()
             if internet_connection == False:
                 print("Komputer nie ma połączenia z internetem.")
                 quit()
             else:
-                url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/{category}/{caliber}/{x}.png'
-                response = requests.get(url)
-                open(f'obrazy/{category}/{caliber}/{x}.png', 'wb').write(response.content)
-
+                if caliber == ".45 ACP":
+                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/.45%20ACP/{x}.png'
+                    response = requests.get(url)
+                    open(f'obrazy/ammunicja/.45 ACP/{x}.png', 'wb').write(response.content)
+                elif caliber == ".300 Blackout":
+                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/.300%20Blackout/{x}.png'
+                    response = requests.get(url)
+                    open(f'obrazy/ammunicja/.300 Blackout/{x}.png', 'wb').write(response.content)
+                elif caliber == ".338 Lapua Magnum":
+                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/.338%20Lapua%20Magnum/{x}.png'
+                    response = requests.get(url)
+                    open(f'obrazy/ammunicja/.338 Lapua Magnum/{x}.png', 'wb').write(response.content)
+                elif caliber == ".357 Magnum":
+                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/.357%20Magnum/{x}.png'
+                    response = requests.get(url)
+                    open(f'obrazy/ammunicja/.357 Magnum/{x}.png', 'wb').write(response.content)
+                elif caliber == ".366 TKM":
+                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/.366%20TKM/{x}.png'
+                    response = requests.get(url)
+                    open(f'obrazy/ammunicja/.366 TKM/{x}.png', 'wb').write(response.content)
+                elif caliber == "4.6x30 HK":
+                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/4.6x30%20HK/{x}.png'
+                    response = requests.get(url)
+                    open(f'obrazy/ammunicja/4.6x30 HK/{x}.png', 'wb').write(response.content)
+                elif caliber == "5.7x28 FN":
+                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/5.7x28%20FN/{x}.png'
+                    response = requests.get(url)
+                    open(f'obrazy/ammunicja/5.7x28 FN/{x}.png', 'wb').write(response.content)
+                elif caliber == "5.45x39":
+                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/5.45x39/{x}.png'
+                    response = requests.get(url)
+                    open(f'obrazy/ammunicja/5.45x39/{x}.png', 'wb').write(response.content)
+                elif caliber == "5.56x45 NATO":
+                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/5.56x45%20NATO/{x}.png'
+                    response = requests.get(url)
+                    open(f'obrazy/ammunicja/5.56x45 NATO/{x}.png', 'wb').write(response.content)
+                elif caliber == "7.62x25 Tokarev":
+                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/7.62x25%20Tokarev/{x}.png'
+                    response = requests.get(url)
+                    open(f'obrazy/ammunicja/7.62x25 Tokarev/{x}.png', 'wb').write(response.content)
+                elif caliber == "7.62x39":
+                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/7.62x39/{x}.png'
+                    response = requests.get(url)
+                    open(f'obrazy/ammunicja/7.62x39/{x}.png', 'wb').write(response.content)
+                elif caliber == "7.62x51 NATO":
+                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/7.62x51%20NATO/{x}.png'
+                    response = requests.get(url)
+                    open(f'obrazy/ammunicja/7.62x51 NATO/{x}.png', 'wb').write(response.content)
+                elif caliber == "7.62x54":
+                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/7.62x54/{x}.png'
+                    response = requests.get(url)
+                    open(f'obrazy/ammunicja/7.62x54/{x}.png', 'wb').write(response.content)
+                elif caliber == "9x18 Makarov":
+                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/9x18%20Makarov/{x}.png'
+                    response = requests.get(url)
+                    open(f'obrazy/ammunicja/9x18 Makarov/{x}.png', 'wb').write(response.content)
+                elif caliber == "9x19 Parabellum":
+                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/9x19%20Parabellum/{x}.png'
+                    response = requests.get(url)
+                    open(f'obrazy/ammunicja/9x19 Parabellum/{x}.png', 'wb').write(response.content)
+                elif caliber == "9x21 Gyurza":
+                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/9x21%20Gyurza/{x}.png'
+                    response = requests.get(url)
+                    open(f'obrazy/ammunicja/9x21 Gyurza/{x}.png', 'wb').write(response.content)
+                elif caliber == "9x39":
+                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/9x39/{x}.png'
+                    response = requests.get(url)
+                    open(f'obrazy/ammunicja/9x21 Gyurza/{x}.png', 'wb').write(response.content)
+                elif caliber == "12.7x55 STs-130":
+                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/12.7x55%20STs-130/{x}.png'
+                    response = requests.get(url)
+                    open(f'obrazy/ammunicja/12.7x55 STs-130/{x}.png', 'wb').write(response.content)
+                elif caliber == "12x70":
+                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/12x70/{x}.png'
+                    response = requests.get(url)
+                    open(f'obrazy/ammunicja/12x70/{x}.png', 'wb').write(response.content)
+                elif caliber == "20x70":
+                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/20x70/{x}.png'
+                    response = requests.get(url)
+                    open(f'obrazy/ammunicja/20x70/{x}.png', 'wb').write(response.content)
+                elif caliber == "23x75":
+                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/23x75/{x}.png'
+                    response = requests.get(url)
+                    open(f'obrazy/ammunicja/23x75/{x}.png', 'wb').write(response.content)
+                elif caliber == "40x46":
+                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/40x46/{x}.png'
+                    response = requests.get(url)
+                    open(f'obrazy/ammunicja/40x46/{x}.png', 'wb').write(response.content)
+                elif caliber == "Stationary Weapons":
+                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/Stationary%20Weapons/{x}.png'
+                    response = requests.get(url)
+                    open(f'obrazy/ammunicja/Stationary Weapons/{x}.png', 'wb').write(response.content)
     
 #Funkcja sprawdzająca spójność plików JSON broni.
 def check():
@@ -127,24 +215,26 @@ def check2():
 #Funkcja sprawdzająca spójność plików PNG ammunicji.
 def check3():
     directories.directory2()
-    loop3(acp_45, "ammunicja", ".45 ACP")
-    loop3(blackout_300, "ammunicja", ".300 Blackout")
-    loop3(lapua_magnum_338, "ammunicja", ".338 Lapua Magnum")
-    loop3(magnum_357, "ammunicja", ".357 Magnum")
-    loop3(tkm_366, "ammunicja", ".366 TKM")
-    loop3(hk_4630, "ammunicja", "4.6x30 HK")
-    loop3(fn_5728, "ammunicja", "5.7x28 FN")
-    loop3(mm_54539, "ammunicja", "5.45x39")
-    loop3(nato_55645, "ammunicja", "5.56x45 NATO")
-    loop3(tokarev_76225, "ammunicja", "7.62x25 Tokarev")
-    loop3(mm_76239, "ammunicja", "7.62x39")
-    loop3(nato_55645, "ammunicja", "7.62x51 NATO")
-    loop3(makarov_918, "ammunicja", "9x18 Makarov")
-    loop3(parabellum_919, "ammunicja", "9x19 Parabellum")
-    loop3(gyurza_921, "ammunicja", "9x21 Gyurza")
-    loop3(mm_939, "ammunicja", "9x39")
-    loop3(mm_1270, "ammunicja", "12x70")
-    loop3(mm_2070, "ammunicja", "20x70")
-    loop3(mm_2375, "ammunicja", "23x75")
-    loop3(mm_4046, "ammunicja", "40x46")
-    loop3(stationary_weapons, "ammunicja", "Stationary Weapons")
+    loop3(acp_45, ".45 ACP")
+    loop3(blackout_300, ".300 Blackout")
+    loop3(lapua_magnum_338, ".338 Lapua Magnum")
+    loop3(magnum_357, ".357 Magnum")
+    loop3(tkm_366, ".366 TKM")
+    loop3(hk_4630, "4.6x30 HK")
+    loop3(fn_5728, "5.7x28 FN")
+    loop3(mm_54539, "5.45x39")
+    loop3(nato_55645, "5.56x45 NATO")
+    loop3(tokarev_76225, "7.62x25 Tokarev")
+    loop3(mm_76239, "7.62x39")
+    loop3(nato_76251, "7.62x51 NATO")
+    loop3(mm_76254, "7.62x54")
+    loop3(makarov_918, "9x18 Makarov")
+    loop3(parabellum_919, "9x19 Parabellum")
+    loop3(gyurza_921, "9x21 Gyurza")
+    loop3(mm_939, "9x39")
+    loop3(STs, "12.7x55 STs-130")
+    loop3(mm_1270, "12x70")
+    loop3(mm_2070, "20x70")
+    loop3(mm_2375, "23x75")
+    loop3(mm_4046, "40x46")
+    loop3(stationary_weapons, "Stationary Weapons")
