@@ -163,5 +163,49 @@
         "weight": 1.56,
         "sold_by": "Ragman LL3, Ragman LL3 (Barter).",
         "image": "Camelbak_Tri-Zip_assault_backpack"
+    },
+    "LBT-1476A_3Day_Pack_Woodland": {
+        "name": "LBT-1476A 3Day Pack (Woodland)",
+        "slots": 25,
+        "outer_grid": "4x5",
+        "inner_grid": "5x5",
+        "efficiency": 1.25,
+        "holds": "Wszystko.",
+        "weight": 1.356,
+        "sold_by": "Ragman LL3 (Barter).",
+        "image": "LBT-1476A_3Day_Pack_Woodland"
+    },
+    "Gruppa_99_T20_backpack": {
+        "name": "Gruppa 99 T20 backpack",
+        "slots": 25,
+        "outer_grid": "5x5",
+        "inner_grid": "5x5",
+        "efficiency": 1,
+        "holds": "Wszystko.",
+        "weight": 1.8,
+        "sold_by": "Ragman LL2 (Tan), Ragman LL3 (Multicam).",
+        "image": "Gruppa_99_T20_backpack"
+    },
+    "Hazard_4_Drawbridge_backpack_Coyote_Tan": {
+        "name": "Hazard 4 Drawbridge backpack (Coyote Tan)",
+        "slots": 25,
+        "outer_grid": "5x5",
+        "inner_grid": "5x5",
+        "efficiency": 1,
+        "holds": "Wszystko.",
+        "weight": 1.56,
+        "sold_by": "Ragman LL2.",
+        "image": "Hazard_4_Drawbridge_backpack_Coyote_Tan"
+    },
+    "Hazard_4_Takedown_sling_backpack": {
+        "name": "Hazard 4 Takedown sling backpack",
+        "slots": 24,
+        "outer_grid": "3x7",
+        "inner_grid": "3x8",
+        "efficiency": 1.14,
+        "holds": "Wszystko.",
+        "weight": 1.68,
+        "sold_by": "Ragman LL2 (Multicam).",
+        "image": "Hazard_4_Takedown_sling_backpack"
     }
 }
