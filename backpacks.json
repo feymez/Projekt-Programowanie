@@ -119,5 +119,49 @@
         "weight": 1.5,
         "sold_by": "Ragman LL2 (Barter)",
         "image": "Oakley_Mechanism_heavy_duty_backpack_Black"
+    },
+    "ANA_Tactical_Beta_2_Battle_backpack": {
+        "name": "ANA Tactical Beta 2 Battle backpack",
+        "slots": 30,
+        "outer_grid": "5x5",
+        "inner_grid": "5x6",
+        "efficiency": 1.2,
+        "holds": "Wszystko.",
+        "weight": 1.32,
+        "sold_by": "Ragman LL4 (Barter).",
+        "image": "ANA_Tactical_Beta_2_Battle_backpack"
+    },
+    "Gruppa_99_T30_backpack": {
+        "name": "Gruppa 99 T30 backpack",
+        "slots": 30,
+        "outer_grid": "5x6",
+        "inner_grid": "5x6",
+        "efficiency": 1,
+        "holds": "Wszystko.",
+        "weight": 2.22,
+        "sold_by": "Ragman LL3 (Multicam).",
+        "image": "Gruppa_99_T30_backpack"
+    },
+    "Eberlestock_F5_Switchblade_backpack_Dry_Earth": {
+        "name": "Eberlestock F5 Switchblade backpack (Dry Earth)",
+        "slots": 30,
+        "outer_grid": "5x6",
+        "inner_grid": "5x6",
+        "efficiency": 1,
+        "holds": "Wszystko.",
+        "weight": 1.572,
+        "sold_by": "Ragman LL3.",
+        "image": "Eberlestock_F5_Switchblade_backpack_Dry_Earth"
+    },
+    "Camelbak_Tri-Zip_assault_backpack": {
+        "name": "Camelbak Tri-Zip assault backpack",
+        "slots": 30,
+        "outer_grid": "5x6",
+        "inner_grid": "5x6",
+        "efficiency": 1,
+        "holds": "Wszystko.",
+        "weight": 1.56,
+        "sold_by": "Ragman LL3, Ragman LL3 (Barter).",
+        "image": "Camelbak_Tri-Zip_assault_backpack"
     }
 }
