@@ -207,5 +207,16 @@
         "weight": 1.68,
         "sold_by": "Ragman LL2 (Multicam).",
         "image": "Hazard_4_Takedown_sling_backpack"
+    },
+    "Hazard_4_Pillbox_backpack": {
+        "name": "Hazard 4 Pillbox backpack",
+        "slots": 20,
+        "outer_grid": "4x4",
+        "inner_grid": "4x5",
+        "efficiency": 1.25,
+        "holds": "Wszystko.",
+        "weight": 2.52,
+        "sold_by": "Ragman LL1 (Barter).",
+        "image": "Hazard_4_Pillbox_backpack"
     }
 }
