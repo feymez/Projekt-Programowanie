@@ -218,5 +218,27 @@
         "weight": 2.52,
         "sold_by": "Ragman LL1 (Barter).",
         "image": "Hazard_4_Pillbox_backpack"
+    },
+    "Scav_backpack": {
+        "name": "Scav backpack",
+        "slots": "20",
+        "outer_grid": "4x5",
+        "inner_grid": "4x5",
+        "efficiency": 1,
+        "holds": "Wszystko.",
+        "weight": 1.68,
+        "sold_by": "Tylko do znalezienia.",
+        "image": "Scav_backpack"
+    },
+    "WARTECH_Berkut_BB-102_backpack": {
+        "name": "WARTECH Berkut BB-102 backpack",
+        "slots": 20,
+        "outer_grid": "4x5",
+        "inner_grid": "4x5",
+        "efficiency": 1,
+        "holds": "Wszystko.",
+        "weight": 0.96,
+        "sold_by": "Ragman LL1, Ragman LL1 (Barter).",
+        "image": "WARTECH_Berkut_BB-102_backpack"
     }
 }
