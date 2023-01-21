@@ -1690,8 +1690,3 @@ while True:
                                 functions.get_gun_info('stacjonarne', stationary_option)
                                 x = input("Jeśli chcesz wrócić wpisz cokolwiek:")
                                 break
-"""    elif doing == "Zadania":
-        while True:
-            trader, trader_index = pick(options.quests_options, options.quests_title, options.indicator)
-            with open(f'{trader}.json') as f:
-                """

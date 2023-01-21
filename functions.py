@@ -55,6 +55,7 @@ def get_helmet_info(name, name2):
             helmet_turning_speed = helmet["turning_speed"]
             helmet_ergonomics = helmet["ergonomics"]
             helmet_weight = helmet["weight"]
+            helmet_image = helmet["image"]
             print(space)
             print(f"Oto wszystkie informacje na temat hełmu {name2}")
             print(space)
@@ -68,6 +69,8 @@ def get_helmet_info(name, name2):
             print(f"Prędkość obrotu: {helmet_turning_speed}")
             print(f"Ergonomia: {helmet_ergonomics}")
             print(f"Waga: {helmet_weight}kg")
+            image = Image.open(f"obrazy/helmy/{helmet_image}")
+            image.show()
             return helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class
 
 def get_ammo(caliber):

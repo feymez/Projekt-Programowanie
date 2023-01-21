@@ -59,6 +59,20 @@ mm_2375 = ["2375_Barrikada", "2375_Sharpnel-10", "2375_Sharpnel-25", "2375_Zvezd
 mm_4046 = ["4046_M576"]
 stationary_weapons = ["12.7108_B-32", "12.7108_BZT-44M", "3029_VOG-30"]
 
+plecaki = ["6Sh118_raid_backpack", "LBT-2670_Slim_Field_Med_Pack", "Mystery_Ranch_Blackjack_50_backpack_Multicam", "Eberlestock_F4_Terminator_load_bearing_backpack_Tiger_Stripe",
+"SSO_Attack_2_raid_backpack", "Tasmanian_Tiger_Trooper_35_backpack", "Pilgrim_tourist_backpack", "Santa's_Bag", "3V_Gear_Paratus_3-Day_Operator's_Tactical_backpack",
+"Eberlestock_G2_Gunslinger_II_backpack_Dry_Earth", "Oakley_Mechanism_heavy_duty_backpack_Black", "ANA_Tactical_Beta_2_Battle_backpack", "Gruppa_99_T30_backpack",
+"Eberlestock_F5_Switchblade_backpack_Dry_Earth", "Camelbak_Tri-Zip_assault_backpack", "LBT-1476A_3Day_Pack_Woodland", "Gruppa-99_T20_backpack", "Hazard_4_Drawbridge_backpack_Coyote_Tan",
+"Hazard_4_Takedown_sling_backpack", "Hazard_4_Pillbox_backpack", "Scav_backpack", "WARTECH_Berkut_BB-102_backpack", "LBT-8005A_Day_Pack_backpack", "Sanitar's_bag", "Flyye_MBSS_backpack",
+"Mystery_Ranch_NICE_COMM_3_BVS_frame_system", "Duffle_bag", "LolKek_3F_Transfer_tourist_backpack", "Transformer_Bag", "VKBO_army_bag", "Tactical_sling_bag"]
+kamizelki_taktyczne = ["6B5-16_Zh-86_Uley_armored_rig", "Eagle_Industries_'MMAC'_plate_carrier_Ranger_Green", "Shellback_Tactical_Banshee_plate_carrier_A-Tacs_AU", "Ars_Arma_A18_Skanda_plate_carrier",
+"WARTECH_TV-110_plate_carrier_rig", "FirstSpear_'Strandhogg'_plate_carrier_rig_Ranger_Green", "ECLiPSE_RBAV-AF_plate_carrier_Ranger_Green", "CQC_Osprey_MK4A_plate_carrier_Assault,_MTP",
+"6B3TM-01M_armored_rig", "6B5-15_Zh-86_Uley_armored_rig", "ANA_Tactical_M2_armored_rig", "ANA_Tactical_M1_armored_rig", "Crye_Precision_AVS_plate_carrier", "5.11_Tactical_TacTec_plate_carrier",
+"Ars_Arma_CPC_MOD.2_plate_carrier", "Crye_Precision_CPC_plate_carrier_Goons_Edition", "S&S_Precision_PlateFrame_plate_carrier_Goons_Edition", "CQC_Osprey_MK4A_plate_carrier_Protection,_MTP",
+"NPP_KlASS_Bagariy_armored_rig", "Tasmanian_Tiger_SK_plate_carrier_Multicam_Black", "Crye_Precision_AVS_MBAV_Tagilla_Edition"]
+
+
+
 #Funkcja sprawdzająca połączenie z internetem
 def check_connect():
     try:
@@ -220,6 +234,8 @@ def check2():
     loop2(armors, "kamizelki")
     loop2(helmets, "helmy")
     loop2(containers, "pojemniki")
+    loop2(plecaki, "plecaki")
+    loop2(kamizelki_taktyczne, "kamizelki-taktyczne")
 
 #Funkcja sprawdzająca spójność plików PNG ammunicji.
 def check3():

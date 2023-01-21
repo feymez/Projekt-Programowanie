@@ -1,0 +1,123 @@
+{
+    "6Sh118_raid_backpack": {
+        "name": "6Sh118 raid backpack",
+        "slots": 48,
+        "outer_grid": "6x7",
+        "inner_grid": "6x8",
+        "efficiency": 1.14,
+        "holds": "Wszystko.",
+        "weight": 6.36,
+        "sold_by": "Prapor LL3 (Barter), Prapor LL4 (Barter).",
+        "image": "6Sh118_raid_backpack"
+    },
+    "LBT-2670_Slim_Field_Med_Pack": {
+        "name": "LBT-2670 Slim Field Med Pack",
+        "slots": 48,
+        "outer_grid": "4x5",
+        "inner_grid": "6x8",
+        "efficiency": 2.4,
+        "holds": "Medykamenty, Zapoatrzenie medyczne.",
+        "weight": 1.92,
+        "sold_by": "Therapist LL3 (Barter).",
+        "image": "LBT-2670_Slim_Field_Med_Pack"
+    },
+    "Mystery_Ranch_Blackjack_50_backpack_Multicam": {
+        "name": "Mystery Ranch Blackjack 50 backpack (Multicam)",
+        "slots": 42,
+        "outer_grid": "5x7",
+        "inner_grid": "6x7",
+        "efficiency": 1.2,
+        "holds": "Wszystko.",
+        "weight": 1.2,
+        "sold_by": "Ragman LL4 (Barter).",
+        "image": "Mystery_Ranch_Blackjack_50_backpack_Multicam"
+    },
+    "Eberlestock_F4_Terminator_load_bearing_backpack_Tiger_Stripe": {
+        "name": "Eberlestock F4 Terminator load bearing backpack (Tiger Stripe)",
+        "slots": 40,
+        "outer_grid": "5x7",
+        "inner_grid": "1x 5x4, 2x 5x2",
+        "efficiency": 1.14,
+        "holds": "Wszystko.",
+        "weight": 4.356,
+        "sold_by": "Ragman LL3.",
+        "image": "Eberlestock_F4_Terminator_load_bearing_backpack_Tiger_Stripe"
+    },
+    "SSO_Attack_2_raid_backpack": {
+        "name": "SSO Attack 2 raid backpack",
+        "slots": 35,
+        "outer_grid": "5x7",
+        "inner_grid": "5x7",
+        "efficiency": 1,
+        "holds": "Wszystko.",
+        "weight": 6.12,
+        "sold_by": "Ragman LL3 (Barter), Ragman LL4 (Barter).",
+        "image": "SSO_Attack_2_raid_backpack"
+    },
+    "Tasmanian_Tiger_Trooper_35_backpack": {
+        "name": "Tasmanian Tiger Trooper 35 backpack",
+        "slots": 35,
+        "outer_grid": "5x7",
+        "inner_grid": "5x7",
+        "efficiency": 1,
+        "holds": "Wszystko.",
+        "weight": 4.2,
+        "sold_by": "Ragman LL3.",
+        "image": "Tasmanian_Tiger_Trooper_35_backpack"
+    },
+    "Pilgrim_tourist_backpack": {
+        "name": "Pilgrim tourist backpack",
+        "slots": 35,
+        "outer_grid": "5x7",
+        "inner_grid": "5x7",
+        "efficiency": 1,
+        "holds": "Wszystko.",
+        "weight": 3.48,
+        "sold_by": "Tylko do znalezienia.",
+        "image": "Pilgrim_tourist_backpack"
+    },
+    "Santa's_Bag": {
+        "name": "Santa's Bag",
+        "slots": 35,
+        "outer_grid": "5x7",
+        "inner_grid": "5x7",
+        "efficiency": 1,
+        "holds": "Wszystko.",
+        "weight": 2.64,
+        "sold_by": "Przedmiot z wydarzenia.",
+        "image": "Santa's_Bag"
+    },
+    "3V_Gear_Paratus_3-Day_Operator's_Tactical_backpack": {
+        "name": "3V Gear Paratus 3-Day Operator's Tactical backpack",
+        "slots": 35,
+        "outer_grid": "5x7",
+        "inner_grid": "1x 5x5, 2x 1x2, 1x 3x2",
+        "efficiency": 1,
+        "holds": "Wszystko.",
+        "weight": 1.56,
+        "sold_by": "Peacekeeper LL4",
+        "image": "3V_Gear_Paratus_3-Day_Operator's_Tactical_backpack"
+    },
+    "Eberlestock_G2_Gunslinger_II_backpack_Dry_Earth": {
+        "name": "Eberlestock G2 Gunslinger II backpack (Dry Earth)",
+        "slots": 35,
+        "outer_grid": "5x7",
+        "inner_grid": "1x 3x5, 1x 2x7, 1x 3x2",
+        "efficiency": 1,
+        "holds": "Wszystko.",
+        "weight": 3.36,
+        "sold_by": "Ragman LL4.",
+        "image": "Eberlestock_G2_Gunslinger_II_backpack_Dry_Earth"
+    },
+    "Oakley_Mechanism_heavy_duty_backpack_Black": {
+        "name": "Oakley Mechanism heavy duty backpack (Black)",
+        "slots": 32,
+        "outer_grid": "5x5",
+        "inner_grid": "1x 4x4, 4x 2x2",
+        "efficiency": 1.28,
+        "holds": "Wszystko.",
+        "weight": 1.5,
+        "sold_by": "Ragman LL2 (Barter)",
+        "image": "Oakley_Mechanism_heavy_duty_backpack_Black"
+    }
+}
