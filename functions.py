@@ -176,6 +176,15 @@ def fast_replace_3(str):
     str = str.replace("_", " ")
     return str
 
+def get_back():
+    print("Wciśnij BACKSPACE aby wrócić")
+    while True:
+        try:
+            if keyboard.is_pressed('backspace'):
+                break
+        except:
+            continue
+
 def comparison():
     comparison_choice, comparison_index = pick(options.comparison_options, options.comparison_title, indicator="->")
     comparison_choice = comparison_choice
@@ -615,11 +624,5 @@ def get_backpack_info(name):
         image = Image.open(f"obrazy/plecaki/{backpack_image}")
         image.show()
 
-def get_back():
-    print("Wciśnij BACKSPACE aby wrócić")
-    while True:
-        try:
-            if keyboard.is_pressed('backspace'):
-                break
-        except:
-            continue
+def get_chestrig_info(name):
+    with open("")

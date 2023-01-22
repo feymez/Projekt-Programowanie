@@ -131,3 +131,11 @@ equipment_options = ["Plecaki", "Kamizelki Taktyczne"]
 
 backpack_title = "Wybierz plecak:"
 backpack_options = ["6Sh118 raid backpack", "LBT-2670 Slim Field Med Pack", "Mystery Ranch Blackjack 50 backpack (Multicam)", "Eberlestock F4 Terminator load bearing backpack (Tiger Stripe)", "SSO Attack 2 raid backpack", "Tasmanian Tiger Trooper 35 backpack", "Pilgrim tourist backpack", "Santa's Bag", "3V Gear Paratus 3-Day Operator's Tactical backpack", "Eberlestock G2 Gunslinger II backpack (Dry Earth)", "Oakley Mechanism heavy duty backpack (Black)", "ANA Tactical Beta 2 Battle backpack", "Gruppa 99 T30 backpack", "Eberlestock F5 Switchblade backpack (Dry Earth)", "Camelbak Tri-Zip assault backpack", "LBT-1476A 3Day Pack (Woodland)", "Gruppa 99 T20 backpack", "Hazard 4 Drawbridge backpack (Coyote Tan)", "Hazard 4 Takedown sling backpack", "Hazard 4 Pillbox backpack", "Scav backpack", "WARTECH Berkut BB-102 backpack", "LBT-8005A Day Pack backpack", "Sanitar's bag", "Flyye MBSS backpack", "Mystery Ranch NICE COMM 3 BVS frame system", "Duffle bag", "LolKek 3F Transfer tourist backpack", "Transformer Bag", "VKBO army bag", "Tactical sling bag"]
+
+chestrig_title = "Wybierz kamizelkę:"
+chestrig_options = ["6B5-16 Zh-86 Uley armored rig", "Eagle Industries 'MMAC' plate carrier (Ranger Green)", "Shellback Tactical Banshee plate carrier (A-Tacs AU)",
+"Ars Arma A18 Skanda plate carrier", "WARTECH TV-110 plate carrier rig", "FirstSpear 'Strandhogg' plate carrier rig (Ranger Green)", "ECLiPSE RBAV-AF plate carrier (Ranger Green)",
+"CQC Osprey MK4A plate carrier (Assault, MTP)", "6B3TM-01M armored rig", "6B5-15 Zh-86 Uley armored rig", "ANA Tactical M2 armored rig", "ANA Tactical M1 armored rig",
+"Crye Precision AVS plate carrier", "5.11 Tactical TacTec plate carrier", "Ars Arma CPC MOD.2 plate carrier", "Crye Precision CPC plate carrier (Goons Edition)",
+"S&S Precision PlateFrame plate carrier (Goons Edition)", "CQC Osprey MK4A plate carrier (Protection, MTP)", "NPP KlASS Bagariy armored rig", "Tasmanian Tiger SK plate carrier (Multicam Black)",
+"Crye Precision AVS MBAV (Tagilla Edition)"]

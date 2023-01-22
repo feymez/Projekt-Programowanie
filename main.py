@@ -14,11 +14,11 @@ def check_connect():
     except:
         return False
 
-
 items = list(range(0, 57))
 l = len(items)
-#Sprawdzanie spójności plików oraz pobieranie brakujących
+#>----------- Sprawdzanie spójności plików oraz pobieranie brakujących -----------<
 while True:
+    #>----------- Sprawdzanie pliku launch-options -----------<
     launchExist = os.path.isfile('launch-options.json')
     if launchExist == False:
         print('Wykryto brakujący plik "launch-options.json"')
@@ -89,13 +89,16 @@ while True:
             for i, item in enumerate(items):
                 time.sleep(0.1)
                 functions.printProgressBar(i + 1, l, prefix = 'Przebiega weryfikacja plików:', suffix = 'Ukończono', length = 50)
+            #>----------- Sprawdzanie plików -----------<
+            ammunitionExist = os.path.isfile('ammunition.json')
+            armorsExist = os.path.isfile('armors.json')
+            headgearExist = os.path.isfile('headgear.json')
+            chestrigsExist = os.path.isfile("chestrigs.json")
+            #>----------- Sprawdzanie folderów -----------<
             wykresyExist = os.path.exists('wykresy')
             ammunicjaExist = os.path.exists('ammunicja')
             kamizelkiExist = os.path.exists('kamizelki')
             helmyExist = os.path.exists('helmy')
-            ammunitionExist = os.path.isfile('ammunition.json')
-            armorsExist = os.path.isfile('armors.json')
-            headgearExist = os.path.isfile('headgear.json')
             zadaniaExist = os.path.exists('zadania')
             praporExist = os.path.exists('zadania/prapor')
             therapistExist = os.path.exists('zadania/therapist')
@@ -109,6 +112,7 @@ while True:
             obrazyExist = os.path.exists('obrazy')
             pojemnikiExist = os.path.exists('obrazy/pojemniki')
             kamzyExist = os.path.exists('obrazy/kamizelki')
+            #>----------- Tworzenie folderów -----------<
             if wykresyExist == False:
                 os.mkdir('wykresy')
             if ammunicjaExist == False:
@@ -117,48 +121,6 @@ while True:
                 os.mkdir('kamizelki')
             if helmyExist == False:
                 os.mkdir('helmy')
-            if ammunitionExist == False:
-                print('Wykryto brakujący plik "ammunition.json"')
-                try:
-                    internet_connection = check_connect()
-                    if internet_connection == False:
-                        print("Komputer nie ma połączenia z internetem.")
-                        quit()
-                    url = 'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/ammunition.json'
-                    response = requests.get(url)
-                    print('Pobieram brakujący plik')
-                    open('ammunition.json', 'wb').write(response.content)
-                except:
-                    print('Operacja nie mogła zostać wykonana. Sprawdź połączenie. Gotowe rozwiązania -')
-                    quit()
-            if armorsExist == False:
-                print('Wykryto brakujący plik "armors.json"')
-                try:
-                    internet_connection = check_connect()
-                    if internet_connection == False:
-                        print("Komputer nie ma połączenia z internetem.")
-                        quit()
-                    url = 'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/armors.json'
-                    response = requests.get(url)
-                    print('Pobieram brakujący plik')
-                    open('armors.json', 'wb').write(response.content)
-                except:
-                    print('Operacja nie mogła zostać wykonana. Sprawdź połączenie. Gotowe rozwiązania -')
-                    quit()
-            if headgearExist == False:
-                print('Wykryto brakujący plik "headgear.json"')
-                try:
-                    internet_connection = check_connect()
-                    if internet_connection == False:
-                        print("Komputer nie ma połączenia z internetem.")
-                        quit()
-                    url = 'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/headgear.json'
-                    response = requests.get(url)
-                    print('Pobieram brakujący plik')
-                    open('headgear.json', 'wb').write(response.content)
-                except:
-                    print('Operacja nie mogła zostać wykonana. Sprawdź połączenie. Gotowe rozwiązania -')
-                    quit()
             if zadaniaExist == False:
                 os.mkdir('zadania')
             if praporExist == False:
@@ -185,14 +147,69 @@ while True:
                 os.mkdir('obrazy/pojemniki')
             if kamzyExist == False:
                 os.mkdir('obrazy/kamizelki')
+            #>----------- Pobieranie plików -----------<
+            if ammunitionExist == False:
+                print('Wykryto brakujący plik "ammunition.json"')
+                try:
+                    internet_connection = check_connect()
+                    if internet_connection == False:
+                        print("Komputer nie ma połączenia z internetem.")
+                        quit()
+                    url = 'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/ammunition.json'
+                    response = requests.get(url)
+                    print('Pobieram brakujący plik')
+                    open('ammunition.json', 'wb').write(response.content)
+                except:
+                    print('Operacja nie mogła zostać wykonana.')
+                    quit()
+            if armorsExist == False:
+                print('Wykryto brakujący plik "armors.json"')
+                try:
+                    internet_connection = check_connect()
+                    if internet_connection == False:
+                        print("Komputer nie ma połączenia z internetem.")
+                        quit()
+                    url = 'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/armors.json'
+                    response = requests.get(url)
+                    print('Pobieram brakujący plik')
+                    open('armors.json', 'wb').write(response.content)
+                except:
+                    print('Operacja nie mogła zostać wykonana.')
+                    quit()
+            if headgearExist == False:
+                print('Wykryto brakujący plik "headgear.json"')
+                try:
+                    internet_connection = check_connect()
+                    if internet_connection == False:
+                        print("Komputer nie ma połączenia z internetem.")
+                        quit()
+                    url = 'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/headgear.json'
+                    response = requests.get(url)
+                    print('Pobieram brakujący plik')
+                    open('headgear.json', 'wb').write(response.content)
+                except:
+                    print('Operacja nie mogła zostać wykonana.')
+                    quit()
+            if chestrigsExist == False:
+                print('Wykryto brakujący plik "chestrigs.json"')
+                try:
+                    internet_connection = check_connect()
+                    if internet_connection == False:
+                        print("Komputer nie ma połączenia z internetem.")
+                        quit()
+                    url = 'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/chestrigs.json'
+                    response = requests.get(url)
+                    print('Pobieram brakujący plik')
+                    open('chestrigs.json', 'wb').write(response.content)
+                except:
+                    print('Operacja nie mogła zostać wykonana.')
+                    quit()
             break
 
 functions.printProgressBar(0, l, prefix = 'Wczytywanie potrzebnych składników:', suffix = 'Ukończono', length = 50)
 for i, item in enumerate(items):
     time.sleep(0.05)
     functions.printProgressBar(i + 1, l, prefix = 'Wczytywanie potrzebnych składników:', suffix = 'Ukończono', length = 50)
-
-print("Witaj w Armor Inatorze")
 
 while True:
     doing, index_doing = pick(options.doing_options, options.doing_title, options.indicator)
@@ -1699,3 +1716,8 @@ while True:
                 functions.get_backpack_info(backpacks_option)
                 functions.get_back()
                 break
+            elif equipment_option == "Kamizelki Taktyczne":
+                chestrig_option, chestrig_index = pick(options.chestrig_options, options.chestrig_title, options.indicator)
+                chestrig_option = functions.fast_replace(chestrig_option)
+                #Tutaj wstaw funkcję od chestrigów
+                functions.get_back()
