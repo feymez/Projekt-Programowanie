@@ -30,46 +30,46 @@ helmets = ["6B47_Ratnik-BSh_helmet.gif", "Altyn_bulletproof_helmet.png", "BNTI_L
 containers = ["Ammo_case", "Docs_case", "dogtag_case", "gingy", "Grenade_case", "Injector_case", "Items_case", "Junkbox", "key_tool", "keycard_holder", "Magazine_box", "Medicine_case",
 "Money_case", "Mr._Holodilnick_thermobag", "Pistol_case", "SICC_pouch", "THICCItems_case", "THICCWeapon_case", "Wallet", "Weapon_case", "wz_wallet"]
 
-acp_45 = ["45_ACP_AP", "45_ACP_Hydra-Shok", "45_ACP_Lasermatch_FMJ", "45_ACP_Match_FMJ", "45_ACP_RIP"]
-blackout_300 = ["300_AP", "300_BCP_FMJ", "300_M62_Tracer", "300_V-Max", "300_Whisper"]
-lapua_magnum_338 = ["338_Lapua_Magnum_AP", "338_Lapua_Magnum_FMJ", "338_Lapua_Magnum_TAC-X", "338_Lapua_Magnum_UCW"]
-magnum_357 = ["357_FMJ", "357_HP", "357_JHP", "357_SP"]
-tkm_366 = ["366_TKM_AP-M", "366_TKM_EKO", "366_TKM_FMJ", "366_TKM_Geksa"]
-hk_4630 = ["4.630_Action_SX", "4.630_AP_SX", "4.630_FMJ_SX", "4.630_Subsonic_SX"]
-fn_5728 = ["5.728_L191", "5.728_R37.F", "5.728_R37.X", "5.728_SB193", "5.728_SS190", "5.728_SS197SR", "5.728_SS198LF"]
-mm_54539 = ["5.4539_7N40", "5.4539_BP_gs", "5.4539_BS_gs", "5.4539_BT_gs", "5.4539_FMJ", "5.4539_HP", "5.4539_PP_gs", "5.4539_PPBS_gs_'Igolnik'", "5.4539_PRS_gs", "5.4539_PS_gs",
-"5.4539_SP", "5.4539_T_gs", "5.4539_US_gs"]
-nato_55645 = ["5.5645_FMJ", "5.5645_HP", "5.5645_M855", "5.5645_M855A1", "5.5645_M856", "5.5645_M856A1", "5.5645_M995", "5.5645_MK_255_MOD0_RRLP", "5.5645_MK_318_MOD0_SOST",
-"5.5645_SSA_AP", "5.5645_Warmageddon"]
-tokarev_76225 = ["7.6225_TT_FMJ43", "7.6225_TT_LRN", "7.6225_TT_AKBS", "7.6225_TT_LRNPC", "7.6225_TT_P_gl", "7.6225_TT_Pst_gzh", "7.6225_TT_PT_gzh"]
-mm_76239 = ["7.6239_BP_gzh", "7.6239_HP", "7.6239_MAI_AP", "7.6239_PS_gzh", "7.6239_T-45M1_gzh", "7.6239_US_gzh"]
-nato_76251 = ["7.6251_BCP_FMJ", "7.6251_M61", "7.6251_M62_Tracer", "7.6251_M80", "7.6251_M993", "7.6251_TCW_SP", "7.6251_Ultra_Nosler"]
-mm_76254 = ["7.6254_R_BS_gs", "7.6254_R_BT_gzh", "7.6254_R_LPS_gzh", "7.6254_R_PS_gzh", "7.6254_R_SNB_gzh", "7.6254_R_T-46M_gzh"]
-makarov_918 = ["918_PM_BZhT_gzh", "918_PM_P_gzh", "918_PM_PBM_gzh", "918_PM_PPe_gzh", "918_PM_PPT_gzh", "918_PM_PRS_gs", "918_PM_PS_gs", "918_PM_PSO_gzh", "918_PM_Pst_gzh",
-"918_PM_PSV", "918_PM_RG028_gzh", "918_PM-SP7_gzh", "918_PM-SP8_gzh", "918_PMM_PstM_gzh"]
-parabellum_919 = ["919_AP_6.3", "919_Green_Tracer", "919_Luger_CCI", "919_PBP_gzh", "919_PSO_gzh", "919_Pst_gzh", "919_QuakeMaker", "919_RIP"]
-gyurza_921 = ["921_BT_gzh", "921_P_gzh", "921_PE_gzh", "921_PS_gzh"]
-mm_939 = ["939_BP_gs", "939_PAB-9_gs", "939_SP-5_gs", "939_SP-6_gs", "939_SPP_gs"]
-STs = ["12.755_PS12", "12.755_PS12A", "12.755_PS12B"]
-mm_1270 = ["1270_.50_BMG", "1270_7mm_Buckshot", "1270_65mm_Express_buckshot", "1270_85mm_Magnum_buckshot", "1270_525mm_Buckshot", "1270_AP-20", "1270_CSP_HP", "1270_Dual_Sabot", "1270_Flechette",
-"1270_FTX", "1270_Grizzly_40", "1270_Lead_slug", "1270_Poleva-3", "1270_Poleva-6u", "1270_Rip", "1270_SFHP"]
-mm_2070 = ["2070_56mm_Buckshot", "2070_62mm_Buckshot", "2070_73mm_Buckshot", "2070_75mm_Buckshot", "2070_Devastator", "2070_Elephant_killer", "2070_Explosive",
-"2070_Flechetta_plus", "2070_Poleva-3", "2070_Poleva-6u", "2070_Star"]
-mm_2375 = ["2375_Barrikada", "2375_Sharpnel-10", "2375_Sharpnel-25", "2375_Zvezda"]
-mm_4046 = ["4046_M576"]
-stationary_weapons = ["12.7108_B-32", "12.7108_BZT-44M", "3029_VOG-30"]
+acp_45 = ["45_ACP_AP.png", "45_ACP_Hydra-Shok.png", "45_ACP_Lasermatch_FMJ.png", "45_ACP_Match_FMJ.png", "45_ACP_RIP.png"]
+blackout_300 = ["300_AP.png", "300_BCP_FMJ.png", "300_M62_Tracer.png", "300_V-Max.png", "300_Whisper.png"]
+lapua_magnum_338 = ["338_Lapua_Magnum_AP.png", "338_Lapua_Magnum_FMJ.png", "338_Lapua_Magnum_TAC-X.png", "338_Lapua_Magnum_UCW.png"]
+magnum_357 = ["357_FMJ.png", "357_HP.png", "357_JHP.png", "357_SP.png"]
+tkm_366 = ["366_TKM_AP-M.png", "366_TKM_EKO.png", "366_TKM_FMJ.png", "366_TKM_Geksa.png"]
+hk_4630 = ["4.630_Action_SX.png", "4.630_AP_SX.png", "4.630_FMJ_SX.png", "4.630_Subsonic_SX.png"]
+fn_5728 = ["5.728_L191.png", "5.728_R37.F.png", "5.728_R37.X.png", "5.728_SB193.png", "5.728_SS190.png", "5.728_SS197SR.png", "5.728_SS198LF.png"]
+mm_54539 = ["5.4539_7N40.png", "5.4539_BP_gs.png", "5.4539_BS_gs.png", "5.4539_BT_gs.png", "5.4539_FMJ.png", "5.4539_HP.png", "5.4539_PP_gs.png", "5.4539_PPBS_gs_'Igolnik'.png", "5.4539_PRS_gs.png", "5.4539_PS_gs.png",
+"5.4539_SP.png", "5.4539_T_gs.png", "5.4539_US_gs.png"]
+nato_55645 = ["5.5645_FMJ.png", "5.5645_HP.png", "5.5645_M855.png", "5.5645_M855A1.png", "5.5645_M856.png", "5.5645_M856A1.png", "5.5645_M995.png", "5.5645_MK_255_MOD0_RRLP.png", "5.5645_MK_318_MOD0_SOST.png",
+"5.5645_SSA_AP.png", "5.5645_Warmageddon.png"]
+tokarev_76225 = ["7.6225_TT_FMJ43.png", "7.6225_TT_LRN.png", "7.6225_TT_AKBS.png", "7.6225_TT_LRNPC.png", "7.6225_TT_P_gl.png", "7.6225_TT_Pst_gzh.png", "7.6225_TT_PT_gzh.png"]
+mm_76239 = ["7.6239_BP_gzh.png", "7.6239_HP.png", "7.6239_MAI_AP.png", "7.6239_PS_gzh.png", "7.6239_T-45M1_gzh.png", "7.6239_US_gzh.png"]
+nato_76251 = ["7.6251_BCP_FMJ.png", "7.6251_M61.png", "7.6251_M62_Tracer.png", "7.6251_M80.png", "7.6251_M993.png", "7.6251_TCW_SP.png", "7.6251_Ultra_Nosler.png"]
+mm_76254 = ["7.6254_R_BS_gs.png", "7.6254_R_BT_gzh.png", "7.6254_R_LPS_gzh.png", "7.6254_R_PS_gzh.png", "7.6254_R_SNB_gzh.png", "7.6254_R_T-46M_gzh.png"]
+makarov_918 = ["918_PM_BZhT_gzh.png", "918_PM_P_gzh.png", "918_PM_PBM_gzh.png", "918_PM_PPe_gzh.png", "918_PM_PPT_gzh.png", "918_PM_PRS_gs.png", "918_PM_PS_gs.png", "918_PM_PSO_gzh.png", "918_PM_Pst_gzh.png",
+"918_PM_PSV.png", "918_PM_RG028_gzh.png", "918_PM-SP7_gzh.png", "918_PM-SP8_gzh.png", "918_PMM_PstM_gzh.png"]
+parabellum_919 = ["919_AP_6.3.png", "919_Green_Tracer.png", "919_Luger_CCI.png", "919_PBP_gzh.png", "919_PSO_gzh.png", "919_Pst_gzh.png", "919_QuakeMaker.png", "919_RIP.png"]
+gyurza_921 = ["921_BT_gzh.png", "921_P_gzh.png", "921_PE_gzh.png", "921_PS_gzh.png"]
+mm_939 = ["939_BP_gs.png", "939_PAB-9_gs.png", "939_SP-5_gs.png", "939_SP-6_gs.png", "939_SPP_gs.png"]
+STs = ["12.755_PS12.png", "12.755_PS12A.png", "12.755_PS12B.png"]
+mm_1270 = ["1270_.50_BMG.png", "1270_7mm_Buckshot.png", "1270_65mm_Express_buckshot.png", "1270_85mm_Magnum_buckshot.png", "1270_525mm_Buckshot.png", "1270_AP-20.png", "1270_CSP_HP.png", "1270_Dual_Sabot.png", "1270_Flechette.png",
+"1270_FTX.png", "1270_Grizzly_40.png", "1270_Lead_slug.png", "1270_Poleva-3.png", "1270_Poleva-6u.png", "1270_Rip.png", "1270_SFHP.png"]
+mm_2070 = ["2070_56mm_Buckshot.png", "2070_62mm_Buckshot.png", "2070_73mm_Buckshot.png", "2070_75mm_Buckshot.png", "2070_Devastator.png", "2070_Elephant_killer.png", "2070_Explosive.png",
+"2070_Flechetta_plus.png", "2070_Poleva-3.png", "2070_Poleva-6u.png", "2070_Star.png"]
+mm_2375 = ["2375_Barrikada.png", "2375_Sharpnel-10.png", "2375_Sharpnel-25.png", "2375_Zvezda.png"]
+mm_4046 = ["4046_M576.png"]
+stationary_weapons = ["12.7108_B-32.png", "12.7108_BZT-44M.png", "3029_VOG-30.png"]
 
-plecaki = ["6Sh118_raid_backpack", "LBT-2670_Slim_Field_Med_Pack", "Mystery_Ranch_Blackjack_50_backpack_Multicam", "Eberlestock_F4_Terminator_load_bearing_backpack_Tiger_Stripe",
-"SSO_Attack_2_raid_backpack", "Tasmanian_Tiger_Trooper_35_backpack", "Pilgrim_tourist_backpack", "Santa's_Bag", "3V_Gear_Paratus_3-Day_Operator's_Tactical_backpack",
-"Eberlestock_G2_Gunslinger_II_backpack_Dry_Earth", "Oakley_Mechanism_heavy_duty_backpack_Black", "ANA_Tactical_Beta_2_Battle_backpack", "Gruppa_99_T30_backpack",
-"Eberlestock_F5_Switchblade_backpack_Dry_Earth", "Camelbak_Tri-Zip_assault_backpack", "LBT-1476A_3Day_Pack_Woodland", "Gruppa-99_T20_backpack", "Hazard_4_Drawbridge_backpack_Coyote_Tan",
-"Hazard_4_Takedown_sling_backpack", "Hazard_4_Pillbox_backpack", "Scav_backpack", "WARTECH_Berkut_BB-102_backpack", "LBT-8005A_Day_Pack_backpack", "Sanitar's_bag", "Flyye_MBSS_backpack",
-"Mystery_Ranch_NICE_COMM_3_BVS_frame_system", "Duffle_bag", "LolKek_3F_Transfer_tourist_backpack", "Transformer_Bag", "VKBO_army_bag", "Tactical_sling_bag"]
-kamizelki_taktyczne = ["6B5-16_Zh-86_Uley_armored_rig", "Eagle_Industries_'MMAC'_plate_carrier_Ranger_Green", "Shellback_Tactical_Banshee_plate_carrier_A-Tacs_AU", "Ars_Arma_A18_Skanda_plate_carrier",
-"WARTECH_TV-110_plate_carrier_rig", "FirstSpear_'Strandhogg'_plate_carrier_rig_Ranger_Green", "ECLiPSE_RBAV-AF_plate_carrier_Ranger_Green", "CQC_Osprey_MK4A_plate_carrier_Assault,_MTP",
-"6B3TM-01M_armored_rig", "6B5-15_Zh-86_Uley_armored_rig", "ANA_Tactical_M2_armored_rig", "ANA_Tactical_M1_armored_rig", "Crye_Precision_AVS_plate_carrier", "5.11_Tactical_TacTec_plate_carrier",
-"Ars_Arma_CPC_MOD.2_plate_carrier", "Crye_Precision_CPC_plate_carrier_Goons_Edition", "S&S_Precision_PlateFrame_plate_carrier_Goons_Edition", "CQC_Osprey_MK4A_plate_carrier_Protection,_MTP",
-"NPP_KlASS_Bagariy_armored_rig", "Tasmanian_Tiger_SK_plate_carrier_Multicam_Black", "Crye_Precision_AVS_MBAV_Tagilla_Edition"]
+plecaki = ["3V_Gear_Paratus_3-Day_Operator_s_Tactical_backpack.png", "6Sh118_raid_backpack.png", "ANA_Tactical_Beta_2_Battle_backpack.png", "Camelbak_Tri-Zip_assault_backpack.png",
+"Duffle_bag.png", "Eberlestock_F4_Terminator_load_bearing_backpack.png", "Eberlestock_F5_Switchblade_backpack.png", "Eberlestock_G2_Gunslinger_II_backpack.png",
+"Flyye_MBSS_backpack.png", "Gruppa_99_T20_backpack.gif", "Gruppa_99_T30_backpack.gif", "Hazard_4_Drawbridge_backpack.png", "Hazard_4_Pillbox_backpack.png",
+"Hazard_4_Takedown_sling_backpack.gif", "LBT-1476A_3Day_Pack.png", "LBT-8005A_Day_Pack_backpack.png", "LolKek_3F_Transfer_tourist_backpack.png", "Mystery_Ranch_Blackjack_50_backpack.png",
+"Mystery_Ranch_NICE_COMM_3_BVS_frame_system.png", "Oakley_Mechanism_heavy_duty_backpack.png", "Pilgrim_tourist_backpack.png", "Sanitar_s_bag.png", "Santa_s_Bag.png", "Scav_backpack.png",
+"SSO_Attack_2_raid_backpack.png", "Tactical_sling_bag.png", "Tasmanian_Tiger_Trooper_35_backpack.png", "Transformer_Bag.png", "VKBO_army_bag.png", "WARTECH_Berkut_BB-102_backpack.png"]
+kamizelki_taktyczne = ["6B5-16_Zh-86_Uley_armored_rig.png", "Eagle_Industries_'MMAC'_plate_carrier_Ranger_Green.png", "Shellback_Tactical_Banshee_plate_carrier_A-Tacs_AU.png", "Ars_Arma_A18_Skanda_plate_carrier.png",
+"WARTECH_TV-110_plate_carrier_rig.png", "FirstSpear_'Strandhogg'_plate_carrier_rig_Ranger_Green.png", "ECLiPSE_RBAV-AF_plate_carrier_Ranger_Green.png", "CQC_Osprey_MK4A_plate_carrier_Assault,_MTP.png",
+"6B3TM-01M_armored_rig.png", "6B5-15_Zh-86_Uley_armored_rig.png", "ANA_Tactical_M2_armored_rig.png", "ANA_Tactical_M1_armored_rig.png", "Crye_Precision_AVS_plate_carrier.png", "5.11_Tactical_TacTec_plate_carrier.png",
+"Ars_Arma_CPC_MOD.2_plate_carrier.png", "Crye_Precision_CPC_plate_carrier_Goons_Edition.png", "S&S_Precision_PlateFrame_plate_carrier_Goons_Edition.png", "CQC_Osprey_MK4A_plate_carrier_Protection,_MTP.png",
+"NPP_KlASS_Bagariy_armored_rig.png", "Tasmanian_Tiger_SK_plate_carrier_Multicam_Black.png", "Crye_Precision_AVS_MBAV_Tagilla_Edition.png"]
 
 
 
@@ -105,14 +105,14 @@ def loop2(list_name, category):
                 print("Komputer nie ma połączenia z internetem.")
                 quit()
             else:
-                url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/{category}/{x}.png'
+                url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/{category}/{x}'
                 response = requests.get(url)
-                open(f'obrazy/{category}/{x}.png', 'wb').write(response.content)
+                open(f'obrazy/{category}/{x}', 'wb').write(response.content)
 
 #Pętla pobierająca pliki PNG ammunicji
 def loop3(list_name, caliber):
     for x in list_name:
-        file = os.path.isfile(f"obrazy/ammunicja/{caliber}/{x}.png")
+        file = os.path.isfile(f"obrazy/ammunicja/{caliber}/{x}")
         if file == False:
             internet_connection = check_connect()
             if internet_connection == False:
