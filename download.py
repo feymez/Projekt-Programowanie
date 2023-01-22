@@ -18,15 +18,15 @@ stacjonarne = ["AGS-30", "NSV 'Utyos'"]
 strzelby = ["KS-23M", "M3 Super 90", "M590A1", "M870", "MP-18", "MP-43-1C", "MP-133", "MP-153", "MP-155", "MTs-255-12", "Saiga-12", "TOZ-106"]
 wyrzutnie_granatow = ["GL40", "M32A1"]
 
-armors = ["5.11_Hexgrid", "5.11_TacTec", "6B2", "6B3TM-01M", "6B5-15", "6B5-16", "6B13", "6B13M", "6B23-1", "6B23-2", "6B43", "AA_A18", "AA_CPC_MOD2", "ANA_M1", "ANA_M2", "BNTI_Kirasa", 
-"BNTI_Module-3M", "BNTI_Zhuk-6a", "CP_AVS", "CP_CPC", "CP_Precision_AVS_MBAV", "CQC_MK4A_Protection", "CQC_MK4A", "DRD", "EI_MMAC", "FORT_Defender-2", "FORT_Redut-M", "FORT_Redut-T5", 
-"Gen4HMK", "Gzhel-K", "Hexatac_HPC", "Highcom_Trooper_TFO", "IOTV_Gen4_FP", "IOTV_Gen4", "Korund-VM", "LBT-6094A", "MF-UNTAR", "npp_klass_bagariy", "PACA_Rivals_Edition", "PACA", "RBAV-AF",
-"S&S_Precision", "Shellback_Tactical_Banshee", "Strandhogg", "tasmanian_tiger_sk", "THOR_Concealable", "THOR_IC", "Wartech_TV-110", "Zhuk-3_Press"]
-helmets = ["6B47_Ratnik-BSh_helmet", "Altyn_bulletproof_helmet", "BNTI_LShZ-2DTM_helmet", "Bomber_Beanie", "Crye_Precision_AirFrame_helmet", "DevTac_Ronin_ballistic_helmet", 
-"Diamond_Age_Bastion_helmet", "FORT_Kiver-M_bulletproof_helmet", "Galvion_Caiman_Hybrid_helmet", "HighCom_Striker_ACHHC_IIIA_helmet", "HighCom_Striker_ULACH_IIIA_helmet", 
-"Jack-o-lantern_tactical_pumpkin_helmet", "Kolpak-1S_riot_helmet", "LShZ_light_helmet", "Maska-1SCh_bulletproof_helmet", "MSA_ACH_TC-2001_MICH_Series_helmet", "MSA_ACH_TC-2002_MICH_Series_helmet", 
-"MSA_Gallet_TC_800_High_Cut_combat_helmet", "NFM_'HJELM'_helmet", "Ops-Core_FAST_MT_Super_High_Cut_helmet", "PSh-97_DJETA_riot_helmet", "Rys-T_bulletproof_helmet", "ShPM_Firefighter_helmet", "SSh-68_steel_helmet",
-"SSSh-94_SFERA-S_helmet", "Tac-Kek_FAST_MT_helmet_replica", "Team_Wendy_EXFIL_Ballistic_Helmet", "TSh-4M-L_soft_tank_crew_helmet", "UNTAR_helmet", "Vulkan-5_LShZ-5_bulletproof_helmet", "ZSh-1-2M_helmet"]
+armors = ["5.11_Hexgrid.png", "5.11_TacTec.png", "6B2.png", "6B3TM-01M.png", "6B5-15.png", "6B5-16.png", "6B13.png", "6B13M.png", "6B23-1.png", "6B23-2.png", "6B43.png", "AA_A18.png", "AA_CPC_MOD2.png", "ANA_M1.png", "ANA_M2.png", "BNTI_Kirasa.png", 
+"BNTI_Module-3M.png", "BNTI_Zhuk-6a.png", "CP_AVS.png", "CP_CPC.png", "CP_Precision_AVS_MBAV.png", "CQC_MK4A_Protection.png", "CQC_MK4A.png", "DRD.png", "EI_MMAC.png", "FORT_Defender-2.png", "FORT_Redut-M.png", "FORT_Redut-T5.png", 
+"Gen4HMK.png", "Gzhel-K.png", "Hexatac_HPC.png", "Highcom_Trooper_TFO.png", "IOTV_Gen4_FP.png", "IOTV_Gen4.png", "Korund-VM.png", "LBT-6094A.png", "MF-UNTAR.png", "npp_klass_bagariy.png", "PACA_Rivals_Edition.png", "PACA.png", "RBAV-AF.png",
+"S&S_Precision.png", "Shellback_Tactical_Banshee.png", "Strandhogg.png", "tasmanian_tiger_sk.png", "THOR_Concealable.png", "THOR_IC.png", "Wartech_TV-110.png", "Zhuk-3_Press.png"]
+helmets = ["6B47_Ratnik-BSh_helmet.gif", "Altyn_bulletproof_helmet.png", "BNTI_LShZ-2DTM_helmet.png", "Bomber_Beanie.png", "Crye_Precision_AirFrame_helmet.png", "DevTac_Ronin_ballistic_helmet.png", 
+"Diamond_Age_Bastion_helmet.png", "FORT_Kiver-M_bulletproof_helmet.png", "Galvion_Caiman_Hybrid_helmet.png", "HighCom_Striker_ACHHC_IIIA_helmet.gif", "HighCom_Striker_ULACH_IIIA_helmet.gif", 
+"Jack-o-lantern_tactical_pumpkin_helmet.png", "Kolpak-1S_riot_helmet.png", "LShZ_light_helmet.png", "Maska-1SCh_bulletproof_helmet.gif", "MSA_ACH_TC-2001_MICH_Series_helmet.png", "MSA_ACH_TC-2002_MICH_Series_helmet.png", 
+"MSA_Gallet_TC_800_High_Cut_combat_helmet.png", "NFM_'HJELM'_helmet.png", "Ops-Core_FAST_MT_Super_High_Cut_helmet.gif", "PSh-97_DJETA_riot_helmet.png", "Rys-T_bulletproof_helmet.png", "ShPM_Firefighter_helmet.png", "SSh-68_steel_helmet.png",
+"SSSh-94_SFERA-S_helmet.png", "Tac-Kek_FAST_MT_helmet_replica.png", "Team_Wendy_EXFIL_Ballistic_Helmet.gif", "TSh-4M-L_soft_tank_crew_helmet.png", "UNTAR_helmet.png", "Vulkan-5_LShZ-5_bulletproof_helmet.png", "ZSh-1-2M_helmet.gif"]
 containers = ["Ammo_case", "Docs_case", "dogtag_case", "gingy", "Grenade_case", "Injector_case", "Items_case", "Junkbox", "key_tool", "keycard_holder", "Magazine_box", "Medicine_case",
 "Money_case", "Mr._Holodilnick_thermobag", "Pistol_case", "SICC_pouch", "THICCItems_case", "THICCWeapon_case", "Wallet", "Weapon_case", "wz_wallet"]
 
