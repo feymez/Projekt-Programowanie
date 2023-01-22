@@ -1,4 +1,4 @@
-import json, options, time, os
+import json, options, time, os, keyboard
 from pick import pick
 import matplotlib.pyplot as plt
 import matplotlib as mpl
@@ -604,7 +604,6 @@ def get_backpack_info(name):
         backpack_weight = backpack["weight"]
         backpack_sold = backpack["sold_by"]
         backpack_image = backpack["image"]
-        extension = check_file_extension("obrazy/plecaki", {backpack_image})
         print(f"Pełna nazwa: {backpack_name}")
         print(f"Pojemność: {backpack_slots}")
         print(f"Zajmowane miejsce: {backpack_outer_grid}")
@@ -613,10 +612,14 @@ def get_backpack_info(name):
         print(f"Może przechowywać: {backpack_holds}")
         print(f"Waga: {backpack_weight}kg")
         print(f"Możliowść kupienia u: {backpack_sold}")
-        if extension == "PNG":
-            image = Image.open(f"obrazy/plecaki/{backpack_image}.png")
-            image.show()
-        elif extension == "GIF":
-            image = Image.open(f"obrazy/plecaki/{backpack_image}.gif")
-            image.show()
-        
+        image = Image.open(f"obrazy/plecaki/{backpack_image}")
+        image.show()
+
+def get_back():
+    print("Wciśnij BACKSPACE aby wrócić")
+    while True:
+        try:
+            if keyboard.is_pressed('backspace'):
+                break
+        except:
+            continue

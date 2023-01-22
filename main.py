@@ -1,4 +1,4 @@
-import random, time, os, json, requests
+import random, time, os, json, requests, keyboard
 from pick import pick
 import urllib.request
 
@@ -1585,7 +1585,7 @@ while True:
                                         break
                                     else:
                                         functions.get_gun_info('karabiny-szturmowe', assault_option)
-                                        x = input("Jeśli chcesz wrócić wpisz cokolwiek:")
+                                        functions.get_back()
                                         break
                             elif primary_option == "Karabinki szturmowe":
                                 while True:
@@ -1594,7 +1594,7 @@ while True:
                                         break
                                     else:
                                         functions.get_gun_info('karabinki-szturmowe', carabine_option)
-                                        x = input("Jeśli chcesz wrócić wpisz cokolwiek:")
+                                        functions.get_back()
                                         break
                             elif primary_option == "Lekkie karabiny maszynowe":
                                 while True:
@@ -1603,7 +1603,7 @@ while True:
                                         break
                                     else:
                                         functions.get_gun_info('lekkie-karabiny-maszynowe', lmg_option)
-                                        x = input("Jeśli chcesz wrócić wpisz cokolwiek:")
+                                        functions.get_back()
                                         break
                             elif primary_option == "Pistolety maszynowe":
                                 while True:
@@ -1612,7 +1612,7 @@ while True:
                                         break
                                     else:
                                         functions.get_gun_info('pistolety-maszynowe', smg_option)
-                                        x = input("Jeśli chcesz wrócić wpisz cokolwiek:")
+                                        functions.get_back()
                                         break
                             elif primary_option == "Strzelby":
                                 while True:
@@ -1621,7 +1621,7 @@ while True:
                                         break
                                     else:
                                         functions.get_gun_info('strzelby', pump_option)
-                                        x = input("Jeśli chcesz wrócić wpisz cokolwiek:")
+                                        functions.get_back()
                                         break
                             elif primary_option == "Karabiny wyborowe":
                                 while True:
@@ -1630,7 +1630,7 @@ while True:
                                         break
                                     else:
                                         functions.get_gun_info('karabiny-wyborowe', marksman_option)
-                                        x = input("Jeśli chcesz wrócić wpisz cokolwiek:")
+                                        functions.get_back()
                                         break
                             elif primary_option == "Karabiny snajperskie":
                                 while True:
@@ -1639,7 +1639,7 @@ while True:
                                         break
                                     else:
                                         functions.get_gun_info('karabiny-snajperskie', sniper_option)
-                                        x = input("Jeśli chcesz wrócić wpisz cokolwiek:")
+                                        functions.get_back()
                                         break
                             elif primary_option == "Wyrzutnie granatów":
                                 while True:
@@ -1648,7 +1648,7 @@ while True:
                                         break
                                     else:
                                         functions.get_gun_info('wyrzutnie-granatów', launchers_option)
-                                        x = input("Jeśli chcesz wrócić wpisz cokolwiek:")
+                                        functions.get_back()
                                         break
                     elif gun_option == "Broń drugorzędna":
                         secondary_option, secondary_index = pick(options.secondary_options, options.secondary_title, options.indicator)
@@ -1661,7 +1661,7 @@ while True:
                                         break
                                     else:
                                         functions.get_gun_info('pistolety', pistol_option)
-                                        x = input("Jeśli chcesz wrócić wpisz cokolwiek:")
+                                        functions.get_back()
                                         break
                         elif secondary_option == "Rewolwery":
                             while True:
@@ -1670,7 +1670,7 @@ while True:
                                         break
                                     else:
                                         functions.get_gun_info('rewolwery', revolver_option)
-                                        x = input("Jeśli chcesz wrócić wpisz cokolwiek:")
+                                        functions.get_back()
                                         break
                     elif gun_option == "Broń specjalna":
                         while True:
@@ -1679,7 +1679,7 @@ while True:
                                 break
                             else:
                                 functions.get_gun_info('specjalne', special_option)
-                                x = input("Jeśli chcesz wrócić wpisz cokolwiek:")
+                                functions.get_back()
                                 break
                     elif gun_option == "Broń stacjonarna":
                         while True:
@@ -1688,7 +1688,7 @@ while True:
                                 break
                             else:
                                 functions.get_gun_info('stacjonarne', stationary_option)
-                                x = input("Jeśli chcesz wrócić wpisz cokolwiek:")
+                                functions.get_back()
                                 break
     elif doing == "Wyposażenie":
         while True:
@@ -1697,5 +1697,5 @@ while True:
                 backpacks_option, backpacks_title = pick(options.backpack_options, options.backpack_title, options.indicator)
                 backpacks_option = functions.fast_replace(backpacks_option)
                 functions.get_backpack_info(backpacks_option)
-                x = input("Jeśli chcesz wrócić wpisz cokolwiek:")
+                functions.get_back()
                 break
