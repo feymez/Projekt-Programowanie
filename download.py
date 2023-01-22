@@ -120,95 +120,95 @@ def loop3(list_name, caliber):
                 quit()
             else:
                 if caliber == ".45 ACP":
-                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/.45%20ACP/{x}.png'
+                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/.45%20ACP/{x}'
                     response = requests.get(url)
                     open(f'obrazy/ammunicja/.45 ACP/{x}', 'wb').write(response.content)
                 elif caliber == ".300 Blackout":
-                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/.300%20Blackout/{x}.png'
+                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/.300%20Blackout/{x}'
                     response = requests.get(url)
                     open(f'obrazy/ammunicja/.300 Blackout/{x}', 'wb').write(response.content)
                 elif caliber == ".338 Lapua Magnum":
-                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/.338%20Lapua%20Magnum/{x}.png'
+                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/.338%20Lapua%20Magnum/{x}'
                     response = requests.get(url)
                     open(f'obrazy/ammunicja/.338 Lapua Magnum/{x}', 'wb').write(response.content)
                 elif caliber == ".357 Magnum":
-                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/.357%20Magnum/{x}.png'
+                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/.357%20Magnum/{x}'
                     response = requests.get(url)
                     open(f'obrazy/ammunicja/.357 Magnum/{x}', 'wb').write(response.content)
                 elif caliber == ".366 TKM":
-                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/.366%20TKM/{x}.png'
+                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/.366%20TKM/{x}'
                     response = requests.get(url)
                     open(f'obrazy/ammunicja/.366 TKM/{x}', 'wb').write(response.content)
                 elif caliber == "4.6x30 HK":
-                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/4.6x30%20HK/{x}.png'
+                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/4.6x30%20HK/{x}'
                     response = requests.get(url)
                     open(f'obrazy/ammunicja/4.6x30 HK/{x}', 'wb').write(response.content)
                 elif caliber == "5.7x28 FN":
-                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/5.7x28%20FN/{x}.png'
+                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/5.7x28%20FN/{x}'
                     response = requests.get(url)
                     open(f'obrazy/ammunicja/5.7x28 FN/{x}', 'wb').write(response.content)
                 elif caliber == "5.45x39":
-                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/5.45x39/{x}.png'
+                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/5.45x39/{x}'
                     response = requests.get(url)
                     open(f'obrazy/ammunicja/5.45x39/{x}', 'wb').write(response.content)
                 elif caliber == "5.56x45 NATO":
-                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/5.56x45%20NATO/{x}.png'
+                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/5.56x45%20NATO/{x}'
                     response = requests.get(url)
                     open(f'obrazy/ammunicja/5.56x45 NATO/{x}', 'wb').write(response.content)
                 elif caliber == "7.62x25 Tokarev":
-                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/7.62x25%20Tokarev/{x}.png'
+                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/7.62x25%20Tokarev/{x}'
                     response = requests.get(url)
                     open(f'obrazy/ammunicja/7.62x25 Tokarev/{x}', 'wb').write(response.content)
                 elif caliber == "7.62x39":
-                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/7.62x39/{x}.png'
+                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/7.62x39/{x}'
                     response = requests.get(url)
                     open(f'obrazy/ammunicja/7.62x39/{x}', 'wb').write(response.content)
                 elif caliber == "7.62x51 NATO":
-                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/7.62x51%20NATO/{x}.png'
+                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/7.62x51%20NATO/{x}'
                     response = requests.get(url)
                     open(f'obrazy/ammunicja/7.62x51 NATO/{x}', 'wb').write(response.content)
                 elif caliber == "7.62x54":
-                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/7.62x54/{x}.png'
+                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/7.62x54/{x}'
                     response = requests.get(url)
                     open(f'obrazy/ammunicja/7.62x54/{x}', 'wb').write(response.content)
                 elif caliber == "9x18 Makarov":
-                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/9x18%20Makarov/{x}.png'
+                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/9x18%20Makarov/{x}'
                     response = requests.get(url)
                     open(f'obrazy/ammunicja/9x18 Makarov/{x}', 'wb').write(response.content)
                 elif caliber == "9x19 Parabellum":
-                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/9x19%20Parabellum/{x}.png'
+                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/9x19%20Parabellum/{x}'
                     response = requests.get(url)
                     open(f'obrazy/ammunicja/9x19 Parabellum/{x}', 'wb').write(response.content)
                 elif caliber == "9x21 Gyurza":
-                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/9x21%20Gyurza/{x}.png'
+                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/9x21%20Gyurza/{x}'
                     response = requests.get(url)
                     open(f'obrazy/ammunicja/9x21 Gyurza/{x}', 'wb').write(response.content)
                 elif caliber == "9x39":
-                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/9x39/{x}.png'
+                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/9x39/{x}'
                     response = requests.get(url)
                     open(f'obrazy/ammunicja/9x39/{x}', 'wb').write(response.content)
                 elif caliber == "12.7x55 STs-130":
-                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/12.7x55%20STs-130/{x}.png'
+                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/12.7x55%20STs-130/{x}'
                     response = requests.get(url)
                     open(f'obrazy/ammunicja/12.7x55 STs-130/{x}', 'wb').write(response.content)
                 elif caliber == "12x70":
-                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/12x70/{x}.png'
+                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/12x70/{x}'
                     response = requests.get(url)
                     open(f'obrazy/ammunicja/12x70/{x}', 'wb').write(response.content)
                 elif caliber == "20x70":
-                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/20x70/{x}.png'
+                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/20x70/{x}'
                     response = requests.get(url)
                     open(f'obrazy/ammunicja/20x70/{x}', 'wb').write(response.content)
                 elif caliber == "23x75":
-                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/23x75/{x}.png'
+                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/23x75/{x}'
                     response = requests.get(url)
                     open(f'obrazy/ammunicja/23x75/{x}', 'wb').write(response.content)
                 elif caliber == "40x46":
-                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/40x46/{x}.png'
+                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/40x46/{x}'
                     response = requests.get(url)
                     open(f'obrazy/ammunicja/40x46/{x}', 'wb').write(response.content)
                 elif caliber == "Stationary Weapons":
-                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/Stationary%20Weapons/{x}.png'
+                    url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/Stationary%20Weapons/{x}'
                     response = requests.get(url)
                     open(f'obrazy/ammunicja/Stationary Weapons/{x}', 'wb').write(response.content)
     
