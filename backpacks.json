@@ -240,5 +240,104 @@
         "weight": 0.96,
         "sold_by": "Ragman LL1, Ragman LL1 (Barter).",
         "image": "WARTECH_Berkut_BB-102_backpack"
+    },
+    "LBT-8005A_Day_Pack_backpack": {
+        "name": "LBT-8005A Day Pack backpack",
+        "slots": 20,
+        "outer_grid": "4x5",
+        "inner_grid": "4x5",
+        "efficiency": 1,
+        "holds": "Wszystko.",
+        "weight": 0.672,
+        "sold_by": "Peacekeeper LL1 (Barter).",
+        "image": "LBT-8005A_Day_Pack_backpack"
+    },
+    "Sanitar's_bag": {
+        "name": "Sanitar's bag",
+        "slots": 16,
+        "outer_grid": "4x4",
+        "inner_grid": "4x4",
+        "efficiency": 1,
+        "holds": "Wszystko.",
+        "weight": 1.44,
+        "sold_by": "Tylko do znalezienia.",
+        "image": "Sanitar's_bag"
+    },
+    "Flyye_MBSS_backpack": {
+        "name": "Flyye MBSS backpack",
+        "slots": 16,
+        "outer_grid": "4x4",
+        "inner_grid": "4x4",
+        "efficiency": 1,
+        "holds": "Wszystko.",
+        "weight": 0.6,
+        "sold_by": "Ragman LL1, Peacekeeper LL1 (Barter).",
+        "image": "Flyye_MBSS_backpack"
+    },
+    "Mystery_Ranch_NICE_COMM_3_BVS_frame_system": {
+        "name": "Mystery Ranch NICE COMM 3 BVS frame system",
+        "slots": 14,
+        "outer_grid": "4x5",
+        "inner_grid": "2x7",
+        "efficiency": 0.7,
+        "holds": "Wszystko.",
+        "weight": 15,
+        "sold_by": "Tylko do znalezienia.",
+        "image": "Mystery_Ranch_NICE_COMM_3_BVS_frame_system"
+    },
+    "Duffle_bag": {
+        "name": "Duffle bag",
+        "slots": 12,
+        "outer_grid": "4x3",
+        "inner_grid": "4x3",
+        "efficiency": 1,
+        "holds": "Wszystko.",
+        "weight": 1.08,
+        "sold_by": "Tylko do znalezienia.",
+        "image": "Duffle_bag"
+    },
+    "LolKek_3F_Transfer_tourist_backpack": {
+        "name": "LolKek 3F Transfer tourist backpack",
+        "slots": 12,
+        "outer_grid": "3x4",
+        "inner_grid": "3x4",
+        "efficiency": 1,
+        "holds": "Wszystko.",
+        "weight": 0.984,
+        "sold_by": "Tylko do znalezienia.",
+        "image": "LolKek_3F_Transfer_tourist_backpack"
+    },
+    "Transformer_Bag": {
+        "name": "Transformer Bag",
+        "slots": 9,
+        "outer_grid": "3x3",
+        "inner_grid": "3x3",
+        "efficiency": 1,
+        "holds": "Wszystko.",
+        "weight": 0.84,
+        "sold_by": "Ragman LL1 (Barter).",
+        "image": "Transformer_Bag"
+    },
+    "VKBO_army_bag": {
+        "name": "VKBO army bag",
+        "slots": 8,
+        "outer_grid": "3x4",
+        "inner_grid": "4x2",
+        "efficiency": 0.67,
+        "holds": "Wszystko.",
+        "weight": 0.96,
+        "sold_by": "Prapor LL1 (Barter), Jaeger LL1 (Barter)",
+        "image": "VKBO_army_bag"
+    },
+    "Tactical_sling_bag": {
+        "name": "Tactical sling bag",
+        "slots": 6,
+        "outer_grid": "3x3",
+        "inner_grid": "3x2",
+        "efficiency": 0.67,
+        "holds": "Wszystko.",
+        "weight": 0.48,
+        "sold_by": "Ragman LL1.",
+        "image": "Tactical_sling_bag"
     }
 }
