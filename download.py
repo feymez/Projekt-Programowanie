@@ -98,7 +98,7 @@ def loop(list_name, category):
 #Pętla pobierająca pliki PNG / GIF
 def loop2(list_name, category):
     for x in list_name:
-        file = os.path.isfile(f'obrazy/{category}/{x}.png')
+        file = os.path.isfile(f'obrazy/{category}/{x}')
         if file == False:
             internet_connection = check_connect()
             if internet_connection == False:
@@ -112,7 +112,7 @@ def loop2(list_name, category):
 #Pętla pobierająca pliki PNG ammunicji
 def loop3(list_name, caliber):
     for x in list_name:
-        file = os.path.isfile(f"obrazy/ammunicja/{caliber}/{x}")
+        file = os.path.isfile(f"obrazy/ammunicja/{caliber}/{x}.png")
         if file == False:
             internet_connection = check_connect()
             if internet_connection == False:
