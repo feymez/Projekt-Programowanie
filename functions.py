@@ -541,7 +541,7 @@ def write_helmet_info(helmet_name, helmet_durability, helmet_effective_durabilit
         json.dump(dict, f)
 
 def get_gun_info(category, name):
-    with open(f'bronie\{category}\{name}.json', encoding='UTF-8') as f:
+    with open(f'bronie/{category}/{name}.json', encoding='UTF-8') as f:
         gun = json.load(f)
         gun_type = gun['type']
         gun_slot = gun['slot']
@@ -560,7 +560,6 @@ def get_gun_info(category, name):
         gun_muzzle_velocity = gun['muzzle_velocity']
         gun_default_mag = gun['default_mag']
         gun_accepted_ammunition = gun['accepted_ammunition']
-
         print(space)
         print(f"Wszystkie informacje na temat {name}")
         print(space)
@@ -580,3 +579,44 @@ def get_gun_info(category, name):
         print(f'Prędkość wylotowa kuli: {gun_muzzle_velocity}')
         print(f'Domyślny magazynek: {gun_default_mag}')
         print(f'Obsługiwana ammunicja: {gun_accepted_ammunition}')
+
+def check_file_extension(directory, name):
+    filepng = os.path.isfile(f"{directory}/{name}.png")
+    filegif = os.path.isfile(f"{directory}/{name}.gif")
+
+    if filepng == True:
+        file = "PNG"
+        return file
+    elif filegif == True:
+        file = "GIF"
+        return file
+
+def get_backpack_info(name):
+    with open("backpacks.json", encoding="UTF-8") as f:
+        backpack = json.load(f)
+        backpack = backpack[name]
+        backpack_name = backpack["name"]
+        backpack_slots = backpack["slots"]
+        backpack_outer_grid = backpack["outer_grid"]
+        backpack_inner_grid = backpack["inner_grid"]
+        backpack_efficiency = backpack["efficiency"]
+        backpack_holds = backpack["holds"]
+        backpack_weight = backpack["weight"]
+        backpack_sold = backpack["sold_by"]
+        backpack_image = backpack["image"]
+        extension = check_file_extension("obrazy/plecaki", {backpack_image})
+        print(f"Pełna nazwa: {backpack_name}")
+        print(f"Pojemność: {backpack_slots}")
+        print(f"Zajmowane miejsce: {backpack_outer_grid}")
+        print(f"Siatka wewnętrzna: {backpack_inner_grid}")
+        print(f"Wydajność plecaka: {backpack_efficiency}")
+        print(f"Może przechowywać: {backpack_holds}")
+        print(f"Waga: {backpack_weight}kg")
+        print(f"Możliowść kupienia u: {backpack_sold}")
+        if extension == "PNG":
+            image = Image.open(f"obrazy/plecaki/{backpack_image}.png")
+            image.show()
+        elif extension == "GIF":
+            image = Image.open(f"obrazy/plecaki/{backpack_image}.gif")
+            image.show()
+        

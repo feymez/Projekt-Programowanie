@@ -125,3 +125,9 @@ stationary_options = ["Wstecz", "NSV 'Utyos'", "AGS-30"]
 
 quests_title = "Wybierz tradera:"
 quests_options = ["Prapor", "Therapist", "Skier", "Peacekeeper", "Mechanic", "Ragman", "Jaeger", "Fence", "Lightkeeper"]
+
+equipment_title = "Wybierz:"
+equipment_options = ["Plecaki", "Kamizelki Taktyczne"]
+
+backpack_title = "Wybierz plecak:"
+backpack_options = ["6Sh118 raid backpack", "LBT-2670 Slim Field Med Pack", "Mystery Ranch Blackjack 50 backpack (Multicam)", "Eberlestock F4 Terminator load bearing backpack (Tiger Stripe)", "SSO Attack 2 raid backpack", "Tasmanian Tiger Trooper 35 backpack", "Pilgrim tourist backpack", "Santa's Bag", "3V Gear Paratus 3-Day Operator's Tactical backpack", "Eberlestock G2 Gunslinger II backpack (Dry Earth)", "Oakley Mechanism heavy duty backpack (Black)", "ANA Tactical Beta 2 Battle backpack", "Gruppa 99 T30 backpack", "Eberlestock F5 Switchblade backpack (Dry Earth)", "Camelbak Tri-Zip assault backpack", "LBT-1476A 3Day Pack (Woodland)", "Gruppa 99 T20 backpack", "Hazard 4 Drawbridge backpack (Coyote Tan)", "Hazard 4 Takedown sling backpack", "Hazard 4 Pillbox backpack", "Scav backpack", "WARTECH Berkut BB-102 backpack", "LBT-8005A Day Pack backpack", "Sanitar's bag", "Flyye MBSS backpack", "Mystery Ranch NICE COMM 3 BVS frame system", "Duffle bag", "LolKek 3F Transfer tourist backpack", "Transformer Bag", "VKBO army bag", "Tactical sling bag"]

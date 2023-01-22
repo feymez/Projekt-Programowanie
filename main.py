@@ -1690,3 +1690,12 @@ while True:
                                 functions.get_gun_info('stacjonarne', stationary_option)
                                 x = input("Jeśli chcesz wrócić wpisz cokolwiek:")
                                 break
+    elif doing == "Wyposażenie":
+        while True:
+            equipment_option, equipment_index = pick(options.equipment_options, options.equipment_title, options.indicator)
+            if equipment_option == "Plecaki":
+                backpacks_option, backpacks_title = pick(options.backpack_options, options.backpack_title, options.indicator)
+                backpacks_option = functions.fast_replace(backpacks_option)
+                functions.get_backpack_info(backpacks_option)
+                x = input("Jeśli chcesz wrócić wpisz cokolwiek:")
+                break

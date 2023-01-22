@@ -95,7 +95,7 @@ def loop(list_name, category):
                 response = requests.get(url)
                 open(f'bronie/{category}/{x}.json', 'wb').write(response.content)
 
-#Pętla pobierająca pliki PNG
+#Pętla pobierająca pliki PNG / GIF
 def loop2(list_name, category):
     for x in list_name:
         file = os.path.isfile(f'obrazy/{category}/{x}.png')
