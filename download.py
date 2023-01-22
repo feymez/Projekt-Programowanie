@@ -27,8 +27,8 @@ helmets = ["6B47_Ratnik-BSh_helmet.gif", "Altyn_bulletproof_helmet.png", "BNTI_L
 "Jack-o-lantern_tactical_pumpkin_helmet.png", "Kolpak-1S_riot_helmet.png", "LShZ_light_helmet.png", "Maska-1SCh_bulletproof_helmet.gif", "MSA_ACH_TC-2001_MICH_Series_helmet.png", "MSA_ACH_TC-2002_MICH_Series_helmet.png", 
 "MSA_Gallet_TC_800_High_Cut_combat_helmet.png", "NFM_'HJELM'_helmet.png", "Ops-Core_FAST_MT_Super_High_Cut_helmet.gif", "PSh-97_DJETA_riot_helmet.png", "Rys-T_bulletproof_helmet.png", "ShPM_Firefighter_helmet.png", "SSh-68_steel_helmet.png",
 "SSSh-94_SFERA-S_helmet.png", "Tac-Kek_FAST_MT_helmet_replica.png", "Team_Wendy_EXFIL_Ballistic_Helmet.gif", "TSh-4M-L_soft_tank_crew_helmet.png", "UNTAR_helmet.png", "Vulkan-5_LShZ-5_bulletproof_helmet.png", "ZSh-1-2M_helmet.gif"]
-containers = ["Ammo_case", "Docs_case", "dogtag_case", "gingy", "Grenade_case", "Injector_case", "Items_case", "Junkbox", "key_tool", "keycard_holder", "Magazine_box", "Medicine_case",
-"Money_case", "Mr._Holodilnick_thermobag", "Pistol_case", "SICC_pouch", "THICCItems_case", "THICCWeapon_case", "Wallet", "Weapon_case", "wz_wallet"]
+containers = ["Ammo_case.png", "Docs_case.png", "dogtag_case.png", "gingy.png", "Grenade_case.png", "Injector_case.png", "Items_case.png", "Junkbox.png", "key_tool.png", "keycard_holder.png", "Magazine_box.png", "Medicine_case.png",
+"Money_case.png", "Mr._Holodilnick_thermobag.png", "Pistol_case.png", "SICC_pouch.png", "THICCItems_case.png", "THICCWeapon_case.png", "Wallet.png", "Weapon_case.png", "wz_wallet.png"]
 
 acp_45 = ["45_ACP_AP.png", "45_ACP_Hydra-Shok.png", "45_ACP_Lasermatch_FMJ.png", "45_ACP_Match_FMJ.png", "45_ACP_RIP.png"]
 blackout_300 = ["300_AP.png", "300_BCP_FMJ.png", "300_M62_Tracer.png", "300_V-Max.png", "300_Whisper.png"]
@@ -112,7 +112,7 @@ def loop2(list_name, category):
 #Pętla pobierająca pliki PNG ammunicji
 def loop3(list_name, caliber):
     for x in list_name:
-        file = os.path.isfile(f"obrazy/ammunicja/{caliber}/{x}.png")
+        file = os.path.isfile(f"obrazy/ammunicja/{caliber}/{x}")
         if file == False:
             internet_connection = check_connect()
             if internet_connection == False:
@@ -122,95 +122,95 @@ def loop3(list_name, caliber):
                 if caliber == ".45 ACP":
                     url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/.45%20ACP/{x}.png'
                     response = requests.get(url)
-                    open(f'obrazy/ammunicja/.45 ACP/{x}.png', 'wb').write(response.content)
+                    open(f'obrazy/ammunicja/.45 ACP/{x}', 'wb').write(response.content)
                 elif caliber == ".300 Blackout":
                     url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/.300%20Blackout/{x}.png'
                     response = requests.get(url)
-                    open(f'obrazy/ammunicja/.300 Blackout/{x}.png', 'wb').write(response.content)
+                    open(f'obrazy/ammunicja/.300 Blackout/{x}', 'wb').write(response.content)
                 elif caliber == ".338 Lapua Magnum":
                     url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/.338%20Lapua%20Magnum/{x}.png'
                     response = requests.get(url)
-                    open(f'obrazy/ammunicja/.338 Lapua Magnum/{x}.png', 'wb').write(response.content)
+                    open(f'obrazy/ammunicja/.338 Lapua Magnum/{x}', 'wb').write(response.content)
                 elif caliber == ".357 Magnum":
                     url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/.357%20Magnum/{x}.png'
                     response = requests.get(url)
-                    open(f'obrazy/ammunicja/.357 Magnum/{x}.png', 'wb').write(response.content)
+                    open(f'obrazy/ammunicja/.357 Magnum/{x}', 'wb').write(response.content)
                 elif caliber == ".366 TKM":
                     url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/.366%20TKM/{x}.png'
                     response = requests.get(url)
-                    open(f'obrazy/ammunicja/.366 TKM/{x}.png', 'wb').write(response.content)
+                    open(f'obrazy/ammunicja/.366 TKM/{x}', 'wb').write(response.content)
                 elif caliber == "4.6x30 HK":
                     url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/4.6x30%20HK/{x}.png'
                     response = requests.get(url)
-                    open(f'obrazy/ammunicja/4.6x30 HK/{x}.png', 'wb').write(response.content)
+                    open(f'obrazy/ammunicja/4.6x30 HK/{x}', 'wb').write(response.content)
                 elif caliber == "5.7x28 FN":
                     url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/5.7x28%20FN/{x}.png'
                     response = requests.get(url)
-                    open(f'obrazy/ammunicja/5.7x28 FN/{x}.png', 'wb').write(response.content)
+                    open(f'obrazy/ammunicja/5.7x28 FN/{x}', 'wb').write(response.content)
                 elif caliber == "5.45x39":
                     url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/5.45x39/{x}.png'
                     response = requests.get(url)
-                    open(f'obrazy/ammunicja/5.45x39/{x}.png', 'wb').write(response.content)
+                    open(f'obrazy/ammunicja/5.45x39/{x}', 'wb').write(response.content)
                 elif caliber == "5.56x45 NATO":
                     url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/5.56x45%20NATO/{x}.png'
                     response = requests.get(url)
-                    open(f'obrazy/ammunicja/5.56x45 NATO/{x}.png', 'wb').write(response.content)
+                    open(f'obrazy/ammunicja/5.56x45 NATO/{x}', 'wb').write(response.content)
                 elif caliber == "7.62x25 Tokarev":
                     url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/7.62x25%20Tokarev/{x}.png'
                     response = requests.get(url)
-                    open(f'obrazy/ammunicja/7.62x25 Tokarev/{x}.png', 'wb').write(response.content)
+                    open(f'obrazy/ammunicja/7.62x25 Tokarev/{x}', 'wb').write(response.content)
                 elif caliber == "7.62x39":
                     url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/7.62x39/{x}.png'
                     response = requests.get(url)
-                    open(f'obrazy/ammunicja/7.62x39/{x}.png', 'wb').write(response.content)
+                    open(f'obrazy/ammunicja/7.62x39/{x}', 'wb').write(response.content)
                 elif caliber == "7.62x51 NATO":
                     url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/7.62x51%20NATO/{x}.png'
                     response = requests.get(url)
-                    open(f'obrazy/ammunicja/7.62x51 NATO/{x}.png', 'wb').write(response.content)
+                    open(f'obrazy/ammunicja/7.62x51 NATO/{x}', 'wb').write(response.content)
                 elif caliber == "7.62x54":
                     url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/7.62x54/{x}.png'
                     response = requests.get(url)
-                    open(f'obrazy/ammunicja/7.62x54/{x}.png', 'wb').write(response.content)
+                    open(f'obrazy/ammunicja/7.62x54/{x}', 'wb').write(response.content)
                 elif caliber == "9x18 Makarov":
                     url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/9x18%20Makarov/{x}.png'
                     response = requests.get(url)
-                    open(f'obrazy/ammunicja/9x18 Makarov/{x}.png', 'wb').write(response.content)
+                    open(f'obrazy/ammunicja/9x18 Makarov/{x}', 'wb').write(response.content)
                 elif caliber == "9x19 Parabellum":
                     url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/9x19%20Parabellum/{x}.png'
                     response = requests.get(url)
-                    open(f'obrazy/ammunicja/9x19 Parabellum/{x}.png', 'wb').write(response.content)
+                    open(f'obrazy/ammunicja/9x19 Parabellum/{x}', 'wb').write(response.content)
                 elif caliber == "9x21 Gyurza":
                     url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/9x21%20Gyurza/{x}.png'
                     response = requests.get(url)
-                    open(f'obrazy/ammunicja/9x21 Gyurza/{x}.png', 'wb').write(response.content)
+                    open(f'obrazy/ammunicja/9x21 Gyurza/{x}', 'wb').write(response.content)
                 elif caliber == "9x39":
                     url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/9x39/{x}.png'
                     response = requests.get(url)
-                    open(f'obrazy/ammunicja/9x39/{x}.png', 'wb').write(response.content)
+                    open(f'obrazy/ammunicja/9x39/{x}', 'wb').write(response.content)
                 elif caliber == "12.7x55 STs-130":
                     url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/12.7x55%20STs-130/{x}.png'
                     response = requests.get(url)
-                    open(f'obrazy/ammunicja/12.7x55 STs-130/{x}.png', 'wb').write(response.content)
+                    open(f'obrazy/ammunicja/12.7x55 STs-130/{x}', 'wb').write(response.content)
                 elif caliber == "12x70":
                     url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/12x70/{x}.png'
                     response = requests.get(url)
-                    open(f'obrazy/ammunicja/12x70/{x}.png', 'wb').write(response.content)
+                    open(f'obrazy/ammunicja/12x70/{x}', 'wb').write(response.content)
                 elif caliber == "20x70":
                     url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/20x70/{x}.png'
                     response = requests.get(url)
-                    open(f'obrazy/ammunicja/20x70/{x}.png', 'wb').write(response.content)
+                    open(f'obrazy/ammunicja/20x70/{x}', 'wb').write(response.content)
                 elif caliber == "23x75":
                     url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/23x75/{x}.png'
                     response = requests.get(url)
-                    open(f'obrazy/ammunicja/23x75/{x}.png', 'wb').write(response.content)
+                    open(f'obrazy/ammunicja/23x75/{x}', 'wb').write(response.content)
                 elif caliber == "40x46":
                     url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/40x46/{x}.png'
                     response = requests.get(url)
-                    open(f'obrazy/ammunicja/40x46/{x}.png', 'wb').write(response.content)
+                    open(f'obrazy/ammunicja/40x46/{x}', 'wb').write(response.content)
                 elif caliber == "Stationary Weapons":
                     url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/obrazy/ammunicja/Stationary%20Weapons/{x}.png'
                     response = requests.get(url)
-                    open(f'obrazy/ammunicja/Stationary Weapons/{x}.png', 'wb').write(response.content)
+                    open(f'obrazy/ammunicja/Stationary Weapons/{x}', 'wb').write(response.content)
     
 #Funkcja sprawdzająca spójność plików JSON broni.
 def check():
