@@ -10,11 +10,11 @@ W programie zostało wprowadzone zabezpieczenie spójności plików. Przy każdy
 > - **Porównanie** - W tym trybie porównasz kamizelkę kuloodporną lub hełm z ammunicją. Dowiesz się jak klasyfikowana jest ammunicja do pancerza. <br>
 > - **Sprawdzenie statystyk** - Tryb sprawdzania statystyk pokazuje nam dokładne statystyki danej kamizelki kuloodpornej, hełmu lub pocisku. <br>
 > - **Kompatybilność** - Dzięki temu trybowi sprawdzimy kompatybilność broni z ammunicją. Wybierz broń i sprawdź jaka ammunicja jest przez nią obsługiwana! <br>
+> - **Wyposażenie** - Tryb ten pozwala nam na sprawdzenie informacji na temat poszczególnych plecaków lub kamizelek taktycznych. <br>
+> - **Pojemniki** - Ten tryb programu pokaże Ci wszystkie dostępne pojemniki w grze oraz opisze do czego służą! <br>
 > - **Zadania** - Tryb dzięki któremu dowiemy się jakich przedmiotów będziemy potrzebować do ukończenia zadań. - **`(Nie wydane)`** <br>
-> - **Wyposażenie** - Tryb ten pozwala nam na sprawdzenie informacji na temat poszczególnych plecaków lub kamizelek taktycznych. - **`(Nie wydane)`** <br>
 > - **Kryjówka** - Sprawdź jakie przedmioty są potrzebne do rozwijania swoich czterech kątów! - **`(Nie wydane)`** <br>
 > - **Umiejętności** - Dowiedz się w jaki sposób rozwijać umiejętności postaci `PMC` oraz jakie niesie to za sobą korzyści! - **`(Nie wydane)`** <br>
-> - **Pojemniki** - Ten tryb programu pokaże Ci wszystkie dostępne pojemniki w grze oraz opisze do czego służą! - **`(Nie wydane)`** <br>
 > - **Medykamenty** - Sprawdź w jaki sposób możesz się uleczyć oraz jaki medykament jest najskuteczniejszy! - **`(Nie wydane)`** <br>
 > - **Frakcje** - Wytłumaczenie czym zajmują się dane `frakcje` w **Escape From Tarkov** - **`(Nie wydane)`** <br>
 
@@ -25,7 +25,7 @@ W programie zostało wprowadzone zabezpieczenie spójności plików. Przy każdy
 ### Porównanie:
 
 Po uruchomieniu programu wyświetli się nam menu wyboru. <br>
-![image](https://user-images.githubusercontent.com/85249187/212918956-63d2a332-b212-4a85-935c-b1288e3a0d53.png) <br>
+![image](https://user-images.githubusercontent.com/85249187/213991965-d470c51b-c8b0-49fb-b808-fd5d1fd6d80e.png) <br>
 Po wybraniu opcji **`Porównanie`** zostaniemy przeniesieni do następengo menu. <br>
 ![image](https://user-images.githubusercontent.com/85249187/212919040-4a59bc2e-9983-4224-ab4e-9c1d5d81a07a.png) <br>
 Teraz możemy wybrać **`Kamizelka`** lub **`Hełm`**. <br>
@@ -45,7 +45,7 @@ Na samym końcu możemy zobaczyć wykres porównania. Zostanie on zapisany w pli
 ### Sprawdzenie statystyk:
 
 Po uruchomieniu programu wyświetli się nam menu wyboru. <br>
-![image](https://user-images.githubusercontent.com/85249187/212920854-751fc5d9-a628-4f3a-8332-22b672d71754.png) <br>
+![image](https://user-images.githubusercontent.com/85249187/213991965-d470c51b-c8b0-49fb-b808-fd5d1fd6d80e.png) <br>
 Po wybraniu opcji **`Sprawdzenie statystyk`** zostaniemy przeniesieni do następengo menu. <br>
 ![image](https://user-images.githubusercontent.com/85249187/212921022-66f741b9-0aa9-44bd-9a3e-1e3ad698cb12.png) <br>
 Teraz możemy wybrać **`Kamizelka`**, **`Hełm`** lub **`Ammunicja`**. <br>
@@ -62,7 +62,7 @@ Wybieramy interesujący nas przedmiot. Program wyświeli wszystkie informacje na
 
 ### Kompatybilność:
 Po uruchomieniu programu wyświetli się nam menu wyboru. <br>
-![image](https://user-images.githubusercontent.com/85249187/212922295-401b21e3-54c2-41d4-b6c3-89e1ca3463b9.png) <br>
+![image](https://user-images.githubusercontent.com/85249187/213991965-d470c51b-c8b0-49fb-b808-fd5d1fd6d80e.png) <br>
 Po wybraniu opcji **`Kompatybilność`** zostaniemy przeniesieni do następengo menu. <br>
 ![image](https://user-images.githubusercontent.com/85249187/212922399-db44643e-4745-478e-bf6e-7121fd067fc9.png) <br>
 Następnie wybieramy rodzaj broni. <br>
@@ -74,3 +74,25 @@ Następnie wybieramy broń którą chcemy sprawdzić. <br>
 Program wyświeli informacje na temat interesującej nas broni. <br>
 **Aby wrócić do list wyboru należy nacisnąć przycisk `BACKSPACE`** <br>
 ![image](https://user-images.githubusercontent.com/85249187/212923225-8e9be156-e75e-4f7e-a743-1bd262ab7e46.png) <br>
+
+### Wyposażenie:
+Po uruchomieniu programu wyświetli się nam menu wyboru. <br>
+![image](https://user-images.githubusercontent.com/85249187/213991965-d470c51b-c8b0-49fb-b808-fd5d1fd6d80e.png) <br>
+Po wybraniu opcji **`Wyposażenie`** zostaniemy przeniesieni do następnego menu. <br>
+![image](https://user-images.githubusercontent.com/85249187/214078946-8aa41119-b719-4e17-9323-1188392bbb08.png) <br>
+Następnie wybieramy **`Plecaki`** lub **`Kamizelki Taktyczne`**. <br>
+Po wybraniu danej opcji zobaczymy kolejne menu: <br>
+**`Plecaki`** <br>
+![image](https://user-images.githubusercontent.com/85249187/214079040-fba99ffc-af5c-46f0-92b0-d63519b3c5f1.png) <br>
+**`Kamizelki Taktyczne`** <br>
+![image](https://user-images.githubusercontent.com/85249187/214079094-66f88394-d7b9-4b33-906d-e8c947657220.png) <br>
+Wybieramy interesujący nas przedmiot. Program wyświetli wszystkie informacje na temat danego przedmiotu. <br>
+**Aby wrócić do list wyboru należy nacisnąć przycisk `BACKSPACE`** <br>
+
+### Pojemniki:
+Po uruchomieniu programu wyświetli się nam menu wyboru. <br>
+![image](https://user-images.githubusercontent.com/85249187/213991965-d470c51b-c8b0-49fb-b808-fd5d1fd6d80e.png) <br>
+Po wybraniu opcji **`Pojemniki`** zostaniemy przeniesieni do następengo menu. <br>
+![image](https://user-images.githubusercontent.com/85249187/214079729-1e821e69-f9a9-4644-9575-2e3dcbf79c6f.png) <br>
+Wybieramy interesujący nas przedmiot. Program wyświetli wszystkie informacje na temat danego przedmiotu. <br>
+**Aby wrócić do list wyboru należy nacisnąć przycisk `BACKSPACE`** <br>
