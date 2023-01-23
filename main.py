@@ -81,8 +81,10 @@ while True:
                 response = requests.get(url)
                 open("directories.py", 'wb').write(response.content)
         else:
-            import functions, options, download
+            import functions, options, download, directories
             print('Weryfikuję pliki...')
+            directories.check_all_dir(directories.first1)
+            directories.check_all_dir(directories.second2)
             download.check()
             download.check2()
             download.check3()
@@ -95,59 +97,7 @@ while True:
             armorsExist = os.path.isfile('armors.json')
             headgearExist = os.path.isfile('headgear.json')
             chestrigsExist = os.path.isfile("chestrigs.json")
-            #>----------- Sprawdzanie folderów -----------<
-            wykresyExist = os.path.exists('wykresy')
-            ammunicjaExist = os.path.exists('ammunicja')
-            kamizelkiExist = os.path.exists('kamizelki')
-            helmyExist = os.path.exists('helmy')
-            zadaniaExist = os.path.exists('zadania')
-            praporExist = os.path.exists('zadania/prapor')
-            therapistExist = os.path.exists('zadania/therapist')
-            skierExist = os.path.exists('zadania/skier')
-            peacekeeperExist = os.path.exists('zadania/peacekeeper')
-            mechanicExist = os.path.exists('zadania/mechanic')
-            ragmanExist = os.path.exists('zadania/ragman')
-            jaegerExist = os.path.exists('zadania/jaeger')
-            fenceExist = os.path.exists('zadania/fence')
-            lightkeeperExist = os.path.exists('zadania/lightkeeper')
-            obrazyExist = os.path.exists('obrazy')
-            pojemnikiExist = os.path.exists('obrazy/pojemniki')
-            kamzyExist = os.path.exists('obrazy/kamizelki')
-            #>----------- Tworzenie folderów -----------<
-            if wykresyExist == False:
-                os.mkdir('wykresy')
-            if ammunicjaExist == False:
-                os.mkdir('ammunicja')
-            if kamizelkiExist == False:
-                os.mkdir('kamizelki')
-            if helmyExist == False:
-                os.mkdir('helmy')
-            if zadaniaExist == False:
-                os.mkdir('zadania')
-            if praporExist == False:
-                os.mkdir('zadania/prapor')
-            if therapistExist == False:
-                os.mkdir('zadania/therapist')
-            if skierExist == False:
-                os.mkdir('zadania/skier')
-            if peacekeeperExist == False:
-                os.mkdir('zadania/peacekeeper')
-            if mechanicExist == False:
-                os.mkdir('zadania/mechanic')
-            if ragmanExist == False:
-                os.mkdir('zadania/ragman')
-            if jaegerExist == False:
-                os.mkdir('zadania/jaeger')
-            if fenceExist == False:
-                os.mkdir('zadania/fence')
-            if lightkeeperExist == False:
-                os.mkdir('zadania/lightkeeper')
-            if obrazyExist == False:
-                os.mkdir('obrazy')
-            if pojemnikiExist == False:
-                os.mkdir('obrazy/pojemniki')
-            if kamzyExist == False:
-                os.mkdir('obrazy/kamizelki')
+            containersExist = os.path.isfile("containers.json")
             #>----------- Pobieranie plików -----------<
             if ammunitionExist == False:
                 print('Wykryto brakujący plik "ammunition.json"')
@@ -202,6 +152,20 @@ while True:
                     response = requests.get(url)
                     print('Pobieram brakujący plik')
                     open('chestrigs.json', 'wb').write(response.content)
+                except:
+                    print('Operacja nie mogła zostać wykonana.')
+                    quit()
+            if containersExist == False:
+                print('Wykryto brakujący plik "containers.json"')
+                try:
+                    internet_connection = check_connect()
+                    if internet_connection == False:
+                        print("Komputer nie ma połączenia z internetem.")
+                        quit()
+                    url = 'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/containers.json'
+                    response = requests.get(url)
+                    print('Pobieram brakujący plik')
+                    open('containers.json', 'wb').write(response.content)
                 except:
                     print('Operacja nie mogła zostać wykonana.')
                     quit()

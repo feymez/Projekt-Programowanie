@@ -13,26 +13,40 @@ def directory():
     bronie = os.path.exists("bronie")
     if bronie == False:
         os.mkdir("bronie")
-        time.sleep(2)
     for x in sciezki_bronie:
         directory = os.path.exists(f'bronie/{x}')
         if directory == False:
             os.mkdir(f"bronie/{x}")
-            time.sleep(1)
 
 #Funkcja tworząca ścieżkę obrazy/...
 def directory2():
     obrazy = os.path.exists("obrazy")
     if obrazy == False:
         os.mkdir("obrazy")
-        time.sleep(2)
     for x in sciezki_obrazy:
         directory = os.path.exists(f"obrazy/{x}")
         if directory == False:
             os.mkdir(f"obrazy/{x}")
-            time.sleep(1)
     for y in sciezki_ammunicja:
         ammunicja = os.path.exists(f'obrazy/ammunicja/{y}')
         if ammunicja == False:
             os.mkdir(f'obrazy/ammunicja/{y}')
-            time.sleep(1)
+
+
+first1 = ["wykresy", "ammunicja", "kamizelki", "helmy", "zadania", "kryjowka"]
+second2 = ["zadania/prapor", "zadania/therapist", "zadania/skier", "zadania/peacekeeper",
+"zadania/mechanic", "zadania/ragman", "zadania/jaeger", "zadania/fence", "zadania/lightkeeper",
+"kryjowka/biblioteka", "kryjowka/centrum-wywiadu", "kryjowka/choinka",
+"kryjowka/filtr-powietrza", "kryjowka/fotowoltaika", "kryjowka/generator-alko", "kryjowka/generator-pradu",
+"kryjowka/kolektor-wody", "kryjowka/koparka-krypto", "kryjowka/kuchnia", "kryjowka/lozko", "kryjowka/ochrona",
+"kryjowka/ogrzewanie", "kryjowka/oswietlenie", "kryjowka/pojemnik-scava", "kryjowka/silownia", "kryjowka/stacja-medyczna",
+"kryjowka/stol", "kryjowka/strzelnica", "kryjowka/szafa", "kryjowka/toaleta", "kryjowka/wentylacja"]
+
+def check_all_dir(name):
+    for x in name:
+        path = os.path.exists(x)
+        if path == False:
+            os.mkdir(x)
+            continue
+        else:
+            continue
