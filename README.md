@@ -79,13 +79,13 @@ Program wyświeli informacje na temat interesującej nas broni. <br>
 Po uruchomieniu programu wyświetli się nam menu wyboru. <br>
 ![image](https://user-images.githubusercontent.com/85249187/213991965-d470c51b-c8b0-49fb-b808-fd5d1fd6d80e.png) <br>
 Po wybraniu opcji **`Wyposażenie`** zostaniemy przeniesieni do następnego menu. <br>
-![image](https://user-images.githubusercontent.com/85249187/213992128-a885a6c7-b139-4995-86d5-fb7570a36e91.png) <br>
+![image](https://user-images.githubusercontent.com/85249187/214078946-8aa41119-b719-4e17-9323-1188392bbb08.png) <br>
 Następnie wybieramy **`Plecaki`** lub **`Kamizelki Taktyczne`**. <br>
 Po wybraniu danej opcji zobaczymy kolejne menu: <br>
 **`Plecaki`** <br>
-![image](https://user-images.githubusercontent.com/85249187/213992794-0ab278ee-702d-4c35-b63d-fbecb1f0b76c.png) <br>
+![image](https://user-images.githubusercontent.com/85249187/214079040-fba99ffc-af5c-46f0-92b0-d63519b3c5f1.png) <br>
 **`Kamizelki Taktyczne`** <br>
-![image](https://user-images.githubusercontent.com/85249187/213992863-e21f40b9-be3f-46af-9e18-157823b32ee4.png) <br>
+![image](https://user-images.githubusercontent.com/85249187/214079094-66f88394-d7b9-4b33-906d-e8c947657220.png) <br>
 Wybieramy interesujący nas przedmiot. Program wyświetli wszystkie informacje na temat danego przedmiotu. <br>
 **Aby wrócić dolist wyboru należy nacisnąć przycisk `BACKSPACE`** <br>
 
