@@ -96,3 +96,11 @@ Po wybraniu opcji **`Pojemniki`** zostaniemy przeniesieni do następengo menu. <
 ![image](https://user-images.githubusercontent.com/85249187/214079729-1e821e69-f9a9-4644-9575-2e3dcbf79c6f.png) <br>
 Wybieramy interesujący nas przedmiot. Program wyświetli wszystkie informacje na temat danego przedmiotu. <br>
 **Aby wrócić do list wyboru należy nacisnąć przycisk `BACKSPACE`** <br>
+
+### Medykamenty:
+Po uruchomieniu programu wyświetli się nam menu wyboru. <br>
+![image](https://user-images.githubusercontent.com/85249187/213991965-d470c51b-c8b0-49fb-b808-fd5d1fd6d80e.png) <br>
+Po wybraniu opcji **`Medykamenty`** zostaniemy przeniesieni do następengo menu. <br>
+![image](https://user-images.githubusercontent.com/85249187/214113981-7016fdc2-ca81-4393-a220-e966329b734e.png) <br>
+Wybieramy interesujący nas przedmiot. Program wyświetli wszystkie informacje na temat danego przedmiotu. <br>
+**Aby wrócić do list wyboru należy nacisnąć przycisk `BACKSPACE`** <br>
