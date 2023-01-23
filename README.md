@@ -57,7 +57,7 @@ Po wybraniu danej opcji zobaczymy kolejne menu: <br>
 **`Ammunicja`** <br>
 ![image](https://user-images.githubusercontent.com/85249187/212921374-2146d87d-0b50-4a6a-a24f-35d0ad56ac75.png) <br>
 Wybieramy interesujący nas przedmiot. Program wyświeli wszystkie informacje na temat danego przedmiotu. <br>
-**Aby wrócić do list wyboru należy nacisnąć przycisk `ENTER`** <br>
+**Aby wrócić do list wyboru należy nacisnąć przycisk `BACKSPACE`** <br>
 ![image](https://user-images.githubusercontent.com/85249187/212921628-415b7aa1-3b5e-47e4-bceb-93940a6c6242.png) <br>
 
 ### Kompatybilność:
@@ -72,5 +72,5 @@ Następnie wybieramy określony typ. <br>
 Następnie wybieramy broń którą chcemy sprawdzić. <br>
 ![image](https://user-images.githubusercontent.com/85249187/212922746-47adbcf0-ed63-457e-9f8e-2b096315bbdb.png) <br>
 Program wyświeli informacje na temat interesującej nas broni. <br>
-**Aby wrócić do list wyboru należy nacisnąć przycisk `ENTER`** <br>
+**Aby wrócić do list wyboru należy nacisnąć przycisk `BACKSPACE`** <br>
 ![image](https://user-images.githubusercontent.com/85249187/212923225-8e9be156-e75e-4f7e-a743-1bd262ab7e46.png) <br>

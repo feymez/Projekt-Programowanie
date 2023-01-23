@@ -32,6 +32,7 @@ while True:
             print('Pobieram brakujący plik')
             open('launch-options.json', 'wb').write(response.content)
     elif launchExist == True:
+        #>----------- Sprawdzanie plików Python -----------<
         functionsExist = os.path.isfile('functions.py')
         optionsExist = os.path.isfile('functions.py')
         downloadExist = os.path.isfile('download.py')
@@ -1710,14 +1711,31 @@ while True:
     elif doing == "Wyposażenie":
         while True:
             equipment_option, equipment_index = pick(options.equipment_options, options.equipment_title, options.indicator)
-            if equipment_option == "Plecaki":
-                backpacks_option, backpacks_title = pick(options.backpack_options, options.backpack_title, options.indicator)
-                backpacks_option = functions.fast_replace(backpacks_option)
-                functions.get_backpack_info(backpacks_option)
-                functions.get_back()
+            if equipment_option == "Wstecz":
                 break
-            elif equipment_option == "Kamizelki Taktyczne":
-                chestrig_option, chestrig_index = pick(options.chestrig_options, options.chestrig_title, options.indicator)
-                chestrig_option = functions.fast_replace(chestrig_option)
-                #Tutaj wstaw funkcję od chestrigów
+            else:
+                while True:
+                    if equipment_option == "Plecaki":
+                        backpacks_option, backpacks_title = pick(options.backpack_options, options.backpack_title, options.indicator)
+                        if backpacks_option == "Wstecz":
+                            break
+                        backpacks_option = functions.fast_replace(backpacks_option)
+                        functions.get_backpack_info(backpacks_option)
+                        functions.get_back()
+                        break
+                    elif equipment_option == "Kamizelki Taktyczne":
+                        chestrig_option, chestrig_index = pick(options.chestrig_options, options.chestrig_title, options.indicator)
+                        if chestrig_option == "Wstecz":
+                            break
+                        chestrig_option = functions.fast_replace(chestrig_option)
+                        functions.get_chestrig_info(chestrig_option)
+                        functions.get_back()
+    elif doing == "Pojemniki":
+        while True:
+            container_option, container_index = pick(options.containers_options, options.containers_title, options.indicator)
+            if container_option == "Wstecz":
+                break
+            else:
+                container_option = functions.fast_replace(container_option)
+                functions.get_container_info(container_option)
                 functions.get_back()

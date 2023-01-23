@@ -625,4 +625,38 @@ def get_backpack_info(name):
         image.show()
 
 def get_chestrig_info(name):
-    with open("")
+    with open("chestrigs.json", encoding="UTF-8") as f:
+        chestrig = json.load(f)
+        chestrig = chestrig[name]
+        chestrig_name = chestrig["name"]
+        chestrig_layout = chestrig["layout"]
+        chestrig_grid = chestrig["grid_size"]
+        chestrig_efficiency = chestrig["efficiency"]
+        chestrig_weight = chestrig["weight"]
+        chestrig_image = chestrig["image"]
+        print(f"Pełna nazwa: {chestrig_name}")
+        print(f"Siatka: {chestrig_grid}")
+        print(f"Wydajność: {chestrig_efficiency}")
+        print(f"Waga: {chestrig_weight}kg")
+        image = Image.open(f"obrazy/kamizelki-taktyczne/{chestrig_image}")
+        image.show()
+
+def get_container_info(name):
+    with open("containers.json", encoding="UTF-8") as f:
+        container = json.load(f)
+        container = container[name]
+        container_name = container["name"]
+        container_inner = container["inner_grid"]
+        container_outer = container["outer_grid"]
+        container_efficiency = container["efficiency"]
+        container_slots = container["total_slots"]
+        container_holds = container["holds"]
+        container_image = container["image"]
+        print(f"Pełna nazwa: {container_name}")
+        print(f"Siatka wewnętrzna: {container_inner}")
+        print(f"Siatka zewnętrzna: {container_outer}")
+        print(f"Wydajność: {container_efficiency}")
+        print(f"Pojemność: {container_slots}")
+        print(f"Co może przechowywać: {container_holds}")
+        image = Image.open(f"obrazy/pojemniki/{container_image}")
+        image.show()

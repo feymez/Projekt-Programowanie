@@ -1,0 +1,236 @@
+{
+    "scav_vest": {
+        "name": "Scav Vest",
+        "layout": "1221.png",
+        "slots": 6,
+        "grid_size": "2x3",
+        "efficiency": 1,
+        "weight": 0.4,
+        "image": "Scav_Vest.png"
+    },
+    "security_vest": {
+        "name": "Security Vest",
+        "layout": "1221.png",
+        "slots": 6,
+        "grid_size": "2x3",
+        "efficiency": 1,
+        "weight": 0.51,
+        "image": "Security_Vest.png"
+    },
+    "diy_idea_chest_rig": {
+        "name": "DIY IDEA chest rig",
+        "layout": "4x2.png",
+        "slots": 8,
+        "grid_size": "3x2",
+        "efficiency": 1.333,
+        "weight": 0.22,
+        "image": "DIY_IDEA_chest_rig.png"
+    },
+    "spiritus_systems_bank_robber_chest_rig": {
+        "name": "Spiritus Systems Bank Robber chest rig",
+        "layout": "4x2.png",
+        "slots": 8,
+        "grid_size": "3x2",
+        "efficiency": 1.333,
+        "weight": 0.7,
+        "image": "Spiritus_Systems_Bank_Robber_chest_rig.png"
+    },
+    "soe_micro_rig": {
+        "name": "SOE Micro Rig",
+        "layout": "422.png",
+        "slots": 8,
+        "grid_size": "2x3",
+        "efficiency": 1.333,
+        "weight": 0.8,
+        "image": "SOE_Micro_Rig.png"
+    },
+    "wartech_tv-109_+_tv-106_chest_rig": {
+        "name": "WARTECH TV-109 + TV-106 chest rig",
+        "layout": "4222x1.png",
+        "slots": 10,
+        "grid_size": "3x3",
+        "efficiency": 1.111,
+        "weight": 1.8,
+        "image": "WARTECH_TV-109_+_TV-106_chest_rig.png"
+    },
+    "csa_chest_rig": {
+        "name": "CSA chest rig",
+        "layout": "3223.png",
+        "slots": 10,
+        "grid_size": "2x3",
+        "efficiency": 1.667,
+        "weight": 0.75,
+        "image": "CSA_chest_rig.png"
+    },
+    "umtbs_6sh112_scout-sniper": {
+        "name": "UMTBS 6sh112 Scout-Sniper",
+        "layout": "4x2_4x1.png",
+        "slots": 12,
+        "grid_size": "4x3",
+        "efficiency": 1,
+        "weight": 1.7,
+        "image": "UMTBS_6sh112_Scout-Sniper.png"
+    },
+    "azimut_ss_'khamelion'_chest_harness_olive": {
+        "name": "Azimut SS 'Khamelion' chest harness (Olive)",
+        "layout": "4x2_4x1.png",
+        "slots": 12,
+        "grid_size": "4x3",
+        "efficiency": 1,
+        "weight": 1.7,
+        "image": "Azimut_SS__Khamelion__chest_harness_Olive.png"
+    },
+    "splav_tarzan_m22_chest_rig": {
+        "name": "Splav Tarzan M22 chest rig",
+        "layout": "4x2_4x1_2x1.png",
+        "slots": 14,
+        "grid_size": "4x3",
+        "efficiency": 1.167,
+        "weight": 1.45,
+        "image": "Splav_Tarzan_M22_chest_rig.png"
+    },
+    "haley_strategic_d3crx_chest_harness": {
+        "name": "Haley Strategic D3CRX Chest Harness",
+        "layout": "4x2_2_4x1_2.png",
+        "slots": 16,
+        "grid_size": "3x3",
+        "efficiency": 1.778,
+        "weight": 0.9,
+        "image": "Haley_Strategic_D3CRX_Chest_Harness.png"
+    },
+    "dynaforce_triton_m43-a_chest_harness": {
+        "name": "Dynaforce Triton M43-A chest harness",
+        "layout": "8x2",
+        "slots": 16,
+        "grid_size": "4x3",
+        "efficiency": 1.333,
+        "weight": 1.3,
+        "image": "Dynaforce_Triton_M43-A_chest_harness.png"
+    },
+    "blackhawk!_commando_chest_harness": {
+        "name": "BlackHawk! Commando chest harness",
+        "layout": "8x2",
+        "slots": 16,
+        "grid_size": "4x3",
+        "efficiency": 1.333,
+        "weight": 1.3,
+        "image": "BlackHawk!_Commando_chest_harness.gif"
+    },
+    "direct_action_thunderbolt_compact_chest_rig": {
+        "name": "Direct Action Thunderbolt compact chest rig",
+        "layout": "6x2_2x1_2.png",
+        "slots": 16,
+        "grid_size": "3x3",
+        "efficiency": 1.778,
+        "weight": 0.62,
+        "image": "Direct_Action_Thunderbolt_compact_chest_rig.png"
+    },
+    "gear_craft_gc-bss-mk1_chest_rig": {
+        "name": "Gear Craft GC-BSS-MK1 chest rig",
+        "layout": "5x2_4x1_2.png",
+        "slots": 16,
+        "grid_size": "3x3",
+        "efficiency": 1.778,
+        "weight": 1,
+        "image": "Gear_Craft_GC-BSS-MK1_chest_rig.png"
+    },
+    "umka_m33-set1_hunter_vest": {
+        "name": "Umka M33-SET1 hunter vest",
+        "layout": "4x2_4x1_4.png",
+        "slots": 16,
+        "grid_size": "3x4",
+        "efficiency": 1.333,
+        "weight": 1.2,
+        "image": "Umka_M33-SET1_hunter_vest.png"
+    },
+    "lbt-1961a_load_bearing_chest_rig": {
+        "name": "LBT-1961A Load Bearing Chest Rig",
+        "layout": "44_4x2_2x1.png",
+        "slots": 18,
+        "grid_size": "3x3",
+        "efficiency": 2,
+        "weight": 1.36,
+        "image": "LBT-1961A_Load_Bearing_Chest_Rig.png"
+    },
+    "lbt-1961a_load_bearing_chest_rig_goons_edition": {
+        "name": "LBT-1961A Load Bearing Chest Rig (Goons Edition)",
+        "layout": "44_4x2_2x1.png",
+        "slots": 18,
+        "grid_size": "3x3",
+        "efficiency": 2,
+        "weight": 1.36,
+        "image": "LBT-1961A_Load_Bearing_Chest_Rig_Goons_Edition.png"
+    },
+    "stich_profi_chest_rig_mk2_recon,_a-tacs_fg": {
+        "name": "Stich Profi Chest Rig MK2 (Recon, A-TACS FG)",
+        "layout": "4x2_4x1_1221.png",
+        "slots": 18,
+        "grid_size": "3x4",
+        "efficiency": 1.5,
+        "weight": 1.4,
+        "image": "Stich_Profi_Chest_Rig_MK2_Recon_A-TACS_FG.png"
+    },
+    "stich_profi_chest_rig_mk2_assault,_a-tacs_fg": {
+        "name": "Stich Profi Chest Rig MK2 (Assault, A-TACS FG)",
+        "layout": "3x1_6x2_3x1.png",
+        "slots": 18,
+        "grid_size": "3x4",
+        "efficiency": 1.5,
+        "weight": 1.75,
+        "image": "Stich_Profi_Chest_Rig_MK2_Assault_A-TACS_FG.png"
+    },
+    "blackrock_chest_rig": {
+        "name": "BlackRock chest rig",
+        "layout": "4x2_4x1_422.png",
+        "slots": 20,
+        "grid_size": "3x4",
+        "efficiency": 1.667,
+        "weight": 1.8,
+        "image": "BlackRock_chest_rig.png"
+    },
+    "wartech_mk3_tv-104_chest_rig": {
+        "name": "WARTECH MK3 TV-104 chest rig",
+        "layout": "8x2_2x1_2.png",
+        "slots": 20,
+        "grid_size": "3x4",
+        "efficiency": 1.667,
+        "weight": 1.65,
+        "image": "WARTECH_MK3_TV-104_chest_rig.png"
+    },
+    "ana_tactical_alpha_chest_rig": {
+        "name": "ANA Tactical Aplha chest rig",
+        "layout": "4x3_242.png",
+        "slots": 20,
+        "grid_size": "4x4",
+        "efficiency": 1.25,
+        "weight": 1.7,
+        "image": "ANA_Tactical_Alpha_chest_rig.png"
+    },
+    "azimut_ss_'zhuk'_chest_harness": {
+        "name": "Azimut SS 'Zhuk' chest harness",
+        "layout": "10x2.png",
+        "slots": 20,
+        "grid_size": "4x3",
+        "efficiency": 1.667,
+        "weight": 1.6,
+        "image": "Azimut_SS__Zhuk__chest_harness.gif"
+    },
+    "velocity_systems_mppv_multi-purpose_patrol_vest": {
+        "name": "Velocity Systems MPPV Multi-Purpose Patrol Vest",
+        "layout": "9x2_4x1_2.png",
+        "slots": 24,
+        "grid_size": "4x3",
+        "efficiency": 2,
+        "weight": 1.6,
+        "image": "Velocity_Systems_MPPV_Multi-Purpose_Patrol_Vest.png"
+    },
+    "belt-a_+_belt-b_gear_rig": {
+        "name": "Belt-A + Belt-B gear rig",
+        "layout": "13x1_6x2.png",
+        "slots": 25,
+        "grid_size": "4x4",
+        "efficiency": 1.563,
+        "weight": 1.7,
+        "image": "Belt-A_+_Belt-B_gear_rig.png"
+    }
+}
