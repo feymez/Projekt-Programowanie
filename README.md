@@ -25,7 +25,7 @@ W programie zostało wprowadzone zabezpieczenie spójności plików. Przy każdy
 ### Porównanie:
 
 Po uruchomieniu programu wyświetli się nam menu wyboru. <br>
-![image](https://user-images.githubusercontent.com/85249187/212918956-63d2a332-b212-4a85-935c-b1288e3a0d53.png) <br>
+![image](https://user-images.githubusercontent.com/85249187/213991965-d470c51b-c8b0-49fb-b808-fd5d1fd6d80e.png) <br>
 Po wybraniu opcji **`Porównanie`** zostaniemy przeniesieni do następengo menu. <br>
 ![image](https://user-images.githubusercontent.com/85249187/212919040-4a59bc2e-9983-4224-ab4e-9c1d5d81a07a.png) <br>
 Teraz możemy wybrać **`Kamizelka`** lub **`Hełm`**. <br>
@@ -45,7 +45,7 @@ Na samym końcu możemy zobaczyć wykres porównania. Zostanie on zapisany w pli
 ### Sprawdzenie statystyk:
 
 Po uruchomieniu programu wyświetli się nam menu wyboru. <br>
-![image](https://user-images.githubusercontent.com/85249187/212920854-751fc5d9-a628-4f3a-8332-22b672d71754.png) <br>
+![image](https://user-images.githubusercontent.com/85249187/213991965-d470c51b-c8b0-49fb-b808-fd5d1fd6d80e.png) <br>
 Po wybraniu opcji **`Sprawdzenie statystyk`** zostaniemy przeniesieni do następengo menu. <br>
 ![image](https://user-images.githubusercontent.com/85249187/212921022-66f741b9-0aa9-44bd-9a3e-1e3ad698cb12.png) <br>
 Teraz możemy wybrać **`Kamizelka`**, **`Hełm`** lub **`Ammunicja`**. <br>
@@ -62,7 +62,7 @@ Wybieramy interesujący nas przedmiot. Program wyświeli wszystkie informacje na
 
 ### Kompatybilność:
 Po uruchomieniu programu wyświetli się nam menu wyboru. <br>
-![image](https://user-images.githubusercontent.com/85249187/212922295-401b21e3-54c2-41d4-b6c3-89e1ca3463b9.png) <br>
+![image](https://user-images.githubusercontent.com/85249187/213991965-d470c51b-c8b0-49fb-b808-fd5d1fd6d80e.png) <br>
 Po wybraniu opcji **`Kompatybilność`** zostaniemy przeniesieni do następengo menu. <br>
 ![image](https://user-images.githubusercontent.com/85249187/212922399-db44643e-4745-478e-bf6e-7121fd067fc9.png) <br>
 Następnie wybieramy rodzaj broni. <br>
@@ -89,5 +89,10 @@ Po wybraniu danej opcji zobaczymy kolejne menu: <br>
 Wybieramy interesujący nas przedmiot. Program wyświetli wszystkie informacje na temat danego przedmiotu. <br>
 **Aby wrócić dolist wyboru należy nacisnąć przycisk `BACKSPACE`** <br>
 
-
-
+### Pojemniki:
+Po uruchomieniu programu wyświetli się nam menu wyboru. <br>
+![image](https://user-images.githubusercontent.com/85249187/213991965-d470c51b-c8b0-49fb-b808-fd5d1fd6d80e.png) <br>
+Po wybraniu opcji **`Pojemniki`** zostaniemy przeniesieni do następengo menu. <br>
+![image](https://user-images.githubusercontent.com/85249187/214079729-1e821e69-f9a9-4644-9575-2e3dcbf79c6f.png) <br>
+Wybieramy interesujący nas przedmiot. Program wyświetli wszystkie informacje na temat danego przedmiotu. <br>
+**Aby wrócić dolist wyboru należy nacisnąć przycisk `BACKSPACE`** <br>
