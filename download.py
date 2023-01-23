@@ -71,7 +71,11 @@ kamizelki_taktyczne = ["6B5-16_Zh-86_Uley_armored_rig.png", "Eagle_Industries_'M
 "Ars_Arma_CPC_MOD.2_plate_carrier.png", "Crye_Precision_CPC_plate_carrier_Goons_Edition.png", "S&S_Precision_PlateFrame_plate_carrier_Goons_Edition.png", "CQC_Osprey_MK4A_plate_carrier_Protection,_MTP.png",
 "NPP_KlASS_Bagariy_armored_rig.png", "Tasmanian_Tiger_SK_plate_carrier_Multicam_Black.png", "Crye_Precision_AVS_MBAV_Tagilla_Edition.png"]
 
-
+medykamenty = ["Analgin_painkillers.png", "Augmentin_antibiotic_pills.png", "Ibuprofen_painkillers.png", "Vaseline_balm.png",
+"Golden_Star_balm.png", "Immobilizing_splint.png", "Aluminum_splint.png", "CMS_surgical_kit.png", "Surv12_field_surgical_kit.png",
+"Aseptic_bandage.png", "Army_bandage.png", "Esmarch_tourniquet.png", "CALOK-B_hemostatic_applicator.png", "CAT_hemostatic_tourniquet.png",
+"AI-2_medkit.png", "Car_first_aid_kit.png", "Salewa_first_aid_kit.png", "IFAK_individual_first_aid_kit.png",
+"AFAK_tactical_individual_first_aid_kit.png", "Grizzly_medical_kit.png"]
 
 #Funkcja sprawdzająca połączenie z internetem
 def check_connect():
@@ -236,6 +240,7 @@ def check2():
     loop2(containers, "pojemniki")
     loop2(plecaki, "plecaki")
     loop2(kamizelki_taktyczne, "kamizelki-taktyczne")
+    loop2(medykamenty, "medykamenty")
 
 #Funkcja sprawdzająca spójność plików PNG ammunicji.
 def check3():
