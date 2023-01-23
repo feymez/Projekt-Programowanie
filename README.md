@@ -8,7 +8,7 @@ W programie zostało wprowadzone zabezpieczenie spójności plików. Przy każdy
 
 #### Program posiada kilka trybów:
 > - [Porównanie](https://github.com/feymez/Projekt-Programowanie/blob/main/README.md#porownanie) - W tym trybie porównasz kamizelkę kuloodporną lub hełm z ammunicją. Dowiesz się jak klasyfikowana jest ammunicja do pancerza. <br>
-> - [Sprawdzenie statystyk](https://github.com/feymez/Projekt-Programowanie/blob/main/README.md#medykamenty) - Tryb sprawdzania statystyk pokazuje nam dokładne statystyki danej kamizelki kuloodpornej, hełmu lub pocisku. <br>
+> - [Sprawdzenie statystyk](https://github.com/feymez/Projekt-Programowanie/blob/main/README.md#sprawdzenie-statystyk) - Tryb sprawdzania statystyk pokazuje nam dokładne statystyki danej kamizelki kuloodpornej, hełmu lub pocisku. <br>
 > - [Kompatybilność](https://github.com/feymez/Projekt-Programowanie/blob/main/README.md#kompatybilnosc) - Dzięki temu trybowi sprawdzimy kompatybilność broni z ammunicją. Wybierz broń i sprawdź jaka ammunicja jest przez nią obsługiwana! <br>
 > - [Wyposażenie](https://github.com/feymez/Projekt-Programowanie/blob/main/README.md#wyposazenie) - Tryb ten pozwala nam na sprawdzenie informacji na temat poszczególnych plecaków lub kamizelek taktycznych. <br>
 > - [Pojemniki](https://github.com/feymez/Projekt-Programowanie/blob/main/README.md#pojemniki) - Ten tryb programu pokaże Ci wszystkie dostępne pojemniki w grze oraz opisze do czego służą! <br>
