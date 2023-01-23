@@ -87,7 +87,7 @@ Po wybraniu danej opcji zobaczymy kolejne menu: <br>
 **`Kamizelki Taktyczne`** <br>
 ![image](https://user-images.githubusercontent.com/85249187/214079094-66f88394-d7b9-4b33-906d-e8c947657220.png) <br>
 Wybieramy interesujący nas przedmiot. Program wyświetli wszystkie informacje na temat danego przedmiotu. <br>
-**Aby wrócić dolist wyboru należy nacisnąć przycisk `BACKSPACE`** <br>
+**Aby wrócić do list wyboru należy nacisnąć przycisk `BACKSPACE`** <br>
 
 ### Pojemniki:
 Po uruchomieniu programu wyświetli się nam menu wyboru. <br>
@@ -95,4 +95,4 @@ Po uruchomieniu programu wyświetli się nam menu wyboru. <br>
 Po wybraniu opcji **`Pojemniki`** zostaniemy przeniesieni do następengo menu. <br>
 ![image](https://user-images.githubusercontent.com/85249187/214079729-1e821e69-f9a9-4644-9575-2e3dcbf79c6f.png) <br>
 Wybieramy interesujący nas przedmiot. Program wyświetli wszystkie informacje na temat danego przedmiotu. <br>
-**Aby wrócić dolist wyboru należy nacisnąć przycisk `BACKSPACE`** <br>
+**Aby wrócić do list wyboru należy nacisnąć przycisk `BACKSPACE`** <br>
