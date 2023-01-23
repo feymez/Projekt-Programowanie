@@ -10,8 +10,8 @@ W programie zostało wprowadzone zabezpieczenie spójności plików. Przy każdy
 > - **Porównanie** - W tym trybie porównasz kamizelkę kuloodporną lub hełm z ammunicją. Dowiesz się jak klasyfikowana jest ammunicja do pancerza. <br>
 > - **Sprawdzenie statystyk** - Tryb sprawdzania statystyk pokazuje nam dokładne statystyki danej kamizelki kuloodpornej, hełmu lub pocisku. <br>
 > - **Kompatybilność** - Dzięki temu trybowi sprawdzimy kompatybilność broni z ammunicją. Wybierz broń i sprawdź jaka ammunicja jest przez nią obsługiwana! <br>
+> - **Wyposażenie** - Tryb ten pozwala nam na sprawdzenie informacji na temat poszczególnych plecaków lub kamizelek taktycznych. <br>
 > - **Zadania** - Tryb dzięki któremu dowiemy się jakich przedmiotów będziemy potrzebować do ukończenia zadań. - **`(Nie wydane)`** <br>
-> - **Wyposażenie** - Tryb ten pozwala nam na sprawdzenie informacji na temat poszczególnych plecaków lub kamizelek taktycznych. - **`(Nie wydane)`** <br>
 > - **Kryjówka** - Sprawdź jakie przedmioty są potrzebne do rozwijania swoich czterech kątów! - **`(Nie wydane)`** <br>
 > - **Umiejętności** - Dowiedz się w jaki sposób rozwijać umiejętności postaci `PMC` oraz jakie niesie to za sobą korzyści! - **`(Nie wydane)`** <br>
 > - **Pojemniki** - Ten tryb programu pokaże Ci wszystkie dostępne pojemniki w grze oraz opisze do czego służą! - **`(Nie wydane)`** <br>
@@ -74,3 +74,20 @@ Następnie wybieramy broń którą chcemy sprawdzić. <br>
 Program wyświeli informacje na temat interesującej nas broni. <br>
 **Aby wrócić do list wyboru należy nacisnąć przycisk `BACKSPACE`** <br>
 ![image](https://user-images.githubusercontent.com/85249187/212923225-8e9be156-e75e-4f7e-a743-1bd262ab7e46.png) <br>
+
+### Wyposażenie:
+Po uruchomieniu programu wyświetli się nam menu wyboru. <br>
+![image](https://user-images.githubusercontent.com/85249187/213991965-d470c51b-c8b0-49fb-b808-fd5d1fd6d80e.png) <br>
+Po wybraniu opcji **`Wyposażenie`** zostaniemy przeniesieni do następnego menu. <br>
+![image](https://user-images.githubusercontent.com/85249187/213992128-a885a6c7-b139-4995-86d5-fb7570a36e91.png) <br>
+Następnie wybieramy **`Plecaki`** lub **`Kamizelki Taktyczne`**. <br>
+Po wybraniu danej opcji zobaczymy kolejne menu: <br>
+**`Plecaki`** <br>
+![image](https://user-images.githubusercontent.com/85249187/213992794-0ab278ee-702d-4c35-b63d-fbecb1f0b76c.png) <br>
+**`Kamizelki Taktyczne`** <br>
+![image](https://user-images.githubusercontent.com/85249187/213992863-e21f40b9-be3f-46af-9e18-157823b32ee4.png) <br>
+Wybieramy interesujący nas przedmiot. Program wyświetli wszystkie informacje na temat danego przedmiotu. <br>
+**Aby wrócić dolist wyboru należy nacisnąć przycisk `BACKSPACE`** <br>
+
+
+
