@@ -684,3 +684,26 @@ def get_medicament_info(name):
         print(f"Maksymalne leczenie na raz: {medicament_maxhp}HP")
         image = Image.open(f"obrazy/medykamenty/{medicament_image}")
         image.show()
+
+def ammo(list_name, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka):
+    while True:
+        option_ammo_2, index_ammo_2 = pick(list_name, title4, options.indicator)
+        if option_ammo_2 == "Wstecz":
+            break
+        option_ammo_2 = fast_replace(option_ammo_2)
+        compare = comparison()
+        if compare == "Tak":
+            name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage = get_ammo_info(option_ammo, option_ammo_2)
+            x = write()
+            if x == "Tak":
+                write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
+                write_vest_info(vest_name, vest_durability, vest_effective_durability, vest_material, vest_class)
+                get_comparison(kamizelka2, vest_durability, vest_effective_durability, vest_material, vest_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
+            chart1 = chart()
+            if chart1 == True:
+                create_chart(option_ammo, option_ammo_2, armor_type, kamizelka)
+                continue
+            else:
+                continue
+        else:
+            break

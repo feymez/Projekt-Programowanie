@@ -201,535 +201,97 @@ while True:
                         if option_ammo == "Wstecz":
                             break
                         elif option_ammo == "12x70mm":
-                            while True:
-                                option_ammo_2, index_ammo_2 = pick(options.mm_12_70, title4, options.indicator)
-                                if option_ammo_2 == "Wstecz":
-                                    break
-                                option_ammo_2 = functions.fast_replace(option_ammo_2)
-                                compare = functions.comparison()
-                                if compare == "Tak":
-                                    name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage = functions.get_ammo_info(option_ammo, option_ammo_2)
-                                    x = functions.write()
-                                    if x == "Tak":
-                                        functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
-                                        functions.write_vest_info(vest_name, vest_durability, vest_effective_durability, vest_material, vest_class)
-                                    functions.get_comparison(kamizelka2, vest_durability, vest_effective_durability, vest_material, vest_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
-                                    chart = functions.chart()
-                                    if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, kamizelka)
-                                        continue
-                                    else:
-                                        continue
-                                else:
-                                    break
+                            option_ammo = "12x70mm"
+                            functions.ammo(options.mm_12_70, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
                             break
                         elif option_ammo == "20x70mm":
-                            while True:
-                                option_ammo_2, index_ammo_2 = pick(options.mm_20_70, title4, options.indicator)
-                                if option_ammo_2 == "Wstecz":
-                                    break
-                                option_ammo_2 = functions.fast_replace(option_ammo_2)
-                                option_ammo = functions.fast_replace(option_ammo)
-                                compare = functions.comparison()
-                                if compare == "Tak":
-                                    name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage = functions.get_ammo_info(option_ammo, option_ammo_2)
-                                    x = functions.write()
-                                    if x == "Tak":
-                                        functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
-                                        functions.write_vest_info(vest_name, vest_durability, vest_effective_durability, vest_material, vest_class)
-                                    functions.get_comparison(kamizelka2, vest_durability, vest_effective_durability, vest_material, vest_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
-                                    chart = functions.chart()
-                                    if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, kamizelka)
-                                        continue
-                                    else:
-                                        continue
-                                else:
-                                    break
+                            option_ammo = "20x70mm"
+                            functions.ammo(options.mm_20_70, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            break
                         elif option_ammo == "23x75mm":
-                            while True:
-                                option_ammo_2, index_ammo_2 = pick(options.mm_23_75, title4, options.indicator)
-                                if option_ammo_2 == "Wstecz":
-                                    break
-                                option_ammo_2 = functions.fast_replace(option_ammo_2)
-                                option_ammo = functions.fast_replace(option_ammo)
-                                compare = functions.comparison()
-                                if compare == "Tak":
-                                    name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage = functions.get_ammo_info(option_ammo, option_ammo_2)
-                                    x = functions.write()
-                                    if x == "Tak":
-                                        functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
-                                        functions.write_vest_info(vest_name, vest_durability, vest_effective_durability, vest_material, vest_class)
-                                    functions.get_comparison(kamizelka2, vest_durability, vest_effective_durability, vest_material, vest_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
-                                    chart = functions.chart()
-                                    if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, kamizelka)
-                                        continue
-                                    else:
-                                        continue
-                                else:
-                                    break
+                            option_ammo = "23x75mm"
+                            functions.ammo(options.mm_23_75, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            break
                         elif option_ammo == "9x18mm Makarov":
-                            while True:
-                                option_ammo_2, index_ammo_2 = pick(options.mm_9_18_makarov, title4, options.indicator)
-                                if option_ammo_2 == "Wstecz":
-                                    break
-                                option_ammo_2 = functions.fast_replace(option_ammo_2)
-                                option_ammo = functions.fast_replace(option_ammo)
-                                compare = functions.comparison()
-                                if compare == "Tak":
-                                    name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage = functions.get_ammo_info(option_ammo, option_ammo_2)
-                                    x = functions.write()
-                                    if x == "Tak":
-                                        functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
-                                        functions.write_vest_info(vest_name, vest_durability, vest_effective_durability, vest_material, vest_class)
-                                    functions.get_comparison(kamizelka2, vest_durability, vest_effective_durability, vest_material, vest_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
-                                    chart = functions.chart()
-                                    if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, kamizelka)
-                                        continue
-                                    else:
-                                        continue
-                                else:
-                                    break
+                            option_ammo = "9x18mm_makarov"
+                            functions.ammo(options.mm_9_18_makarov, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            break
                         elif option_ammo == "7.62x25mm Tokarev":
-                            while True:
-                                option_ammo_2, index_ammo_2 = pick(options.mm_762x25_tokarev, title4, options.indicator)
-                                if option_ammo_2 == "Wstecz":
-                                    break
-                                option_ammo_2 = functions.fast_replace(option_ammo_2)
-                                option_ammo = functions.fast_replace(option_ammo)
-                                compare = functions.comparison()
-                                if compare == "Tak":
-                                    name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage = functions.get_ammo_info(option_ammo, option_ammo_2)
-                                    x = functions.write()
-                                    if x == "Tak":
-                                        functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
-                                        functions.write_vest_info(vest_name, vest_durability, vest_effective_durability, vest_material, vest_class)
-                                    functions.get_comparison(kamizelka2, vest_durability, vest_effective_durability, vest_material, vest_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
-                                    chart = functions.chart()
-                                    if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, kamizelka)
-                                        continue
-                                    else:
-                                        continue
-                                else:
-                                    break
+                            option_ammo = "7.62x25mm_tokarev"
+                            functions.ammo(options.mm_762x25_tokarev, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            break
                         elif option_ammo == "9x19mm Parabellum":
-                            while True:
-                                option_ammo_2, index_ammo_2 = pick(options.mm_9x19_parabellum, title4, options.indicator)
-                                if option_ammo_2 == "Wstecz":
-                                    break
-                                option_ammo_2 = functions.fast_replace(option_ammo_2)
-                                option_ammo = functions.fast_replace(option_ammo)
-                                compare = functions.comparison()
-                                if compare == "Tak":
-                                    name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage = functions.get_ammo_info(option_ammo, option_ammo_2)
-                                    x = functions.write()
-                                    if x == "Tak":
-                                        functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
-                                        functions.write_vest_info(vest_name, vest_durability, vest_effective_durability, vest_material, vest_class)
-                                    functions.get_comparison(kamizelka2, vest_durability, vest_effective_durability, vest_material, vest_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
-                                    chart = functions.chart()
-                                    if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, kamizelka)
-                                        continue
-                                    else:
-                                        continue
-                                else:
-                                    break
+                            option_ammo = "9x19mm_parabellum"
+                            functions.ammo(options.mm_9x19_parabellum, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            break
                         elif option_ammo == ".357 Magnum":
-                            while True:
-                                option_ammo_2, index_ammo_2 = pick(options.magnum_357, title4, options.indicator)
-                                if option_ammo_2 == "Wstecz":
-                                    break
-                                option_ammo_2 = functions.fast_replace(option_ammo_2)
-                                option_ammo = functions.fast_replace(option_ammo)
-                                compare = functions.comparison()
-                                if compare == "Tak":
-                                    name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage = functions.get_ammo_info(option_ammo, option_ammo_2)
-                                    x = functions.write()
-                                    if x == "Tak":
-                                        functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
-                                        functions.write_vest_info(vest_name, vest_durability, vest_effective_durability, vest_material, vest_class)
-                                    functions.get_comparison(kamizelka2, vest_durability, vest_effective_durability, vest_material, vest_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
-                                    chart = functions.chart()
-                                    if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, kamizelka)
-                                        continue
-                                    else:
-                                        continue
-                                else:
-                                    break
+                            option_ammo = ".357_magnum"
+                            functions.ammo(options.magnum_357, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            break
                         elif option_ammo == ".45 ACP":
-                            while True:
-                                option_ammo_2, index_ammo_2 = pick(options.acp_45, title4, options.indicator)
-                                if option_ammo_2 == "Wstecz":
-                                    break
-                                option_ammo_2 = functions.fast_replace(option_ammo_2)
-                                option_ammo = functions.fast_replace(option_ammo)
-                                print(option_ammo)
-                                compare = functions.comparison()
-                                if compare == "Tak":
-                                    name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage = functions.get_ammo_info(option_ammo, option_ammo_2)
-                                    x = functions.write()
-                                    if x == "Tak":
-                                        functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
-                                        functions.write_vest_info(vest_name, vest_durability, vest_effective_durability, vest_material, vest_class)
-                                    functions.get_comparison(kamizelka2, vest_durability, vest_effective_durability, vest_material, vest_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
-                                    chart = functions.chart()
-                                    if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, kamizelka)
-                                        continue
-                                    else:
-                                        continue
-                                else:
-                                    break
+                            option_ammo = ".45_acp"
+                            functions.ammo(options.acp_45, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            break
                         elif option_ammo == "9x21mm Gyurza":
-                            while True:
-                                option_ammo_2, index_ammo_2 = pick(options.mm_9x21_gyurza, title4, options.indicator)
-                                if option_ammo_2 == "Wstecz":
-                                    break
-                                option_ammo_2 = functions.fast_replace(option_ammo_2)
-                                option_ammo = functions.fast_replace(option_ammo)
-                                compare = functions.comparison()
-                                if compare == "Tak":
-                                    name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage = functions.get_ammo_info(option_ammo, option_ammo_2)
-                                    x = functions.write()
-                                    if x == "Tak":
-                                        functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
-                                        functions.write_vest_info(vest_name, vest_durability, vest_effective_durability, vest_material, vest_class)
-                                    functions.get_comparison(kamizelka2, vest_durability, vest_effective_durability, vest_material, vest_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
-                                    chart = functions.chart()
-                                    if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, kamizelka)
-                                        continue
-                                    else:
-                                        continue
-                                else:
-                                    break
+                            option_ammo = "9x21mm_gyurza"
+                            functions.ammo(options.mm_9x21_gyurza, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            break
                         elif option_ammo == "5.7x28mm FN":
-                            while True:
-                                option_ammo_2, index_ammo_2 = pick(options.mm_28x57_fn, title4, options.indicator)
-                                if option_ammo_2 == "Wstecz":
-                                    break
-                                option_ammo_2 = functions.fast_replace(option_ammo_2)
-                                option_ammo = functions.fast_replace(option_ammo)
-                                compare = functions.comparison()
-                                if compare == "Tak":
-                                    name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage = functions.get_ammo_info(option_ammo, option_ammo_2)
-                                    x = functions.write()
-                                    if x == "Tak":
-                                        functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
-                                        functions.write_vest_info(vest_name, vest_durability, vest_effective_durability, vest_material, vest_class)
-                                    functions.get_comparison(kamizelka2, vest_durability, vest_effective_durability, vest_material, vest_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
-                                    chart = functions.chart()
-                                    if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, kamizelka)
-                                        continue
-                                    else:
-                                        continue
-                                else:
-                                    break
+                            option_ammo = "5.7x28mm_fn"
+                            functions.ammo(options.mm_28x57_fn, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            break
                         elif option_ammo == "4.6x30mm HK":
-                            while True:
-                                option_ammo_2, index_ammo_2 = pick(options.mm_46x30_hk, title4, options.indicator)
-                                if option_ammo_2 == "Wstecz":
-                                    break
-                                option_ammo_2 = functions.fast_replace(option_ammo_2)
-                                option_ammo = functions.fast_replace(option_ammo)
-                                compare = functions.comparison()
-                                if compare == "Tak":
-                                    name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage = functions.get_ammo_info(option_ammo, option_ammo_2)
-                                    x = functions.write()
-                                    if x == "Tak":
-                                        functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
-                                        functions.write_vest_info(vest_name, vest_durability, vest_effective_durability, vest_material, vest_class)
-                                    functions.get_comparison(kamizelka2, vest_durability, vest_effective_durability, vest_material, vest_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
-                                    chart = functions.chart()
-                                    if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, kamizelka)
-                                        continue
-                                    else:
-                                        continue
-                                else:
-                                    break
+                            option_ammo = "4.6x30mm_hk"
+                            functions.ammo(options.mm_46x30_hk, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            break
                         elif option_ammo == "9x39mm":
-                            while True:
-                                option_ammo_2, index_ammo_2 = pick(options.mm_9x39, title4, options.indicator)
-                                if option_ammo_2 == "Wstecz":
-                                    break
-                                option_ammo_2 = functions.fast_replace(option_ammo_2)
-                                option_ammo = functions.fast_replace(option_ammo)
-                                compare = functions.comparison()
-                                if compare == "Tak":
-                                    name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage = functions.get_ammo_info(option_ammo, option_ammo_2)
-                                    x = functions.write()
-                                    if x == "Tak":
-                                        functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
-                                        functions.write_vest_info(vest_name, vest_durability, vest_effective_durability, vest_material, vest_class)
-                                    functions.get_comparison(kamizelka2, vest_durability, vest_effective_durability, vest_material, vest_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
-                                    chart = functions.chart()
-                                    if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, kamizelka)
-                                        continue
-                                    else:
-                                        continue
-                                else:
-                                    break
+                            option_ammo = "9x39mm"
+                            functions.ammo(options.mm_9x39, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            break
                         elif option_ammo == ".366 TKM":
-                            while True:
-                                option_ammo_2, index_ammo_2 = pick(options.tkm_366, title4, options.indicator)
-                                if option_ammo_2 == "Wstecz":
-                                    break
-                                option_ammo_2 = functions.fast_replace(option_ammo_2)
-                                option_ammo = functions.fast_replace(option_ammo)
-                                compare = functions.comparison()
-                                if compare == "Tak":
-                                    name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage = functions.get_ammo_info(option_ammo, option_ammo_2)
-                                    x = functions.write()
-                                    if x == "Tak":
-                                        functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
-                                        functions.write_vest_info(vest_name, vest_durability, vest_effective_durability, vest_material, vest_class)
-                                    functions.get_comparison(kamizelka2, vest_durability, vest_effective_durability, vest_material, vest_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
-                                    chart = functions.chart()
-                                    if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, kamizelka)
-                                        continue
-                                    else:
-                                        continue
-                                else:
-                                    break
+                            option_ammo = ".366_tkm"
+                            functions.ammo(options.tkm_366, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            break
                         elif option_ammo == "5.45x39mm":
-                            while True:
-                                option_ammo_2, index_ammo_2 = pick(options.mm_545x39, title4, options.indicator)
-                                if option_ammo_2 == "Wstecz":
-                                    break
-                                option_ammo_2 = functions.fast_replace(option_ammo_2)
-                                option_ammo = functions.fast_replace(option_ammo)
-                                compare = functions.comparison()
-                                if compare == "Tak":
-                                    name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage = functions.get_ammo_info(option_ammo, option_ammo_2)
-                                    x = functions.write()
-                                    if x == "Tak":
-                                        functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
-                                        functions.write_vest_info(vest_name, vest_durability, vest_effective_durability, vest_material, vest_class)
-                                    functions.get_comparison(kamizelka2, vest_durability, vest_effective_durability, vest_material, vest_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
-                                    chart = functions.chart()
-                                    if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, kamizelka)
-                                        continue
-                                    else:
-                                        continue
-                                else:
-                                    break
+                            option_ammo = "5.45x39mm"
+                            functions.ammo(options.mm_545x39, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            break
                         elif option_ammo == "5.56x45mm NATO":
-                            while True:
-                                option_ammo_2, index_ammo_2 = pick(options.mm_556x45_nato, title4, options.indicator)
-                                if option_ammo_2 == "Wstecz":
-                                    break
-                                option_ammo_2 = functions.fast_replace(option_ammo_2)
-                                option_ammo = functions.fast_replace(option_ammo)
-                                compare = functions.comparison()
-                                if compare == "Tak":
-                                    name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage = functions.get_ammo_info(option_ammo, option_ammo_2)
-                                    x = functions.write()
-                                    if x == "Tak":
-                                        functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
-                                        functions.write_vest_info(vest_name, vest_durability, vest_effective_durability, vest_material, vest_class)
-                                    functions.get_comparison(kamizelka2, vest_durability, vest_effective_durability, vest_material, vest_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
-                                    chart = functions.chart()
-                                    if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, kamizelka)
-                                        continue
-                                    else:
-                                        continue
-                                else:
-                                    break
+                            option_ammo = "5.56x45mm_nato"
+                            functions.ammo(options.mm_556x45_nato, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            break
                         elif option_ammo == ".300 Blackout":
-                            while True:
-                                option_ammo_2, index_ammo_2 = pick(options.blackout_300, title4, options.indicator)
-                                if option_ammo_2 == "Wstecz":
-                                    break
-                                option_ammo_2 = functions.fast_replace(option_ammo_2)
-                                option_ammo = functions.fast_replace(option_ammo)
-                                compare = functions.comparison()
-                                if compare == "Tak":
-                                    name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage = functions.get_ammo_info(option_ammo, option_ammo_2)
-                                    x = functions.write()
-                                    if x == "Tak":
-                                        functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
-                                        functions.write_vest_info(vest_name, vest_durability, vest_effective_durability, vest_material, vest_class)
-                                    functions.get_comparison(kamizelka2, vest_durability, vest_effective_durability, vest_material, vest_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
-                                    chart = functions.chart()
-                                    if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, kamizelka)
-                                        continue
-                                    else:
-                                        continue
-                                else:
-                                    break
+                            option_ammo = ".300_blackout"
+                            functions.ammo(options.blackout_300, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            break
                         elif option_ammo == "7.62x39mm":
-                            while True:
-                                option_ammo_2, index_ammo_2 = pick(options.mm_762x39, title4, options.indicator)
-                                if option_ammo_2 == "Wstecz":
-                                    break
-                                option_ammo_2 = functions.fast_replace(option_ammo_2)
-                                option_ammo = functions.fast_replace(option_ammo)
-                                compare = functions.comparison()
-                                if compare == "Tak":
-                                    name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage = functions.get_ammo_info(option_ammo, option_ammo_2)
-                                    x = functions.write()
-                                    if x == "Tak":
-                                        functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
-                                        functions.write_vest_info(vest_name, vest_durability, vest_effective_durability, vest_material, vest_class)
-                                    functions.get_comparison(kamizelka2, vest_durability, vest_effective_durability, vest_material, vest_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
-                                    chart = functions.chart()
-                                    if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, kamizelka)
-                                        continue
-                                    else:
-                                        continue
-                                else:
-                                    break
+                            option_ammo = "7.62x39mm"
+                            functions.ammo(options.mm_762x39, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            break
                         elif option_ammo == "7.62x51mm NATO":
-                            while True:
-                                option_ammo_2, index_ammo_2 = pick(options.mm_762x51_nato, title4, options.indicator)
-                                if option_ammo_2 == "Wstecz":
-                                    break
-                                option_ammo_2 = functions.fast_replace(option_ammo_2)
-                                option_ammo = functions.fast_replace(option_ammo)
-                                compare = functions.comparison()
-                                if compare == "Tak":
-                                    name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage = functions.get_ammo_info(option_ammo, option_ammo_2)
-                                    x = functions.write()
-                                    if x == "Tak":
-                                        functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
-                                        functions.write_vest_info(vest_name, vest_durability, vest_effective_durability, vest_material, vest_class)
-                                    functions.get_comparison(kamizelka2, vest_durability, vest_effective_durability, vest_material, vest_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
-                                    chart = functions.chart()
-                                    if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, kamizelka)
-                                        continue
-                                    else:
-                                        continue
-                                else:
-                                    break
+                            option_ammo = "7.62x51mm_nato"
+                            functions.ammo(options.mm_762x51_nato, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            break
                         elif option_ammo == "7.62x54mmR":
-                            while True:
-                                option_ammo_2, index_ammo_2 = pick(options.mmr_762x54, title4, options.indicator)
-                                if option_ammo_2 == "Wstecz":
-                                    break
-                                option_ammo_2 = functions.fast_replace(option_ammo_2)
-                                option_ammo = functions.fast_replace(option_ammo)
-                                compare = functions.comparison()
-                                if compare == "Tak":
-                                    name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage = functions.get_ammo_info(option_ammo, option_ammo_2)
-                                    x = functions.write()
-                                    if x == "Tak":
-                                        functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
-                                        functions.write_vest_info(vest_name, vest_durability, vest_effective_durability, vest_material, vest_class)
-                                    functions.get_comparison(kamizelka2, vest_durability, vest_effective_durability, vest_material, vest_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
-                                    chart = functions.chart()
-                                    if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, kamizelka)
-                                        continue
-                                    else:
-                                        continue
-                                else:
-                                    break
+                            option_ammo = "7.62x54mmr"
+                            functions.ammo(options.mm_12_70, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            break
                         elif option_ammo == ".338 Lapua Magnum":
-                            while True:
-                                option_ammo_2, index_ammo_2 = pick(options.lapua_magnum_338, title4, options.indicator)
-                                if option_ammo_2 == "Wstecz":
-                                    break
-                                option_ammo_2 = functions.fast_replace(option_ammo_2)
-                                option_ammo = functions.fast_replace(option_ammo)
-                                compare = functions.comparison()
-                                if compare == "Tak":
-                                    name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage = functions.get_ammo_info(option_ammo, option_ammo_2)
-                                    x = functions.write()
-                                    if x == "Tak":
-                                        functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
-                                        functions.write_vest_info(vest_name, vest_durability, vest_effective_durability, vest_material, vest_class)
-                                    functions.get_comparison(kamizelka2, vest_durability, vest_effective_durability, vest_material, vest_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
-                                    chart = functions.chart()
-                                    if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, kamizelka)
-                                        continue
-                                    else:
-                                        continue
-                                else:
-                                    break
+                            option_ammo = ".338_lapua_magnum"
+                            functions.ammo(options.lapua_magnum_338, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            break
                         elif option_ammo == "12.7x55mm STs-130":
-                            while True:
-                                option_ammo_2, index_ammo_2 = pick(options.mm_127x55_sts_130, title4, options.indicator)
-                                if option_ammo_2 == "Wstecz":
-                                    break
-                                option_ammo_2 = functions.fast_replace(option_ammo_2)
-                                option_ammo = functions.fast_replace(option_ammo)
-                                compare = functions.comparison()
-                                if compare == "Tak":
-                                    name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage = functions.get_ammo_info(option_ammo, option_ammo_2)
-                                    x = functions.write()
-                                    if x == "Tak":
-                                        functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
-                                        functions.write_vest_info(vest_name, vest_durability, vest_effective_durability, vest_material, vest_class)
-                                    functions.get_comparison(kamizelka2, vest_durability, vest_effective_durability, vest_material, vest_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
-                                    chart = functions.chart()
-                                    if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, kamizelka)
-                                        continue
-                                    else:
-                                        continue
-                                else:
-                                    break
+                            option_ammo = "12.7x55mm_sts-130"
+                            functions.ammo(options.mm_127x55_sts_130, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            break
                         elif option_ammo == "40x46mm":
-                            while True:
-                                option_ammo_2, index_ammo_2 = pick(options.mm_40x46, title4, options.indicator)
-                                if option_ammo_2 == "Wstecz":
-                                    break
-                                option_ammo_2 = functions.fast_replace(option_ammo_2)
-                                option_ammo = functions.fast_replace(option_ammo)
-                                compare = functions.comparison()
-                                if compare == "Tak":
-                                    name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage = functions.get_ammo_info(option_ammo, option_ammo_2)
-                                    x = functions.write()
-                                    if x == "Tak":
-                                        functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
-                                        functions.write_vest_info(vest_name, vest_durability, vest_effective_durability, vest_material, vest_class)
-                                    functions.get_comparison(kamizelka2, vest_durability, vest_effective_durability, vest_material, vest_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
-                                    chart = functions.chart()
-                                    if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, kamizelka)
-                                        continue
-                                    else:
-                                        continue
-                                else:
-                                    break
+                            option_ammo = "40x46mm"
+                            functions.ammo(options.mm_40x46, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            break
                         elif option_ammo == "Broń stacjonarna":
-                            while True:
-                                option_ammo_2, index_ammo_2 = pick(options.stacjonarna, title4, options.indicator)
-                                if option_ammo_2 == "Wstecz":
-                                    break
-                                option_ammo_2 = functions.fast_replace(option_ammo_2)
-                                option_ammo = 'stationary'
-                                compare = functions.comparison()
-                                if compare == "Tak":
-                                    name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage = functions.get_ammo_info(option_ammo, option_ammo_2)
-                                    x = functions.write()
-                                    if x == "Tak":
-                                        functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
-                                        functions.write_vest_info(vest_name, vest_durability, vest_effective_durability, vest_material, vest_class)
-                                    functions.get_comparison(kamizelka2, vest_durability, vest_effective_durability, vest_material, vest_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
-                                    chart = functions.chart()
-                                    if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, kamizelka)
-                                        continue
-                                    else:
-                                        continue
-                                else:
-                                    break
+                            option_ammo = "stationary"
+                            functions.ammo(options.stacjonarna, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            break
                         continue
                     continue
                 continue
@@ -750,534 +312,97 @@ while True:
                         if option_ammo == "Wstecz":
                             break
                         elif option_ammo == "12x70mm":
-                            while True:
-                                option_ammo_2, index_ammo_2 = pick(options.mm_12_70, title4, options.indicator)
-                                if option_ammo_2 == "Wstecz":
-                                    break
-                                option_ammo_2 = functions.fast_replace(option_ammo_2)
-                                option_ammo = functions.fast_replace(option_ammo)
-                                compare = functions.comparison()
-                                if compare == "Tak":
-                                    name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage = functions.get_ammo_info(option_ammo, option_ammo_2)
-                                    x = functions.write()
-                                    if x == "Tak":
-                                        functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
-                                        functions.write_helmet_info(helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class)
-                                    functions.get_comparison(helm2, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
-                                    chart = functions.chart()
-                                    if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, helm)
-                                        continue
-                                    else:
-                                        continue
-                                else:
-                                    break
+                            option_ammo = "12x70mm"
+                            functions.ammo(options.mm_12_70, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            break
                         elif option_ammo == "20x70mm":
-                            while True:
-                                option_ammo_2, index_ammo_2 = pick(options.mm_20_70, title4, options.indicator)
-                                if option_ammo_2 == "Wstecz":
-                                    break
-                                option_ammo_2 = functions.fast_replace(option_ammo_2)
-                                option_ammo = functions.fast_replace(option_ammo)
-                                compare = functions.comparison()
-                                if compare == "Tak":
-                                    name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage = functions.get_ammo_info(option_ammo, option_ammo_2)
-                                    x = functions.write()
-                                    if x == "Tak":
-                                        functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
-                                        functions.write_helmet_info(helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class)
-                                    functions.get_comparison(helm2, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
-                                    chart = functions.chart()
-                                    if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, helm)
-                                        continue
-                                    else:
-                                        continue
-                                else:
-                                    break
+                            option_ammo = "20x70mm"
+                            functions.ammo(options.mm_20_70, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            break
                         elif option_ammo == "23x75mm":
-                            while True:
-                                option_ammo_2, index_ammo_2 = pick(options.mm_23_75, title4, options.indicator)
-                                if option_ammo_2 == "Wstecz":
-                                    break
-                                option_ammo_2 = functions.fast_replace(option_ammo_2)
-                                option_ammo = functions.fast_replace(option_ammo)
-                                compare = functions.comparison()
-                                if compare == "Tak":
-                                    name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage = functions.get_ammo_info(option_ammo, option_ammo_2)
-                                    x = functions.write()
-                                    if x == "Tak":
-                                        functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
-                                        functions.write_helmet_info(helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class)
-                                    functions.get_comparison(helm2, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
-                                    chart = functions.chart()
-                                    if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, helm)
-                                        continue
-                                    else:
-                                        continue
-                                else:
-                                    break
+                            option_ammo = "23x75mm"
+                            functions.ammo(options.mm_23_75, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            break
                         elif option_ammo == "9x18mm Makarov":
-                            while True:
-                                option_ammo_2, index_ammo_2 = pick(options.mm_9_18_makarov, title4, options.indicator)
-                                if option_ammo_2 == "Wstecz":
-                                    break
-                                option_ammo_2 = functions.fast_replace(option_ammo_2)
-                                option_ammo = functions.fast_replace(option_ammo)
-                                compare = functions.comparison()
-                                if compare == "Tak":
-                                    name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage = functions.get_ammo_info(option_ammo, option_ammo_2)
-                                    x = functions.write()
-                                    if x == "Tak":
-                                        functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
-                                        functions.write_helmet_info(helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class)
-                                    functions.get_comparison(helm2, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
-                                    chart = functions.chart()
-                                    if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, helm)
-                                        continue
-                                    else:
-                                        continue
-                                else:
-                                    break
+                            option_ammo = "9x18mm_makarov"
+                            functions.ammo(options.mm_9_18_makarov, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            break
                         elif option_ammo == "7.62x25mm Tokarev":
-                            while True:
-                                option_ammo_2, index_ammo_2 = pick(options.mm_762x25_tokarev, title4, options.indicator)
-                                if option_ammo_2 == "Wstecz":
-                                    break
-                                option_ammo_2 = functions.fast_replace(option_ammo_2)
-                                option_ammo = functions.fast_replace(option_ammo)
-                                compare = functions.comparison()
-                                if compare == "Tak":
-                                    name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage = functions.get_ammo_info(option_ammo, option_ammo_2)
-                                    x = functions.write()
-                                    if x == "Tak":
-                                        functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
-                                        functions.write_helmet_info(helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class)
-                                    functions.get_comparison(helm2, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
-                                    chart = functions.chart()
-                                    if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, helm)
-                                        continue
-                                    else:
-                                        continue
-                                else:
-                                    break
+                            option_ammo = "7.62x25mm_tokarev"
+                            functions.ammo(options.mm_762x25_tokarev, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            break
                         elif option_ammo == "9x19mm Parabellum":
-                            while True:
-                                option_ammo_2, index_ammo_2 = pick(options.mm_9x19_parabellum, title4, options.indicator)
-                                if option_ammo_2 == "Wstecz":
-                                    break
-                                option_ammo_2 = functions.fast_replace(option_ammo_2)
-                                option_ammo = functions.fast_replace(option_ammo)
-                                compare = functions.comparison()
-                                if compare == "Tak":
-                                    name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage = functions.get_ammo_info(option_ammo, option_ammo_2)
-                                    x = functions.write()
-                                    if x == "Tak":
-                                        functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
-                                        functions.write_helmet_info(helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class)
-                                    functions.get_comparison(helm2, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
-                                    chart = functions.chart()
-                                    if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, helm)
-                                        continue
-                                    else:
-                                        continue
-                                else:
-                                    break
+                            option_ammo = "9x19mm_parabellum"
+                            functions.ammo(options.mm_9x19_parabellum, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            break
                         elif option_ammo == ".357 Magnum":
-                            while True:
-                                option_ammo_2, index_ammo_2 = pick(options.magnum_357, title4, options.indicator)
-                                if option_ammo_2 == "Wstecz":
-                                    break
-                                option_ammo_2 = functions.fast_replace(option_ammo_2)
-                                option_ammo = functions.fast_replace(option_ammo)
-                                compare = functions.comparison()
-                                if compare == "Tak":
-                                    name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage = functions.get_ammo_info(option_ammo, option_ammo_2)
-                                    x = functions.write()
-                                    if x == "Tak":
-                                        functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
-                                        functions.write_helmet_info(helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class)
-                                    functions.get_comparison(helm2, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
-                                    chart = functions.chart()
-                                    if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, helm)
-                                        continue
-                                    else:
-                                        continue
-                                else:
-                                    break
+                            option_ammo = ".357_magnum"
+                            functions.ammo(options.magnum_357, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            break
                         elif option_ammo == ".45 ACP":
-                            while True:
-                                option_ammo_2, index_ammo_2 = pick(options.acp_45, title4, options.indicator)
-                                if option_ammo_2 == "Wstecz":
-                                    break
-                                option_ammo_2 = functions.fast_replace(option_ammo_2)
-                                option_ammo = functions.fast_replace(option_ammo)
-                                compare = functions.comparison()
-                                if compare == "Tak":
-                                    name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage = functions.get_ammo_info(option_ammo, option_ammo_2)
-                                    x = functions.write()
-                                    if x == "Tak":
-                                        functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
-                                        functions.write_helmet_info(helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class)
-                                    functions.get_comparison(helm2, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
-                                    chart = functions.chart()
-                                    if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, helm)
-                                        continue
-                                    else:
-                                        continue
-                                else:
-                                    break
+                            option_ammo = ".45_acp"
+                            functions.ammo(options.acp_45, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            break
                         elif option_ammo == "9x21mm Gyurza":
-                            while True:
-                                option_ammo_2, index_ammo_2 = pick(options.mm_9x21_gyurza, title4, options.indicator)
-                                if option_ammo_2 == "Wstecz":
-                                    break
-                                option_ammo_2 = functions.fast_replace(option_ammo_2)
-                                option_ammo = functions.fast_replace(option_ammo)
-                                compare = functions.comparison()
-                                if compare == "Tak":
-                                    name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage = functions.get_ammo_info(option_ammo, option_ammo_2)
-                                    x = functions.write()
-                                    if x == "Tak":
-                                        functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
-                                        functions.write_helmet_info(helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class)
-                                    functions.get_comparison(helm2, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
-                                    chart = functions.chart()
-                                    if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, helm)
-                                        continue
-                                    else:
-                                        continue
-                                else:
-                                    break
+                            option_ammo = "9x21mm_gyurza"
+                            functions.ammo(options.mm_9x21_gyurza, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            break
                         elif option_ammo == "5.7x28mm FN":
-                            while True:
-                                option_ammo_2, index_ammo_2 = pick(options.mm_28x57_fn, title4, options.indicator)
-                                if option_ammo_2 == "Wstecz":
-                                    break
-                                option_ammo_2 = functions.fast_replace(option_ammo_2)
-                                option_ammo = functions.fast_replace(option_ammo)
-                                compare = functions.comparison()
-                                if compare == "Tak":
-                                    name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage = functions.get_ammo_info(option_ammo, option_ammo_2)
-                                    x = functions.write()
-                                    if x == "Tak":
-                                        functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
-                                        functions.write_helmet_info(helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class)
-                                    functions.get_comparison(helm2, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
-                                    chart = functions.chart()
-                                    if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, helm)
-                                        continue
-                                    else:
-                                        continue
-                                else:
-                                    break
+                            option_ammo = "5.7x28mm_fn"
+                            functions.ammo(options.mm_28x57_fn, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            break
                         elif option_ammo == "4.6x30mm HK":
-                            while True:
-                                option_ammo_2, index_ammo_2 = pick(options.mm_46x30_hk, title4, options.indicator)
-                                if option_ammo_2 == "Wstecz":
-                                    break
-                                option_ammo_2 = functions.fast_replace(option_ammo_2)
-                                option_ammo = functions.fast_replace(option_ammo)
-                                compare = functions.comparison()
-                                if compare == "Tak":
-                                    name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage = functions.get_ammo_info(option_ammo, option_ammo_2)
-                                    x = functions.write()
-                                    if x == "Tak":
-                                        functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
-                                        functions.write_helmet_info(helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class)
-                                    functions.get_comparison(helm2, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
-                                    chart = functions.chart()
-                                    if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, helm)
-                                        continue
-                                    else:
-                                        continue
-                                else:
-                                    break
+                            option_ammo = "4.6x30mm_hk"
+                            functions.ammo(options.mm_46x30_hk, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            break
                         elif option_ammo == "9x39mm":
-                            while True:
-                                option_ammo_2, index_ammo_2 = pick(options.mm_9x39, title4, options.indicator)
-                                if option_ammo_2 == "Wstecz":
-                                    break
-                                option_ammo_2 = functions.fast_replace(option_ammo_2)
-                                option_ammo = functions.fast_replace(option_ammo)
-                                compare = functions.comparison()
-                                if compare == "Tak":
-                                    name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage = functions.get_ammo_info(option_ammo, option_ammo_2)
-                                    x = functions.write()
-                                    if x == "Tak":
-                                        functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
-                                        functions.write_helmet_info(helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class)
-                                    functions.get_comparison(helm2, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
-                                    chart = functions.chart()
-                                    if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, helm)
-                                        continue
-                                    else:
-                                        continue
-                                else:
-                                    break
+                            option_ammo = "9x39mm"
+                            functions.ammo(options.mm_9x39, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            break
                         elif option_ammo == ".366 TKM":
-                            while True:
-                                option_ammo_2, index_ammo_2 = pick(options.tkm_366, title4, options.indicator)
-                                if option_ammo_2 == "Wstecz":
-                                    break
-                                option_ammo_2 = functions.fast_replace(option_ammo_2)
-                                option_ammo = functions.fast_replace(option_ammo)
-                                compare = functions.comparison()
-                                if compare == "Tak":
-                                    name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage = functions.get_ammo_info(option_ammo, option_ammo_2)
-                                    x = functions.write()
-                                    if x == "Tak":
-                                        functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
-                                        functions.write_helmet_info(helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class)
-                                    functions.get_comparison(helm2, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
-                                    chart = functions.chart()
-                                    if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, helm)
-                                        continue
-                                    else:
-                                        continue
-                                else:
-                                    break
+                            option_ammo = ".366_tkm"
+                            functions.ammo(options.tkm_366, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            break
                         elif option_ammo == "5.45x39mm":
-                            while True:
-                                option_ammo_2, index_ammo_2 = pick(options.mm_545x39, title4, options.indicator)
-                                if option_ammo_2 == "Wstecz":
-                                    break
-                                option_ammo_2 = functions.fast_replace(option_ammo_2)
-                                option_ammo = functions.fast_replace(option_ammo)
-                                compare = functions.comparison()
-                                if compare == "Tak":
-                                    name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage = functions.get_ammo_info(option_ammo, option_ammo_2)
-                                    x = functions.write()
-                                    if x == "Tak":
-                                        functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
-                                        functions.write_helmet_info(helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class)
-                                    functions.get_comparison(helm2, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
-                                    chart = functions.chart()
-                                    if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, helm)
-                                        continue
-                                    else:
-                                        continue
-                                else:
-                                    break
+                            option_ammo = "5.45x39mm"
+                            functions.ammo(options.mm_545x39, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            break
                         elif option_ammo == "5.45x45mm NATO":
-                            while True:
-                                option_ammo_2, index_ammo_2 = pick(options.mm_556x45_nato, title4, options.indicator)
-                                if option_ammo_2 == "Wstecz":
-                                    break
-                                option_ammo_2 = functions.fast_replace(option_ammo_2)
-                                option_ammo = functions.fast_replace(option_ammo)
-                                compare = functions.comparison()
-                                if compare == "Tak":
-                                    name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage = functions.get_ammo_info(option_ammo, option_ammo_2)
-                                    x = functions.write()
-                                    if x == "Tak":
-                                        functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
-                                        functions.write_helmet_info(helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class)
-                                    functions.get_comparison(helm2, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
-                                    chart = functions.chart()
-                                    if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, helm)
-                                        continue
-                                    else:
-                                        continue
-                                else:
-                                    break
+                            option_ammo = "5.56x45mm_nato"
+                            functions.ammo(options.mm_556x45_nato, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            break
                         elif option_ammo == ".300 Blackout":
-                            while True:
-                                option_ammo_2, index_ammo_2 = pick(options.blackout_300, title4, options.indicator)
-                                if option_ammo_2 == "Wstecz":
-                                    break
-                                option_ammo_2 = functions.fast_replace(option_ammo_2)
-                                option_ammo = functions.fast_replace(option_ammo)
-                                compare = functions.comparison()
-                                if compare == "Tak":
-                                    name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage = functions.get_ammo_info(option_ammo, option_ammo_2)
-                                    x = functions.write()
-                                    if x == "Tak":
-                                        functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
-                                        functions.write_helmet_info(helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class)
-                                    functions.get_comparison(helm2, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
-                                    chart = functions.chart()
-                                    if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, helm)
-                                        continue
-                                    else:
-                                        continue
-                                else:
-                                    break
+                            option_ammo = ".300_blackout"
+                            functions.ammo(options.blackout_300, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            break
                         elif option_ammo == "7.62x39mm":
-                            while True:
-                                option_ammo_2, index_ammo_2 = pick(options.mm_762x39, title4, options.indicator)
-                                if option_ammo_2 == "Wstecz":
-                                    break
-                                option_ammo_2 = functions.fast_replace(option_ammo_2)
-                                option_ammo = functions.fast_replace(option_ammo)
-                                compare = functions.comparison()
-                                if compare == "Tak":
-                                    name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage = functions.get_ammo_info(option_ammo, option_ammo_2)
-                                    x = functions.write()
-                                    if x == "Tak":
-                                        functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
-                                        functions.write_helmet_info(helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class)
-                                    functions.get_comparison(helm2, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
-                                    chart = functions.chart()
-                                    if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, helm)
-                                        continue
-                                    else:
-                                        continue
-                                else:
-                                    break
+                            option_ammo = "7.62x39mm"
+                            functions.ammo(options.mm_762x39, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            break
                         elif option_ammo == "7.62x51mm NATO":
-                            while True:
-                                option_ammo_2, index_ammo_2 = pick(options.mm_762x51_nato, title4, options.indicator)
-                                if option_ammo_2 == "Wstecz":
-                                    break
-                                option_ammo_2 = functions.fast_replace(option_ammo_2)
-                                option_ammo = functions.fast_replace(option_ammo)
-                                compare = functions.comparison()
-                                if compare == "Tak":
-                                    name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage = functions.get_ammo_info(option_ammo, option_ammo_2)
-                                    x = functions.write()
-                                    if x == "Tak":
-                                        functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
-                                        functions.write_helmet_info(helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class)
-                                    functions.get_comparison(helm2, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
-                                    chart = functions.chart()
-                                    if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, helm)
-                                        continue
-                                    else:
-                                        continue
-                                else:
-                                    break
+                            option_ammo = "7.62x51mm_nato"
+                            functions.ammo(options.mm_762x51_nato, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            break
                         elif option_ammo == "7.62x54mmR":
-                            while True:
-                                option_ammo_2, index_ammo_2 = pick(options.mmr_762x54, title4, options.indicator)
-                                if option_ammo_2 == "Wstecz":
-                                    break
-                                option_ammo_2 = functions.fast_replace(option_ammo_2)
-                                option_ammo = functions.fast_replace(option_ammo)
-                                compare = functions.comparison()
-                                if compare == "Tak":
-                                    name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage = functions.get_ammo_info(option_ammo, option_ammo_2)
-                                    x = functions.write()
-                                    if x == "Tak":
-                                        functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
-                                        functions.write_helmet_info(helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class)
-                                    functions.get_comparison(helm2, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
-                                    chart = functions.chart()
-                                    if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, helm)
-                                        continue
-                                    else:
-                                        continue
-                                else:
-                                    break
+                            option_ammo = "7.62x54mmr"
+                            functions.ammo(options.mm_12_70, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            break
                         elif option_ammo == ".338 Lapua Magnum":
-                            while True:
-                                option_ammo_2, index_ammo_2 = pick(options.lapua_magnum_338, title4, options.indicator)
-                                if option_ammo_2 == "Wstecz":
-                                    break
-                                option_ammo_2 = functions.fast_replace(option_ammo_2)
-                                option_ammo = functions.fast_replace(option_ammo)
-                                compare = functions.comparison()
-                                if compare == "Tak":
-                                    name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage = functions.get_ammo_info(option_ammo, option_ammo_2)
-                                    x = functions.write()
-                                    if x == "Tak":
-                                        functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
-                                        functions.write_helmet_info(helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class)
-                                    functions.get_comparison(helm2, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
-                                    chart = functions.chart()
-                                    if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, helm)
-                                        continue
-                                    else:
-                                        continue
-                                else:
-                                    break
+                            option_ammo = ".338_lapua_magnum"
+                            functions.ammo(options.lapua_magnum_338, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            break
                         elif option_ammo == "12.7x55mm STs-130":
-                            while True:
-                                option_ammo_2, index_ammo_2 = pick(options.mm_127x55_sts_130, title4, options.indicator)
-                                if option_ammo_2 == "Wstecz":
-                                    break
-                                option_ammo_2 = functions.fast_replace(option_ammo_2)
-                                option_ammo = functions.fast_replace(option_ammo)
-                                compare = functions.comparison()
-                                if compare == "Tak":
-                                    name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage = functions.get_ammo_info(option_ammo, option_ammo_2)
-                                    x = functions.write()
-                                    if x == "Tak":
-                                        functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
-                                        functions.write_helmet_info(helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class)
-                                    functions.get_comparison(helm2, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
-                                    chart = functions.chart()
-                                    if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, helm)
-                                        continue
-                                    else:
-                                        continue
-                                else:
-                                    break
+                            option_ammo = "12.7x55mm_sts-130"
+                            functions.ammo(options.mm_127x55_sts_130, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            break
                         elif option_ammo == "40x46mm":
-                            while True:
-                                option_ammo_2, index_ammo_2 = pick(options.mm_40x46, title4, options.indicator)
-                                if option_ammo_2 == "Wstecz":
-                                    break
-                                option_ammo_2 = functions.fast_replace(option_ammo_2)
-                                option_ammo = functions.fast_replace(option_ammo)
-                                compare = functions.comparison()
-                                if compare == "Tak":
-                                    name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage = functions.get_ammo_info(option_ammo, option_ammo_2)
-                                    x = functions.write()
-                                    if x == "Tak":
-                                        functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
-                                        functions.write_helmet_info(helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class)
-                                    functions.get_comparison(helm2, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
-                                    chart = functions.chart()
-                                    if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, helm)
-                                        continue
-                                    else:
-                                        continue
-                                else:
-                                    break
+                            option_ammo = "40x46mm"
+                            functions.ammo(options.mm_40x46, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            break
                         elif option_ammo == "Broń stacjonarna":
-                            while True:
-                                option_ammo_2, index_ammo_2 = pick(options.stacjonarna, title4, options.indicator)
-                                if option_ammo_2 == "Wstecz":
-                                    break
-                                option_ammo_2 = functions.fast_replace(option_ammo_2)
-                                option_ammo = 'stationary'
-                                compare = functions.comparison()
-                                if compare == "Tak":
-                                    name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage = functions.get_ammo_info(option_ammo, option_ammo_2)
-                                    x = functions.write()
-                                    if x == "Tak":
-                                        functions.write_ammo_info(name2, ammo_penetration_power, ammo_armor_damage, ammo_frag_chance, ammo_damage)
-                                        functions.write_helmet_info(helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class)
-                                    functions.get_comparison(helm2, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, ammo_penetration_power, ammo_damage, ammo_frag_chance, option_ammo, option_ammo_2, name2)
-                                    chart = functions.chart()
-                                    if chart == True:
-                                        functions.create_chart(option_ammo, option_ammo_2, armor_type, helm)
-                                        continue
-                                    else:
-                                        continue
-                                else:
-                                    break
+                            option_ammo = "stationary"
+                            functions.ammo(options.stacjonarna, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            break
                         continue
                     continue
                 continue
