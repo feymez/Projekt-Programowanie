@@ -7,12 +7,12 @@
 W programie zostało wprowadzone zabezpieczenie spójności plików. Przy każdym uruchomieniu programu sprawdzi on czy lista plików w jego folderze zgadza się. Jeśli nie spróbuje on je pobrać (wymagane połączenie z internetem) z tego repozytorium Github. **Aktualnie funkcja nie jest zoptymalizowana**.
 
 #### Program posiada kilka trybów:
-> - **Porównanie** - W tym trybie porównasz kamizelkę kuloodporną lub hełm z ammunicją. Dowiesz się jak klasyfikowana jest ammunicja do pancerza. <br>
-> - **Sprawdzenie statystyk** - Tryb sprawdzania statystyk pokazuje nam dokładne statystyki danej kamizelki kuloodpornej, hełmu lub pocisku. <br>
-> - **Kompatybilność** - Dzięki temu trybowi sprawdzimy kompatybilność broni z ammunicją. Wybierz broń i sprawdź jaka ammunicja jest przez nią obsługiwana! <br>
-> - **Wyposażenie** - Tryb ten pozwala nam na sprawdzenie informacji na temat poszczególnych plecaków lub kamizelek taktycznych. <br>
-> - **Pojemniki** - Ten tryb programu pokaże Ci wszystkie dostępne pojemniki w grze oraz opisze do czego służą! <br>
-> - **[Medykamenty]**(https://github.com/feymez/Projekt-Programowanie/blob/main/README.md#medykamenty) - Sprawdź w jaki sposób możesz się uleczyć. Dowiedz się wszystkich informacji na temat leczenia. <br>
+> - [Porównanie](https://github.com/feymez/Projekt-Programowanie/blob/main/README.md#porownanie) - W tym trybie porównasz kamizelkę kuloodporną lub hełm z ammunicją. Dowiesz się jak klasyfikowana jest ammunicja do pancerza. <br>
+> - [Sprawdzenie statystyk](https://github.com/feymez/Projekt-Programowanie/blob/main/README.md#medykamenty) - Tryb sprawdzania statystyk pokazuje nam dokładne statystyki danej kamizelki kuloodpornej, hełmu lub pocisku. <br>
+> - [Kompatybilność](https://github.com/feymez/Projekt-Programowanie/blob/main/README.md#kompatybilnosc) - Dzięki temu trybowi sprawdzimy kompatybilność broni z ammunicją. Wybierz broń i sprawdź jaka ammunicja jest przez nią obsługiwana! <br>
+> - [Wyposażenie](https://github.com/feymez/Projekt-Programowanie/blob/main/README.md#wyposazenie) - Tryb ten pozwala nam na sprawdzenie informacji na temat poszczególnych plecaków lub kamizelek taktycznych. <br>
+> - [Pojemniki](https://github.com/feymez/Projekt-Programowanie/blob/main/README.md#pojemniki) - Ten tryb programu pokaże Ci wszystkie dostępne pojemniki w grze oraz opisze do czego służą! <br>
+> - [Medykamenty](https://github.com/feymez/Projekt-Programowanie/blob/main/README.md#medykamenty) - Sprawdź w jaki sposób możesz się uleczyć. Dowiedz się wszystkich informacji na temat leczenia. <br>
 > - **Zadania** - Tryb dzięki któremu dowiemy się jakich przedmiotów będziemy potrzebować do ukończenia zadań. - **`(Nie wydane)`** <br>
 > - **Kryjówka** - Sprawdź jakie przedmioty są potrzebne do rozwijania swoich czterech kątów! - **`(Nie wydane)`** <br>
 > - **Umiejętności** - Dowiedz się w jaki sposób rozwijać umiejętności postaci `PMC` oraz jakie niesie to za sobą korzyści! - **`(Nie wydane)`** <br>
