@@ -11,10 +11,10 @@ W programie zostało wprowadzone zabezpieczenie spójności plików. Przy każdy
 > - **Sprawdzenie statystyk** - Tryb sprawdzania statystyk pokazuje nam dokładne statystyki danej kamizelki kuloodpornej, hełmu lub pocisku. <br>
 > - **Kompatybilność** - Dzięki temu trybowi sprawdzimy kompatybilność broni z ammunicją. Wybierz broń i sprawdź jaka ammunicja jest przez nią obsługiwana! <br>
 > - **Wyposażenie** - Tryb ten pozwala nam na sprawdzenie informacji na temat poszczególnych plecaków lub kamizelek taktycznych. <br>
+> - **Pojemniki** - Ten tryb programu pokaże Ci wszystkie dostępne pojemniki w grze oraz opisze do czego służą! <br>
 > - **Zadania** - Tryb dzięki któremu dowiemy się jakich przedmiotów będziemy potrzebować do ukończenia zadań. - **`(Nie wydane)`** <br>
 > - **Kryjówka** - Sprawdź jakie przedmioty są potrzebne do rozwijania swoich czterech kątów! - **`(Nie wydane)`** <br>
 > - **Umiejętności** - Dowiedz się w jaki sposób rozwijać umiejętności postaci `PMC` oraz jakie niesie to za sobą korzyści! - **`(Nie wydane)`** <br>
-> - **Pojemniki** - Ten tryb programu pokaże Ci wszystkie dostępne pojemniki w grze oraz opisze do czego służą! - **`(Nie wydane)`** <br>
 > - **Medykamenty** - Sprawdź w jaki sposób możesz się uleczyć oraz jaki medykament jest najskuteczniejszy! - **`(Nie wydane)`** <br>
 > - **Frakcje** - Wytłumaczenie czym zajmują się dane `frakcje` w **Escape From Tarkov** - **`(Nie wydane)`** <br>
 
