@@ -1703,3 +1703,12 @@ while True:
                 container_option = functions.fast_replace(container_option)
                 functions.get_container_info(container_option)
                 functions.get_back()
+    elif doing == "Medykamenty":
+        while True:
+            medicament_option, medicament_index = pick(options.medicaments_options, options.medicaments_title, options.indicator)
+            if medicament_option == "Wstecz":
+                break
+            else:
+                medicament_option = functions.fast_replace(medicament_option)
+                functions.get_medicament_info(medicament_option)
+                functions.get_back()

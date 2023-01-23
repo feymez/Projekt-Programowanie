@@ -106,8 +106,8 @@ chart_title = "Czy chesz zobaczyć wykres?"
 chart_options = ["Tak", "Nie"]
 
 doing_title = "Jaki tryb programu chcesz włączyć?"
-doing_options = ["Porównanie", "Sprawdzenie statystyk", "Kompatybilność", "Wyposażenie", "Pojemniki", "Zadania", "Kryjówka", 
-"Umiejętności", "Medykamenty", "Frakcje"]
+doing_options = ["Porównanie", "Sprawdzenie statystyk", "Kompatybilność", "Wyposażenie", "Pojemniki", "Medykamenty", "Zadania", "Kryjówka", 
+"Umiejętności", "Frakcje"]
 
 stats_title = "Jaką kategorię wybierasz?"
 stats_options = ["Wstecz", "Kamizelki", "Hełmy", "Ammunicja"]
@@ -197,3 +197,9 @@ containers_options = ["Wstecz", "Lucky Scav Junk box", "T H I C C item case", "I
 "Weapon case", "Medicine case", "Grenade case", "Mr. Holodilnick thermal bag", "Magazine case", "Ammunition case", 
 "Money case", "Pistol case", "Documents case", "S I C C organizational pouch", "Key tool", "Injector case", "Keycard holder case",
 "Gingy keychain", "Simple wallet", "WZ Wallet", "Dogtag case"]
+
+medicaments_title = "Wybierz medykament:"
+medicaments_options = ["Wstecz", "Analgin painkillers", "Augmentin antibiotic pills", "Ibuprofen painkillers", "Vaseline balm",
+"Golden Star balm", "Immobilizing splint", "Aluminum splint", "CMS surgical kit", "Surv12 field surgical kit", "Aseptic bandage",
+"Army bandage", "Esmarch tourniquet", "CALOK-B hemostatic applicator", "CAT hemostatic tourniquet", "AI-2 medkit", "Car first aid kit",
+"Salewa first aid kit", "IFAK individual first aid kit", "AFAK tactical individual first aid kit", "Grizzly medical kit"]

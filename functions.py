@@ -660,3 +660,27 @@ def get_container_info(name):
         print(f"Co może przechowywać: {container_holds}")
         image = Image.open(f"obrazy/pojemniki/{container_image}")
         image.show()
+
+def get_medicament_info(name):
+    with open("medykamenty/medicaments.json", encoding="UTF-8") as f:
+        medicament = json.load(f)
+        medicament = medicament[name]
+        medicament_name = medicament["name"]
+        medicament_type = medicament["type"]
+        medicament_buffs = medicament["buffs"]
+        medicament_debuffs = medicament["debuffs"]
+        medicament_use_time = medicament["use_time"]
+        medicament_uses = medicament["uses"]
+        medicament_hppool = medicament["hppool"]
+        medicament_maxhp = medicament["maxhp"]
+        medicament_image = medicament["image"]
+        print(f"Pełna nazwa: {medicament_name}")
+        print(f"Rodzaj medykamentu: {medicament_type}")
+        print(f"Wzmocnienia: {medicament_buffs}")
+        print(f"Osłabienia: {medicament_debuffs}")
+        print(f"Czas użycia: {medicament_use_time}")
+        print(f"Użycia: {medicament_uses}")
+        print(f"Punkty leczenia: {medicament_hppool}HP")
+        print(f"Maksymalne leczenie na raz: {medicament_maxhp}HP")
+        image = Image.open(f"obrazy/medykamenty/{medicament_image}")
+        image.show()
