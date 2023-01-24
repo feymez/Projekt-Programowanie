@@ -13,9 +13,6 @@ W programie zostało wprowadzone zabezpieczenie spójności plików. Przy każdy
 > - [Wyposażenie](https://github.com/feymez/Projekt-Programowanie/blob/main/README.md#wyposazenie) - Tryb ten pozwala nam na sprawdzenie informacji na temat poszczególnych plecaków lub kamizelek taktycznych. <br>
 > - [Pojemniki](https://github.com/feymez/Projekt-Programowanie/blob/main/README.md#pojemniki) - Ten tryb programu pokaże Ci wszystkie dostępne pojemniki w grze oraz opisze do czego służą! <br>
 > - [Medykamenty](https://github.com/feymez/Projekt-Programowanie/blob/main/README.md#medykamenty) - Sprawdź w jaki sposób możesz się uleczyć. Dowiedz się wszystkich informacji na temat leczenia. <br>
-> - **Zadania** - Tryb dzięki któremu dowiemy się jakich przedmiotów będziemy potrzebować do ukończenia zadań. - **`(Nie wydane)`** <br>
-> - **Kryjówka** - Sprawdź jakie przedmioty są potrzebne do rozwijania swoich czterech kątów! - **`(Nie wydane)`** <br>
-> - **Umiejętności** - Dowiedz się w jaki sposób rozwijać umiejętności postaci `PMC` oraz jakie niesie to za sobą korzyści! - **`(Nie wydane)`** <br>
 
 # Działanie programu
 
