@@ -2,6 +2,9 @@
 
 indicator = "->"
 
+doing_title = "Jaki tryb programu chcesz włączyć?"
+doing_options = ["Porównanie", "Sprawdzenie statystyk", "Kompatybilność", "Wyposażenie", "Pojemniki", "Medykamenty"]
+
 mm_12_70 = ["Wstecz", "12x70mm 5.25mm Buckshot", "12x70mm 8.5mm Magnum Buckshot", "12x70mm 6.5mm Express Buckshot",
 "12x70mm 7mm Buckshot", "12x70mm Flechette", "12x70mm RIP", "12x70mm SuperFormance HP Slug", "12x70mm Grizzly 40 Slug",
 "12x70mm Copper Sabot Premier HP Slug", "12x70mm Lead Slug", "12x70mm 'Poleva-3' Slug", "12x70mm Dual Sabot Slug",
@@ -104,10 +107,6 @@ write_options = ["Tak", "Nie"]
 
 chart_title = "Czy chesz zobaczyć wykres?"
 chart_options = ["Tak", "Nie"]
-
-doing_title = "Jaki tryb programu chcesz włączyć?"
-doing_options = ["Porównanie", "Sprawdzenie statystyk", "Kompatybilność", "Wyposażenie", "Pojemniki", "Medykamenty", "Zadania", "Kryjówka", 
-"Umiejętności", "Frakcje"]
 
 stats_title = "Jaką kategorię wybierasz?"
 stats_options = ["Wstecz", "Kamizelki", "Hełmy", "Ammunicja"]

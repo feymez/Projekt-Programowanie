@@ -74,7 +74,7 @@ kamizelki_taktyczne = ["6B5-16_Zh-86_Uley_armored_rig.png", "Eagle_Industries_'M
 "Splav_Tarzan_M22_chest_rig.png", "Haley_Strategic_D3CRX_Chest_Harness.png", "Dynaforce_Triton_M43-A_chest_harness.png", "BlackHawk!_Commando_chest_harness.gif", "Direct_Action_Thunderbolt_compact_chest_rig.png",
 "Gear_Craf_GC-BSS-MK1_chest_rig.png", "Umka_M33-SET1_hunter_vest.png", "LBT-1961A_Load_Bearing_Chest_Rig.png", "LBT-1961A_Load_Bearing_Chest_Rig_Goons_Edition.png", "Stich_Profi_Chest_Rig_MK2_Recon,_A-TACS_FG.png",
 "Stich_Profi_Chest_Rig_MK2_Assault,_A-TACS_FG.png", "BlackRock_chest_rig.png", "WARTECH_MK3_TV-104_chest_rig.png", "ANA_Tactical_Alpha_chest_rig.png", "Azimut_SS_'Zhuk'_chest_harness.png",
-"Velocity_Systems_MPPV_Multi-Purpose_Patrol_Vest.png", "Belt-A + Belt-B gear rig", "Beltcombo.png"]
+"Velocity_Systems_MPPV_Multi-Purpose_Patrol_Vest.png", "Beltcombo.png"]
 
 medykamenty = ["Analgin_painkillers.png", "Augmentin_antibiotic_pills.png", "Ibuprofen_painkillers.png", "Vaseline_balm.png",
 "Golden_Star_balm.png", "Immobilizing_splint.png", "Aluminum_splint.png", "CMS_surgical_kit.png", "Surv12_field_surgical_kit.png",
