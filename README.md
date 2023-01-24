@@ -13,10 +13,6 @@ W programie zostało wprowadzone zabezpieczenie spójności plików. Przy każdy
 > - [Wyposażenie](https://github.com/feymez/Projekt-Programowanie/blob/main/README.md#wyposazenie) - Tryb ten pozwala nam na sprawdzenie informacji na temat poszczególnych plecaków lub kamizelek taktycznych. <br>
 > - [Pojemniki](https://github.com/feymez/Projekt-Programowanie/blob/main/README.md#pojemniki) - Ten tryb programu pokaże Ci wszystkie dostępne pojemniki w grze oraz opisze do czego służą! <br>
 > - [Medykamenty](https://github.com/feymez/Projekt-Programowanie/blob/main/README.md#medykamenty) - Sprawdź w jaki sposób możesz się uleczyć. Dowiedz się wszystkich informacji na temat leczenia. <br>
-> - **Zadania** - Tryb dzięki któremu dowiemy się jakich przedmiotów będziemy potrzebować do ukończenia zadań. - **`(Nie wydane)`** <br>
-> - **Kryjówka** - Sprawdź jakie przedmioty są potrzebne do rozwijania swoich czterech kątów! - **`(Nie wydane)`** <br>
-> - **Umiejętności** - Dowiedz się w jaki sposób rozwijać umiejętności postaci `PMC` oraz jakie niesie to za sobą korzyści! - **`(Nie wydane)`** <br>
-> - **Frakcje** - Wytłumaczenie czym zajmują się dane `frakcje` w **Escape From Tarkov** - **`(Nie wydane)`** <br>
 
 # Działanie programu
 
@@ -25,7 +21,7 @@ W programie zostało wprowadzone zabezpieczenie spójności plików. Przy każdy
 ### Porównanie:
 
 Po uruchomieniu programu wyświetli się nam menu wyboru. <br>
-![image](https://user-images.githubusercontent.com/85249187/213991965-d470c51b-c8b0-49fb-b808-fd5d1fd6d80e.png) <br>
+![image](https://user-images.githubusercontent.com/85249187/214397581-21b81062-9697-4eee-bd68-69a371cecec9.png) <br>
 Po wybraniu opcji **`Porównanie`** zostaniemy przeniesieni do następengo menu. <br>
 ![image](https://user-images.githubusercontent.com/85249187/212919040-4a59bc2e-9983-4224-ab4e-9c1d5d81a07a.png) <br>
 Teraz możemy wybrać **`Kamizelka`** lub **`Hełm`**. <br>
