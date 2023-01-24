@@ -16,7 +16,6 @@ W programie zostało wprowadzone zabezpieczenie spójności plików. Przy każdy
 > - **Zadania** - Tryb dzięki któremu dowiemy się jakich przedmiotów będziemy potrzebować do ukończenia zadań. - **`(Nie wydane)`** <br>
 > - **Kryjówka** - Sprawdź jakie przedmioty są potrzebne do rozwijania swoich czterech kątów! - **`(Nie wydane)`** <br>
 > - **Umiejętności** - Dowiedz się w jaki sposób rozwijać umiejętności postaci `PMC` oraz jakie niesie to za sobą korzyści! - **`(Nie wydane)`** <br>
-> - **Frakcje** - Wytłumaczenie czym zajmują się dane `frakcje` w **Escape From Tarkov** - **`(Nie wydane)`** <br>
 
 # Działanie programu
 
