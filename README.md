@@ -21,7 +21,7 @@ W programie zostało wprowadzone zabezpieczenie spójności plików. Przy każdy
 ### Porównanie:
 
 Po uruchomieniu programu wyświetli się nam menu wyboru. <br>
-![image](https://user-images.githubusercontent.com/85249187/213991965-d470c51b-c8b0-49fb-b808-fd5d1fd6d80e.png) <br>
+![image](https://user-images.githubusercontent.com/85249187/214397581-21b81062-9697-4eee-bd68-69a371cecec9.png) <br>
 Po wybraniu opcji **`Porównanie`** zostaniemy przeniesieni do następengo menu. <br>
 ![image](https://user-images.githubusercontent.com/85249187/212919040-4a59bc2e-9983-4224-ab4e-9c1d5d81a07a.png) <br>
 Teraz możemy wybrać **`Kamizelka`** lub **`Hełm`**. <br>
