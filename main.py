@@ -80,96 +80,19 @@ while True:
                 url = 'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/directories.py'
                 response = requests.get(url)
                 open("directories.py", 'wb').write(response.content)
-        else:
-            import functions, options, download, directories
-            print('Weryfikuję pliki...')
-            directories.check_all_dir(directories.first1)
-            directories.check_all_dir(directories.second2)
-            download.check()
-            download.check2()
-            download.check3()
-            functions.printProgressBar(0, l, prefix = 'Przebiega weryfikacja plików:', suffix = 'Ukończono', length = 50)
-            for i, item in enumerate(items):
-                time.sleep(0.1)
-                functions.printProgressBar(i + 1, l, prefix = 'Przebiega weryfikacja plików:', suffix = 'Ukończono', length = 50)
-            #>----------- Sprawdzanie plików -----------<
-            ammunitionExist = os.path.isfile('ammunition.json')
-            armorsExist = os.path.isfile('armors.json')
-            headgearExist = os.path.isfile('headgear.json')
-            chestrigsExist = os.path.isfile("chestrigs.json")
-            containersExist = os.path.isfile("containers.json")
-            #>----------- Pobieranie plików -----------<
-            if ammunitionExist == False:
-                print('Wykryto brakujący plik "ammunition.json"')
-                try:
-                    internet_connection = check_connect()
-                    if internet_connection == False:
-                        print("Komputer nie ma połączenia z internetem.")
-                        quit()
-                    url = 'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/ammunition.json'
-                    response = requests.get(url)
-                    print('Pobieram brakujący plik')
-                    open('ammunition.json', 'wb').write(response.content)
-                except:
-                    print('Operacja nie mogła zostać wykonana.')
-                    quit()
-            if armorsExist == False:
-                print('Wykryto brakujący plik "armors.json"')
-                try:
-                    internet_connection = check_connect()
-                    if internet_connection == False:
-                        print("Komputer nie ma połączenia z internetem.")
-                        quit()
-                    url = 'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/armors.json'
-                    response = requests.get(url)
-                    print('Pobieram brakujący plik')
-                    open('armors.json', 'wb').write(response.content)
-                except:
-                    print('Operacja nie mogła zostać wykonana.')
-                    quit()
-            if headgearExist == False:
-                print('Wykryto brakujący plik "headgear.json"')
-                try:
-                    internet_connection = check_connect()
-                    if internet_connection == False:
-                        print("Komputer nie ma połączenia z internetem.")
-                        quit()
-                    url = 'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/headgear.json'
-                    response = requests.get(url)
-                    print('Pobieram brakujący plik')
-                    open('headgear.json', 'wb').write(response.content)
-                except:
-                    print('Operacja nie mogła zostać wykonana.')
-                    quit()
-            if chestrigsExist == False:
-                print('Wykryto brakujący plik "chestrigs.json"')
-                try:
-                    internet_connection = check_connect()
-                    if internet_connection == False:
-                        print("Komputer nie ma połączenia z internetem.")
-                        quit()
-                    url = 'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/chestrigs.json'
-                    response = requests.get(url)
-                    print('Pobieram brakujący plik')
-                    open('chestrigs.json', 'wb').write(response.content)
-                except:
-                    print('Operacja nie mogła zostać wykonana.')
-                    quit()
-            if containersExist == False:
-                print('Wykryto brakujący plik "containers.json"')
-                try:
-                    internet_connection = check_connect()
-                    if internet_connection == False:
-                        print("Komputer nie ma połączenia z internetem.")
-                        quit()
-                    url = 'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/containers.json'
-                    response = requests.get(url)
-                    print('Pobieram brakujący plik')
-                    open('containers.json', 'wb').write(response.content)
-                except:
-                    print('Operacja nie mogła zostać wykonana.')
-                    quit()
-            break
+        import functions, options, download, directories
+        print('Weryfikuję pliki...')
+        directories.check_all_dir(directories.first1)
+        directories.check_all_dir(directories.second2)
+        download.check()
+        download.check2()
+        download.check3()
+        download.check4()
+        functions.printProgressBar(0, l, prefix = 'Przebiega weryfikacja plików:', suffix = 'Ukończono', length = 50)
+        for i, item in enumerate(items):
+            time.sleep(0.1)
+            functions.printProgressBar(i + 1, l, prefix = 'Przebiega weryfikacja plików:', suffix = 'Ukończono', length = 50)
+        break
 
 functions.printProgressBar(0, l, prefix = 'Wczytywanie potrzebnych składników:', suffix = 'Ukończono', length = 50)
 for i, item in enumerate(items):
@@ -295,7 +218,7 @@ while True:
                         continue
                     continue
                 continue
-            else:
+            elif option == "Hełm":
                 armor_type = "Hełm"
                 while True:
                     #Wybieranie hełmu

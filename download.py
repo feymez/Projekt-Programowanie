@@ -69,13 +69,21 @@ kamizelki_taktyczne = ["6B5-16_Zh-86_Uley_armored_rig.png", "Eagle_Industries_'M
 "WARTECH_TV-110_plate_carrier_rig.png", "FirstSpear_'Strandhogg'_plate_carrier_rig_Ranger_Green.png", "ECLiPSE_RBAV-AF_plate_carrier_Ranger_Green.png", "CQC_Osprey_MK4A_plate_carrier_Assault,_MTP.png",
 "6B3TM-01M_armored_rig.png", "6B5-15_Zh-86_Uley_armored_rig.png", "ANA_Tactical_M2_armored_rig.png", "ANA_Tactical_M1_armored_rig.png", "Crye_Precision_AVS_plate_carrier.png", "5.11_Tactical_TacTec_plate_carrier.png",
 "Ars_Arma_CPC_MOD.2_plate_carrier.png", "Crye_Precision_CPC_plate_carrier_Goons_Edition.png", "S&S_Precision_PlateFrame_plate_carrier_Goons_Edition.png", "CQC_Osprey_MK4A_plate_carrier_Protection,_MTP.png",
-"NPP_KlASS_Bagariy_armored_rig.png", "Tasmanian_Tiger_SK_plate_carrier_Multicam_Black.png", "Crye_Precision_AVS_MBAV_Tagilla_Edition.png"]
+"NPP_KlASS_Bagariy_armored_rig.png", "Tasmanian_Tiger_SK_plate_carrier_Multicam_Black.png", "Crye_Precision_AVS_MBAV_Tagilla_Edition.png", "Scav_Vest.png", "Security_vest.png", "DIY_IDEA_chest_rig.png",
+"Spiritus_Systems_Bank_Robber_chest_rig.png", "SOE_Micro_Rig.png", "WARTECH_TV-109_+_TV-106_chest_rig.png", "CSA_chest_rig.png", "UMTBS_6sh112_Scout-Sniper.png", "Azimut_SS_'Khamelion'_chest_harness_Olive.png",
+"Splav_Tarzan_M22_chest_rig.png", "Haley_Strategic_D3CRX_Chest_Harness.png", "Dynaforce_Triton_M43-A_chest_harness.png", "BlackHawk!_Commando_chest_harness.gif", "Direct_Action_Thunderbolt_compact_chest_rig.png",
+"Gear_Craf_GC-BSS-MK1_chest_rig.png", "Umka_M33-SET1_hunter_vest.png", "LBT-1961A_Load_Bearing_Chest_Rig.png", "LBT-1961A_Load_Bearing_Chest_Rig_Goons_Edition.png", "Stich_Profi_Chest_Rig_MK2_Recon,_A-TACS_FG.png",
+"Stich_Profi_Chest_Rig_MK2_Assault,_A-TACS_FG.png", "BlackRock_chest_rig.png", "WARTECH_MK3_TV-104_chest_rig.png", "ANA_Tactical_Alpha_chest_rig.png", "Azimut_SS_'Zhuk'_chest_harness.png",
+"Velocity_Systems_MPPV_Multi-Purpose_Patrol_Vest.png", "Belt-A + Belt-B gear rig", "Beltcombo.png"]
 
 medykamenty = ["Analgin_painkillers.png", "Augmentin_antibiotic_pills.png", "Ibuprofen_painkillers.png", "Vaseline_balm.png",
 "Golden_Star_balm.png", "Immobilizing_splint.png", "Aluminum_splint.png", "CMS_surgical_kit.png", "Surv12_field_surgical_kit.png",
 "Aseptic_bandage.png", "Army_bandage.png", "Esmarch_tourniquet.png", "CALOK-B_hemostatic_applicator.png", "CAT_hemostatic_tourniquet.png",
 "AI-2_medkit.png", "Car_first_aid_kit.png", "Salewa_first_aid_kit.png", "IFAK_individual_first_aid_kit.png",
 "AFAK_tactical_individual_first_aid_kit.png", "Grizzly_medical_kit.png"]
+
+json_files = ["ammunition.json", "armors.json", "backpacks.json", "chestrigs.json", "containers.json",
+"headgear.json", "medykamenty/medicaments.json"]
 
 #Funkcja sprawdzająca połączenie z internetem
 def check_connect():
@@ -85,7 +93,7 @@ def check_connect():
     except:
         return False
 
-#Pętla pobierająca pliki JSON
+#Pętla pobierająca pliki JSON broni
 def loop(list_name, category):
     for x in list_name:
         file = os.path.isfile(f'bronie/{category}/{x}.json')
@@ -216,6 +224,22 @@ def loop3(list_name, caliber):
                     response = requests.get(url)
                     open(f'obrazy/ammunicja/Stationary Weapons/{x}', 'wb').write(response.content)
     
+
+#Pętla pobierająca pliki JSON
+def loop4(files):
+    for x in files:
+        file = os.path.isfile(x)
+        if file == False:
+            internet_connection = check_connect()
+            if internet_connection == False:
+                print("Komputer nie ma połączenia z internetem.")
+                quit()
+            else:
+                url = f'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/{x}'
+                response = requests.get(url)
+                open(f'{x}', 'wb').write(response.content)
+
+
 #Funkcja sprawdzająca spójność plików JSON broni.
 def check():
     directories.directory()
@@ -268,3 +292,6 @@ def check3():
     loop3(mm_2375, "23x75")
     loop3(mm_4046, "40x46")
     loop3(stationary_weapons, "Stationary Weapons")
+
+def check4():
+    loop4(json_files)
