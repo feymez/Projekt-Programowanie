@@ -41,7 +41,7 @@ Na samym końcu możemy zobaczyć wykres porównania. Zostanie on zapisany w pli
 ### Sprawdzenie statystyk:
 
 Po uruchomieniu programu wyświetli się nam menu wyboru. <br>
-![image](https://user-images.githubusercontent.com/85249187/213991965-d470c51b-c8b0-49fb-b808-fd5d1fd6d80e.png) <br>
+![image](https://user-images.githubusercontent.com/85249187/214397581-21b81062-9697-4eee-bd68-69a371cecec9.png) <br>
 Po wybraniu opcji **`Sprawdzenie statystyk`** zostaniemy przeniesieni do następengo menu. <br>
 ![image](https://user-images.githubusercontent.com/85249187/212921022-66f741b9-0aa9-44bd-9a3e-1e3ad698cb12.png) <br>
 Teraz możemy wybrać **`Kamizelka`**, **`Hełm`** lub **`Ammunicja`**. <br>
@@ -58,7 +58,7 @@ Wybieramy interesujący nas przedmiot. Program wyświeli wszystkie informacje na
 
 ### Kompatybilność:
 Po uruchomieniu programu wyświetli się nam menu wyboru. <br>
-![image](https://user-images.githubusercontent.com/85249187/213991965-d470c51b-c8b0-49fb-b808-fd5d1fd6d80e.png) <br>
+![image](https://user-images.githubusercontent.com/85249187/214397581-21b81062-9697-4eee-bd68-69a371cecec9.png) <br>
 Po wybraniu opcji **`Kompatybilność`** zostaniemy przeniesieni do następengo menu. <br>
 ![image](https://user-images.githubusercontent.com/85249187/212922399-db44643e-4745-478e-bf6e-7121fd067fc9.png) <br>
 Następnie wybieramy rodzaj broni. <br>
@@ -73,7 +73,7 @@ Program wyświeli informacje na temat interesującej nas broni. <br>
 
 ### Wyposażenie:
 Po uruchomieniu programu wyświetli się nam menu wyboru. <br>
-![image](https://user-images.githubusercontent.com/85249187/213991965-d470c51b-c8b0-49fb-b808-fd5d1fd6d80e.png) <br>
+![image](https://user-images.githubusercontent.com/85249187/214397581-21b81062-9697-4eee-bd68-69a371cecec9.png) <br>
 Po wybraniu opcji **`Wyposażenie`** zostaniemy przeniesieni do następnego menu. <br>
 ![image](https://user-images.githubusercontent.com/85249187/214078946-8aa41119-b719-4e17-9323-1188392bbb08.png) <br>
 Następnie wybieramy **`Plecaki`** lub **`Kamizelki Taktyczne`**. <br>
@@ -87,7 +87,7 @@ Wybieramy interesujący nas przedmiot. Program wyświetli wszystkie informacje n
 
 ### Pojemniki:
 Po uruchomieniu programu wyświetli się nam menu wyboru. <br>
-![image](https://user-images.githubusercontent.com/85249187/213991965-d470c51b-c8b0-49fb-b808-fd5d1fd6d80e.png) <br>
+![image](https://user-images.githubusercontent.com/85249187/214397581-21b81062-9697-4eee-bd68-69a371cecec9.png) <br>
 Po wybraniu opcji **`Pojemniki`** zostaniemy przeniesieni do następengo menu. <br>
 ![image](https://user-images.githubusercontent.com/85249187/214079729-1e821e69-f9a9-4644-9575-2e3dcbf79c6f.png) <br>
 Wybieramy interesujący nas przedmiot. Program wyświetli wszystkie informacje na temat danego przedmiotu. <br>
@@ -95,7 +95,7 @@ Wybieramy interesujący nas przedmiot. Program wyświetli wszystkie informacje n
 
 ### Medykamenty:
 Po uruchomieniu programu wyświetli się nam menu wyboru. <br>
-![image](https://user-images.githubusercontent.com/85249187/213991965-d470c51b-c8b0-49fb-b808-fd5d1fd6d80e.png) <br>
+![image](https://user-images.githubusercontent.com/85249187/214397581-21b81062-9697-4eee-bd68-69a371cecec9.png) <br>
 Po wybraniu opcji **`Medykamenty`** zostaniemy przeniesieni do następengo menu. <br>
 ![image](https://user-images.githubusercontent.com/85249187/214113981-7016fdc2-ca81-4393-a220-e966329b734e.png) <br>
 Wybieramy interesujący nas przedmiot. Program wyświetli wszystkie informacje na temat danego przedmiotu. <br>
