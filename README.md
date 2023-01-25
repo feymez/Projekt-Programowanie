@@ -103,3 +103,7 @@ Po wybraniu opcji **`Medykamenty`** zostaniemy przeniesieni do następengo menu.
 ![image](https://user-images.githubusercontent.com/85249187/214113981-7016fdc2-ca81-4393-a220-e966329b734e.png) <br>
 Wybieramy interesujący nas przedmiot. Program wyświetli wszystkie informacje na temat danego przedmiotu. <br>
 **Aby wrócić do list wyboru należy nacisnąć przycisk `BACKSPACE`** <br>
+
+### Problemy napotkane przy tworzeniu programu:
+> - **Optymalizacja** - niestety, optymalizacja całego programu błaga o dopracowanie. Pobieranie brakujących plików zajmuje (przy braku wszystkich plików) nawet 10 minut, a kilka funkcji potrafi mielić dane przez dobre kilkanaście sekund.
+> - **Dane** - dane których używa program musiałem własnoręcznie uzupełniać do plików `.json` z tej strony -> https://escapefromtarkov.fandom.com/wiki/Escape_from_Tarkov_Wiki. Niestety API gry jest płatne.
