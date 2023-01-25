@@ -6,6 +6,9 @@
 
 W programie zostało wprowadzone zabezpieczenie spójności plików. Przy każdym uruchomieniu programu sprawdzi on czy lista plików w jego folderze zgadza się. Jeśli nie spróbuje on je pobrać (wymagane połączenie z internetem) z tego repozytorium Github. **Aktualnie funkcja nie jest zoptymalizowana**.
 
+### Założenie programu:
+> #### Program powstał z myślą o graczach Escape From Tarkov. Jest to gra wieloosobowa, pierwszoosobowa strzelanka z elementami RPG, symulacji i survivalu. Program ma pomagać graczom czy to na początku ich przygody z grą ale również dla tych bardziej zaawansowanych. Dzięki `EFT Informator` w łatwy sposób można sprawdzić informacje na temat przedmiotów znajdowanych w trakcie rozgrywki. Zapraszam do użytkowania!
+
 #### Program posiada kilka trybów:
 > - [Porównanie](https://github.com/feymez/Projekt-Programowanie/blob/main/README.md#porownanie) - W tym trybie porównasz kamizelkę kuloodporną lub hełm z ammunicją. Dowiesz się jak klasyfikowana jest ammunicja do pancerza. <br>
 > - [Sprawdzenie statystyk](https://github.com/feymez/Projekt-Programowanie/blob/main/README.md#sprawdzenie-statystyk) - Tryb sprawdzania statystyk pokazuje nam dokładne statystyki danej kamizelki kuloodpornej, hełmu lub pocisku. <br>
