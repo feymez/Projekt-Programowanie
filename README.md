@@ -12,7 +12,7 @@ W programie zostało wprowadzone zabezpieczenie spójności plików. Przy każdy
 ### Problemy napotkane przy tworzeniu programu:
 > - **Optymalizacja** - niestety, optymalizacja całego programu błaga o dopracowanie. Pobieranie brakujących plików zajmuje (przy braku wszystkich plików) nawet 10 minut, a kilka funkcji potrafi mielić dane przez dobre kilkanaście sekund.
 > - **Dane** - dane których używa program musiałem własnoręcznie uzupełniać do plików `.json` z tej strony -> https://escapefromtarkov.fandom.com/wiki/Escape_from_Tarkov_Wiki. Niestety API gry jest płatne.
-> - **Obrazy** - obrazy które program wykorzystuje są zapisane w jego plikach. Niestety może zdarzyć się tak, że obrazy pobrane z GitHuba zostaną uszkodzone co będzie skutkowało wyłączaniem się programu w momencie próby otwarcia takiego obrazu. W takim wypadku niestety musimy pominąć wybraną przez nas funkcję w programie i oczekiwać na patcha.
+> - **Obrazy** - obrazy które program wykorzystuje są zapisane w jego plikach. Niestety może zdarzyć się tak, że obrazy pobrane z GitHuba zostaną uszkodzone co będzie skutkowało wyłączaniem się programu w momencie próby otwarcia takiego obrazu. W takim wypadku niestety musimy pominąć wybraną przez nas opcję z menu wyboru i oczekiwać na patcha.
 
 #### Program posiada kilka trybów:
 > - [Porównanie](https://github.com/feymez/Projekt-Programowanie/blob/main/README.md#porownanie) - W tym trybie porównasz kamizelkę kuloodporną lub hełm z ammunicją. Dowiesz się jak klasyfikowana jest ammunicja do pancerza. <br>
