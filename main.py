@@ -222,95 +222,95 @@ while True:
                             break
                         elif option_ammo == "12x70mm":
                             option_ammo = "12x70mm"
-                            functions.ammo(options.mm_12_70, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            functions.ammo(options.mm_12_70, title4, helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, helm2, option_ammo, armor_type, helm)
                             break
                         elif option_ammo == "20x70mm":
                             option_ammo = "20x70mm"
-                            functions.ammo(options.mm_20_70, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            functions.ammo(options.mm_20_70, title4, helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, helm2, option_ammo, armor_type, helm)
                             break
                         elif option_ammo == "23x75mm":
                             option_ammo = "23x75mm"
-                            functions.ammo(options.mm_23_75, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            functions.ammo(options.mm_23_75, title4, helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, helm2, option_ammo, armor_type, helm)
                             break
                         elif option_ammo == "9x18mm Makarov":
                             option_ammo = "9x18mm_makarov"
-                            functions.ammo(options.mm_9_18_makarov, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            functions.ammo(options.mm_9_18_makarov, title4, helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, helm2, option_ammo, armor_type, helm)
                             break
                         elif option_ammo == "7.62x25mm Tokarev":
                             option_ammo = "7.62x25mm_tokarev"
-                            functions.ammo(options.mm_762x25_tokarev, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            functions.ammo(options.mm_762x25_tokarev, title4, helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, helm2, option_ammo, armor_type, helm)
                             break
                         elif option_ammo == "9x19mm Parabellum":
                             option_ammo = "9x19mm_parabellum"
-                            functions.ammo(options.mm_9x19_parabellum, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            functions.ammo(options.mm_9x19_parabellum, title4, helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, helm2, option_ammo, armor_type, helm)
                             break
                         elif option_ammo == ".357 Magnum":
                             option_ammo = ".357_magnum"
-                            functions.ammo(options.magnum_357, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            functions.ammo(options.magnum_357, title4, helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, helm2, option_ammo, armor_type, helm)
                             break
                         elif option_ammo == ".45 ACP":
                             option_ammo = ".45_acp"
-                            functions.ammo(options.acp_45, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            functions.ammo(options.acp_45, title4, helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, helm2, option_ammo, armor_type, helm)
                             break
                         elif option_ammo == "9x21mm Gyurza":
                             option_ammo = "9x21mm_gyurza"
-                            functions.ammo(options.mm_9x21_gyurza, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            functions.ammo(options.mm_9x21_gyurza, title4, helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, helm2, option_ammo, armor_type, helm)
                             break
                         elif option_ammo == "5.7x28mm FN":
                             option_ammo = "5.7x28mm_fn"
-                            functions.ammo(options.mm_28x57_fn, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            functions.ammo(options.mm_28x57_fn, title4, helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, helm2, option_ammo, armor_type, helm)
                             break
                         elif option_ammo == "4.6x30mm HK":
                             option_ammo = "4.6x30mm_hk"
-                            functions.ammo(options.mm_46x30_hk, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            functions.ammo(options.mm_46x30_hk, title4, helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, helm2, option_ammo, armor_type, helm)
                             break
                         elif option_ammo == "9x39mm":
                             option_ammo = "9x39mm"
-                            functions.ammo(options.mm_9x39, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            functions.ammo(options.mm_9x39, title4, helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, helm2, option_ammo, armor_type, helm)
                             break
                         elif option_ammo == ".366 TKM":
                             option_ammo = ".366_tkm"
-                            functions.ammo(options.tkm_366, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            functions.ammo(options.tkm_366, title4, helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, helm2, option_ammo, armor_type, helm)
                             break
                         elif option_ammo == "5.45x39mm":
                             option_ammo = "5.45x39mm"
-                            functions.ammo(options.mm_545x39, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            functions.ammo(options.mm_545x39, title4, helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, helm2, option_ammo, armor_type, helm)
                             break
                         elif option_ammo == "5.45x45mm NATO":
                             option_ammo = "5.56x45mm_nato"
-                            functions.ammo(options.mm_556x45_nato, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            functions.ammo(options.mm_556x45_nato, title4, helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, helm2, option_ammo, armor_type, helm)
                             break
                         elif option_ammo == ".300 Blackout":
                             option_ammo = ".300_blackout"
-                            functions.ammo(options.blackout_300, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            functions.ammo(options.blackout_300, title4, helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, helm2, option_ammo, armor_type, helm)
                             break
                         elif option_ammo == "7.62x39mm":
                             option_ammo = "7.62x39mm"
-                            functions.ammo(options.mm_762x39, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            functions.ammo(options.mm_762x39, title4, helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, helm2, option_ammo, armor_type, helm)
                             break
                         elif option_ammo == "7.62x51mm NATO":
                             option_ammo = "7.62x51mm_nato"
-                            functions.ammo(options.mm_762x51_nato, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            functions.ammo(options.mm_762x51_nato, title4, helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, helm2, option_ammo, armor_type, helm)
                             break
                         elif option_ammo == "7.62x54mmR":
                             option_ammo = "7.62x54mmr"
-                            functions.ammo(options.mm_12_70, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            functions.ammo(options.mm_12_70, title4, helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, helm2, option_ammo, armor_type, helm)
                             break
                         elif option_ammo == ".338 Lapua Magnum":
                             option_ammo = ".338_lapua_magnum"
-                            functions.ammo(options.lapua_magnum_338, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            functions.ammo(options.lapua_magnum_338, title4, helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, helm2, option_ammo, armor_type, helm)
                             break
                         elif option_ammo == "12.7x55mm STs-130":
                             option_ammo = "12.7x55mm_sts-130"
-                            functions.ammo(options.mm_127x55_sts_130, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            functions.ammo(options.mm_127x55_sts_130, title4, helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, helm2, option_ammo, armor_type, helm)
                             break
                         elif option_ammo == "40x46mm":
                             option_ammo = "40x46mm"
-                            functions.ammo(options.mm_40x46, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            functions.ammo(options.mm_40x46, title4, helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, helm2, option_ammo, armor_type, helm)
                             break
                         elif option_ammo == "Broń stacjonarna":
                             option_ammo = "stationary"
-                            functions.ammo(options.stacjonarna, title4, vest_name, vest_durability, vest_effective_durability, vest_material, vest_class, kamizelka2, option_ammo, armor_type, kamizelka)
+                            functions.ammo(options.stacjonarna, title4, helmet_name, helmet_durability, helmet_effective_durability, helmet_material, helmet_class, helm2, option_ammo, armor_type, helm)
                             break
                         continue
                     continue
