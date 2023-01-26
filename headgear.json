@@ -13,7 +13,7 @@
         "sound_reduction": "None",
         "blocks_headset": false,
         "weight": 0.1,
-        "image": "Bomber_Beanie"
+        "image": "Bomber_Beanie.png"
     },
     "tac-kek_fast_mt_helmet_replica": {
         "name": "Tac-Kek FAST MT Helmet (replica)",
@@ -29,7 +29,7 @@
         "sound_reduction": "None",
         "blocks_headset": false,
         "weight": 0.45,
-        "image": "Tac-Kek_FAST_MT_helmet_replica"
+        "image": "Tac-Kek_FAST_MT_helmet_replica.png"
     },
     "tsh-4m-l_soft_tank_crew_helmet": {
         "name": "TSh-4M-L soft tank crew helmet",
@@ -45,7 +45,7 @@
         "sound_reduction": "Low",
         "blocks_headset": true,
         "weight": 0.9,
-        "image": "TSh-4M-L_soft_tank_crew_helmet"
+        "image": "TSh-4M-L_soft_tank_crew_helmet.png"
     },
     "kolpak-1s_riot_helmet": {
         "name": "Kolpak-1S riot helmet",
@@ -61,7 +61,7 @@
         "sound_reduction": "High",
         "blocks_headset": true,
         "weight": 1.9,
-        "image": "Kolpak-1S_riot_helmet"
+        "image": "Kolpak-1S_riot_helmet.png"
     },
     "shpm_firefighter_helmet": {
         "name": "ShPM Firefighter helmet",
@@ -77,7 +77,7 @@
         "sound_reduction": "High",
         "blocks_headset": true,
         "weight": 1.5,
-        "image": "ShPM_Firefighter_helmet"
+        "image": "ShPM_Firefighter_helmet.png"
     },
     "psh-97_djeta_riot_helmet": {
         "name": "PSh-97 DJETA riot helmet",
@@ -93,7 +93,7 @@
         "sound_reduction": "High",
         "blocks_headset": true,
         "weight": 1.3,
-        "image": "PSh-97_DJETA_riot_helmet"
+        "image": "PSh-97_DJETA_riot_helmet.png"
     },
     "jack-o'-lantern_tactical_pumpkin_helmet": {
         "name": "Jack-o'-lantern tactical pumpkin helmet",
@@ -109,7 +109,7 @@
         "sound_reduction": "Low",
         "blocks_headset": true,
         "weight": 1.2,
-        "image": "Jack-o-lantern_tactical_pumpkin_helmet"
+        "image": "Jack-o-lantern_tactical_pumpkin_helmet.png"
     },
     "lshz_light_helmet": {
         "name": "LShZ light helmet",
@@ -125,7 +125,7 @@
         "sound_reduction": "None",
         "blocks_headset": false,
         "weight": 0.95,
-        "image": "LShZ_light_helmet"
+        "image": "LShZ_light_helmet.png"
     },
     "ssh-68_steel_helmet": {
         "name": "SSh-68 steel helmet",
@@ -141,7 +141,7 @@
         "sound_reduction": "None",
         "blocks_headset": false,
         "weight": 1.5,
-        "image": "SSh-68_steel_helmet"
+        "image": "SSh-68_steel_helmet.png"
     },
     "nfm_'HJELM'_helmet": {
         "name": "NFM 'HJELM' helmet",
@@ -157,7 +157,7 @@
         "sound_reduction": "None",
         "blocks_headset": false,
         "weight": 0.8,
-        "image": "NFM_'HJELM'_helmet"
+        "image": "NFM_'HJELM'_helmet.png"
     },
     "untar_helmet": {
         "name": "UNTAR helmet",
@@ -173,7 +173,7 @@
         "sound_reduction": "Low",
         "blocks_headset": false,
         "weight": 2.2,
-        "image": "UNTAR_helmet"
+        "image": "UNTAR_helmet.png"
     },
     "6b47_ratnik-bsh_helmet": {
         "name": "6B47 Ratnik-BSh helmet",
@@ -189,7 +189,7 @@
         "sound_reduction": "Low",
         "blocks_headset": false,
         "weight": 1.3,
-        "image": "6B47_Ratnik-BSh_helmet"
+        "image": "6B47_Ratnik-BSh_helmet.gif"
     },
     "fort_kiver-m_bulletproof_helmet": {
         "name": "FORT Kiver-M bulletproof helmet",
@@ -205,7 +205,7 @@
         "sound_reduction": "High",
         "blocks_headset": true,
         "weight": 1.2,
-        "image": "FORT_Kiver-M_bulletproof_helmet"
+        "image": "FORT_Kiver-M_bulletproof_helmet.png"
     },
     "sssh-94_sfera-s_helmet": {
         "name": "SSSh-94 SFERA-S helmet",
@@ -221,7 +221,7 @@
         "sound_reduction": "High",
         "blocks_headset": true,
         "weight": 3.5,
-        "image": "SSSh-94_SFERA-S_helmet"
+        "image": "SSSh-94_SFERA-S_helmet.png"
     },
     "devtac_ronin_ballistic_helmet": {
         "name": "DevTac Ronin ballistic helmet",
@@ -237,7 +237,7 @@
         "sound_reduction": "High",
         "blocks_headset": true,
         "weight": 1.6,
-        "image": "DevTac_Ronin_ballistic_helmet"
+        "image": "DevTac_Ronin_ballistic_helmet.png"
     },
     "msa_ach_tc-2001_mich_series_helmet": {
         "name": "MSA ACH TC-2001 MICH Series helmet",
@@ -253,7 +253,7 @@
         "sound_reduction": "None",
         "blocks_headset": false,
         "weight": 1.4,
-        "image": "MSA_ACH_TC-2001_MICH_Series_helmet"
+        "image": "MSA_ACH_TC-2001_MICH_Series_helmet.png"
     },
     "msa_ach_tc-2002_mich_series_helmet": {
         "name": "MSA ACH TC-2002 MICH Series helmet",
@@ -269,7 +269,7 @@
         "sound_reduction": "None",
         "blocks_headset": false,
         "weight": 1.45,
-        "image": "MSA_ACH_TC-2002_MICH_Series_helmet"
+        "image": "MSA_ACH_TC-2002_MICH_Series_helmet.png"
     },
     "highcom_striker_achhc_iiia_helmet": {
         "name": "HighCom Striker ACHHC IIIA helmet",
@@ -285,7 +285,7 @@
         "sound_reduction": "None",
         "blocks_headset": false,
         "weight": 1.5,
-        "image": "HighCom_Striker_ACHHC_IIIA_helmet"
+        "image": "HighCom_Striker_ACHHC_IIIA_helmet.gif"
     },
     "msa_gallet_tc_800_high_cut_combat_helmet": {
         "name": "MSA Gallet TC 800 High Cut combat helmet",
@@ -301,7 +301,7 @@
         "sound_reduction": "None",
         "blocks_headset": false,
         "weight": 1.17,
-        "image": "MSA_Gallet_TC_800_High_Cut_combat_helmet"
+        "image": "MSA_Gallet_TC_800_High_Cut_combat_helmet.png"
     },
     "diamond_age_bastion_helmet": {
         "name": "Diamond Age Bastion helmet",
@@ -317,7 +317,7 @@
         "sound_reduction": "None",
         "blocks_headset": false,
         "weight": 0.96,
-        "image": "Diamond_Age_Bastion_helmet"
+        "image": "Diamond_Age_Bastion_helmet.png"
     },
     "ops-core_fast_mt_super_high_cut_helmet": {
         "name": "Ops-Core FAST MT Super High Cut helmet",
@@ -333,7 +333,7 @@
         "sound_reduction": "None",
         "blocks_headset": false,
         "weight": 0.9,
-        "image": "Ops-Core_FAST_MT_Super_High_Cut_helmet"
+        "image": "Ops-Core_FAST_MT_Super_High_Cut_helmet.gif"
     },
     "crye_precision_airframe_helmet_tan": {
         "name": "Crye Precision AirFrame helmet (Tan)",
@@ -349,7 +349,7 @@
         "sound_reduction": "None",
         "blocks_headset": false,
         "weight": 0.88,
-        "image": "Crye_Precision_AirFrame_helmet"
+        "image": "Crye_Precision_AirFrame_helmet.png"
     },
     "team_wendy_exfil_ballistic_helmet": {
         "name": "Team Wendy EXFIL Ballistic Helmet",
@@ -365,7 +365,7 @@
         "sound_reduction": "None",
         "blocks_headset": false,
         "weight": 1.18,
-        "image": "Team_Wendy_EXFIL_Ballistic_Helmet"
+        "image": "Team_Wendy_EXFIL_Ballistic_Helmet.gif"
     },
     "galvion_caiman_hybrid_helmet": {
         "name": "Galvion Caiman Hybrid helmet",
@@ -381,7 +381,7 @@
         "sound_reduction": "None",
         "blocks_headset": false,
         "weight": 1.12,
-        "image": "Galvion_Caiman_Hybrid_helmet"
+        "image": "Galvion_Caiman_Hybrid_helmet.png"
     },
     "zsh-1-2m_helmet": {
         "name": "ZSh-1-2M helmet",
@@ -397,7 +397,7 @@
         "sound_reduction": "High",
         "blocks_headset": true,
         "weight": 3.7,
-        "image": "ZSh-1-2M_helmet"
+        "image": "ZSh-1-2M_helmet.gif"
     },
     "highcom_striker_ulsch_iiia_helmet": {
         "name": "HighCom Striker ULACH IIIA helmet",
@@ -413,7 +413,7 @@
         "sound_reduction": "Low",
         "blocks_headset": false,
         "weight": 1.9,
-        "image": "HighCom_Striker_ULACH_IIIA_helmet"
+        "image": "HighCom_Striker_ULACH_IIIA_helmet.gif"
     },
     "bnti_lshz-2dtm_helmet": {
         "name": "BNTI LShZ-2DTM helmet",
@@ -429,7 +429,7 @@
         "sound_reduction": "High",
         "blocks_headset": true,
         "weight": 3.4,
-        "image": "BNTI_LShZ-2DTM_helmet"
+        "image": "BNTI_LShZ-2DTM_helmet.png"
     },
     "maska-1sch_bulletproof_helmet": {
         "name": "Maska-1SCh bulletproof helmet",
@@ -445,7 +445,7 @@
         "sound_reduction": "High",
         "blocks_headset": true,
         "weight": 2.6,
-        "image": "Maska-1SCh_bulletproof_helmet"
+        "image": "Maska-1SCh_bulletproof_helmet.gif"
     },
     "altyn_bulletproof_helmet": {
         "name": "Altyn bulletproof helmet",
@@ -461,7 +461,7 @@
         "sound_reduction": "High",
         "blocks_headset": true,
         "weight": 4,
-        "image": "Altyn_bulletproof_helmet"
+        "image": "Altyn_bulletproof_helmet.png"
     },
     "rys-t_bulletproof_helmet": {
         "name": "Rys-T bulletproof helmet",
@@ -477,7 +477,7 @@
         "sound_reduction": "High",
         "blocks_headset": true,
         "weight": 4.5,
-        "image": "Rys-T_bulletproof_helmet"
+        "image": "Rys-T_bulletproof_helmet.png"
     },
     "vulkan-5_lshz-5_bulletproof_helmet": {
         "name": "Vulkan-5 (LShZ-5) bulletproof helmet",
@@ -493,6 +493,6 @@
         "sound_reduction": "High",
         "blocks_headset": true,
         "weight": 4.5,
-        "image": "Vulkan-5_LShZ-5_bulletproof_helmet"
+        "image": "Vulkan-5_LShZ-5_bulletproof_helmet.png"
     }
 }
