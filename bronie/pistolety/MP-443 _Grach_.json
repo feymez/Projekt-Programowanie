@@ -1,0 +1,20 @@
+{
+    "type": "Pistolet",
+    "slot": "Drugorzędna",
+    "weight": 0.95,
+    "grid_size": "2x1",
+    "recoil": {
+        "vertical": 500,
+        "horizontal": 310
+    },
+    "effective_distance": 50,
+    "ergonomics": 79,
+    "firing_mode": "Pojedyńczy",
+    "rpm": 30,
+    "moa": 12.03,
+    "caliber": "9x19mm Parabellum",
+    "default_ammo": "9x19mm Pst gzh",
+    "muzzle_velocity": 449,
+    "default_mag": "MP-443 'Grach' 9x19 18-round magazine",
+    "accepted_ammunition": ["9x19mm AP 6.3", "9x19mm Green Tracer", "9x19mm Luger CCI", "9x19mm PBP gzh", "9x19mm PSO gzh", "9x19mm Pst gzh", "9x19mm QuakeMaker", "9x19mm RIP"]
+}

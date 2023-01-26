@@ -1,0 +1,20 @@
+{
+    "type": "Pistolet",
+    "slot": "Drugorzędna",
+    "weight": 0.818,
+    "grid_size": "2x1",
+    "recoil": {
+        "vertical": 461,
+        "horizontal": 272
+    },
+    "effective_distance": 50,
+    "ergonomics": 71,
+    "firing_mode": "Pojedyńczy",
+    "rpm": 30,
+    "moa": 9.97,
+    "caliber": "9x19mm Parabellum",
+    "default_ammo": "9x19mm Pst gzh",
+    "muzzle_velocity": 446,
+    "default_mag": "M9A3 9x19 17-round magazine",
+    "accepted_ammunition": ["9x19mm AP 6.3", "9x19mm Green Tracer", "9x19mm Luger CCI", "9x19mm PBP gzh", "9x19mm PSO gzh", "9x19mm Pst gzh", "9x19mm QuakeMaker", "9x19mm RIP"]
+}

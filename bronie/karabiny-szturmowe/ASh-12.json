@@ -1,0 +1,20 @@
+{
+    "type": "Karabin szturmowy",
+    "slot": "Podstawowa",
+    "weight": 6.17,
+    "grid_size": "4x2",
+    "recoil": {
+        "vertical": 114,
+        "horizontal": 323
+    },
+    "effective_distance": 650,
+    "ergonomics": 59,
+    "firing_mode": "Pojedyńczy, Ciągły",
+    "rpm": 650,
+    "moa": 1.63,
+    "caliber": "12.7x55mm STs-130",
+    "default_ammo": "12.7x55mm PS12",
+    "muzzle_velocity": 290,
+    "default_mag": "ASh-12 12.7x55 10-round magazine",
+    "accepted_ammunition": ["12.7x55mm PS12", "12.7x55mm PS12A", "12.7x55mm PS12B"]
+}

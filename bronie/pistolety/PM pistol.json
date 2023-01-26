@@ -1,0 +1,20 @@
+{
+    "type": "Pistolet",
+    "slot": "Drugorzędna",
+    "weight": 0.73,
+    "grid_size": "2x1",
+    "recoil": {
+        "vertical": 480,
+        "horizontal": 305
+    },
+    "effective_distance": 50,
+    "ergonomics": 84,
+    "firing_mode": "Pojedyńczy",
+    "rpm": 30,
+    "moa": 13.41,
+    "caliber": "9x18mm Makarov",
+    "default_ammo": "9x18mm PM P gzh",
+    "muzzle_velocity": 288,
+    "default_mag": "PM 9x18PM 90-93 8-round magazine",
+    "accepted_ammunition": ["9x18mm PM BZhT gzh", "9x18mm PM P gzh", "9x18mm PM PBM gzh", "9x18mm PM PPe gzh", "9x18mm PM PPT gzh", "9x18mm PM PRS gs", "9x18mm PM PS gs PPO", "9x18mm PSO gzh", "9x18mm PM Pst gzh", "9x18mm PM PSV", "9x18mm PM RG028 gzh", "9x18mm PM SP7 gzh", "9x18mm PM SP8 gzh", "9x18mm PMM PstM gzh"]
+}

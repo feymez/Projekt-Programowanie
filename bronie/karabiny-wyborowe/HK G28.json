@@ -1,0 +1,20 @@
+{
+    "type": "Karabin wyborowy",
+    "slot": "Podstawowa",
+    "weight": 5.468,
+    "grid_size": "6x2",
+    "recoil": {
+        "vertical": 86,
+        "horizontal": 216
+    },
+    "effective_distance": 700,
+    "ergonomics": 42,
+    "firing_mode": "Pojedyńczy",
+    "rpm": 700,
+    "moa": 1.08,
+    "caliber": "7.62x51mm NATO",
+    "default_ammo": "7.62x51mm BCP FMJ",
+    "muzzle_velocity": 797,
+    "default_mag": "HK417/G28 7.62x51 10-round magazine",
+    "accepted_ammunition": ["7.62x51mm BCP FMJ", "7.62x51mm M61", "7.62x51mm M62 Tracer", "7.62x51mm M80", "7.62x51mm M993", "7.62x51mm TCW SP", "7.62x51mm Ultra Nosler"]
+}

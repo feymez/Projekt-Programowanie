@@ -1,0 +1,20 @@
+{
+    "type": "Karabin szturmowy",
+    "slot": "Podstawowa",
+    "weight": 3.605,
+    "grid_size": "5x2",
+    "recoil": {
+        "vertical": 80,
+        "horizontal": 229
+    },
+    "effective_distance": 650,
+    "ergonomics": 49,
+    "firing_mode": "Pojedyńczy, CIągły",
+    "rpm": 650,
+    "moa": 1.89,
+    "caliber": "5.45x39mm",
+    "default_ammo": "5.45x39mm PS gs",
+    "muzzle_velocity": 910,
+    "default_mag": "AK-74 5.45x39 6L23 30-round magazine",
+    "accepted_ammunition": ["5.45x39mm 7N40", "5.45x39mm BP gs", "5.45x39mm BS gs", "5.45x39mm BT gs", "5.45x39mm FMJ", "5.45x39mm HP", "5.45x39mm PP gs", "5.45x39mm PPBS gs 'Igolnik'", "5.45x39mm PRS gs", "5.45x39mm PS gs", "5.45x39mm SP", "5.45x39mm T gs", "5.45x39mm US gs"]
+}

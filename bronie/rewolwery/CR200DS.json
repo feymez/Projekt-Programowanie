@@ -1,0 +1,20 @@
+{
+    "type": "Rewolwer",
+    "slot": "Drugorzędna",
+    "weight": 0.713,
+    "grid_size": "1x1",
+    "recoil": {
+        "vertical": 360,
+        "horizontal": 200
+    },
+    "effective_distance": 70,
+    "ergonomics": 96,
+    "firing_mode": "Pojedyńczy",
+    "rpm": 30,
+    "moa": 9.63,
+    "caliber": "9x19mm Parabellum",
+    "default_ammo": "9x19mm Pst gzh",
+    "muzzle_velocity": 457,
+    "default_mag": "Chiappa Rhino 9x19 6-round cylinder",
+    "accepted_ammunition": ["9x19mm AP 6.3", "9x19mm Green Tracer", "9x19mm Luger CCI", "9x19mm PBP gzh", "9x19mm PSO gzh", "9x19mm Pst gzh", "9x19mm QuakeMaker", "9x19mm RIP"]
+}

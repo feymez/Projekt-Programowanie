@@ -1,0 +1,20 @@
+{
+    "type": "Karabinek szturmowy",
+    "slot": "Podstawowa",
+    "weight": 3.77,
+    "grid_size": "5x1",
+    "recoil": {
+        "vertical": 155,
+        "horizontal": 340
+    },
+    "effective_distance": 400,
+    "ergonomics": 44,
+    "firing_mode": "Pojedyńczy",
+    "rpm": 40,
+    "moa": 2.41,
+    "caliber": "7.62x39mm",
+    "default_ammo": "7.62x39mm HP",
+    "muzzle_velocity": 700,
+    "default_mag": "SKS 7.62x39 10-round internal box magazine",
+    "accepted_ammunition": ["7.62x39mm BP gzh", "7.62x39mm HP", "7.62x39mm MAI AP", "7.62x39mm PS gzh", "7.62x39mm T-45M1 gzh", "7.62x39mm US gzh"]
+}

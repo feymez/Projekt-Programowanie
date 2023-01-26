@@ -1,0 +1,20 @@
+{
+    "type": "Rewolwer",
+    "slot": "Drugorzędna",
+    "weight": 2.2,
+    "grid_size": "2x1",
+    "recoil": {
+        "vertical": 568,
+        "horizontal": 333
+    },
+    "effective_distance": 70,
+    "ergonomics": 40,
+    "firing_mode": "Pojedyńczy",
+    "rpm": 30,
+    "moa": 6.25,
+    "caliber": "12.7x55mm STs-130",
+    "default_ammo": "12.7x55mm PS12",
+    "muzzle_velocity": 342,
+    "default_mag": "RSh-12 12.7x55 5-round cylinder",
+    "accepted_ammunition": ["12.7x55mm PS12", "12.7x55mm PS12A", "12.7x55mm PS12B"]
+}

@@ -1,0 +1,20 @@
+{
+    "type": "Karabin snajperski",
+    "slot": "Podstawowa",
+    "weight": 3.3,
+    "grid_size": "5x1",
+    "recoil": {
+        "vertical": 125,
+        "horizontal": 286
+    },
+    "effective_distance": 1000,
+    "ergonomics": 51,
+    "firing_mode": "Pojedyńczy",
+    "rpm": 30,
+    "moa": 1.55,
+    "caliber": ".366 TKM",
+    "default_ammo": ".366 TKM EKO",
+    "muzzle_velocity": 965,
+    "default_mag": "VPO-215 'Gornostay' .366 TKM 4-round magazine",
+    "accepted_ammunition": [".366 TKM AP-M", ".366 TKM EKO", ".366 TKM FMJ", ".366 TKM Geksa"]
+}

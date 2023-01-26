@@ -1,0 +1,222 @@
+{
+    "analgin_painkillers": {
+        "name": "Analgin painkillers",
+        "type": "Narkotyk.",
+        "buffs": "Usuwa ból na 95 sekund. Dodaje efekt tabletek na 95 sekund.",
+        "debuffs": "Zabiera -19 hydracji.",
+        "use_time": 3,
+        "uses": 4,
+        "hppool": 0,
+        "maxhp": 0,
+        "image": "Analgin_painkillers.png"
+    },
+    "augmentin_antibiotic_pills": {
+        "name": "Augmentin antibiotic pills",
+        "type": "Narkotyk.",
+        "buffs": "Usuwa truciznę, ból na 155 sekund. Dodaje efekt tabletek na 155 sekund, energę (+5). Przez 300 sekund co sekundę +1 odporności.",
+        "debuffs": "Zabiera -5 hydracji.",
+        "use_time": 5,
+        "uses": 1,
+        "hppool": 0,
+        "maxhp": 0,
+        "image": "Augmentin_antibiotic_pills.png"
+    },
+    "ibuprofen_painkillers": {
+        "name": "Ibuprofen painkillers",
+        "type": "Narkotyk.",
+        "buffs": "Usuwa stłuczenie, ból na 290 sekund. Dodaje efekt tabletek na 290 sekund.",
+        "debuffs": "Zabiera -17 hydracji.",
+        "use_time": 5,
+        "uses": 15,
+        "hppool": 0,
+        "maxhp": 0,
+        "image": "Ibuprofen_painkillers.png"
+    },
+    "vaseline_balm": {
+        "name": "Vaseline balm",
+        "type": "Leczenie urazów.",
+        "buffs": "Usuwa ból 350 sekund. Dodaje efekt tabletek na 350 sekund.",
+        "debuffs": "Zabiera -9 energii, zabiera -9 hydracji.",
+        "use_time": 6,
+        "uses": 6,
+        "hppool": 0,
+        "maxhp": 0,
+        "image": "Vaseline_balm.png"
+    },
+    "golden_star_balm": {
+        "name": "Golden Star balm",
+        "type": "Leczenie urazów.",
+        "buffs": "Usuwa stłuczenie, ból na 370 sekund, narażenie na radiację przez 420 sekund. Dodaje efekt tabletek na 370 sekund. Przez 5 sekund co sekundę: Odzysk energii (+1), Odzysk hydracji (+1).",
+        "debuffs": "Zabiera -19 energii. Powoduje przez 5 sekund co sekundę stłuczenie.",
+        "use_time": 7,
+        "uses": 10,
+        "hppool": 0,
+        "maxhp": 0,
+        "image": "Golden_Star_balm.png"
+    },
+    "immobilizing_splint": {
+        "name": "Immobilizing splint",
+        "type": "Leczenie urazów.",
+        "buffs": "Usuwa złamanie.",
+        "debuffs": "Nic.",
+        "use_time": 5,
+        "uses": 1,
+        "hppool": 0,
+        "maxhp": 0,
+        "image": "Immobilizing_splint.png"
+    },
+    "aluminum_splint": {
+        "name": "Aluminum splint",
+        "type": "Leczenie urazów.",
+        "buffs": "Usuwa złamanie.",
+        "debuffs": "Nic.",
+        "use_time": 3,
+        "uses": 5,
+        "hppool": 0,
+        "maxhp": 0,
+        "image": "Aluminum_splint.png"
+    },
+    "cms_surgical_kit": {
+        "name": "CMS surgical kit",
+        "type": "Leczenie urazów.",
+        "buffs": "Zniszczona część ciała (z wyjątkiem głowy i klatki piersiowej). Dodaje 25%-45% maksymalnego zdrowia zniszczonej części.",
+        "debuffs": "Nic.",
+        "use_time": 16,
+        "uses": 5,
+        "hppool": 0,
+        "maxhp": 0,
+        "image": "CMS_surgical_kit.png"
+    },
+    "surv12_field_surgical_kit": {
+        "name": "Surv12 field surgical kit",
+        "type": "Leczenie urazów.",
+        "buffs": "Usuwa złamanie. Zniszczona część ciała (z wyjątkiem głowy i klatki piersiowej). Dodaje 60%-72% maksymalnego zdrowia zniszczonej części.",
+        "debuffs": "Nic.",
+        "use_time": 20,
+        "uses": 15,
+        "hppool": 0,
+        "maxhp": 0,
+        "image": "Surv12_field_surgical_kit.png"
+    },
+    "aseptic_bandage": {
+        "name": "Aseptic bandage",
+        "type": "Leczenie urazów.",
+        "buffs": "Usuwa lekkie krwawienie.",
+        "debuffs": "Nic.",
+        "use_time": 2,
+        "uses": 1,
+        "hppool": 0,
+        "maxhp": 0,
+        "image": "Aseptic_bandage.png"
+    },
+    "army_bandage": {
+        "name": "Army bandage",
+        "type": "Leczenie urazów.",
+        "buffs": "Usuwa lekkie krwawienie.",
+        "debuffs": "Nic.",
+        "use_time": 2,
+        "uses": 2,
+        "hppool": 0,
+        "maxhp": 0,
+        "image": "Army_bandage.png"
+    },
+    "esmarch_tourniquet": {
+        "name": "Esmarch tourniquet",
+        "type": "Leczenie urazów.",
+        "buffs": "Usuwa silne krwawienie.",
+        "debuffs": "Świeże rany.",
+        "use_time": 5,
+        "uses": 1,
+        "hppool": 0,
+        "maxhp": 0,
+        "image": "Esmarch_tourniquet.png"
+    },
+    "calok-b_hemostatic_applicator": {
+        "name": "CALOK-B hemostatic applicator",
+        "type": "Leczenie urazów.",
+        "buffs": "Usuwa silne krwawienie.",
+        "debuffs": "Świeże rany.",
+        "use_time": 3,
+        "uses": 3,
+        "hppool": 0,
+        "maxhp": 0,
+        "image": "CALOK-B_hemostatic_applicator.png"
+    },
+    "cat_hemostatic_tourniquet": {
+        "name": "CAT hemostatic tourniquet",
+        "type": "Leczenie urazów.",
+        "buffs": "Usuwa silne krwawienie.",
+        "debuffs": "Świeże rany.",
+        "use_time": 3,
+        "uses": 1,
+        "hppool": 0,
+        "maxhp": 0,
+        "image": "CAT_hemostatic_tourniquet.png"
+    },
+    "ai-2_medkit": {
+        "name": "AI-2 medkit",
+        "type": "Apteczka.",
+        "buffs": "Usuwa narażenie na radiację. Dodaje zdrowie.",
+        "debuffs": "Nic.",
+        "use_time": 2,
+        "uses": "Zależne od ilości leczonych punktów zdrowia.",
+        "hppool": 100,
+        "maxhp": 50,
+        "image": "AI-2_medkit.png"
+    },
+    "car_first_aid_kit": {
+        "name": "Car first aid kit",
+        "type": "Apteczka.",
+        "buffs": "Usuwa lekkie krwawienie, narażenie na radiację. Dodaje zdrowie.",
+        "debuffs": "Nic.",
+        "use_time": 3,
+        "uses": "Zależne od ilości leczonych punktów zdrowia.",
+        "hppool": 220,
+        "maxhp": 70,
+        "image": "Car_first_aid_kit.png"
+    },
+    "salewa_first_aid_kit": {
+        "name": "Salewa first aid kit",
+        "type": "Apteczka.",
+        "buffs": "Usuwa lekkie i silne krwawienie. Dodaje zdrowie.",
+        "debuffs": "Świeże rany tylko gdy leczymy silne krwawienie.",
+        "use_time": 3,
+        "uses": "Zależne od ilości leczonych punktów zdrowia.",
+        "hppool": 400,
+        "maxhp": 85,
+        "image": "Salewa_first_aid_kit.png"
+    },
+    "ifak_individual_first_aid_kit": {
+        "name": "IFAK individual first aid kit",
+        "type": "Apteczka.",
+        "buffs": "Usuwa lekkie i silne krwawienie, narażenie na radiację. Dodaje zdrowie.",
+        "debuffs": "Świeże rany tylko gdy leczymy silne krwawienie.",
+        "use_time": 3,
+        "uses": "Zależne od ilości leczonych punktów zdrowia.",
+        "hppool": 300,
+        "maxhp": 50,
+        "image": "IFAK_individual_first_aid_kit.png"
+    },
+    "afak_tactical_individual_first_aid_kit": {
+        "name": "AFAK tactical individual first aid kit",
+        "type": "Apteczka.",
+        "buffs": "Usuwa lekkie i silne krwawienie, narażenie na radiację. Dodaje zdrowie.",
+        "debuffs": "Świeże rany tylko gdy leczymy silne krwawienie.",
+        "use_time": 3,
+        "uses": "Zależne od ilości leczonych punktów zdrowia.",
+        "hppool": 400,
+        "maxhp": 60,
+        "image": "AFAK_tactical_individual_first_aid_kit.png"
+    },
+    "grizzly_medical_kit": {
+        "name": "Grizzly medical kit",
+        "type": "Apteczka.",
+        "buffs": "Usuwa stłuczenie, złamanie, narażenie na radiację, lekkie i silne krwawienie. Dodaje zdrowie.",
+        "debuffs": "Świeże rany tylko gdy leczymy silne krwawienie.",
+        "use_time": 5,
+        "uses": "Zależne od ilości leczonych punktów zdrowia.",
+        "hppool": 1800,
+        "maxhp": 175,
+        "image": "Grizzly_medical_kit.png"
+    }
+}

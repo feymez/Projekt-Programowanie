@@ -1,0 +1,20 @@
+{
+    "type": "Karabin szturmowy",
+    "slot": "Podstawowa",
+    "weight": 3.289,
+    "grid_size": "5x2",
+    "recoil": {
+        "vertical": 80,
+        "horizontal": 241
+    },
+    "effective_distance": 500,
+    "ergonomics": 47.5,
+    "firing_mode": "Pojedyńczy, Ciągły",
+    "rpm": 650,
+    "moa": 1.79,
+    "caliber": "5.56x45mm NATO",
+    "default_ammo": "Black: 5.56x45mm M856, FDE: 5.56x45mm FMJ",
+    "muzzle_velocity": 890,
+    "default_mag": "FN SCAR-L 5.56x45 30-round magazine",
+    "accepted_ammunition": ["5.56x45mm FMJ", "5.56x45mm HP", "5.56x45mm M855", "5.56x45mm M855A1", "5.56x45mm M856", "5.56x45mm M856A1", "5.56x45mm M995", "5.56x45mm MK 255 Mod 0 (RRLP)", "5.56x45mm MK 318 Mod 0 (SOST)", "5.56x45mm SSA AP", "5.56x45mm Warmageddon"]
+}

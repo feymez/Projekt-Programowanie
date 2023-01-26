@@ -1,0 +1,20 @@
+{
+    "type": "Pistolet",
+    "slot": "Drugorzędna",
+    "weight": 0.888,
+    "grid_size": "2x1",
+    "recoil": {
+        "vertical": 472,
+        "horizontal": 289
+    },
+    "effective_distance": 50,
+    "ergonomics": 85,
+    "firing_mode": "Pojedyńczy",
+    "rpm": 30,
+    "moa": 9.63,
+    "caliber": ".45 ACP",
+    "default_ammo": ".45 ACP Match FMJ",
+    "muzzle_velocity": 332,
+    "default_mag": "HK USP .45 ACP 12-round magazine",
+    "accepted_ammunition": [".45 ACP AP", ".45 ACP Hydra-Shok", ".45 ACP Lasermatch FMJ", ".45 ACP Match FMJ", ".45 ACP RIP"]
+}

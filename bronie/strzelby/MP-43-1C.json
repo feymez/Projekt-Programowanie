@@ -1,0 +1,20 @@
+{
+    "type": "Strzelba",
+    "slot": "Podstawowa",
+    "weight": 5.82,
+    "grid_size": "6x1",
+    "recoil": {
+        "vertical": 307,
+        "horizontal": 428
+    },
+    "effective_distance": 100,
+    "ergonomics": 39,
+    "firing_mode": "Pojedyńczy, Podwójny",
+    "rpm": 900,
+    "moa": 13.06,
+    "caliber": "12x70mm",
+    "default_ammo": "12x70 7mm buckshot",
+    "muzzle_velocity": 478,
+    "default_mag": "Żaden",
+    "accepted_ammunition": ["12x70 'Poleva-3' slug", "12x70 'Poleva-6u' slug", "12x70 5.25mm buckshot", "12x70 6.5mm Express buckshot", "12x70 7mm buckshot", "12x70 8.5mm Magnum buckshot", "12x70 AP-20 Armor-Piercing slug", "12x70 Copper Sabot Premier HP slug", "12x70 Dual Sabot slug", "12x70 flechette", "12x70 FTX Custom Lite slug", "12x70 Grizzly 40 slug", "12x70 lead slug", "12x70 makeshift .50 BMG slug", "12x70 RIP", "12x70 SuperFormance HP slug"]
+}

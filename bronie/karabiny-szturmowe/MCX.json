@@ -1,0 +1,20 @@
+{
+    "type": "Karabin szturmowy",
+    "slot": "Podstawowa",
+    "weight": 2.718,
+    "grid_size": "5x2",
+    "recoil": {
+        "vertical": 84,
+        "horizontal": 215
+    },
+    "effective_distance": 500,
+    "ergonomics": 63,
+    "firing_mode": "Pojedyńczy, Ciągły",
+    "rpm": 800,
+    "moa": 2.75,
+    "caliber": ".300 Blackout",
+    "default_ammo": ".300 Blackout BCP FMJ",
+    "muzzle_velocity": 534,
+    "default_mag": "5.56x45 Colt AR-15 STANAG 30-round magazine",
+    "accepted_ammunition": [".300 Blackout AP", ".300 Blackout BCP FMJ", ".300 Blackout M62 Tracer", ".300 Blackout V-Max", ".300 Whisper"]
+}

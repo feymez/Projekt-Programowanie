@@ -1,0 +1,20 @@
+{
+    "type": "Karabin wyborowy",
+    "slot": "Podstawowa",
+    "weight": 3.606,
+    "grid_size": "4x2",
+    "recoil": {
+        "vertical": 159,
+        "horizontal": 282
+    },
+    "effective_distance": 900,
+    "ergonomics": 49,
+    "firing_mode": "Pojedyńczy",
+    "rpm": 700,
+    "moa": 1.48,
+    "caliber": "7.62x51mm NATO",
+    "default_ammo": "7.62x51mm BCP FMJ",
+    "muzzle_velocity": 798,
+    "default_mag": "SA-58/FAL 7.62x51 10-round magazine",
+    "accepted_ammunition": ["7.62x51mm BCP FMJ", "7.62x51mm M61", "7.62x51mm M62 Tracer", "7.62x51mm M80", "7.62x51mm M993", "7.62x51mm TCW SP", "7.62x51mm Ultra Nosler"]
+}

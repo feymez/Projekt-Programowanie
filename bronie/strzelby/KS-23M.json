@@ -1,0 +1,20 @@
+{
+    "type": "Strzelba",
+    "slot": "Podstawowa",
+    "weight": 3.85,
+    "grid_size": "6x1",
+    "recoil": {
+        "vertical": 354,
+        "horizontal": 429
+    },
+    "effective_distance": 70,
+    "ergonomics": 33,
+    "firing_mode": "Pojedyńczy",
+    "rpm": 30,
+    "moa": 16.24,
+    "caliber": "23x75mm",
+    "default_ammo": "23x75mm 'Barrikada' slug",
+    "muzzle_velocity": 430,
+    "default_mag": "KS-23M 23x75 3-shell magazine cap",
+    "accepted_ammunition": ["23x75mm 'Barrikada' slug", "23x75mm 'Sharpnel-10' buckshot", "23x75mm 'Sharpnel-25' buckshot", "23x75mm 'Zvezda' flashbang round"]
+}

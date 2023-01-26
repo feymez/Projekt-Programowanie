@@ -1,0 +1,20 @@
+{
+    "type": "Specjalna",
+    "slot": "Żaden",
+    "weight": "Brak informacji",
+    "grid_size": "Brak informacji",
+    "recoil": {
+        "vertical": "Brak informacji",
+        "horizontal": "Brak informacji" 
+    },
+    "effective_distance": "Brak informacji",
+    "ergonomics": "Brak informacji",
+    "firing_mode": "Ciągły",
+    "rpm": "Brak informacji",
+    "moa": "Brak informacji",
+    "caliber": "30x29mm",
+    "default_ammo": "30x29mm VOG-30",
+    "muzzle_velocity": "Brak informacji",
+    "default_mag": "Belt drum",
+    "accepted_ammunition": ["30x29mm VOG-30"]
+}

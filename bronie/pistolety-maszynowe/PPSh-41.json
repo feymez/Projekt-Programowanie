@@ -1,0 +1,20 @@
+{
+    "type": "Pistolet maszynowy",
+    "slot": "Podstawowa",
+    "weight": 4.05,
+    "grid_size": "4x2",
+    "recoil": {
+        "vertical": 46,
+        "horizontal": 214
+    },
+    "effective_distance": 200,
+    "ergonomics": 39,
+    "firing_mode": "Pojedyńczy, Ciągły",
+    "rpm": 1000,
+    "moa": 7.22,
+    "caliber": "7.62x25mm Tokarev",
+    "default_ammo": "7.62x25mm TT FMJ43",
+    "muzzle_velocity": 342,
+    "default_mag": "PPSh-41 7.62x25 35-round magazine",
+    "accepted_ammunition": ["7.62x25mm TT AKBS", "7.62x25mm TT FMJ43", "7.62x25mm TT LRN", "7.62x25mm TT LRNPC", "7.62x25mm TT P gl", "7.62x25mm TT Pst gzh", "7.62x25mm TT PT gzh"]
+}

@@ -1,0 +1,20 @@
+{
+    "type": "Karabin wyborowy",
+    "slot": "Podstawowa",
+    "weight": 2.591,
+    "grid_size": "5x2",
+    "recoil": {
+        "vertical": 54,
+        "horizontal": 141
+    },
+    "effective_distance": 400,
+    "ergonomics": 60,
+    "firing_mode": "Pojedyńczy, Ciągły",
+    "rpm": 900,
+    "moa": 3.27,
+    "caliber": "9x39mm",
+    "default_ammo": "9x39mm SP-5 gs",
+    "muzzle_velocity": 296,
+    "default_mag": "VSS 9x39 6L24 10-round magazine",
+    "accepted_ammunition": ["9x39mm BP gs", "9x39mm PAB-9 gs", "9x39mm SP-5 gs", "9x39mm SP-6 gs", "9x39mm SPP gs"]
+}

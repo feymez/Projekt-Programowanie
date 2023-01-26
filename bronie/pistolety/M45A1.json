@@ -1,0 +1,20 @@
+{
+    "type": "Pistolet",
+    "slot": "Drugorzędna",
+    "weight": 1.188,
+    "grid_size": "2x1",
+    "recoil": {
+        "vertical": 500,
+        "horizontal": 315
+    },
+    "effective_distance": 50,
+    "ergonomics": 89,
+    "firing_mode": "Pojedyńczy",
+    "rpm": 30,
+    "moa": 10.31,
+    "caliber": ".45 ACP",
+    "default_ammo": ".45 ACP Match FMJ",
+    "muzzle_velocity": 336,
+    "default_mag": "M1911A1 .45 ACP Wilson Combat 7-round magazine",
+    "accepted_ammunition": [".45 ACP AP", ".45 ACP Hydra-Shok", ".45 ACP Lasermatch FMJ", ".45 ACP Match FMJ", ".45 ACP RIP"]
+}

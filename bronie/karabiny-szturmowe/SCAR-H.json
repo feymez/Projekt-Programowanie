@@ -1,0 +1,20 @@
+{
+    "type": "Karabin szturmowy",
+    "slot": "Podstawowa",
+    "weight": 3.802,
+    "grid_size": "5x2",
+    "recoil": {
+        "vertical": 139,
+        "horizontal": 321
+    },
+    "effective_distance": 500,
+    "ergonomics": 45.5,
+    "firing_mode": "Pojedyńczy, Ciągły",
+    "rpm": 600,
+    "moa": 1.65,
+    "caliber": "7.62x51mm NATO",
+    "default_ammo": "7.62x51mm BCP FMJ",
+    "muzzle_velocity": 794,
+    "default_mag": "FN SCAR-H 7.62x51 20-round magazine",
+    "accepted_ammunition": ["7.62x51mm BCP FMJ", "7.62x51mm M61", "7.62x51mm M62 Tracer", "7.62x51mm M80", "7.62x51mm M993", "7.62x51mm TCW SP", "7.62x51mm Ultra Nosler"]
+}

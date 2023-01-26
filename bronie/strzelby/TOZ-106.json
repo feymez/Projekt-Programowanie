@@ -1,0 +1,20 @@
+{
+    "type": "Strzelba",
+    "slot": "Podstawowa",
+    "weight": 2.715,
+    "grid_size": "4x1",
+    "recoil": {
+        "vertical": 515,
+        "horizontal": 429
+    },
+    "effective_distance": 70,
+    "ergonomics": 73,
+    "firing_mode": "Pojedyńczy",
+    "rpm": 30,
+    "moa": 24.06,
+    "caliber": "20x70mm",
+    "default_ammo": "20x70 7.5mm buckshot",
+    "muzzle_velocity": 438,
+    "default_mag": "TOZ-106 20ga MTs 20-01 Sb.3 2-shot magazine",
+    "accepted_ammunition": ["20x70mm 'explosive' slug", "20x70mm 'Flechetta Plus'", "20x70mm 'Poleva-3' slug", "20x70mm 'Poleva-6u' slug", "20x70 5.6mm buckshot", "20x70 6.2mm buckshot", "20x70 7.3mm buckshot", "20x70 7.5mm buckshot", "20x70 Devastator slug", "20x70 Elephant killer slug", "20x70 Star slug"]
+}

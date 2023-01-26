@@ -1,0 +1,20 @@
+{
+    "type": "Pistolet maszynowy",
+    "slot": "Podstawowa",
+    "weight": 2.219,
+    "grid_size": "3x2",
+    "recoil": {
+        "vertical": 48,
+        "horizontal": 184
+    },
+    "effective_distance": 200,
+    "ergonomics": 55,
+    "firing_mode": "Pojedyńczy, Ciągły",
+    "rpm": 600,
+    "moa": 5.5,
+    "caliber": ".45 ACP",
+    "default_ammo": ".45 ACP Match FMJ",
+    "muzzle_velocity": 332,
+    "default_mag": "HK UMP .45 ACP 25-round magazine",
+    "accepted_ammunition": [".45 ACP AP", ".45 ACP Hydra-Shok", ".45 ACP Lasermatch FMJ", ".45 ACP Match FMJ", ".45 ACP RIP"]
+}

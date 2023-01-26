@@ -1,0 +1,20 @@
+{
+    "type": "Stacjonarna",
+    "slot": "Żaden",
+    "weight": "Brak informacji",
+    "grid_size": "Brak informacji",
+    "recoil": {
+        "vertical": "Brak informacji",
+        "horizontal": "Brak informacji"
+    },
+    "effective_distance": "Brak informacji",
+    "ergonomics": "Brak informacji",
+    "firing_mode": "Ciągły",
+    "rpm": "Brak informacji",
+    "moa": "Brak informacji",
+    "caliber": "12.7x108mm",
+    "default_ammo": "12.7x108mm B-32",
+    "muzzle_velocity": "Brak informacji",
+    "default_mag": "Pas ammunicji",
+    "accepted_ammunition": ["12.7x108mm B-32", "12.7x108mm BZT-44M"]
+}

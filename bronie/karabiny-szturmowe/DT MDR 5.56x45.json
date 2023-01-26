@@ -1,0 +1,20 @@
+{
+    "type": "Karabin szturmowy",
+    "slot": "Podstawowa",
+    "weight": 3.996,
+    "grid_size": "4x2",
+    "recoil": {
+        "vertical": 71,
+        "horizontal": 198
+    },
+    "effective_distance": 500,
+    "ergonomics": 75,
+    "firing_mode": "Pojedyńczy, Ciągły",
+    "rpm": 650,
+    "moa": 1.3,
+    "caliber": "5.56x45mm NATO",
+    "default_ammo": "5.56x45mm FMJ",
+    "muzzle_velocity": 914,
+    "default_mag": "5.56x45 Magpul PMAG 30 GEN M3 W STANAG 30-round magazine",
+    "accepted_ammunition": ["5.56x45mm FMJ", "5.56x45mm HP", "5.56x45mm M855", "5.56x45mm M855A1", "5.56x45mm M856", "5.56x45mm M856A1", "5.56x45mm M995", "5.56x45mm MK 255 Mod 0 (RRLP)", "5.56x45mm MK 318 Mod 0 (SOST)", "5.56x45mm SSA AP", "5.56x45mm Warmageddon"]
+}

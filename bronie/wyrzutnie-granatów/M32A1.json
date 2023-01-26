@@ -1,0 +1,20 @@
+{
+    "type": "Wyrzutnia granatów",
+    "slot": "Podstawowa",
+    "weight": 5.475,
+    "grid_size": "4x2",
+    "recoil": {
+        "vertical": 202,
+        "horizontal": 403
+    },
+    "effective_distance": 70,
+    "ergonomics": 23.5,
+    "firing_mode": "Pojedyńczy",
+    "rpm": 30,
+    "moa": 16.5,
+    "caliber": "40x46mm",
+    "default_ammo": "40x46mm M576 (MP-APERS) grenade",
+    "muzzle_velocity": 185,
+    "default_mag": "M32A1 40mm cylinder",
+    "accepted_ammunition": ["40x46mm M576 (MP-APERS) grenade"]
+}

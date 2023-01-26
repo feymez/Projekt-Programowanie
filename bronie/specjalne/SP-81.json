@@ -1,0 +1,20 @@
+{
+    "type": "Specjalny",
+    "slot": "Drugorzędna",
+    "weight": 0.6,
+    "grid_size": "2x1",
+    "recoil": {
+        "vertical": 200,
+        "horizontal": 400
+    },
+    "effective_distance": 50,
+    "ergonomics": 51,
+    "firing_mode": "Pojedyńczy",
+    "rpm": 30,
+    "moa": 24.06,
+    "caliber": "26x75mm",
+    "default_ammo": "Wszystkie",
+    "muzzle_velocity": 80,
+    "default_mag": "Żaden",
+    "accepted_ammunition": ["26x75mm flare cartridge (Green)", "26x75mm flare cartridge (Red)", "26x75mm flare cartridge (White)", "26x75mm flare cartridge (Yellow)"]
+}

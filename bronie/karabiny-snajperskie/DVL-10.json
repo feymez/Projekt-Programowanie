@@ -1,0 +1,20 @@
+{
+    "type": "Karabin snajperski",
+    "slot": "Podstawowa",
+    "weight": 5.068,
+    "grid_size": "5x2",
+    "recoil": {
+        "vertical": 64,
+        "horizontal": 318
+    },
+    "effective_distance": 1000,
+    "ergonomics": 52,
+    "firing_mode": "Pojedyńczy",
+    "rpm": 30,
+    "moa": 0.45,
+    "caliber": "7.62x51mm NATO",
+    "default_ammo": "7.62x51mm M80",
+    "muzzle_velocity": 977,
+    "default_mag": "DVL-10 7.62x51 10-round magazine",
+    "accepted_ammunition": ["7.62x51mm BCP FMJ", "7.62x51mm M61", "7.62x51mm M62 Tracer", "7.62x51mm M80", "7.62x51mm M993", "7.62x51mm TCW SP", "7.62x51mm Ultra Nosler"]
+}

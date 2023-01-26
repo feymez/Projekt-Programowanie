@@ -1,0 +1,20 @@
+{
+    "type": "Karabin snajperski",
+    "slot": "Podstawowa",
+    "weight": 4.88,
+    "grid_size": "6x1",
+    "recoil": {
+        "vertical": 206,
+        "horizontal": 595
+    },
+    "effective_distance": 1000,
+    "ergonomics": 13,
+    "firing_mode": "Pojedyńczy",
+    "rpm": 30,
+    "moa": 1.31,
+    "caliber": "7.62x54mmR",
+    "default_ammo": "7.62x54mm R LPS gzh",
+    "muzzle_velocity": 988,
+    "default_mag": "Mosin Rifle 7.62x54R 5-round magazine",
+    "accepted_ammunition": ["7.62x54mm R BS gs", "7.62x54mm R BT gzh", "7.62x54mm R LPS gzh", "7.62x54mm R PS gzh", "7.62x54mm R SNB gzh", "7.62x54mm R T-46M gzh"]
+}

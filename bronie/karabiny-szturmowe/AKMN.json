@@ -1,0 +1,20 @@
+{
+    "type": "Karabin szturmowy",
+    "slot": "Podstawowa",
+    "weight": 3.555,
+    "grid_size": "5x2",
+    "recoil": {
+        "vertical": 113,
+        "horizontal": 269
+    },
+    "effective_distance": 400,
+    "ergonomics": 41,
+    "firing_mode": "Pojedyńczy, Ciągły",
+    "rpm": 600,
+    "moa": 2.27,
+    "caliber": "7.62x39mm",
+    "default_ammo": "7.62x39mm PS gzh",
+    "muzzle_velocity": 713,
+    "default_mag": "AK 7.62x39 6L10 30-round magazine",
+    "accepted_ammunition": ["7.62x39mm BP gzh", "7.62x39mm HP", "7.62x39mm MAI AP", "7.62x39mm PS gzh", "7.62x39mm T-45M1 gzh", "7.62x39mm US gzh"]
+}
