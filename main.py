@@ -18,81 +18,67 @@ items = list(range(0, 57))
 l = len(items)
 #>----------- Sprawdzanie spójności plików oraz pobieranie brakujących -----------<
 while True:
-    #>----------- Sprawdzanie pliku launch-options -----------<
-    launchExist = os.path.isfile('launch-options.json')
-    if launchExist == False:
-        print('Wykryto brakujący plik "launch-options.json"')
+        #>----------- Sprawdzanie plików Python -----------<
+    functionsExist = os.path.isfile('functions.py')
+    optionsExist = os.path.isfile('functions.py')
+    downloadExist = os.path.isfile('download.py')
+    directoriesExist = os.path.isfile("directories.py")
+    if optionsExist == False:
+        print('Wykryto brakujący plik "options.py"')
         internet_connection = check_connect()
         if internet_connection == False:
             print("Komputer nie ma połączenia z internetem.")
             quit()
         else:
-            url = 'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/launch-options.json'
+            url = 'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/options.py'
             response = requests.get(url)
             print('Pobieram brakujący plik')
-            open('launch-options.json', 'wb').write(response.content)
-    elif launchExist == True:
-        #>----------- Sprawdzanie plików Python -----------<
-        functionsExist = os.path.isfile('functions.py')
-        optionsExist = os.path.isfile('functions.py')
-        downloadExist = os.path.isfile('download.py')
-        directoriesExist = os.path.isfile("directories.py")
-        if optionsExist == False:
-            print('Wykryto brakujący plik "options.py"')
-            internet_connection = check_connect()
-            if internet_connection == False:
-                print("Komputer nie ma połączenia z internetem.")
-                quit()
-            else:
-                url = 'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/options.py'
-                response = requests.get(url)
-                print('Pobieram brakujący plik')
-                open('options.py', 'wb').write(response.content)
-        if functionsExist == False:
-            print('Wykryto brakujący plik "functions.py"')
-            internet_connection = check_connect()
-            if internet_connection == False:
-                print("Komputer nie ma połączenia z internetem.")
-                quit()
-            else:
-                url = 'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/functions.py'
-                response = requests.get(url)
-                print('Pobieram brakujący plik')
-                open('functions.py', 'wb').write(response.content)
-        if downloadExist == False:
-            print("Wykryto brakujący plik 'download.py'")
-            internet_connection = check_connect()
-            if internet_connection == False:
-                print("Komputer nie ma połączenia z internetem.")
-                quit()
-            else:
-                url = 'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/download.py'
-                response = requests.get(url)
-                print("Pobieram brakując plik")
-                open('download.py', 'wb').write(response.content)
-        if directoriesExist == False:
-            print("Wykryto brakujący plik 'directories.py'")
-            internet_connection = check_connect()
-            if internet_connection == False:
-                print("Komputer nie ma połączenia z internetem.")
-                quit()
-            else:
-                url = 'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/directories.py'
-                response = requests.get(url)
-                open("directories.py", 'wb').write(response.content)
-        import functions, options, download, directories
-        print('Weryfikuję pliki...')
-        directories.check_all_dir(directories.first1)
-        directories.check_all_dir(directories.second2)
-        download.check()
-        download.check2()
-        download.check3()
-        download.check4()
-        functions.printProgressBar(0, l, prefix = 'Przebiega weryfikacja plików:', suffix = 'Ukończono', length = 50)
-        for i, item in enumerate(items):
-            time.sleep(0.1)
-            functions.printProgressBar(i + 1, l, prefix = 'Przebiega weryfikacja plików:', suffix = 'Ukończono', length = 50)
-        break
+            open('options.py', 'wb').write(response.content)
+    if functionsExist == False:
+        print('Wykryto brakujący plik "functions.py"')
+        internet_connection = check_connect()
+        if internet_connection == False:
+            print("Komputer nie ma połączenia z internetem.")
+            quit()
+        else:
+            url = 'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/functions.py'
+            response = requests.get(url)
+            print('Pobieram brakujący plik')
+            open('functions.py', 'wb').write(response.content)
+    if downloadExist == False:
+        print("Wykryto brakujący plik 'download.py'")
+        internet_connection = check_connect()
+        if internet_connection == False:
+            print("Komputer nie ma połączenia z internetem.")
+            quit()
+        else:
+            url = 'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/download.py'
+            response = requests.get(url)
+            print("Pobieram brakując plik")
+            open('download.py', 'wb').write(response.content)
+    if directoriesExist == False:
+        print("Wykryto brakujący plik 'directories.py'")
+        internet_connection = check_connect()
+        if internet_connection == False:
+            print("Komputer nie ma połączenia z internetem.")
+            quit()
+        else:
+            url = 'https://raw.githubusercontent.com/feymez/Projekt-Programowanie/main/directories.py'
+            response = requests.get(url)
+            open("directories.py", 'wb').write(response.content)
+    import functions, options, download, directories
+    print('Weryfikuję pliki...')
+    directories.check_all_dir(directories.first1)
+    directories.check_all_dir(directories.second2)
+    download.check()
+    download.check2()
+    download.check3()
+    download.check4()
+    functions.printProgressBar(0, l, prefix = 'Przebiega weryfikacja plików:', suffix = 'Ukończono', length = 50)
+    for i, item in enumerate(items):
+        time.sleep(0.1)
+        functions.printProgressBar(i + 1, l, prefix = 'Przebiega weryfikacja plików:', suffix = 'Ukończono', length = 50)
+    break
 
 functions.printProgressBar(0, l, prefix = 'Wczytywanie potrzebnych składników:', suffix = 'Ukończono', length = 50)
 for i, item in enumerate(items):
