@@ -9,6 +9,11 @@ W programie zostało wprowadzone zabezpieczenie spójności plików. Przy każdy
 ### Założenie programu:
 > #### Program powstał z myślą o graczach Escape From Tarkov. Jest to gra wieloosobowa, pierwszoosobowa strzelanka z elementami RPG, symulacji i survivalu. Program ma pomagać graczom czy to na początku ich przygody z grą ale również dla tych bardziej zaawansowanych. Dzięki `EFT Informator` w łatwy sposób można sprawdzić informacje na temat przedmiotów znajdowanych w trakcie rozgrywki. Zapraszam do użytkowania!
 
+### Problemy napotkane przy tworzeniu programu:
+> - **Optymalizacja** - niestety, optymalizacja całego programu błaga o dopracowanie. Pobieranie brakujących plików zajmuje (przy braku wszystkich plików) nawet 10 minut, a kilka funkcji potrafi mielić dane przez dobre kilkanaście sekund.
+> - **Dane** - dane których używa program musiałem własnoręcznie uzupełniać do plików `.json` z tej strony -> https://escapefromtarkov.fandom.com/wiki/Escape_from_Tarkov_Wiki. Niestety API gry jest płatne.
+> - **Obrazy** - obrazy które program wykorzystuje są zapisane w jego plikach. Niestety może zdarzyć się tak, że obrazy pobrane z GitHuba zostaną uszkodzone co będzie skutkowało wyłączaniem się programu w momencie próby otwarcia takiego obrazu. W takim wypadku niestety musimy pominąć wybraną przez nas opcję z menu wyboru i oczekiwać na patcha.
+
 #### Program posiada kilka trybów:
 > - [Porównanie](https://github.com/feymez/Projekt-Programowanie/blob/main/README.md#porownanie) - W tym trybie porównasz kamizelkę kuloodporną lub hełm z ammunicją. Dowiesz się jak klasyfikowana jest ammunicja do pancerza. <br>
 > - [Sprawdzenie statystyk](https://github.com/feymez/Projekt-Programowanie/blob/main/README.md#sprawdzenie-statystyk) - Tryb sprawdzania statystyk pokazuje nam dokładne statystyki danej kamizelki kuloodpornej, hełmu lub pocisku. <br>
@@ -103,7 +108,3 @@ Po wybraniu opcji **`Medykamenty`** zostaniemy przeniesieni do następengo menu.
 ![image](https://user-images.githubusercontent.com/85249187/214113981-7016fdc2-ca81-4393-a220-e966329b734e.png) <br>
 Wybieramy interesujący nas przedmiot. Program wyświetli wszystkie informacje na temat danego przedmiotu. <br>
 **Aby wrócić do list wyboru należy nacisnąć przycisk `BACKSPACE`** <br>
-
-### Problemy napotkane przy tworzeniu programu:
-> - **Optymalizacja** - niestety, optymalizacja całego programu błaga o dopracowanie. Pobieranie brakujących plików zajmuje (przy braku wszystkich plików) nawet 10 minut, a kilka funkcji potrafi mielić dane przez dobre kilkanaście sekund.
-> - **Dane** - dane których używa program musiałem własnoręcznie uzupełniać do plików `.json` z tej strony -> https://escapefromtarkov.fandom.com/wiki/Escape_from_Tarkov_Wiki. Niestety API gry jest płatne.
